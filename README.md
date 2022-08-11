@@ -1,5 +1,4 @@
 LeetCode Solution In Hard way
-
 ========
 
 | # | Title | Solution | Difficulty |
