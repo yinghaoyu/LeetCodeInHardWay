@@ -4,6 +4,7 @@ LeetCode Solution In Hard way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
+|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](./src/Problem_1455_isPrefixOfWord.cc)|Easy|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/) | [C++](./src/Problem_1450_busyStudent.cc)|Easy|
 |1422|[Maximum Score After Splitting a String](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) | [C++](./src/Problem_1422_MaxScore.cc)|Easy|
 |1417|[Reformat The String](https://leetcode.cn/problems/reformat-the-string/) | [C++](./src/Problem_1417_Reformat.cc)|Easy|
