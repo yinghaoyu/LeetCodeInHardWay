@@ -14,6 +14,6 @@ LeetCode Solution In Hard way
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
-|0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_654_constructMaximumBinaryTree.cc)|Medium|
+|0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
