@@ -14,6 +14,7 @@ LeetCode Solution In Hard way
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
+|0658|[Find K Closest Elements](https://leetcode.cn/problems/find-k-closest-elements/) | [C++](./src/Problem_0658_findClosestElements.cc)|Medium|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
 |0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
