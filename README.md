@@ -17,6 +17,7 @@ LeetCode Solution In Hard way
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
+|0662|[Maximum Width of Binary Tree](https://leetcode.cn/problems/maximum-width-of-binary-tree/) | [C++](./src/Problem_0662_widthOfBinaryTree.cc)|Medium|
 |0658|[Find K Closest Elements](https://leetcode.cn/problems/find-k-closest-elements/) | [C++](./src/Problem_0658_findClosestElements.cc)|Medium|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
 |0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
