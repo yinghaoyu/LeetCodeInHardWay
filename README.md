@@ -5,6 +5,7 @@ LeetCode Solution In Hard way
 |---| ----- | -------- | ---------- |
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
+|1464|[Maximum Product of Two Elements in an Array](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) | [C++](./src/Problem_1464_maxProduct.cc)|Easy|
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [C++](./src/Problem_1460_canBeEqual.cc)|Easy|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](./src/Problem_1455_isPrefixOfWord.cc)|Easy|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/) | [C++](./src/Problem_1450_busyStudent.cc)|Easy|
