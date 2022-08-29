@@ -1,4 +1,4 @@
-LeetCode Solution In Hard way
+LeetCode Solution In Hard Way
 ========
 
 | # | Title | Solution | Difficulty |
