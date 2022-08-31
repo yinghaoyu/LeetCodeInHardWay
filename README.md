@@ -16,6 +16,7 @@ LeetCode Solution In Hard Way
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
+|0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0662|[Maximum Width of Binary Tree](https://leetcode.cn/problems/maximum-width-of-binary-tree/) | [C++](./src/Problem_0662_widthOfBinaryTree.cc)|Medium|
