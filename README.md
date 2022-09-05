@@ -26,5 +26,6 @@ LeetCode Solution In Hard Way
 |0658|[Find K Closest Elements](https://leetcode.cn/problems/find-k-closest-elements/) | [C++](./src/Problem_0658_findClosestElements.cc)|Medium|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
 |0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
+|0652|[Find Duplicate Subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/) | [C++](./src/Problem_0652_findDuplicateSubtrees.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
