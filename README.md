@@ -3,6 +3,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
