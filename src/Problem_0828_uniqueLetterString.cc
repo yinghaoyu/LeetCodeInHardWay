@@ -52,7 +52,7 @@ class Solution
     int ans = 0;
     vector<int> left(N);
     vector<int> right(N);
-    int cnts[26];  // cnts[26] = {-1}; 只会将第一个元素置位-1
+    int cnts[26];  // cnts[26] = {-1}; 只会将第一个元素置为-1
     std::fill_n(cnts, 26, -1);
     for (int i = 0; i < N; i++)
     {
