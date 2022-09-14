@@ -3,6 +3,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
