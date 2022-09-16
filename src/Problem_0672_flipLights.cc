@@ -6,7 +6,7 @@
 
 using namespace std;
 
-using TbArray = vector<vector<bool>>;
+using TdArray = vector<vector<int>>;
 
 class Solution
 {
@@ -31,18 +31,18 @@ class Solution
     }
   }
 
-  void process(int state, int mask, int presses, TbArray &visited, unordered_set<int> &sets)
+  void process(int state, int mask, int presses, TdArray &visited, unordered_set<int> &sets)
   {
     if (presses == 0)
     {
       sets.emplace(state);
       return;
     }
-    if (visited[state][presses])
+    if (visited[state][presses] == 1)
     {
       return;
     }
-    visited[state][presses] = true;
+    visited[state][presses] = 1;
     process((state ^ 0b111111) & mask, mask, presses - 1, visited, sets);
     process((state ^ 0b101010) & mask, mask, presses - 1, visited, sets);
     process((state ^ 0b010101) & mask, mask, presses - 1, visited, sets);
@@ -52,7 +52,7 @@ class Solution
   int flipLights2(int n, int presses)
   {
     int mask = (1 << std::min(n, 6)) - 1;
-    TbArray visited(0b111111, vector<bool>(presses, false));
+    TdArray visited(0b111111, vector<int>(presses));
     unordered_set<int> sets;
     process(0b111111 & mask, mask, presses, visited, sets);
     return sets.size();
@@ -118,11 +118,10 @@ void testFlipLights()
   EXPECT_EQ_INT(4, s.flipLights1(3, 1));
   EXPECT_EQ_INT(8, s.flipLights1(4, 100));
 
-  EXPECT_EQ_INT(s.flipLights1(1, 1), s.flipLights2(1, 1));
-  EXPECT_EQ_INT(s.flipLights1(2, 1), s.flipLights2(2, 1));
-  EXPECT_EQ_INT(s.flipLights1(3, 1), s.flipLights2(3, 1));
-  // Why s.flipLights2(4, 100) timeout ?
-  EXPECT_EQ_INT(s.flipLights1(4, 100), s.flipLights2(4, 100));
+  EXPECT_EQ_INT(2, s.flipLights2(1, 1));
+  EXPECT_EQ_INT(3, s.flipLights2(2, 1));
+  EXPECT_EQ_INT(4, s.flipLights2(3, 1));
+  EXPECT_EQ_INT(8, s.flipLights2(4, 100));
   EXPECT_SUMMARY;
 }
 
