@@ -6,6 +6,7 @@ LeetCode Solution In Hard Way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
+|1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
