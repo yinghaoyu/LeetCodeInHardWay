@@ -92,21 +92,23 @@ class Solution
     vector<int> dp(M, false);
     vector<int> pre(M, 0);
     dp[0] = true;                // 所有元素都被使用
-    for (int i = 0; i < M; i++)  // state
+    for (int i = 0; i < M; i++)  // state反向推
     {
-      if (!dp[i])
+      if (!dp[i])  // 剪枝，只有当前状态为true才会去推next状态
       {
         continue;
       }
       for (int j = 0; j < N; j++)  // 尝试
       {
-        if (pre[i] + nums[j] > avg)
+        if (pre[i] + nums[j] > avg)  // 当前状态下，后面都不用尝试了
         {
           break;
         }
-        if (((i >> j) & 1) == 0)  // i状态下，数组的第j元素未使用
+        if (((i >> j) & 1) == 0)  // i状态下，数组的第j元素已使用
         {
           int next = i | (1 << j);
+          // 去推测next状态，这里跟dp[i]是有依赖关系的
+          // 隐含条件： dp[i] == true
           if (!dp[next])
           {
             pre[next] = (pre[i] + nums[j]) % avg;
