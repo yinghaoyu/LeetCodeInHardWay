@@ -6,6 +6,7 @@ LeetCode Solution In Hard Way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
+|01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
