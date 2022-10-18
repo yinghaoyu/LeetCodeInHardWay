@@ -35,6 +35,7 @@ LeetCode Solution In Hard Way
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0904|[Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/) | [C++](./src/Problem_0904_totalFruit.cc)|Medium|
+|0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0856|[Score of Parentheses🚀](https://leetcode.cn/problems/score-of-parentheses/) | [C++](./src/Problem_0856_scoreOfParentheses.cc)|Medium|
 |0854|[K-Similar Strings🚀](https://leetcode.cn/problems/k-similar-strings/) | [C++](./src/Problem_0854_kSimilarity.cc)|Hard|
