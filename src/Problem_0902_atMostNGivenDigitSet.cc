@@ -41,7 +41,7 @@ class Solution
     // dp[i][1] 的取值只能为 0 或 1(存在不相等或连续相等）
 
     vector<vector<int>> dp(k + 1, vector<int>(2));
-    dp[0][1] = 1;
+    dp[0][1] = 1;  // base case 前 0 位都相等
     // 从高到低遍历n的位数
     for (int i = 1; i <= k; i++)
     {
@@ -71,11 +71,12 @@ class Solution
           break;
         }
       }
-      if (i > 1)
+      if (i > 1)  // 当i == 0 时，实际上不符合一下计算条件
       {
         // 前置条件：前 i - 1 位构成的数字 <= n
         // 情况二：
         // 前 i - 1 个字符不相等，那么第 i 位取digits的任意字符都可行(dp[i - 1][0] * m)
+        // 前 i - 1 个字符不填，那么第 i 位取digits的任意字符都可行(m)
         dp[i][0] += m + dp[i - 1][0] * m;
       }
     }
