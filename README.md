@@ -35,7 +35,7 @@ LeetCode Solution In Hard Way
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
-|0934|[Shortest Bridge](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)🚀|Medium|
+|0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
 |0904|[Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/) | [C++](./src/Problem_0904_totalFruit.cc)|Medium|
 |0902|[Numbers At Most N Given Digit Set🚀](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/) | [C++](./src/Problem_0902_atMostNGivenDigitSet.cc)|Hard|
 |0901|[Online Stock Span](https://leetcode.cn/problems/online-stock-span/) | [C++](./src/Problem_0901_StockSpanner.cc)|Medium|
