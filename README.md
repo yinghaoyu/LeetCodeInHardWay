@@ -40,6 +40,7 @@ LeetCode Solution In Hard Way
 |0902|[Numbers At Most N Given Digit Set🚀](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/) | [C++](./src/Problem_0902_atMostNGivenDigitSet.cc)|Hard|
 |0901|[Online Stock Span](https://leetcode.cn/problems/online-stock-span/) | [C++](./src/Problem_0901_StockSpanner.cc)|Medium|
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
+|0862|[Shortest Subarray with Sum at Least K🚀](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [C++](./src/Problem_0862_shortestSubarray.cc)|Hard|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0856|[Score of Parentheses🚀](https://leetcode.cn/problems/score-of-parentheses/) | [C++](./src/Problem_0856_scoreOfParentheses.cc)|Medium|
 |0854|[K-Similar Strings🚀](https://leetcode.cn/problems/k-similar-strings/) | [C++](./src/Problem_0854_kSimilarity.cc)|Hard|
