@@ -14,6 +14,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
+|1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
