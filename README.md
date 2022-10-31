@@ -71,4 +71,5 @@ LeetCode Solution In Hard Way
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
+|0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
