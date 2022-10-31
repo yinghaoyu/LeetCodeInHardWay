@@ -16,6 +16,7 @@ LeetCode Solution In Hard Way
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
 |1773|[Count Items Matching a Rule](https://leetcode.cn/problems/count-items-matching-a-rule/) | [C++](./src/Problem_1773_countMatches.cc)|Easy|
+|1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
