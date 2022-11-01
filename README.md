@@ -19,6 +19,7 @@ LeetCode Solution In Hard Way
 |1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
+|1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
