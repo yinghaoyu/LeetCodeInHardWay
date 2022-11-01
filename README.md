@@ -56,6 +56,7 @@ LeetCode Solution In Hard Way
 |0850|[Rectangle Area II🚀](https://leetcode.cn/problems/rectangle-area-ii/) | [C++](./src/Problem_0850_rectangleArea.cc)|Hard|
 |0828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | [C++](./src/Problem_0828_uniqueLetterString.cc)|Hard|
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
+|0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
