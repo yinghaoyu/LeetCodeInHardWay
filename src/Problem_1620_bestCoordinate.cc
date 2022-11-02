@@ -26,11 +26,11 @@ class Solution
     {
       for (int j = 0; j <= m; j++)  // 再遍历y坐标，这样保证了字典序
       {
-        vector<int> candidate = {i, j};
+        vector<int> coordinate = {i, j};
         int sum = 0;
         for (auto &&tower : towers)
         {
-          int s = getDistance(candidate, tower);
+          int s = getDistance(coordinate, tower);
           if (s <= radius * radius)
           {
             double distance = sqrt((double) s);
