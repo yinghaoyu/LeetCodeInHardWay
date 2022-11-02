@@ -48,9 +48,9 @@ class Solution
     return {x, y};
   }
 
-  int getDistance(const vector<int> &candidate, const vector<int> &tower)
+  int getDistance(const vector<int> &coordinate, const vector<int> &tower)
   {
-    return (tower[0] - candidate[0]) * (tower[0] - candidate[0]) + (tower[1] - candidate[1]) * (tower[1] - candidate[1]);
+    return (tower[0] - coordinate[0]) * (tower[0] - coordinate[0]) + (tower[1] - coordinate[1]) * (tower[1] - coordinate[1]);
   }
 };
 
