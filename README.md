@@ -29,6 +29,7 @@ LeetCode Solution In Hard Way
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
+|1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) | [C++](./src/Problem_1464_maxProduct.cc)|Easy|
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [C++](./src/Problem_1460_canBeEqual.cc)|Easy|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](./src/Problem_1455_isPrefixOfWord.cc)|Easy|
