@@ -53,7 +53,7 @@ class Solution
       {
         if (arr[l + i] != arr[m + i] || arr[l + i] != arr[r + i])
         {
-          return {-1, 1};
+          return {-1, -1};
         }
         i++;
       }
