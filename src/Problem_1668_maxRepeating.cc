@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -76,7 +77,7 @@ class Solution
     return y == s2.length() ? x - y : -1;  // string::npos == -1
   }
 
-  int maxRepeating(string sequence, string word)
+  int maxRepeating1(string sequence, string word)
   {
     int ans = 0;
     string s = word;
@@ -87,14 +88,48 @@ class Solution
     }
     return ans;
   }
+
+  int maxRepeating2(string sequence, string word)
+  {
+    int n = sequence.size();
+    int m = word.size();
+    if (n < m)
+    {
+      return 0;
+    }
+    // dp[i]表示sequence[i]结尾的字符串，最大能构成多长的word重复子序列
+    vector<int> dp(n);
+    // 下标从m-1开始，保证前面至少有m个字符
+    for (int i = m - 1; i < n; i++)
+    {
+      bool vaild = true;
+      for (int j = 0; j < m; j++)  // 检查m长度内是否与word相等
+      {
+        if (sequence[i - m + j + 1] != word[j])
+        {
+          vaild = false;
+          break;
+        }
+      }
+      if (vaild)
+      {
+        // sequence[i-m+1 .. i]字符与word相等
+        dp[i] = (i == m - 1 ? 0 : dp[i - m]) + 1;
+      }
+    }
+    return *max_element(dp.begin(), dp.end());
+  }
 };
 
 void testMaxRepeating()
 {
   Solution s;
-  EXPECT_EQ_INT(2, s.maxRepeating("ababc", "ab"));
-  EXPECT_EQ_INT(1, s.maxRepeating("ababc", "ba"));
-  EXPECT_EQ_INT(0, s.maxRepeating("ababc", "ac"));
+  EXPECT_EQ_INT(2, s.maxRepeating1("ababc", "ab"));
+  EXPECT_EQ_INT(1, s.maxRepeating1("ababc", "ba"));
+  EXPECT_EQ_INT(0, s.maxRepeating1("ababc", "ac"));
+  EXPECT_EQ_INT(2, s.maxRepeating2("ababc", "ab"));
+  EXPECT_EQ_INT(1, s.maxRepeating2("ababc", "ba"));
+  EXPECT_EQ_INT(0, s.maxRepeating2("ababc", "ac"));
   EXPECT_SUMMARY;
 }
 
