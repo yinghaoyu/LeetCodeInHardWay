@@ -46,7 +46,7 @@ class Solution
       }
     }
     int len = n - r;
-    if (l + len <= m && m + l <= r)
+    if (l + len <= m && m + len <= r)
     {
       int i = 0;
       while (r + i < n)
