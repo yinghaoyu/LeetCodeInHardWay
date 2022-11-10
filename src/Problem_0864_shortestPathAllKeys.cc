@@ -110,9 +110,11 @@ void testShortestPathAllKeys()
   vector<string> g1 = {"@.a..", "###.#", "b.A.B"};
   vector<string> g2 = {"@..aA", "..B#.", "....b"};
   vector<string> g3 = {"@Aa"};
+  vector<string> g4 = {".@aA"};
   EXPECT_EQ_INT(8, s.shortestPathAllKeys(g1));
   EXPECT_EQ_INT(6, s.shortestPathAllKeys(g2));
   EXPECT_EQ_INT(-1, s.shortestPathAllKeys(g3));
+  EXPECT_EQ_INT(1, s.shortestPathAllKeys(g4));
   EXPECT_SUMMARY;
 }
 
