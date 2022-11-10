@@ -62,6 +62,8 @@ class Solution
             // 当前字符是正常的通道，或者是开始的点
             if (distance[next_x][next_y][mask] == -1)
             {
+              // 为什么判断 == -1
+              // 因为广度遍历第一次到达该节点，就是最短路径，所以只取第一次到达的距离
               distance[next_x][next_y][mask] = distance[x][y][mask] + 1;
               que.emplace(next_x, next_y, mask);
             }
