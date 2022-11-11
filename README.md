@@ -17,6 +17,7 @@ LeetCode Solution In Hard Way
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
 |1773|[Count Items Matching a Rule](https://leetcode.cn/problems/count-items-matching-a-rule/) | [C++](./src/Problem_1773_countMatches.cc)|Easy|
 |1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
+|1704|[Determine if String Halves Are Alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike/) | [C++](./src/Problem_1704_halvesAreAlike.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
