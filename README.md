@@ -23,16 +23,16 @@ LeetCode Solution In Hard Way
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
 |1668|[Maximum Repeating Substring🚀](https://leetcode.cn/problems/maximum-repeating-substring/) | [C++](./src/Problem_1668_maxRepeating.cc)|Easy|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
+|1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
+|1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
-|1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
-|1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) | [C++](./src/Problem_1464_maxProduct.cc)|Easy|
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [C++](./src/Problem_1460_canBeEqual.cc)|Easy|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](./src/Problem_1455_isPrefixOfWord.cc)|Easy|
