@@ -67,6 +67,7 @@ LeetCode Solution In Hard Way
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
 |0816|[Ambiguous Coordinates🚀](https://leetcode.cn/problems/ambiguous-coordinates/) | [C++](./src/Problem_0816_ambiguousCoordinates.cc)|Medium|
 |0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
+|0805|[Split Array With Same Average](https://leetcode.cn/problems/split-array-with-same-average/) | [C++](./src/Problem_0805_splitArraySameAverage.cc)|Hard|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
