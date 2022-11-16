@@ -21,7 +21,7 @@ class Solution
       {
         // 当job[mid]结束时间 <= job[j]的开始时间
         // 左窗口一直右移
-        index = L;
+        index = M;
         L = M + 1;
       }
       else
@@ -68,9 +68,14 @@ void testJobScheduling()
   vector<int> e3 = {2, 3, 4};
   vector<int> p3 = {5, 6, 4};
 
-  EXPECT_EQ_INT(120, s.jobScheduling(s1, e1, p1));
-  EXPECT_EQ_INT(150, s.jobScheduling(s2, e2, p2));
-  EXPECT_EQ_INT(6, s.jobScheduling(s3, e3, p3));
+  vector<int> s4 = {6, 15, 7, 11, 1, 3, 16, 2};
+  vector<int> e4 = {19, 18, 19, 16, 10, 8, 19, 8};
+  vector<int> p4 = {2, 9, 1, 19, 5, 7, 3, 19};
+
+  // EXPECT_EQ_INT(120, s.jobScheduling(s1, e1, p1));
+  // EXPECT_EQ_INT(150, s.jobScheduling(s2, e2, p2));
+  // EXPECT_EQ_INT(6, s.jobScheduling(s3, e3, p3));
+  EXPECT_EQ_INT(41, s.jobScheduling(s4, e4, p4));
   EXPECT_SUMMARY;
 }
 
