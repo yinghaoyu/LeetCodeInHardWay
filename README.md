@@ -71,6 +71,7 @@ LeetCode Solution In Hard Way
 |0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
 |0805|[Split Array With Same Average🚀](https://leetcode.cn/problems/split-array-with-same-average/) | [C++](./src/Problem_0805_splitArraySameAverage.cc)|Hard|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
+|0792|[Number of Matching Subsequences](https://leetcode.cn/problems/number-of-matching-subsequences/) | [C++](./src/Problem_0792_numMatchingSubseq.cc)|Medium|
 |0791|[Custom Sort String](https://leetcode.cn/problems/custom-sort-string/) | [C++](./src/Problem_0791_customSortString.cc)|Medium|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
