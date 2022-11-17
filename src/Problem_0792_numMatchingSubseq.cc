@@ -10,7 +10,7 @@ using namespace std;
 class Solution
 {
  public:
-  int nearLeftIndex(vector<int> arr, int value)
+  int nearLeftIndex(vector<int> &arr, int value)
   {
     int L = 0;
     int R = arr.size() - 1;
@@ -42,7 +42,7 @@ class Solution
     {
       map[s[i]].push_back(i);
     }
-    for (string word : words)
+    for (string &word : words)
     {
       bool isIncreasing = true;
       int pre = -1;  // 记录上个字符在s出现的位置
@@ -50,7 +50,7 @@ class Solution
       {
         // 针对每一个单词的字符
         char c = word[i];
-        vector<int> idxs = map[c];
+        vector<int> &idxs = map[c];  // 这里不用引用，LeetCode提交会超时
         // 找到当前字符在s的索引，这个索引必须大于上个字符在s的索引
         int cur = nearLeftIndex(idxs, pre);
         if (cur < 0 || idxs[cur] <= pre)
