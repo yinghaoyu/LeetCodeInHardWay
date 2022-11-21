@@ -17,20 +17,24 @@ LeetCode Solution In Hard Way
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
 |1773|[Count Items Matching a Rule](https://leetcode.cn/problems/count-items-matching-a-rule/) | [C++](./src/Problem_1773_countMatches.cc)|Easy|
 |1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
+|1710|[Maximum Units on a Truck](https://leetcode.cn/problems/maximum-units-on-a-truck/) | [C++](./src/Problem_1710_maximumUnits.cc)|Easy|
+|1704|[Determine if String Halves Are Alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike/) | [C++](./src/Problem_1704_halvesAreAlike.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
+|1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
+|1678|[Goal Parser Interpretation](https://leetcode.cn/problems/goal-parser-interpretation/) | [C++](./src/Problem_1678_interpret.cc)|Easy|
 |1668|[Maximum Repeating Substring🚀](https://leetcode.cn/problems/maximum-repeating-substring/) | [C++](./src/Problem_1668_maxRepeating.cc)|Easy|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
+|1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
+|1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
-|1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
-|1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) | [C++](./src/Problem_1464_maxProduct.cc)|Easy|
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [C++](./src/Problem_1460_canBeEqual.cc)|Easy|
 |1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.cn/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | [C++](./src/Problem_1455_isPrefixOfWord.cc)|Easy|
@@ -41,7 +45,9 @@ LeetCode Solution In Hard Way
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/Problem_1413_MinStartValue.cc)|Easy|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
+|1235|[Maximum Profit in Job Scheduling🚀](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) | [C++](./src/Problem_1235_jobScheduling.cc)|Hard|
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
+|1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
@@ -52,7 +58,9 @@ LeetCode Solution In Hard Way
 |0904|[Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/) | [C++](./src/Problem_0904_totalFruit.cc)|Medium|
 |0902|[Numbers At Most N Given Digit Set🚀](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/) | [C++](./src/Problem_0902_atMostNGivenDigitSet.cc)|Hard|
 |0901|[Online Stock Span](https://leetcode.cn/problems/online-stock-span/) | [C++](./src/Problem_0901_StockSpanner.cc)|Medium|
+|0891|[Sum of Subsequence Widths](https://leetcode.cn/problems/sum-of-subsequence-widths/) | [C++](./src/Problem_0891_sumSubseqWidths.cc)|Hard|
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
+|0864|[Shortest Path to Get All Keys🚀](https://leetcode.cn/problems/shortest-path-to-get-all-keys/) | [C++](./src/Problem_0864_shortestPathAllKeys.cc)|Medium|
 |0862|[Shortest Subarray with Sum at Least K🚀](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [C++](./src/Problem_0862_shortestSubarray.cc)|Hard|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0856|[Score of Parentheses🚀](https://leetcode.cn/problems/score-of-parentheses/) | [C++](./src/Problem_0856_scoreOfParentheses.cc)|Medium|
@@ -60,14 +68,21 @@ LeetCode Solution In Hard Way
 |0850|[Rectangle Area II🚀](https://leetcode.cn/problems/rectangle-area-ii/) | [C++](./src/Problem_0850_rectangleArea.cc)|Hard|
 |0828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | [C++](./src/Problem_0828_uniqueLetterString.cc)|Hard|
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
+|0816|[Ambiguous Coordinates🚀](https://leetcode.cn/problems/ambiguous-coordinates/) | [C++](./src/Problem_0816_ambiguousCoordinates.cc)|Medium|
 |0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
+|0808|[Soup Servings](https://leetcode.cn/problems/soup-servings/) | [C++](./src/Problem_0808_soupServings.cc)|Medium|
+|0805|[Split Array With Same Average🚀](https://leetcode.cn/problems/split-array-with-same-average/) | [C++](./src/Problem_0805_splitArraySameAverage.cc)|Hard|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
+|0792|[Number of Matching Subsequences](https://leetcode.cn/problems/number-of-matching-subsequences/) | [C++](./src/Problem_0792_numMatchingSubseq.cc)|Medium|
+|0791|[Custom Sort String](https://leetcode.cn/problems/custom-sort-string/) | [C++](./src/Problem_0791_customSortString.cc)|Medium|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
 |0779|[K-th Symbol in Grammar](https://leetcode.cn/problems/k-th-symbol-in-grammar/) | [C++](./src/Problem_0779_kthGrammar.cc)|Medium|
 |0777|[Swap Adjacent in LR String🚀](https://leetcode.cn/problems/swap-adjacent-in-lr-string/) | [C++](./src/Problem_0777_canTransform.cc)|Medium|
+|0775|[Global and Local Inversions](https://leetcode.cn/problems/global-and-local-inversions/) | [C++](./src/Problem_0775_isIdealPermutation.cc)|Medium|
+|0764|[Largest Plus Sign](https://leetcode.cn/problems/largest-plus-sign/description/) | [C++](./src/Problem_0764_orderOfLargestPlusSign.cc)|Medium|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
-|0754|[https://leetcode.cn/problems/reach-a-number/](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
+|0754|[Reach a Number🚀](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
 |0698|[Partition to K Equal Sum Subsets🚀](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
