@@ -70,6 +70,7 @@ LeetCode Solution In Hard Way
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
 |0816|[Ambiguous Coordinates🚀](https://leetcode.cn/problems/ambiguous-coordinates/) | [C++](./src/Problem_0816_ambiguousCoordinates.cc)|Medium|
 |0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
+|0808|[Soup Servings](https://leetcode.cn/problems/soup-servings/) | [C++](./src/Problem_0808_soupServings.cc)|Medium|
 |0805|[Split Array With Same Average🚀](https://leetcode.cn/problems/split-array-with-same-average/) | [C++](./src/Problem_0805_splitArraySameAverage.cc)|Hard|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0792|[Number of Matching Subsequences](https://leetcode.cn/problems/number-of-matching-subsequences/) | [C++](./src/Problem_0792_numMatchingSubseq.cc)|Medium|
