@@ -1,7 +1,7 @@
 LeetCode Solution In Hard Way
 ========
 
-(Notes: "🔒" means you need to buy a book from Leetcode, "🚀" means you will be excellent after solve it)
+(Notes: "🔒" means you need to buy a book from Leetcode, "🚀" means you will be excellent after conquer it)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
