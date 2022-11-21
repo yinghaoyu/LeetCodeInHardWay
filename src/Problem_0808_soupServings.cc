@@ -57,7 +57,7 @@ class Solution
   // 记忆化搜索改dp
   double soupServings2(int n)
   {
-    n = ceil(n / 25);
+    n = ceil((double) n / 25);
     if (n >= 200)
     {
       return 1.0;
@@ -75,7 +75,7 @@ class Solution
       for (int j = 1; j <= n; j++)
       {
         dp[i][j] =
-            (dp[std::max(0, i - 4)][j] + dp[std::max(0, i - 3)][j - 1] + dp[std::max(0, i - 2)][std::max(0, j - 2)] + dp[std::max(0, i - 1)][j - 3]) * 0.25;
+            (dp[std::max(0, i - 4)][j] + dp[std::max(0, i - 3)][j - 1] + dp[std::max(0, i - 2)][std::max(0, j - 2)] + dp[i - 1][std::max(0, j - 3)]) * 0.25;
       }
     }
     return dp[n][n];
