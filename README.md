@@ -78,6 +78,7 @@ LeetCode Solution In Hard Way
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0792|[Number of Matching Subsequences](https://leetcode.cn/problems/number-of-matching-subsequences/) | [C++](./src/Problem_0792_numMatchingSubseq.cc)|Medium|
 |0791|[Custom Sort String](https://leetcode.cn/problems/custom-sort-string/) | [C++](./src/Problem_0791_customSortString.cc)|Medium|
+|0790|[Domino and Tromino Tiling🚀](https://leetcode.cn/problems/domino-and-tromino-tiling/) | [C++](./src/Problem_0790_numTilings.cc)|Medium|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
 |0779|[K-th Symbol in Grammar](https://leetcode.cn/problems/k-th-symbol-in-grammar/) | [C++](./src/Problem_0779_kthGrammar.cc)|Medium|
