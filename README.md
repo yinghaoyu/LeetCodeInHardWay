@@ -72,6 +72,7 @@ LeetCode Solution In Hard Way
 |0828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | [C++](./src/Problem_0828_uniqueLetterString.cc)|Hard|
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
 |0816|[Ambiguous Coordinates🚀](https://leetcode.cn/problems/ambiguous-coordinates/) | [C++](./src/Problem_0816_ambiguousCoordinates.cc)|Medium|
+|0813|[Largest Sum of Averages](https://leetcode.cn/problems/largest-sum-of-averages/) | [C++](./src/Problem_0813_largestSumOfAverages.cc)|Medium|
 |0811|[Subdomain Visit Count](https://leetcode.cn/problems/subdomain-visit-count/) | [C++](./src/Problem_0811_subdomainVisits.cc)|Medium|
 |0809|[Expressive Words](https://leetcode.cn/problems/expressive-words/) | [C++](./src/Problem_0809_expressiveWords.cc)|Medium|
 |0808|[Soup Servings](https://leetcode.cn/problems/soup-servings/) | [C++](./src/Problem_0808_soupServings.cc)|Medium|
