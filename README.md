@@ -66,6 +66,7 @@ LeetCode Solution In Hard Way
 |0895|[Maximum Frequency Stack](https://leetcode.cn/problems/maximum-frequency-stack/) | [C++](./src/Problem_0895_FreqStack.cc)|Hard|
 |0891|[Sum of Subsequence Widths](https://leetcode.cn/problems/sum-of-subsequence-widths/) | [C++](./src/Problem_0891_sumSubseqWidths.cc)|Hard|
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
+|0882|[Reachable Nodes In Subdivided Graph🚀](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/) | [C++](./src/Problem_0882_reachableNodes.cc)|Hard|
 |0878|[Nth Magical Number](https://leetcode.cn/problems/nth-magical-number/) | [C++](./src/Problem_0878_nthMagicalNumber.cc)|Hard|
 |0864|[Shortest Path to Get All Keys🚀](https://leetcode.cn/problems/shortest-path-to-get-all-keys/) | [C++](./src/Problem_0864_shortestPathAllKeys.cc)|Medium|
 |0862|[Shortest Subarray with Sum at Least K🚀](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [C++](./src/Problem_0862_shortestSubarray.cc)|Hard|
