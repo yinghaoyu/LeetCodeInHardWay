@@ -13,6 +13,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
+|1805|[Number of Different Integers in a String](https://leetcode.cn/problems/number-of-different-integers-in-a-string/) | [C++](./src/Problem_1805_numDifferentIntegers.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | [C++](./src/Problem_1779_nearestValidPoint.cc)|Easy|
