@@ -18,6 +18,7 @@ LeetCode Solution In Hard Way
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
+|1781|[Sum of Beauty of All Substrings](https://leetcode.cn/problems/sum-of-beauty-of-all-substrings/) | [C++](./src/Problem_1781_beautySum.cc)|Medium|
 |1780|[Check if Number is a Sum of Powers of Three](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/) | [C++](./src/Problem_1780_checkPowersOfThree.cc)|Medium|
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | [C++](./src/Problem_1779_nearestValidPoint.cc)|Easy|
 |1775|[Equal Sum Arrays With Minimum Number of Operations](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/) | [C++](./src/Problem_1775_minOperations.cc)|Medium|
