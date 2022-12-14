@@ -35,6 +35,7 @@ LeetCode Solution In Hard Way
 |1710|[Maximum Units on a Truck](https://leetcode.cn/problems/maximum-units-on-a-truck/) | [C++](./src/Problem_1710_maximumUnits.cc)|Easy|
 |1704|[Determine if String Halves Are Alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike/) | [C++](./src/Problem_1704_halvesAreAlike.cc)|Easy|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
+|1697|[Checking Existence of Edge Length Limited Paths🚀](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/) | [C++](./src/Problem_1697_distanceLimitedPathsExist.cc)|Hard|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
 |1678|[Goal Parser Interpretation](https://leetcode.cn/problems/goal-parser-interpretation/) | [C++](./src/Problem_1678_interpret.cc)|Easy|
