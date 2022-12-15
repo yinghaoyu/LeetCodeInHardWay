@@ -12,6 +12,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
 |1832|[Check if the Sentence Is Pangram](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/) | [C++](./src/Problem_1832_checkIfPangram.cc)|Easy|
 |1827|[Minimum Operations to Make the Array Increasing](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/) | [C++](./src/Problem_1827_minOperations.cc)|Easy|
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
