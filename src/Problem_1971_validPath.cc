@@ -38,15 +38,14 @@ class Solution
       return true;
     }
     seen[cur] = true;
-    bool p = false;
     for (auto &next : g[cur])
     {
-      if (!seen[next])
+      if (dfs(g,seen, next,dest))
       {
-        p |= dfs(g, seen, next, dest);
+        return true;
       }
     }
-    return p;
+    return false;
   }
 
   bool bfs(int n, unordered_map<int, vector<int>> &g, int source, int destination)
