@@ -32,6 +32,7 @@ LeetCode Solution In Hard Way
 |1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [C++](./src/Problem_1769_minOperations.cc)|Medium|
 |1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
 |1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/) | [C++](./src/Problem_1764_canChoose.cc)|Medium|
+|1760|[Minimum Limit of Balls in a Bag🚀](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/) | [C++](./src/Problem_1760_minimumSize.cc)|Medium|
 |1758|[Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/) | [C++](./src/Problem_1758_minOperations.cc)|Easy|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/) | [C++](./src/Problem_1752_check.cc)|Easy|
 |1742|[Maximum Number of Balls in a Box](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/) | [C++](./src/Problem_1742_countBalls.cc)|Easy|
