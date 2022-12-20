@@ -39,6 +39,7 @@ LeetCode Solution In Hard Way
 |1732|[Find the Highest Altitude](https://leetcode.cn/problems/find-the-highest-altitude/) | [C++](./src/Problem_1732_largestAltitude.cc)|Easy|
 |1710|[Maximum Units on a Truck](https://leetcode.cn/problems/maximum-units-on-a-truck/) | [C++](./src/Problem_1710_maximumUnits.cc)|Easy|
 |1704|[Determine if String Halves Are Alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike/) | [C++](./src/Problem_1704_halvesAreAlike.cc)|Easy|
+|1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) | [C++](./src/Problem_1703_minMoves.cc)|Hard|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1697|[Checking Existence of Edge Length Limited Paths🚀](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/) | [C++](./src/Problem_1697_distanceLimitedPathsExist.cc)|Hard|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
