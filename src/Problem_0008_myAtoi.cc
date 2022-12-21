@@ -1,6 +1,3 @@
-#include <algorithm>
-#include <cctype>
-#include <cstdint>
 #include <iostream>
 #include <string>
 
@@ -13,100 +10,39 @@ class Solution
  public:
   int myAtoi(string s)
   {
-    if (s.length() == 0)
+    int ret = 0, i, flag = 0;
+    for (i = 0; s[i] == ' '; i++)
+      ;               // 过滤空格
+    if (s[i] == '-')  // 判断正负
     {
-      return 0;
+      flag = 1;
+      i++;
     }
-    s = trim(s);
-    s = removeHeadZero(s);
-    if (s.length() == 0)
+    else if (s[i] == '+')
     {
-      return 0;
+      i++;
     }
-    if (!isValid(s))
+    for (; s[i] >= '0' && s[i] <= '9'; i++)  // 只处理数字
     {
-      return 0;
-    }
-    // str 是符合日常书写的，正经整数形式
-    bool posi = s[0] == '-' ? false : true;
-    int minq = INT32_MIN / 10;
-    int minr = INT32_MIN % 10;
-    int res = 0;
-    int cur = 0;
-    for (int i = (s[0] == '-' || s[0] == '+') ? 1 : 0; i < s.length(); i++)
-    {
-      cur = '0' - s[i];
-      if ((res < minq) || (res == minq && cur < minr))
+      if (ret > (0x7fffffff - (s[i] - '0')) / 10)  // 溢出处理
       {
-        return posi ? INT32_MAX : INT32_MIN;
+        if (flag)
+        {
+          return 1 << 31;  // 负溢出返回- 2^32
+        }
+        else
+        {
+          return ~(1 << 31);  // 正溢出返回2^32 - 1
+        }
       }
-      res = res * 10 + cur;
+      ret *= 10;
+      ret += (s[i] - '0');
     }
-    // res 负
-    if (posi && res == INT32_MIN)
+    if (flag)
     {
-      return INT32_MAX;
+      ret = ~ret + 1;  // 取负
     }
-    return posi ? -res : res;
-  }
-
-  // string.length() > 0
-  string removeHeadZero(string str)
-  {
-    bool r = str[0] == '+' || str[0] == '-';
-    int s = r ? 1 : 0;
-    for (; s < str.length(); s++)
-    {
-      if (str[s] != '0')
-      {
-        break;
-      }
-    }
-    // s 到了第一个不是'0'字符的位置
-    int e = -1;
-    // 左<-右
-    for (int i = str.length() - 1; i >= (r ? 1 : 0); i--)
-    {
-      if (str[i] < '0' || str[i] > '9')
-      {
-        e = i;
-      }
-    }
-    // e 到了最左的 不是数字字符的位置
-    return (r ? str.substr(0, 1) : "") + str.substr(s, e == -1 ? str.length() - s : e - s);
-  }
-
-  std::string trim(const std::string &s)
-  {
-    std::string::const_iterator it = s.begin();
-    while (it != s.end() && isspace(*it))
-      it++;
-
-    std::string::const_reverse_iterator rit = s.rbegin();
-    while (rit.base() != it && isspace(*rit))
-      rit++;
-
-    return std::string(it, rit.base());
-  }
-  bool isValid(string s)
-  {
-    if (s[0] != '-' && s[0] != '+' && (s[0] < '0' || s[0] > '9'))
-    {
-      return false;
-    }
-    if ((s[0] == '-' || s[0] == '+') && s.length() == 1)
-    {
-      return false;
-    }
-    // 0 +... -... num
-    for (int i = 1; i < s.length(); i++)
-    {
-      if (s[i] < '0' || s[i] > '9')
-      {
-        return false;
-      }
-    }
-    return true;
+    return ret;
   }
 };
 
