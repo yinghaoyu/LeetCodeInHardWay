@@ -132,7 +132,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
-|0005|[Longest Palindromic Substring](https://leetcode.cn/problems/longest-palindromic-substring/) | [C++](./src/Problem_0005_longestPalindrome.cc)|Medium|
+|0005|[Longest Palindromic Substring🚀](https://leetcode.cn/problems/longest-palindromic-substring/) | [C++](./src/Problem_0005_longestPalindrome.cc)|Medium|
 |0004|[Median of Two Sorted Arrays🚀](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [C++](./src/Problem_0004_findMedianSortedArrays.cc)|Hard|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [C++](./src/Problem_0003_lengthOfLongestSubstring.cc)|Medium|
 |0002|[Add Two Numbers](https://leetcode.cn/problems/add-two-numbers/) | [C++](./src/Problem_0002_addTwoNumbers.cc)|Medium|
