@@ -132,6 +132,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0008|[String to Integer (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/) | [C++](./src/Problem_0008_myAtoi.cc)|Medium|
 |0007|[Reverse Integer](https://leetcode.cn/problems/reverse-integer/) | [C++](./src/Problem_0007_reverse.cc)|Medium|
 |0005|[Longest Palindromic Substring🚀](https://leetcode.cn/problems/longest-palindromic-substring/) | [C++](./src/Problem_0005_longestPalindrome.cc)|Medium|
 |0004|[Median of Two Sorted Arrays🚀](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [C++](./src/Problem_0004_findMedianSortedArrays.cc)|Hard|
