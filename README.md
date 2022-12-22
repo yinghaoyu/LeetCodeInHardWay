@@ -133,6 +133,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0014|[Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/) | [C++](./src/Problem_0014_longestCommonPrefix.cc)|Easy|
 |0013|[Roman to Integer](https://leetcode.cn/problems/roman-to-integer/) | [C++](./src/Problem_0013_romanToInt.cc)|Easy|
 |0012|[Integer to Roman](https://leetcode.cn/problems/integer-to-roman/) | [C++](./src/Problem_0012_intToRoman.cc)|Medium|
 |0011|[Container With Most Water](https://leetcode.cn/problems/container-with-most-water/) | [C++](./src/Problem_0011_maxArea.cc)|Medium|
