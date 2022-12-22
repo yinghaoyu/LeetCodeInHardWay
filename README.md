@@ -19,6 +19,7 @@ LeetCode Solution In Hard Way
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/) | [C++](./src/Problem_1812_squareIsWhite.cc)|Easy|
 |1805|[Number of Different Integers in a String](https://leetcode.cn/problems/number-of-different-integers-in-a-string/) | [C++](./src/Problem_1805_numDifferentIntegers.cc)|Easy|
+|1799|[Maximize Score After N Operations🚀](https://leetcode.cn/problems/maximize-score-after-n-operations/) | [C++](./src/Problem_1799_maxScore.cc)|Hard|
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1785|[Minimum Elements to Add to Form a Given Sum](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/) | [C++](./src/Problem_1785_minElements.cc)|Medium|
