@@ -20,6 +20,7 @@ LeetCode Solution In Hard Way
 |1827|[Minimum Operations to Make the Array Increasing](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/) | [C++](./src/Problem_1827_minOperations.cc)|Easy|
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
 |1812|[Determine Color of a Chessboard Square](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/) | [C++](./src/Problem_1812_squareIsWhite.cc)|Easy|
+|1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | [C++](./src/Problem_1802_maxValue.cc)|Medium|
 |1805|[Number of Different Integers in a String](https://leetcode.cn/problems/number-of-different-integers-in-a-string/) | [C++](./src/Problem_1805_numDifferentIntegers.cc)|Easy|
 |1799|[Maximize Score After N Operations🚀](https://leetcode.cn/problems/maximize-score-after-n-operations/) | [C++](./src/Problem_1799_maxScore.cc)|Hard|
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
