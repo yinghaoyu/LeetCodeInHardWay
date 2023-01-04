@@ -26,19 +26,19 @@ class Solution
 
   int maxValue(int n, int index, int maxSum)
   {
-    int l = 1;
-    int r = maxSum;
-    int i = -1;
+    long l = 1;
+    long r = maxSum;
+    long i = -1;
     while (l <= r)
     {
-      int m = l + (r - l) / 2;
+      long m = l + (r - l) / 2;
       // 设index位置的值为 m
       // 左边数组区间[0, index] 右边数组区间[index, end]
       // 整个数组的和 为两段数组的和 减去重复的index位置的值
       double ans = sum(index + 1, m) + sum(n - index, m) - m;
       if (ans <= maxSum)
       {
-        i = l;
+        i = m;
         l = m + 1;
       }
       else
