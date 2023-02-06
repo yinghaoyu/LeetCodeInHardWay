@@ -27,7 +27,6 @@ class Solution
         i = map[i];
       }
     }
-    cout << message << endl;
     return message;
   };
 };
