@@ -145,7 +145,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
-|0028|[Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Medium|
+|0028|[Find the Index of the First Occurrence in a String🚀](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Medium|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [C++](./src/Problem_0026_removeDuplicates.cc)|Easy|
 |0023|[Merge k Sorted Lists](https://leetcode.cn/problems/merge-k-sorted-lists/) | [C++](./src/Problem_0023_mergeKLists.cc)|Hard|
 |0022|[Generate Parentheses](https://leetcode.cn/problems/generate-parentheses/) | [C++](./src/Problem_0022_generateParenthesis.cc)|Medium|
