@@ -27,7 +27,7 @@ class Solution
     }
   }
 
-  bool process(vector<vector<char>> &board, int i, int j, vector<vector<bool>> &row, vector<vector<bool>> &colum, vector<vector<bool>> bucket)
+  bool process(vector<vector<char>> &board, int i, int j, vector<vector<bool>> &row, vector<vector<bool>> &colum, vector<vector<bool>>& bucket)
   {
     if (i == board.size())
     {
