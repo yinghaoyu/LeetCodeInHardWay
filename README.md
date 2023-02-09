@@ -28,6 +28,7 @@ LeetCode Solution In Hard Way
 |1805|[Number of Different Integers in a String](https://leetcode.cn/problems/number-of-different-integers-in-a-string/) | [C++](./src/Problem_1805_numDifferentIntegers.cc)|Easy|
 |1799|[Maximize Score After N Operations🚀](https://leetcode.cn/problems/maximize-score-after-n-operations/) | [C++](./src/Problem_1799_maxScore.cc)|Hard|
 |1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/) | [C++](./src/Problem_1798_getMaximumConsecutive.cc)|Medium|
+|1797|[Design Authentication Manager](https://leetcode.cn/problems/design-authentication-manager/) | [C++](./src/Problem_1797_AuthenticationManager.cc)|Medium|
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1785|[Minimum Elements to Add to Form a Given Sum](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/) | [C++](./src/Problem_1785_minElements.cc)|Medium|
