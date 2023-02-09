@@ -147,6 +147,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0038|[Count and Say](https://leetcode.cn/problems/count-and-say/) | [C++](./src/Problem_0038_countAndSay.cc)|Medium|
 |0037|[Sudoku Solver](https://leetcode.cn/problems/sudoku-solver/) | [C++](./src/Problem_0037_solveSudoku.cc)|Hard|
 |0036|[Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) | [C++](./src/Problem_0036_isValidSudoku.cc)|Medium|
 |0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/Problem_0034_searchRange.cc)|Medium|
