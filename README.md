@@ -12,6 +12,9 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
+|2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
+|2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/) | [C++](./src/Problem_2042_areNumbersAscending.cc)|Easy|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
@@ -24,6 +27,8 @@ LeetCode Solution In Hard Way
 |1802|[Maximum Value at a Given Index in a Bounded Array](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | [C++](./src/Problem_1802_maxValue.cc)|Medium|
 |1805|[Number of Different Integers in a String](https://leetcode.cn/problems/number-of-different-integers-in-a-string/) | [C++](./src/Problem_1805_numDifferentIntegers.cc)|Easy|
 |1799|[Maximize Score After N Operations🚀](https://leetcode.cn/problems/maximize-score-after-n-operations/) | [C++](./src/Problem_1799_maxScore.cc)|Hard|
+|1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/) | [C++](./src/Problem_1798_getMaximumConsecutive.cc)|Medium|
+|1797|[Design Authentication Manager](https://leetcode.cn/problems/design-authentication-manager/) | [C++](./src/Problem_1797_AuthenticationManager.cc)|Medium|
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1785|[Minimum Elements to Add to Form a Given Sum](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/) | [C++](./src/Problem_1785_minElements.cc)|Medium|
@@ -51,6 +56,7 @@ LeetCode Solution In Hard Way
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
 |1678|[Goal Parser Interpretation](https://leetcode.cn/problems/goal-parser-interpretation/) | [C++](./src/Problem_1678_interpret.cc)|Easy|
+|1669|[Merge In Between Linked Lists](https://leetcode.cn/problems/merge-in-between-linked-lists/) | [C++](./src/Problem_1669_mergeInBetween.cc)|Medium|
 |1668|[Maximum Repeating Substring🚀](https://leetcode.cn/problems/maximum-repeating-substring/) | [C++](./src/Problem_1668_maxRepeating.cc)|Easy|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
@@ -59,6 +65,7 @@ LeetCode Solution In Hard Way
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
 |1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
+|1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | [C++](./src/Problem_1604_alertNames.cc)|Medium|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
@@ -78,6 +85,7 @@ LeetCode Solution In Hard Way
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/) | [C++](./src/Problem_1210_minimumMoves.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.cn/problems/shortest-path-with-alternating-colors/) | [C++](./src/Problem_1129_shortestAlternatingPaths.cc)|Medium|
+|1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
@@ -140,6 +148,15 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0042|[Trapping Rain Water](https://leetcode.cn/problems/trapping-rain-water/) | [C++](./src/Problem_0042_trap.cc)|Hard|
+|0041|[First Missing Positive](https://leetcode.cn/problems/first-missing-positive/) | [C++](./src/Problem_0041_firstMissingPositive.cc)|Hard|
+|0038|[Count and Say](https://leetcode.cn/problems/count-and-say/) | [C++](./src/Problem_0038_countAndSay.cc)|Medium|
+|0037|[Sudoku Solver](https://leetcode.cn/problems/sudoku-solver/) | [C++](./src/Problem_0037_solveSudoku.cc)|Hard|
+|0036|[Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) | [C++](./src/Problem_0036_isValidSudoku.cc)|Medium|
+|0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/Problem_0034_searchRange.cc)|Medium|
+|0033|[Search in Rotated Sorted Array](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [C++](./src/Problem_0033_search.cc)|Medium|
+|0029|[Divide Two Integers🚀](https://leetcode.cn/problems/divide-two-integers/) | [C++](./src/Problem_0029_divide.cc)|Medium|
+|0028|[Find the Index of the First Occurrence in a String🚀](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Medium|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [C++](./src/Problem_0026_removeDuplicates.cc)|Easy|
 |0023|[Merge k Sorted Lists](https://leetcode.cn/problems/merge-k-sorted-lists/) | [C++](./src/Problem_0023_mergeKLists.cc)|Hard|
 |0022|[Generate Parentheses](https://leetcode.cn/problems/generate-parentheses/) | [C++](./src/Problem_0022_generateParenthesis.cc)|Medium|
