@@ -81,6 +81,7 @@ LeetCode Solution In Hard Way
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
 |1235|[Maximum Profit in Job Scheduling🚀](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) | [C++](./src/Problem_1235_jobScheduling.cc)|Hard|
+|1234|[Replace the Substring for Balanced String](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/) | [C++](./src/Problem_1234_balancedString.cc)|Medium|
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |1224|[Dice Roll Simulation](https://leetcode.cn/problems/dice-roll-simulation/) | [C++](./src/Problem_1223_dieSimulator.cc)|Hard|
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/) | [C++](./src/Problem_1210_minimumMoves.cc)|Hard|
