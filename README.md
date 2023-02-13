@@ -149,6 +149,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0045|[Jump Game II](https://leetcode.cn/problems/jump-game-ii/) | [C++](./src/Problem_0045_jump.cc)|Medium|
 |0044|[Wildcard Matching](https://leetcode.cn/problems/wildcard-matching/) | [C++](./src/Problem_0044_isMatch.cc)|Hard|
 |0042|[Trapping Rain Water](https://leetcode.cn/problems/trapping-rain-water/) | [C++](./src/Problem_0042_trap.cc)|Hard|
 |0041|[First Missing Positive](https://leetcode.cn/problems/first-missing-positive/) | [C++](./src/Problem_0041_firstMissingPositive.cc)|Hard|
