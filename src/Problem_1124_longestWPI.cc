@@ -11,6 +11,7 @@ class Solution
  public:
   int longestWPI(vector<int> &hours)
   {
+    // TODO: figure it
     int n = hours.size();
     vector<int> s(n + 1);
     stack<int> stk;
