@@ -29,6 +29,22 @@ class Solution
     }
     return n < 0 ? 1 / ans : ans;
   }
+
+  double dfs(double x, int n)
+  {
+    if (n == 0)
+    {
+      return 1.0;
+    }
+    else if (n & 1)
+    {
+      return (n > 0 ? x : 1.0 / x) * myPow(x * x, n / 2);
+    }
+    else
+    {
+      return myPow(x * x, n / 2);
+    }
+  }
 };
 
 void testMyPow()
@@ -38,6 +54,10 @@ void testMyPow()
   // cout << s.myPow(2.10000, 3)<<endl;
   // cout << s.myPow(2.00000, -1)<<endl;
   // cout << s.myPow(2.00000, -2)<<endl;
+  // cout << s.dfs(2.00000, 10) << endl;
+  // cout << s.dfs(2.10000, 3) << endl;
+  // cout << s.dfs(2.00000, -1) << endl;
+  // cout << s.dfs(2.00000, -2) << endl;
   EXPECT_EQ_DOUBLE(1024.00000, s.myPow(2.00000, 10));
   EXPECT_EQ_DOUBLE(9.26100, s.myPow(2.10000, 3));
   EXPECT_EQ_DOUBLE(0.50000, s.myPow(2.00000, -1));
