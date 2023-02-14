@@ -87,6 +87,7 @@ LeetCode Solution In Hard Way
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/) | [C++](./src/Problem_1210_minimumMoves.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.cn/problems/shortest-path-with-alternating-colors/) | [C++](./src/Problem_1129_shortestAlternatingPaths.cc)|Medium|
+|1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
