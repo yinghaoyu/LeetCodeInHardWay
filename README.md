@@ -152,6 +152,9 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0073|[https://leetcode.cn/problems/set-matrix-zeroes/](https://leetcode.cn/problems/set-matrix-zeroes/) | [C++](./src/Problem_0073_setZeroes.cc)|Medium|
+|0070|[Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | [C++](./src/Problem_0070_climbStairs.cc)|Easy|
+|0069|[Sqrt(x)](https://leetcode.cn/problems/sqrtx/) | [C++](./src/Problem_0069_mySqrt.cc)|Easy|
+|0066|[Plus One](https://leetcode.cn/problems/plus-one/) | [C++](./src/Problem_0066_plusOne.cc)|Easy|
 |0062|[Unique Paths](https://leetcode.cn/problems/unique-paths/) | [C++](./src/Problem_0062_uniquePaths.cc)|Medium|
 |0056|[Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | [C++](./src/Problem_0056_merge.cc)|Medium|
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
