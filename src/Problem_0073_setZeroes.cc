@@ -78,6 +78,8 @@ class Solution
           matrix[i][0] = 0;
           if (j == 0)
           {
+            // 因为第0列的数表示的是行要不要清0，第0列要不要清0用col0记录
+            // 例如matrix[1][0]的含义是第1行要不要清0，因此不能改这个值
             col0 = true;
           }
           else
