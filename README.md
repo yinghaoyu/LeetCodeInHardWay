@@ -152,6 +152,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0094|[Binary Tree Inorder Traversal](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [C++](./src/Problem_0094_inorderTraversal.cc)|Easy|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
 |0084|[Largest Rectangle in Histogram🚀](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | [C++](./src/Problem_0084_largestRectangleArea.cc)|Hard|
