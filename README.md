@@ -31,6 +31,7 @@ LeetCode Solution In Hard Way
 |1798|[Maximum Number of Consecutive Values You Can Make](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/) | [C++](./src/Problem_1798_getMaximumConsecutive.cc)|Medium|
 |1797|[Design Authentication Manager](https://leetcode.cn/problems/design-authentication-manager/) | [C++](./src/Problem_1797_AuthenticationManager.cc)|Medium|
 |1796|[Second Largest Digit in a String](https://leetcode.cn/problems/second-largest-digit-in-a-string/) | [C++](./src/Problem_1796_secondHighest.cc)|Easy|
+|1792|[Maximum Average Pass Ratio](https://leetcode.cn/problems/maximum-average-pass-ratio/) | [C++](./src/Problem_1792_maxAverageRatio.cc)|Medium|
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/) | [C++](./src/Problem_1790_areAlmostEqual.cc)|Easy|
 |1785|[Minimum Elements to Add to Form a Given Sum](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/) | [C++](./src/Problem_1785_minElements.cc)|Medium|
 |1784|[Check if Binary String Has at Most One Segment of Ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | [C++](./src/Problem_1784_checkOnesSegment.cc)|Easy|
