@@ -154,6 +154,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0118|[Pascal's Triangle](https://leetcode.cn/problems/pascals-triangle/) | [C++](./src/Problem_0118_generate.cc)|Easy|
 |0116|[Populating Next Right Pointers in Each Node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/) | [C++](./src/Problem_0116_connect.cc)|Medium|
 |0108|[Convert Sorted Array to Binary Search Tree](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/) | [C++](./src/Problem_0108_sortedArrayToBST.cc)|Easy|
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./src/Problem_0105_buildTree.cc)|Medium|
