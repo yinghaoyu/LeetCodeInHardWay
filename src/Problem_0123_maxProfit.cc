@@ -36,7 +36,6 @@ class Solution
   }
 
   // 贪心
-  // TODO: figure it out
   int maxProfit2(vector<int> &prices)
   {
     if (prices.size() == 0)
@@ -44,7 +43,10 @@ class Solution
       return 0;
     }
     int ans = 0;
+    // doneOnceMinusBuyMax含义：
+    // 在购买1次股票能获得的最大收益的前提下 减去 购买第2次股票的钱
     int doneOnceMinusBuyMax = -prices[0];
+    // doneOnceMax 含义为购买1次股票能获得的最大收益
     int doneOnceMax = 0;  // 0 : [0] - [0]
     int min = prices[0];
     for (int i = 1; i < prices.size(); i++)
