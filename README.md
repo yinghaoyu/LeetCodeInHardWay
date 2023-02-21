@@ -155,6 +155,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0125|[Valid Palindrome](https://leetcode.cn/problems/valid-palindrome/) | [C++](./src/Problem_0125_isPalindrome.cc)|Easy|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) | [C++](./src/Problem_0124_maxPathSum.cc)|Hard|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/) | [C++](./src/Problem_0123_maxProfit.cc)|Hard|
 |0122|[Best Time to Buy and Sell Stock II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./src/Problem_0122_maxProfit.cc)|Medium|
