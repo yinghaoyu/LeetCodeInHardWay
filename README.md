@@ -208,7 +208,7 @@ LeetCode Solution In Hard Way
 |0022|[Generate Parentheses](https://leetcode.cn/problems/generate-parentheses/) | [C++](./src/Problem_0022_generateParenthesis.cc)|Medium|
 |0021|[Merge Two Sorted Lists](https://leetcode.cn/problems/merge-two-sorted-lists/) | [C++](./src/Problem_0021_mergeTwoLists.cc)|Easy|
 |0020|[Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/) | [C++](./src/Problem_0020_isValid.cc)|Easy|
-|0019|[Remove Nth Node From End of List](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | [C++](./src/Problem_0019_removeNthFromEnd.cc)|Median|
+|0019|[Remove Nth Node From End of List](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | [C++](./src/Problem_0019_removeNthFromEnd.cc)|Medium|
 |0017|[Letter Combinations of a Phone Number](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) | [C++](./src/Problem_0017_letterCombinations.cc)|Medium|
 |0015|[3Sum](https://leetcode.cn/problems/3sum/) | [C++](./src/Problem_0015_threeSum.cc)|Medium|
 |0014|[Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/) | [C++](./src/Problem_0014_longestCommonPrefix.cc)|Easy|
