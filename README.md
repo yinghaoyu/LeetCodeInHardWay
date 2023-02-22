@@ -155,6 +155,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0136|[Single Number](https://leetcode.cn/problems/single-number/) | [C++](./src/Problem_0136_singleNumber.cc)|Easy|
 |0134|[Gas Station](https://leetcode.cn/problems/gas-station/) | [C++](./src/Problem_0134_canCompleteCircuit.cc)|Medium|
 |0131|[Palindrome Partitioning🚀](https://leetcode.cn/problems/palindrome-partitioning/) | [C++](./src/Problem_0131_partition.cc)|Medium|
 |0130|[Surrounded Regions](https://leetcode.cn/problems/surrounded-regions/) | [C++](./src/Problem_0130_solve.cc)|Medium|
