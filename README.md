@@ -156,6 +156,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0141|[Linked List Cycle](https://leetcode.cn/problems/linked-list-cycle/) | [C++](./src/Problem_0141_hasCycle.cc)|Easy|
 |0140|[Word Break II](https://leetcode.cn/problems/word-break-ii/) | [C++](./src/Problem_0140_wordBreak.cc)|Hard|
 |0139|[Word Break](https://leetcode.cn/problems/word-break/) | [C++](./src/Problem_0139_wordBreak.cc)|Medium|
 |0138|[Copy List with Random Pointer](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [C++](./src/Problem_0138_copyRandomList.cc)|Medium|
