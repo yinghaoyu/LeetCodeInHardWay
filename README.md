@@ -84,6 +84,7 @@ LeetCode Solution In Hard Way
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
 |1250|[Check If It Is a Good Array](https://leetcode.cn/problems/check-if-it-is-a-good-array/) | [C++](./src/Problem_1250_isGoodArray.cc)|Hard|
+|1238|[Circular Permutation in Binary Representation](https://leetcode.cn/problems/circular-permutation-in-binary-representation/) | [C++](./src/Problem_1238_circularPermutation.cc)|Medium|
 |1235|[Maximum Profit in Job Scheduling🚀](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) | [C++](./src/Problem_1235_jobScheduling.cc)|Hard|
 |1234|[Replace the Substring for Balanced String](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/) | [C++](./src/Problem_1234_balancedString.cc)|Medium|
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
