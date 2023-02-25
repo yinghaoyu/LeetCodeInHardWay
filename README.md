@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
 |0162|[Find Peak Element](https://leetcode.cn/problems/find-peak-element/) | [C++](./src/Problem_0162_findPeakElement.cc)|Medium|
+|0163|[Missing Ranges](https://leetcode.cn/problems/missing-ranges/) | [C++](./src/Problem_0163_findMissingRanges.cc)|Easy|
 |0160|[Intersection of Two Linked Lists](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | [C++](./src/Problem_0160_getIntersectionNode.cc)|Easy|
 |0155|[Min Stack](https://leetcode.cn/problems/min-stack/) | [C++](./src/Problem_0155_MinStack.cc)|Medium|
 |0152|[Maximum Product Subarray](https://leetcode.cn/problems/maximum-product-subarray/) | [C++](./src/Problem_0152_maxProduct.cc)|Medium|
