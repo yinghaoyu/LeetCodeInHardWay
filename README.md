@@ -158,6 +158,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0188|[Best Time to Buy and Sell Stock IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./src/Problem_0188_maxProfit.cc)|Hard|
 |0179|[Largest Number](https://leetcode.cn/problems/largest-number/) | [C++](./src/Problem_0179_largestNumber.cc)|Medium|
 |0172|[Factorial Trailing Zeroes](https://leetcode.cn/problems/factorial-trailing-zeroes/) | [C++](./src/Problem_0172_trailingZeroes.cc)|Medium|
 |0171|[Excel Sheet Column Number](https://leetcode.cn/problems/excel-sheet-column-number/) | [C++](./src/Problem_0171_titleToNumber.cc)|Easy|
