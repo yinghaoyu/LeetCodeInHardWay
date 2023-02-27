@@ -158,6 +158,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0155|[Min Stack](https://leetcode.cn/problems/min-stack/) | [C++](./src/Problem_0155_MinStack.cc)|Medium|
 |0152|[Maximum Product Subarray](https://leetcode.cn/problems/maximum-product-subarray/) | [C++](./src/Problem_0152_maxProduct.cc)|Medium|
 |0150|[Max Points on a Line](https://leetcode.cn/problems/evaluate-reverse-polish-notation/) | [C++](./src/Problem_0150_evalRPN.cc)|Medium|
 |0149|[Max Points on a Line](https://leetcode.cn/problems/max-points-on-a-line/) | [C++](./src/Problem_0149_maxPoints.cc)|Hard|
