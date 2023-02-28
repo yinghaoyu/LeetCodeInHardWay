@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0200|[Number of Islands](https://leetcode.cn/problems/number-of-islands/) | [C++](./src/Problem_0200_numIslands.cc)|Medium|
 |0198|[House Robber](https://leetcode.cn/problems/house-robber/) | [C++](./src/Problem_0198_rob.cc)|Medium|
 |0191|[Number of 1 Bits](https://leetcode.cn/problems/number-of-1-bits/) | [C++](./src/Problem_0191_hammingWeight.cc)|Easy|
 |0190|[Reverse Bits](https://leetcode.cn/problems/reverse-bits/) | [C++](./src/Problem_0190_reverseBits.cc)|Easy|
