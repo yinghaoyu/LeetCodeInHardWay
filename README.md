@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0191|[Number of 1 Bits](https://leetcode.cn/problems/number-of-1-bits/) | [C++](./src/Problem_0191_hammingWeight.cc)|Easy|
 |0190|[Reverse Bits](https://leetcode.cn/problems/reverse-bits/) | [C++](./src/Problem_0190_reverseBits.cc)|Easy|
 |0189|[Rotate Array](https://leetcode.cn/problems/rotate-array/) | [C++](./src/Problem_0189_rotate.cc)|Medium|
 |0188|[Best Time to Buy and Sell Stock IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./src/Problem_0188_maxProfit.cc)|Hard|
