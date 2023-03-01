@@ -19,7 +19,7 @@ class Solution
     vector<bool> f(n);
     // 首先排除一半的数，因为偶数一定不是质数
     int count = n / 2;
-    // 筛选所有的奇数
+    // 筛选所有的奇数，注意这里的上界是 i*i < n
     for (int i = 3; i * i < n; i += 2)
     {
       if (f[i])
