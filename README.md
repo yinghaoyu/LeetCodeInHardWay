@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
+|0213|[House Robber II](https://leetcode.cn/problems/house-robber-ii/) | [C++](./src/Problem_0213_rob.cc)|Medium|
 |0212|[Word Search II🚀](https://leetcode.cn/problems/word-search-ii/) | [C++](./src/Problem_0212_findWords.cc)|Hard|
 |0210|[Course Schedule II](https://leetcode.cn/problems/course-schedule-ii/) | [C++](./src/Problem_0210_findOrder.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
