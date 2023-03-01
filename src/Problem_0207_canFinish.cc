@@ -22,6 +22,8 @@ class Solution
       in = 0;
     }
   };
+
+  // 拓扑排序
   bool canFinish(int numCourses, vector<vector<int>> &prerequisites)
   {
     if (prerequisites.size() == 0)
