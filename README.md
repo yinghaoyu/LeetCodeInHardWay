@@ -160,6 +160,7 @@ LeetCode Solution In Hard Way
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0209|[Minimum Size Subarray Sum](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [C++](./src/Problem_0209_minSubArrayLen.cc)|Medium|
+|0207|[Course Schedule](https://leetcode.cn/problems/course-schedule/) | [C++](./src/Problem_0207_canFinish.cc)|Medium|
 |0206|[Reverse Linked List](https://leetcode.cn/problems/reverse-linked-list/) | [C++](./src/Problem_0206_reverseList.cc)|Easy|
 |0204|[Count Primes](https://leetcode.cn/problems/count-primes/) | [C++](./src/Problem_0204_countPrimes.cc)|Medium|
 |0202|[Happy Number](https://leetcode.cn/problems/happy-number/) | [C++](./src/Problem_0202_isHappy.cc)|Easy|
