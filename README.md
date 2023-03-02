@@ -7,6 +7,7 @@ LeetCode Solution In Hard Way
 |---| ----- | -------- | ---------- |
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
+|05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
 |02.02|[Kth Node From End of List LCCI](https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/) | [C++](./src/Problem_02.02_kthToLast.cc)|Easy|
 |02.01|[Remove Duplicate Node LCCI](https://leetcode.cn/problems/remove-duplicate-node-lcci/) | [C++](./src/Problem_02.01_removeDuplicateNodes.cc)|Easy|
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
