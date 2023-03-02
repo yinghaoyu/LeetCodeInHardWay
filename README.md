@@ -158,6 +158,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0218|[The Skyline Problem](https://leetcode.cn/problems/the-skyline-problem/) | [C++](./src/Problem_0218_getSkyline.cc)|Hard|
 |0217|[Contains Duplicate](https://leetcode.cn/problems/contains-duplicate/) | [C++](./src/Problem_0217_containsDuplicate.cc)|Easy|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
 |0213|[House Robber II](https://leetcode.cn/problems/house-robber-ii/) | [C++](./src/Problem_0213_rob.cc)|Medium|
