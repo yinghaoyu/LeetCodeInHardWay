@@ -231,6 +231,7 @@ LeetCode Solution In Hard Way
 |0078|[Subsets](https://leetcode.cn/problems/subsets/) | [C++](./src/Problem_0078_subsets.cc)|Medium|
 |0076|[Minimum Window Substring🚀](https://leetcode.cn/problems/minimum-window-substring/) | [C++](./src/Problem_0076_minWindow.cc)|Hard|
 |0075|[Sort Colors](https://leetcode.cn/problems/sort-colors/) | [C++](./src/Problem_0075_sortColors.cc)|Medium|
+|0074|[Search a 2D Matrix](https://leetcode.cn/problems/search-a-2d-matrix/) | [C++](./src/Problem_0074_searchMatrix.cc)|Medium|
 |0073|[Set Matrix Zeroes](https://leetcode.cn/problems/set-matrix-zeroes/) | [C++](./src/Problem_0073_setZeroes.cc)|Medium|
 |0070|[Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | [C++](./src/Problem_0070_climbStairs.cc)|Easy|
 |0069|[Sqrt(x)](https://leetcode.cn/problems/sqrtx/) | [C++](./src/Problem_0069_mySqrt.cc)|Easy|
