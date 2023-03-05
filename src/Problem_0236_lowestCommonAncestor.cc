@@ -67,7 +67,28 @@ class Solution
     return Info(ans, findO1, findO2);
   }
 
-  TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q) { return process(root, p, q).ans; }
+  TreeNode *lowestCommonAncestor1(TreeNode *root, TreeNode *p, TreeNode *q) { return process(root, p, q).ans; }
+
+  TreeNode *dfs(TreeNode *x, TreeNode *p, TreeNode *q)
+  {
+    if (x == nullptr || x == p || x == q)
+    {
+      return x;
+    }
+    TreeNode *left = dfs(x->left, p, q);
+    TreeNode *right = dfs(x->right, p, q);
+    if (left == nullptr)
+    {
+      return right;
+    }
+    if (right == nullptr)
+    {
+      return left;
+    }
+    return x;
+  }
+
+  TreeNode *lowestCommonAncestor2(TreeNode *root, TreeNode *p, TreeNode *q) { return dfs(root, p, q); }
 };
 
 void testLowestCommonAncestor()
@@ -82,8 +103,10 @@ void testLowestCommonAncestor()
   TreeNode *r3 = new TreeNode(1, r6, r7);
   TreeNode *r2 = new TreeNode(5, r4, r5);
   TreeNode *r1 = new TreeNode(3, r2, r3);
-  EXPECT_TRUE(r1 == s.lowestCommonAncestor(r1, r2, r3));
-  EXPECT_TRUE(r2 == s.lowestCommonAncestor(r1, r2, r9));
+  EXPECT_TRUE(r1 == s.lowestCommonAncestor1(r1, r2, r3));
+  EXPECT_TRUE(r2 == s.lowestCommonAncestor1(r1, r2, r9));
+  EXPECT_TRUE(r1 == s.lowestCommonAncestor2(r1, r2, r3));
+  EXPECT_TRUE(r2 == s.lowestCommonAncestor2(r1, r2, r9));
   EXPECT_SUMMARY;
 }
 
