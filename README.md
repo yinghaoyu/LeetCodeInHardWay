@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0240|[Search a 2D Matrix II](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [C++](./src/Problem_0240_searchMatrix.cc)|Medium|
 |0239|[Sliding Window Maximum🚀](https://leetcode.cn/problems/sliding-window-maximum/) | [C++](./src/Problem_0239_maxSlidingWindow.cc)|Hard|
 |0238|[Product of Array Except Self](https://leetcode.cn/problems/product-of-array-except-self/) | [C++](./src/Problem_0238_productExceptSelf.cc)|Medium|
 |0237|[Delete Node in a Linked List](https://leetcode.cn/problems/delete-node-in-a-linked-list/) | [C++](./src/Problem_0237_deleteNode.cc)|Medium|
