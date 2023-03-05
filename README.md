@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0236|[Lowest Common Ancestor of a Binary Tree🚀](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./src/Problem_0236_lowestCommonAncestor.cc)|Medium|
 |0234|[Palindrome Linked List](https://leetcode.cn/problems/palindrome-linked-list/) | [C++](./src/Problem_0234_isPalindrome.cc)|Easy|
 |0230|[Kth Smallest Element in a BST](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | [C++](./src/Problem_0230_kthSmallest.cc)|Medium|
 |0227|[Basic Calculator II](https://leetcode.cn/problems/basic-calculator-ii/) | [C++](./src/Problem_0227_calculate.cc)|Medium|
