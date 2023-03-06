@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0253|[Meeting Rooms II🔒](https://leetcode.cn/problems/meeting-rooms-ii/) | [C++](./src/Problem_0253_minMeetingRooms.cc)|Medium|
 |0251|[Flatten 2D Vector](https://leetcode.cn/problems/flatten-2d-vector/) | [C++](./src/Problem_0251_Vector2D.cc)|Medium|
 |0242|[Valid Anagram](https://leetcode.cn/problems/valid-anagram/) | [C++](./src/Problem_0242_isAnagram.cc)|Easy|
 |0240|[Search a 2D Matrix II](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [C++](./src/Problem_0240_searchMatrix.cc)|Medium|
