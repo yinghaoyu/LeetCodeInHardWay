@@ -74,6 +74,7 @@ class Solution
       char cur = q.front();
       q.pop();
       ans.push_back(cur);
+      // cur不是终点，如果cur是终点，那么没有next，会导致graph.at(cur)崩溃
       if (graph.count(cur))
       {
         for (char next : graph.at(cur))
