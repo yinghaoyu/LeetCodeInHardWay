@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <iostream>
 #include <vector>
 
@@ -82,6 +83,22 @@ class Solution
     }
     return 3;
   }
+
+  // 暴力解改动态规划
+  int numSquares4(int n)
+  {
+    vector<int> dp(n + 1);
+    for (int i = 1; i <= n; i++)
+    {
+      int num = INT32_MAX;
+      for (int j = 1; j * j <= i; j++)
+      {
+        num = std::min(num, dp[i - j * j]);
+      }
+      dp[i] = num + 1;
+    }
+    return dp[n];
+  }
 };
 
 void testNumSquares()
@@ -93,6 +110,8 @@ void testNumSquares()
   EXPECT_EQ_INT(2, s.numSquares2(13));
   EXPECT_EQ_INT(3, s.numSquares3(12));
   EXPECT_EQ_INT(2, s.numSquares3(13));
+  EXPECT_EQ_INT(3, s.numSquares4(12));
+  EXPECT_EQ_INT(2, s.numSquares4(13));
   EXPECT_SUMMARY;
 }
 
