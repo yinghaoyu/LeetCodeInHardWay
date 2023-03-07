@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0289|[Game of Life🚀](https://leetcode.cn/problems/game-of-life/) | [C++](./src/Problem_0289_gameOfLife.cc)|Medium|
 |0287|[Find the Duplicate Number](https://leetcode.cn/problems/find-the-duplicate-number/) | [C++](./src/Problem_0287_findDuplicate.cc)|Medium|
 |0285|[Inorder Successor in BST](https://leetcode.cn/problems/inorder-successor-in-bst/) | [C++](./src/Problem_0285_inorderSuccessor.cc)|Medium|
 |0283|[Move Zeroes](https://leetcode.cn/problems/move-zeroes/) | [C++](./src/Problem_0283_moveZeroes.cc)|Easy|
