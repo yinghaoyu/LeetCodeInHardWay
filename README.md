@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0283|[Move Zeroes](https://leetcode.cn/problems/move-zeroes/) | [C++](./src/Problem_0283_moveZeroes.cc)|Easy|
 |0279|[Perfect Squares](https://leetcode.cn/problems/perfect-squares/) | [C++](./src/Problem_0279_numSquares.cc)|Medium|
 |0277|[Find the Celebrity](https://leetcode.cn/problems/find-the-celebrity/) | [C++](./src/Problem_0277_findCelebrity.cc)|Medium|
 |0269|[Alien Dictionary](https://leetcode.cn/problems/alien-dictionary/) | [C++](./src/Problem_0269_alienOrder.cc)|Hard|
