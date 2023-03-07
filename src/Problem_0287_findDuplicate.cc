@@ -8,6 +8,10 @@ using namespace std;
 class Solution
 {
  public:
+   // 解法一：排序法，修改了数组，不符合要求
+   // 解法二：计数法，空间复杂度不是常数，不符合要求
+   // 解法三：标记法，遍历一遍数组，把值改成负值，当遇到负数时，即为重复数。修改了数组，不符合要求。
+   // 解法四：双指针，符合要求
   int findDuplicate(vector<int> &nums)
   {
     if (nums.size() < 2)
