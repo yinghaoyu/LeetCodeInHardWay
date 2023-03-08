@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0308|[Range Sum Query 2D - Mutable🚀](https://leetcode.cn/problems/range-sum-query-2d-mutable/) | [C++](./src/Problem_0308_NumMatrix.cc)|Hard|
 |0300|[Longest Increasing Subsequence🚀](https://leetcode.cn/problems/longest-increasing-subsequence/) | [C++](./src/Problem_0300_lengthOfLIS.cc)|Medium|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [C++](./src/Problem_0297_Codec.cc)|Hard|
 |0295|[Find Median from Data Stream](https://leetcode.cn/problems/find-median-from-data-stream/) | [C++](./src/Problem_0295_MedianFinder.cc)|Hard|
