@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|Sword To Offer 47|[Max value from gift LCOF](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
