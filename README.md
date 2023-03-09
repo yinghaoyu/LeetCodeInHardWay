@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0328|[Odd Even Linked List](https://leetcode.cn/problems/odd-even-linked-list/) | [C++](./src/Problem_0328_oddEvenList.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
 |0326|[Power of Three](https://leetcode.cn/problems/power-of-three/) | [C++](./src/Problem_0326_isPowerOfThree.cc)|Easy|
 |0324|[Wiggle Sort II](https://leetcode.cn/problems/wiggle-sort-ii/) | [C++](./src/Problem_0324_wiggleSort.cc)|Medium|
