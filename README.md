@@ -160,6 +160,7 @@ LeetCode Solution In Hard Way
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
+|0324|[Wiggle Sort II](https://leetcode.cn/problems/wiggle-sort-ii/) | [C++](./src/Problem_0324_wiggleSort.cc)|Medium|
 |0322|[Coin Change](https://leetcode.cn/problems/coin-change/) | [C++](./src/Problem_0322_coinChange.cc)|Medium|
 |0315|[Count of Smaller Numbers After Self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | [C++](./src/Problem_0315_countSmaller.cc)|Hard|
 |0309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./src/Problem_0309_maxProfit.cc)|Medium|
