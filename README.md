@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0340|[Longest Substring with At Most K Distinct Characters🚀](https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/) | [C++](./src/Problem_0340_lengthOfLongestSubstringKDistinct.cc)|Medium|
 |0334|[Increasing Triplet Subsequence](https://leetcode.cn/problems/increasing-triplet-subsequence/) | [C++](./src/Problem_0334_increasingTriplet.cc)|Medium|
 |0329|[Longest Increasing Path in a Matrix](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) | [C++](./src/Problem_0329_longestIncreasingPath.cc)|Hard|
 |0328|[Odd Even Linked List](https://leetcode.cn/problems/odd-even-linked-list/) | [C++](./src/Problem_0328_oddEvenList.cc)|Medium|
