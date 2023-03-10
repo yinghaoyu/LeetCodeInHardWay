@@ -57,6 +57,8 @@ class Solution
       for (int L = 0; L < N; L++)
       {
         //[L ... R]  R+1
+        // 循环退出条件：新字符会打破 collext == require 平衡条件
+        // 表示收集的字符已达到上限
         while (R + 1 < N && !(collect == require && cnt[s[R + 1] - 'a'] == 0))
         {
           R++;
