@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
 |0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
