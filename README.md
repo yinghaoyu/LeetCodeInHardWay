@@ -159,6 +159,7 @@ LeetCode Solution In Hard Way
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0371|[Sum of Two Integers](https://leetcode.cn/problems/sum-of-two-integers/) | [C++](./src/Problem_0371_getSum.cc)|Medium|
 |0350|[Intersection of Two Arrays II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/) | [C++](./src/Problem_0350_intersect.cc)|Easy|
 |0348|[Design Tic-Tac-Toe](https://leetcode.cn/problems/design-tic-tac-toe/) | [C++](./src/Problem_0348_TicTacToe.cc)|Medium|
 |0347|[Top K Frequent Elements](https://leetcode.cn/problems/top-k-frequent-elements/) | [C++](./src/Problem_0347_topKFrequent.cc)|Medium|
