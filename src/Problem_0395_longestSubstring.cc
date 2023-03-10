@@ -8,7 +8,8 @@ using namespace std;
 class Solution
 {
  public:
-  int longestSubstring(string s, int k)
+  // 暴力枚举
+  int longestSubstring1(string s, int k)
   {
     int N = s.length();
     int ans = 0;
@@ -38,13 +39,65 @@ class Solution
     }
     return ans;
   }
+
+  int longestSubstring2(string s, int k)
+  {
+    int N = s.length();
+    int max = 0;
+    for (int require = 1; require <= 26; require++)
+    {
+      // a ~ z 出现的次数
+      // cnt[0 1 2] a b c
+      vector<int> cnt(26);
+      // 窗口收集了集中字符
+      int collect = 0;
+      // 窗口出现次数 >=k 次的字符
+      int satisfy = 0;
+      int R = -1;
+      for (int L = 0; L < N; L++)
+      {
+        //[L ... R]  R+1
+        while (R + 1 < N && !(collect == require && cnt[s[R + 1] - 'a'] == 0))
+        {
+          R++;
+          if (cnt[s[R] - 'a'] == 0)
+          {
+            collect++;
+          }
+          if (cnt[s[R] - 'a'] == k - 1)
+          {
+            satisfy++;
+          }
+          cnt[s[R] - 'a']++;
+        }
+        // [L ... R]
+        if (satisfy == require)
+        {
+          max = std::max(max, R - L + 1);
+        }
+        // 为 L++ 做准备
+        if (cnt[s[L] - 'a'] == 1)
+        {
+          collect--;
+        }
+        if (cnt[s[L] - 'a'] == k)
+        {
+          satisfy--;
+        }
+        cnt[s[L] - 'a']--;
+      }
+    }
+    return max;
+  }
 };
 
 void testLongestSubstring()
 {
   Solution s;
-  EXPECT_EQ_INT(3, s.longestSubstring("aaabb", 3));
-  EXPECT_EQ_INT(5, s.longestSubstring("ababbc", 2));
+  EXPECT_EQ_INT(3, s.longestSubstring1("aaabb", 3));
+  EXPECT_EQ_INT(3, s.longestSubstring1("aaabb", 3));
+  EXPECT_EQ_INT(5, s.longestSubstring2("ababbc", 2));
+  EXPECT_EQ_INT(5, s.longestSubstring2("ababbc", 2));
   EXPECT_SUMMARY;
 }
 
