@@ -155,7 +155,7 @@ class Solution
     else
     {
       ans = f2(s, p, si, pi + 2, dp);
-      if (s[si] == p[pi] || p[pi == '.'])
+      if (s[si] == p[pi] || p[pi] == '.')
       {
         ans |= f2(s, p, si + 1, pi, dp);
       }
