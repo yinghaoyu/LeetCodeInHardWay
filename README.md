@@ -8,6 +8,7 @@ LeetCode Solution In Hard Way
 |Sword To Offer 47|[Max value from gift LCOF](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
+|17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
 |02.02|[Kth Node From End of List LCCI](https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/) | [C++](./src/Problem_02.02_kthToLast.cc)|Easy|
 |02.01|[Remove Duplicate Node LCCI](https://leetcode.cn/problems/remove-duplicate-node-lcci/) | [C++](./src/Problem_02.01_removeDuplicateNodes.cc)|Easy|
@@ -104,6 +105,7 @@ LeetCode Solution In Hard Way
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
+|0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
@@ -146,6 +148,7 @@ LeetCode Solution In Hard Way
 |0764|[Largest Plus Sign](https://leetcode.cn/problems/largest-plus-sign/description/) | [C++](./src/Problem_0764_orderOfLargestPlusSign.cc)|Medium|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0754|[Reach a Number🚀](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
+|0741|[Cherry Pickup](https://leetcode.cn/problems/cherry-pickup/) | [C++](./src/Problem_0741_cherryPickup.cc)|Hard|
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
 |0698|[Partition to K Equal Sum Subsets🚀](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
@@ -159,7 +162,12 @@ LeetCode Solution In Hard Way
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
+|0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
+|0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
+|0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
+|0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
 |0380|[Insert Delete GetRandom O(1)](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C++](./src/Problem_0380_RandomizedSet.cc)|Medium|
 |0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/Problem_0378_kthSmallest.cc)|Medium|
 |0371|[Sum of Two Integers](https://leetcode.cn/problems/sum-of-two-integers/) | [C++](./src/Problem_0371_getSum.cc)|Medium|
