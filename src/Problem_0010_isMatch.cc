@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 #include "UnitTest.h"
 
@@ -8,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-   // 过滤掉无效字符
+  // 过滤掉无效字符
   bool isValid(string &str, string &pattern)
   {
     for (char &cha : str)
@@ -94,7 +95,75 @@ class Solution
     }
     return false;
   }
-  // TODO: 递归改动态规划
+
+  bool isMatch2(string s, string p) { return f1(s, p, 0, 0); }
+
+  bool f1(string s, string p, int si, int pi)
+  {
+    if (pi == p.length())
+    {
+      return si == s.length();
+    }
+    if (si == s.length())
+    {
+      return pi + 1 < p.length() && p[pi + 1] == '*' && f1(s, p, si, pi + 2);
+    }
+    if (pi + 1 >= p.length() || p[pi + 1] != '*')
+    {
+      return (s[si] == p[pi] || p[pi] == '.') && f1(s, p, si + 1, pi + 1);
+    }
+    // p[pi+1] == '*'
+    // a) 就是让[pi, pi+1]变空
+    bool ans = f1(s, p, si, pi + 2);
+    // b) 当前s[si]，能被p[pi + (pi+1)]搞定，才有后续
+    // 比如 a 与 a* 或者 a 与 .*
+    if (s[si] == p[pi] || p[pi == '.'])
+    {
+      ans |= f1(s, p, si + 1, pi);
+    }
+    return ans;
+  }
+
+  bool isMatch3(string s, string p)
+  {
+    int N = s.length();
+    int M = p.length();
+    vector<vector<int>> dp(N + 1, vector<int>(M + 1));
+    return f2(s, p, 0, 0, dp);
+  }
+
+  // 记忆化搜索
+  bool f2(string s, string p, int si, int pi, vector<vector<int>> &dp)
+  {
+    if (dp[si][pi] != 0)
+    {
+      return dp[si][pi] == 1;
+    }
+    bool ans = false;
+    if (pi == p.length())
+    {
+      ans = si == s.length();
+    }
+    else if (si == s.length())
+    {
+      ans = pi + 1 < p.length() && p[pi + 1] == '*' && f2(s, p, si, pi + 2, dp);
+    }
+    else if (pi + 1 >= p.length() || p[pi + 1] != '*')
+    {
+      ans = (s[si] == p[pi] || p[pi] == '.') && f2(s, p, si + 1, pi + 1, dp);
+    }
+    else
+    {
+      ans = f2(s, p, si, pi + 2, dp);
+      if (s[si] == p[pi] || p[pi] == '.')
+      {
+        ans |= f2(s, p, si + 1, pi, dp);
+      }
+    }
+    dp[si][pi] = ans ? 1 : -1;
+    return ans;
+  }
+  // TODO: 递归改dp
 };
 
 void testIsMatch()
@@ -103,6 +172,12 @@ void testIsMatch()
   EXPECT_FALSE(s.isMatch1("aa", "a"));
   EXPECT_TRUE(s.isMatch1("aa", "a*"));
   EXPECT_TRUE(s.isMatch1("ab", ".*"));
+  EXPECT_FALSE(s.isMatch2("aa", "a"));
+  EXPECT_TRUE(s.isMatch2("aa", "a*"));
+  EXPECT_TRUE(s.isMatch2("ab", ".*"));
+  EXPECT_FALSE(s.isMatch3("aa", "a"));
+  EXPECT_TRUE(s.isMatch3("aa", "a*"));
+  EXPECT_TRUE(s.isMatch3("ab", ".*"));
   EXPECT_SUMMARY;
 }
 
