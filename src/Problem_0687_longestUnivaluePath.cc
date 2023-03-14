@@ -19,14 +19,14 @@ class Solution
 {
  public:
   int ans = 0;
-  int process(TreeNode *cur)
+  int process1(TreeNode *cur)
   {
     if (cur == nullptr)
     {
       return 0;
     }
-    int left = process(cur->left);
-    int right = process(cur->right);
+    int left = process1(cur->left);
+    int right = process1(cur->right);
     int p1 = 0, p2 = 0;
     if (cur->left != nullptr && cur->left->val == cur->val)
     {
@@ -42,10 +42,62 @@ class Solution
     return std::max(p1, p2);
   }
 
-  int longestUnivaluePath(TreeNode *root)
+  int longestUnivaluePath1(TreeNode *root)
   {
-    process(root);
+    process1(root);
     return ans;
+  }
+
+  // 建立以x节点为头的树，返回两个信息
+  class Info
+  {
+   public:
+    // 在一条路径上：要求每个节点通过且只通过一遍
+    int len;  // 路径必须从x出发且只能往下走的情况下，路径的最大距离
+    int max;  // 路径不要求必须从x出发的情况下，整颗树的合法路径最大距离
+    Info(int l, int m)
+    {
+      len = l;
+      max = m;
+    }
+  };
+
+  Info process2(TreeNode *x)
+  {
+    if (x == nullptr)
+    {
+      return Info(0, 0);
+    }
+    TreeNode *l = x->left;
+    TreeNode *r = x->right;
+    // 子树返回的结构信息
+    Info lInfo = process2(l);
+    Info rInfo = process2(r);
+    int len = 1;
+    // 当前节点可能加入该结构，返回的信息
+    if (l != nullptr && l->val == x->val)
+    {
+      len = lInfo.len + 1;
+    }
+    if (r != nullptr && r->val == x->val)
+    {
+      len = std::max(len, rInfo.len + 1);
+    }
+    int max = std::max(std::max(lInfo.max, rInfo.max), len);
+    if (l != nullptr && r != nullptr && l->val == x->val && r->val == x->val)
+    {
+      max = std::max(max, lInfo.len + rInfo.len + 1);
+    }
+    return Info(len, max);
+  }
+  // TODO: figure it out
+  int longestUnivaluePath2(TreeNode *root)
+  {
+    if (root == nullptr)
+    {
+      return 0;
+    }
+    return process2(root).max - 1;
   }
 };
 
@@ -65,9 +117,10 @@ void testLongestUnivaluePath()
   TreeNode *y3 = new TreeNode(5, nullptr, y6);
   TreeNode *y2 = new TreeNode(4, y4, y5);
   TreeNode *y1 = new TreeNode(1, y2, y3);
-  s.longestUnivaluePath(x1);
-  EXPECT_EQ_INT(2, s.longestUnivaluePath(x1));
-  EXPECT_EQ_INT(2, s.longestUnivaluePath(y1));
+  EXPECT_EQ_INT(2, s.longestUnivaluePath1(x1));
+  EXPECT_EQ_INT(2, s.longestUnivaluePath1(y1));
+  EXPECT_EQ_INT(2, s.longestUnivaluePath2(x1));
+  EXPECT_EQ_INT(2, s.longestUnivaluePath2(y1));
   EXPECT_SUMMARY;
 }
 
