@@ -70,33 +70,38 @@ class Solution
     }
     TreeNode *l = x->left;
     TreeNode *r = x->right;
-    // 子树返回的结构信息
+
     Info lInfo = process2(l);
     Info rInfo = process2(r);
+    // 至少存在当前节点
     int len = 1;
-    // 当前节点可能加入该结构，返回的信息
+
     if (l != nullptr && l->val == x->val)
     {
+      // 当前节点加入左孩子结构，那么节点数+1
       len = lInfo.len + 1;
     }
     if (r != nullptr && r->val == x->val)
     {
+      // 当前节点加入右孩子结构，那么节点数+1
       len = std::max(len, rInfo.len + 1);
     }
     int max = std::max(std::max(lInfo.max, rInfo.max), len);
     if (l != nullptr && r != nullptr && l->val == x->val && r->val == x->val)
     {
+      // 左孩子、右孩子、当前节点合并，节点数+1
       max = std::max(max, lInfo.len + rInfo.len + 1);
     }
     return Info(len, max);
   }
-  // TODO: figure it out
+
   int longestUnivaluePath2(TreeNode *root)
   {
     if (root == nullptr)
     {
       return 0;
     }
+    // 边的数量 = 节点数量 - 1
     return process2(root).max - 1;
   }
 };
