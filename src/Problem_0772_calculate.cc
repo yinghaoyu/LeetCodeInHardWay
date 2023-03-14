@@ -14,7 +14,7 @@ class Solution
   int calculate(string s) { return f(s, 0)[0]; }
 
   // 充分运用递归思想
-  vector<int> f(string str, int i)
+  vector<int> f(string& str, int i)
   {
     deque<string> que;
     int cur = 0;
