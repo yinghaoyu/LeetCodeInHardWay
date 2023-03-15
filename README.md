@@ -73,6 +73,7 @@ LeetCode Solution In Hard Way
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
 |1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
+|1615|[Maximal Network Rank](https://leetcode.cn/problems/maximal-network-rank/) | [C++](./src/Problem_1615_maximalNetworkRank.cc)|Medium|
 |1604|[Alert Using Same Key-Card Three or More Times in a One Hour Period](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/) | [C++](./src/Problem_1604_alertNames.cc)|Medium|
 |1592|[Rearrange Spaces Between Words](https://leetcode.cn/problems/rearrange-spaces-between-words/) | [C++](./src/Problem_1592_reorderSpaces.cc)|Easy|
 |1590|[Make Sum Divisible by P](https://leetcode.cn/problems/make-sum-divisible-by-p/) | [C++](./src/Problem_1590_minSubarray.cc)|Medium|
