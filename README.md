@@ -274,6 +274,7 @@ LeetCode Solution In Hard Way
 |0094|[Binary Tree Inorder Traversal](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [C++](./src/Problem_0094_inorderTraversal.cc)|Easy|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
+|0085|[Maximal Rectangle](https://leetcode.cn/problems/maximal-rectangle/) | [C++](./src/Problem_0085_maximalRectangle.cc)|Hard|
 |0084|[Largest Rectangle in Histogram🚀](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | [C++](./src/Problem_0084_largestRectangleArea.cc)|Hard|
 |0079|[Word Search](https://leetcode.cn/problems/word-search/) | [C++](./src/Problem_0079_exist.cc)|Medium|
 |0078|[Subsets](https://leetcode.cn/problems/subsets/) | [C++](./src/Problem_0078_subsets.cc)|Medium|
