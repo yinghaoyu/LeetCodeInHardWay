@@ -284,6 +284,7 @@ LeetCode Solution In Hard Way
 |0070|[Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | [C++](./src/Problem_0070_climbStairs.cc)|Easy|
 |0069|[Sqrt(x)](https://leetcode.cn/problems/sqrtx/) | [C++](./src/Problem_0069_mySqrt.cc)|Easy|
 |0066|[Plus One](https://leetcode.cn/problems/plus-one/) | [C++](./src/Problem_0066_plusOne.cc)|Easy|
+|0064|[Minimum Path Sum](https://leetcode.cn/problems/minimum-path-sum/) | [C++](./src/Problem_0064_minPathSum.cc)|Medium|
 |0062|[Unique Paths](https://leetcode.cn/problems/unique-paths/) | [C++](./src/Problem_0062_uniquePaths.cc)|Medium|
 |0056|[Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | [C++](./src/Problem_0056_merge.cc)|Medium|
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
