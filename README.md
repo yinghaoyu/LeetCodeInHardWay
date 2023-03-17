@@ -281,6 +281,7 @@ LeetCode Solution In Hard Way
 |0075|[Sort Colors](https://leetcode.cn/problems/sort-colors/) | [C++](./src/Problem_0075_sortColors.cc)|Medium|
 |0074|[Search a 2D Matrix](https://leetcode.cn/problems/search-a-2d-matrix/) | [C++](./src/Problem_0074_searchMatrix.cc)|Medium|
 |0073|[Set Matrix Zeroes](https://leetcode.cn/problems/set-matrix-zeroes/) | [C++](./src/Problem_0073_setZeroes.cc)|Medium|
+|0072|[Edit Distance](https://leetcode.cn/problems/edit-distance/) | [C++](./src/Problem_0072_minDistance.cc)|Hard|
 |0070|[Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | [C++](./src/Problem_0070_climbStairs.cc)|Easy|
 |0069|[Sqrt(x)](https://leetcode.cn/problems/sqrtx/) | [C++](./src/Problem_0069_mySqrt.cc)|Easy|
 |0066|[Plus One](https://leetcode.cn/problems/plus-one/) | [C++](./src/Problem_0066_plusOne.cc)|Easy|
