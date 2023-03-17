@@ -301,6 +301,7 @@ LeetCode Solution In Hard Way
 |0036|[Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) | [C++](./src/Problem_0036_isValidSudoku.cc)|Medium|
 |0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/Problem_0034_searchRange.cc)|Medium|
 |0033|[Search in Rotated Sorted Array](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [C++](./src/Problem_0033_search.cc)|Medium|
+|0032|[Longest Valid Parentheses](https://leetcode.cn/problems/longest-valid-parentheses/) | [C++](./src/Problem_0032_longestValidParentheses.cc)|Hard|
 |0029|[Divide Two Integers🚀](https://leetcode.cn/problems/divide-two-integers/) | [C++](./src/Problem_0029_divide.cc)|Medium|
 |0028|[Find the Index of the First Occurrence in a String🚀](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Medium|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [C++](./src/Problem_0026_removeDuplicates.cc)|Easy|
