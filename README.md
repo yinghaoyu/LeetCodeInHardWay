@@ -247,6 +247,7 @@ LeetCode Solution In Hard Way
 |0149|[Max Points on a Line](https://leetcode.cn/problems/max-points-on-a-line/) | [C++](./src/Problem_0149_maxPoints.cc)|Hard|
 |0148|[Sort List](https://leetcode.cn/problems/sort-list/) | [C++](./src/Problem_0148_sortList.cc)|Medium|
 |0146|[LRU Cache](https://leetcode.cn/problems/lru-cache/) | [C++](./src/Problem_0146_LRUCache.cc)|Medium|
+|0142|[Linked List Cycle II](https://leetcode.cn/problems/linked-list-cycle-ii/) | [C++](./src/Problem_0142_detectCycle.cc)|Medium|
 |0141|[Linked List Cycle](https://leetcode.cn/problems/linked-list-cycle/) | [C++](./src/Problem_0141_hasCycle.cc)|Easy|
 |0140|[Word Break II](https://leetcode.cn/problems/word-break-ii/) | [C++](./src/Problem_0140_wordBreak.cc)|Hard|
 |0139|[Word Break](https://leetcode.cn/problems/word-break/) | [C++](./src/Problem_0139_wordBreak.cc)|Medium|
