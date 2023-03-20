@@ -18,7 +18,7 @@ struct TreeNode
 class Solution
 {
  public:
-  void flatten(TreeNode *root)
+  void flatten1(TreeNode *root)
   {
     TreeNode *cur = root;
     TreeNode *pre = nullptr;
@@ -72,5 +72,21 @@ class Solution
       cur->right = next;
       cur = next;
     }
+  }
+
+  // 递归
+  TreeNode *last = nullptr;
+  void flatten2(TreeNode *root)
+  {
+    if (root == nullptr)
+    {
+      return;
+    }
+    // 注意这里要先递归right
+    flatten2(root->right);
+    flatten2(root->left);
+    root->right = last;
+    root->left = nullptr;
+    last = root;
   }
 };
