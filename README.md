@@ -271,6 +271,7 @@ LeetCode Solution In Hard Way
 |0102|[Binary Tree Level Order Traversal](https://leetcode.cn/problems/binary-tree-level-order-traversal/) | [C++](./src/Problem_0102_levelOrder.cc)|Medium|
 |0101|[Symmetric Tree](https://leetcode.cn/problems/symmetric-tree/) | [C++](./src/Problem_0101_isSymmetric.cc)|Easy|
 |0098|[Validate Binary Search Tree](https://leetcode.cn/problems/validate-binary-search-tree/) | [C++](./src/Problem_0098_isValidBST.cc)|Medium|
+|0096|[Unique Binary Search Trees](https://leetcode.cn/problems/unique-binary-search-trees/) | [C++](./src/Problem_0096_numTrees.cc)|Medium|
 |0094|[Binary Tree Inorder Traversal](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [C++](./src/Problem_0094_inorderTraversal.cc)|Easy|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
