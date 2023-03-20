@@ -215,6 +215,7 @@ LeetCode Solution In Hard Way
 |0234|[Palindrome Linked List](https://leetcode.cn/problems/palindrome-linked-list/) | [C++](./src/Problem_0234_isPalindrome.cc)|Easy|
 |0230|[Kth Smallest Element in a BST](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | [C++](./src/Problem_0230_kthSmallest.cc)|Medium|
 |0227|[Basic Calculator II](https://leetcode.cn/problems/basic-calculator-ii/) | [C++](./src/Problem_0227_calculate.cc)|Medium|
+|0221|[Maximal Square](https://leetcode.cn/problems/maximal-square/) | [C++](./src/Problem_0221_maximalSquare.cc)|Medium|
 |0218|[The Skyline Problem🚀](https://leetcode.cn/problems/the-skyline-problem/) | [C++](./src/Problem_0218_getSkyline.cc)|Hard|
 |0217|[Contains Duplicate](https://leetcode.cn/problems/contains-duplicate/) | [C++](./src/Problem_0217_containsDuplicate.cc)|Easy|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
