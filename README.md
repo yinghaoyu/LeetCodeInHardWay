@@ -172,6 +172,7 @@ LeetCode Solution In Hard Way
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
+|0394|[Decode String](https://leetcode.cn/problems/decode-string/) | [C++](./src/Problem_0394_decodeString.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
 |0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
 |0380|[Insert Delete GetRandom O(1)](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C++](./src/Problem_0380_RandomizedSet.cc)|Medium|
