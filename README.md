@@ -171,6 +171,7 @@ LeetCode Solution In Hard Way
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
+|0406|[Queue Reconstruction by Height](https://leetcode.cn/problems/queue-reconstruction-by-height/) | [C++](./src/Problem_0406_reconstructQueue.cc)|Medium|
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
 |0394|[Decode String](https://leetcode.cn/problems/decode-string/) | [C++](./src/Problem_0394_decodeString.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
