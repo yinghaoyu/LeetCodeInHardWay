@@ -174,7 +174,7 @@ LeetCode Solution In Hard Way
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
 |0448|[Find All Numbers Disappeared in an Array](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/Problem_0448_findDisappearedNumbers.cc)|Easy|
-|0438|[Find All Anagrams in a String](Find All Anagrams in a String) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
+|0438|[Find All Anagrams in a String](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
 |0437|[Path Sum III](https://leetcode.cn/problems/path-sum-iii/) | [C++](./src/Problem_0437_pathSum.cc)|Medium|
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0406|[Queue Reconstruction by Height](https://leetcode.cn/problems/queue-reconstruction-by-height/) | [C++](./src/Problem_0406_reconstructQueue.cc)|Medium|
