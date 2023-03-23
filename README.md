@@ -70,6 +70,7 @@ LeetCode Solution In Hard Way
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
+|1630|[Arithmetic Subarrays](https://leetcode.cn/problems/arithmetic-subarrays/) | [C++](./src/Problem_1630_checkArithmeticSubarrays.cc)|Medium|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
 |1620|[Coordinate With Maximum Network Quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/) | [C++](./src/Problem_1620_bestCoordinate.cc)|Medium|
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/) | [C++](./src/Problem_1619_trimMean.cc)|Easy|
