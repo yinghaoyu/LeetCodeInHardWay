@@ -167,6 +167,7 @@ LeetCode Solution In Hard Way
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
+|0581|[Shortest Unsorted Continuous Subarray](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) | [C++](./src/Problem_0581_findUnsortedSubarray.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
