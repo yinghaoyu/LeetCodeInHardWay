@@ -164,6 +164,7 @@ LeetCode Solution In Hard Way
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
 |0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
 |0652|[Find Duplicate Subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/) | [C++](./src/Problem_0652_findDuplicateSubtrees.cc)|Medium|
+|0647|[Palindromic Substrings](https://leetcode.cn/problems/palindromic-substrings/) | [C++](./src/Problem_0647_countSubstrings.cc)|Medium|
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
