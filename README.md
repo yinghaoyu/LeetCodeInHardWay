@@ -181,6 +181,7 @@ LeetCode Solution In Hard Way
 |0448|[Find All Numbers Disappeared in an Array](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/Problem_0448_findDisappearedNumbers.cc)|Easy|
 |0438|[Find All Anagrams in a String](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
 |0437|[Path Sum III](https://leetcode.cn/problems/path-sum-iii/) | [C++](./src/Problem_0437_pathSum.cc)|Medium|
+|0419|[Battleships in a Board](https://leetcode.cn/problems/battleships-in-a-board/) | [C++](./src/Problem_0419_countBattleships.cc)|Medium|
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0406|[Queue Reconstruction by Height](https://leetcode.cn/problems/queue-reconstruction-by-height/) | [C++](./src/Problem_0406_reconstructQueue.cc)|Medium|
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
