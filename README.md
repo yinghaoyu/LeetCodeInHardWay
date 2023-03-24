@@ -344,6 +344,7 @@ LeetCode Solution In Hard Way
 |0012|[Integer to Roman](https://leetcode.cn/problems/integer-to-roman/) | [C++](./src/Problem_0012_intToRoman.cc)|Medium|
 |0011|[Container With Most Water](https://leetcode.cn/problems/container-with-most-water/) | [C++](./src/Problem_0011_maxArea.cc)|Medium|
 |0010|[Regular Expression Matching](https://leetcode.cn/problems/regular-expression-matching/) | [C++](./src/Problem_0010_isMatch.cc)|Hard|
+|0009|[Palindrome Number](https://leetcode.cn/problems/palindrome-number/) | [C++](./src/Problem_0009_isPalindrome.cc)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.cn/problems/string-to-integer-atoi/) | [C++](./src/Problem_0008_myAtoi.cc)|Medium|
 |0007|[Reverse Integer](https://leetcode.cn/problems/reverse-integer/) | [C++](./src/Problem_0007_reverse.cc)|Medium|
 |0005|[Longest Palindromic Substring🚀](https://leetcode.cn/problems/longest-palindromic-substring/) | [C++](./src/Problem_0005_longestPalindrome.cc)|Medium|
