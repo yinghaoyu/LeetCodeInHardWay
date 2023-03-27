@@ -42,7 +42,7 @@ class Solution
   int countSubstrings2(string s, string t)
   {
     int N = s.size(), M = t.size();
-    // dpl[i][j]的含义为：必须以s[i]与t[j]为结尾，左侧连续相等的最大长度
+    // dpl[i][j]的含义为：必须以s[i-1]与t[j-1]为结尾，左侧连续相等的最大长度
     vector<vector<int>> dpl(N + 1, vector<int>(M + 1));
     // dpr[i][j]的含义为：必须以s[i]与t[j]为结尾，右侧连续相等的最大长度
     vector<vector<int>> dpr(N + 1, vector<int>(M + 1));
@@ -69,6 +69,7 @@ class Solution
         {
           // 左右两边都可以取空的情况，因此都需要+1
           // 然后进行排列组合
+          // 注意：dpl[i][j]没有包含s[i]和t[j]，dpr[i+1][j+1]也没有包含s[i]和t[j]
           ans += (dpl[i][j] + 1) * (dpr[i + 1][j + 1] + 1);
         }
       }
