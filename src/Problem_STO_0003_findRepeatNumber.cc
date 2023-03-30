@@ -21,10 +21,13 @@ class Solution
     {
       while (nums[i] != i && nums[nums[i]] != nums[i])
       {
+        // 不断把nums[i]放在正确的位置nums[nums[i]]上
         swap(nums[i], nums[nums[i]]);
       }
       if (nums[i] != i && nums[nums[i]] == nums[i])
       {
+        // 如果nums[i]已经在正确的位置上了
+        // 但是nums[i] != i，说明了nums[i]重复
         return nums[i];
       }
     }
