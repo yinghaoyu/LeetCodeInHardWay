@@ -6,6 +6,7 @@ LeetCode Solution In Hard Way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |Sword To Offer 47|[Max value from gift LCOF](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
+|剑指 Offer 03|[数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0003_findRepeatNumber.cc)|Easy|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
