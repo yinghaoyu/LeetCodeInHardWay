@@ -71,6 +71,7 @@ LeetCode Solution In Hard Way
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1641|[Count Sorted Vowel Strings](https://leetcode.cn/problems/count-sorted-vowel-strings/) | [C++](./src/Problem_1641_countVowelStrings.cc)|Medium|
 |1638|[Count Substrings That Differ by One Character](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/) | [C++](./src/Problem_1638_countSubstrings.cc)|Medium|
+|1637|[Widest Vertical Area Between Two Points Containing No Points](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/) | [C++](./src/Problem_1637_maxWidthOfVerticalArea.cc)|Medium|
 |1636|[Sort Array by Increasing Frequency](https://leetcode.cn/problems/sort-array-by-increasing-frequency/) | [C++](./src/Problem_1636_frequencySort.cc)|Easy|
 |1630|[Arithmetic Subarrays](https://leetcode.cn/problems/arithmetic-subarrays/) | [C++](./src/Problem_1630_checkArithmeticSubarrays.cc)|Medium|
 |1624|[Largest Substring Between Two Equal Characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/) | [C++](./src/Problem_1624_maxLengthBetweenEqualCharacters.cc)|Easy|
