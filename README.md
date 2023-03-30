@@ -110,6 +110,7 @@ LeetCode Solution In Hard Way
 |1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
+|1092|[Shortest Common Supersequence](https://leetcode.cn/problems/shortest-common-supersequence/) | [C++](./src/Problem_1092_shortestCommonSupersequence.cc)|Hard|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
