@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utility>
 #include <vector>
 
 #include "UnitTest.h"
@@ -19,24 +20,21 @@ class Solution
  public:
   vector<int> nextLargerNodes(ListNode *head)
   {
-    vector<int> tmp;
+    vector<std::pair<int, int>> stack;
+    vector<int> ans;
+    int i = -1;
     while (head != nullptr)
     {
-      tmp.push_back(head->val);
-      head = head->next;
-    }
-    int n = tmp.size();
-    vector<int> stack;
-    vector<int> ans(n);
-    for (int i = 0; i < n; i++)
-    {
-      while (!stack.empty() && tmp[stack.back()] < tmp[i])
+      i++;
+      ans.push_back(0);
+      while (!stack.empty() && stack.back().first < head->val)
       {
-        int index = stack.back();
+        int index = stack.back().second;
         stack.pop_back();
-        ans[index] = tmp[i];
+        ans[index] = head->val;
       }
-      stack.push_back(i);
+      stack.push_back(std::pair<int, int>(head->val, i));
+      head = head->next;
     }
     return ans;
   }
