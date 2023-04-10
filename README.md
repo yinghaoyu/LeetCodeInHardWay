@@ -118,6 +118,7 @@ LeetCode Solution In Hard Way
 |1019|[Next Greater Node In Linked List](https://leetcode.cn/problems/next-greater-node-in-linked-list/) | [C++](./src/Problem_1019_nextLargerNodes.cc)|Medium|
 |1017|[Convert to Base -2](https://leetcode.cn/problems/convert-to-base-2/) | [C++](./src/Problem_1017_baseNeg2.cc)|Medium|
 |1012|[Numbers With Repeated Digits](https://leetcode.cn/problems/numbers-with-repeated-digits/) | [C++](./src/Problem_1012_numDupDigitsAtMostN.cc)|Hard|
+|1000|[Minimum Cost to Merge Stones](https://leetcode.cn/problems/minimum-cost-to-merge-stones/) | [C++](./src/Problem_1000_mergeStones.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
