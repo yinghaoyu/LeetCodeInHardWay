@@ -93,6 +93,13 @@ class Solution
       // 只有1个数，合并成1个，成本为0
       dp[i][i][1] = 0;
     }
+    // for (int l = 0; l < n ; l++)
+    // {
+    //  for (int r = l + 1; r < n; r++)
+    //  {
+    //  这种枚举有问题，当你计算dp[l][r][t]时，dp[p + 1][r][t - 1]是没有计算的 !!!
+    //  }
+    // }
     for (int len = 2; len <= n; len++)
     {
       for (int l = 0; l < n && l + len - 1 < n; l++)
