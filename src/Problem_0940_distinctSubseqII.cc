@@ -8,7 +8,12 @@ using namespace std;
 class Solution
 {
  public:
-  // TODO: figure it out
+  // 递推关系：
+  // 例如 str = aba
+  // 空集: {}
+  // 加入a: {} {a}  ---> 保留空集，纯新增{a}
+  // 加入b: {} {a} {b} {ab} --> 保留{} {a}，纯新增 {b} {ab}
+  // 加入a: {} {a} {b} {ab} {a} {aa} {ba} {aba}，这时需要去重 {a}，发现刚好减去前一次加入a的纯新增
   int distinctSubseqII(string str)
   {
     if (str.length() == 0)
@@ -20,7 +25,9 @@ class Solution
     int all = 1;
     for (char x : str)
     {
+      // 纯新增 = 上次的基础 - 去重
       int newAdd = (all - count[x - 'a'] + m) % m;
+      // 当前 = 保留上次 + 纯新增
       all = (all + newAdd) % m;
       count[x - 'a'] = (count[x - 'a'] + newAdd) % m;
     }
