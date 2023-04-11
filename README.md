@@ -114,6 +114,7 @@ LeetCode Solution In Hard Way
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |1092|[Shortest Common Supersequence](https://leetcode.cn/problems/shortest-common-supersequence/) | [C++](./src/Problem_1092_shortestCommonSupersequence.cc)|Hard|
 |1053|[Previous Permutation With One Swap](https://leetcode.cn/problems/previous-permutation-with-one-swap/) | [C++](./src/Problem_1053_prevPermOpt1.cc)|Medium|
+|1041|[Robot Bounded In Circle](https://leetcode.cn/problems/robot-bounded-in-circle/) | [C++](./src/Problem_1041_isRobotBounded.cc)|Medium|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
 |1019|[Next Greater Node In Linked List](https://leetcode.cn/problems/next-greater-node-in-linked-list/) | [C++](./src/Problem_1019_nextLargerNodes.cc)|Medium|
 |1017|[Convert to Base -2](https://leetcode.cn/problems/convert-to-base-2/) | [C++](./src/Problem_1017_baseNeg2.cc)|Medium|
