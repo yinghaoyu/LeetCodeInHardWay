@@ -24,6 +24,7 @@ LeetCode Solution In Hard Way
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2132|[Stamping the Grid🚀](https://leetcode.cn/problems/stamping-the-grid/) | [C++](./src/Problem_2132_possibleToStamp.cc)|Hard|
+|2071|[Maximum Number of Tasks You Can Assign](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/) | [C++](./src/Problem_2071_maxTaskAssign.cc)|Hard|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/) | [C++](./src/Problem_2042_areNumbersAscending.cc)|Easy|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
