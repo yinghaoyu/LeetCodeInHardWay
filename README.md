@@ -105,6 +105,7 @@ LeetCode Solution In Hard Way
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |1224|[Dice Roll Simulation](https://leetcode.cn/problems/dice-roll-simulation/) | [C++](./src/Problem_1223_dieSimulator.cc)|Hard|
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/) | [C++](./src/Problem_1210_minimumMoves.cc)|Hard|
+|1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1141|[Decrease Elements To Make Array Zigzag](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/) | [C++](./src/Problem_1141_movesToMakeZigzag.cc)|Medium|
 |1140|[Stone Game II](https://leetcode.cn/problems/stone-game-ii/) | [C++](./src/Problem_1140_stoneGameII.cc)|Medium|
