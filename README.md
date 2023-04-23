@@ -119,6 +119,7 @@ LeetCode Solution In Hard Way
 |1105|[Filling Bookcase Shelves](https://leetcode.cn/problems/filling-bookcase-shelves/) | [C++](./src/Problem_1105_minHeightShelves.cc)|Medium|
 |1092|[Shortest Common Supersequence](https://leetcode.cn/problems/shortest-common-supersequence/) | [C++](./src/Problem_1092_shortestCommonSupersequence.cc)|Hard|
 |1053|[Previous Permutation With One Swap](https://leetcode.cn/problems/previous-permutation-with-one-swap/) | [C++](./src/Problem_1053_prevPermOpt1.cc)|Medium|
+|1042|[Flower Planting With No Adjacent](https://leetcode.cn/problems/flower-planting-with-no-adjacent/) | [C++](./src/Problem_1042_gardenNoAdj.cc)|Medium|
 |1041|[Robot Bounded In Circle](https://leetcode.cn/problems/robot-bounded-in-circle/) | [C++](./src/Problem_1041_isRobotBounded.cc)|Medium|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
 |1023|[Camelcase Matching](https://leetcode.cn/problems/camelcase-matching/) | [C++](./src/Problem_1023_camelMatch.cc)|Medium|
