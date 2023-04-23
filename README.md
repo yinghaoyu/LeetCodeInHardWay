@@ -116,6 +116,7 @@ LeetCode Solution In Hard Way
 |1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
+|1105|[Filling Bookcase Shelves](https://leetcode.cn/problems/filling-bookcase-shelves/) | [C++](./src/Problem_1105_minHeightShelves.cc)|Medium|
 |1092|[Shortest Common Supersequence](https://leetcode.cn/problems/shortest-common-supersequence/) | [C++](./src/Problem_1092_shortestCommonSupersequence.cc)|Hard|
 |1053|[Previous Permutation With One Swap](https://leetcode.cn/problems/previous-permutation-with-one-swap/) | [C++](./src/Problem_1053_prevPermOpt1.cc)|Medium|
 |1041|[Robot Bounded In Circle](https://leetcode.cn/problems/robot-bounded-in-circle/) | [C++](./src/Problem_1041_isRobotBounded.cc)|Medium|
