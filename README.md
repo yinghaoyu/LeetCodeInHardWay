@@ -140,6 +140,7 @@ LeetCode Solution In Hard Way
 |1000|[Minimum Cost to Merge Stones](https://leetcode.cn/problems/minimum-cost-to-merge-stones/) | [C++](./src/Problem_1000_mergeStones.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
+|0970|[Powerful Integers](https://leetcode.cn/problems/powerful-integers/) | [C++](./src/Problem_0970_powerfulIntegers.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
