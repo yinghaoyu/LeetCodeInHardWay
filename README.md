@@ -134,6 +134,7 @@ LeetCode Solution In Hard Way
 |1023|[Camelcase Matching](https://leetcode.cn/problems/camelcase-matching/) | [C++](./src/Problem_1023_camelMatch.cc)|Medium|
 |1019|[Next Greater Node In Linked List](https://leetcode.cn/problems/next-greater-node-in-linked-list/) | [C++](./src/Problem_1019_nextLargerNodes.cc)|Medium|
 |1017|[Convert to Base -2](https://leetcode.cn/problems/convert-to-base-2/) | [C++](./src/Problem_1017_baseNeg2.cc)|Medium|
+|1016|[Binary String With Substrings Representing 1 To N](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/) | [C++](./src/Problem_1016_queryString.cc)|Medium|
 |1015|[Smallest Integer Divisible by K](https://leetcode.cn/problems/smallest-integer-divisible-by-k/) | [C++](./src/Problem_1015_smallestRepunitDivByK.cc)|Medium|
 |1012|[Numbers With Repeated Digits](https://leetcode.cn/problems/numbers-with-repeated-digits/) | [C++](./src/Problem_1012_numDupDigitsAtMostN.cc)|Hard|
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/) | [C++](./src/Problem_1003_isValid.cc)|Medium|
