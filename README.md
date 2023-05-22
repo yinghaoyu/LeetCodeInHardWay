@@ -127,6 +127,7 @@ LeetCode Solution In Hard Way
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |1105|[Filling Bookcase Shelves](https://leetcode.cn/problems/filling-bookcase-shelves/) | [C++](./src/Problem_1105_minHeightShelves.cc)|Medium|
 |1092|[Shortest Common Supersequence](https://leetcode.cn/problems/shortest-common-supersequence/) | [C++](./src/Problem_1092_shortestCommonSupersequence.cc)|Hard|
+|1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths/) | [C++](./src/Problem_1080_sufficientSubset.cc)|Medium|
 |1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows/) | [C++](./src/Problem_1072_maxEqualRowsAfterFlips.cc)|Medium|
 |1053|[Previous Permutation With One Swap](https://leetcode.cn/problems/previous-permutation-with-one-swap/) | [C++](./src/Problem_1053_prevPermOpt1.cc)|Medium|
 |1048|[Longest String Chain](https://leetcode.cn/problems/longest-string-chain/) | [C++](./src/Problem_1048_longestStrChain.cc)|Medium|
