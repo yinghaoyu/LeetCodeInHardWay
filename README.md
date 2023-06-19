@@ -112,6 +112,7 @@ LeetCode Solution In Hard Way
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
+|1262|[Greatest Sum Divisible by Three](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) | [C++](./src/Problem_1262_maxSumDivThree.cc)|Medium|
 |1250|[Check If It Is a Good Array](https://leetcode.cn/problems/check-if-it-is-a-good-array/) | [C++](./src/Problem_1250_isGoodArray.cc)|Hard|
 |1238|[Circular Permutation in Binary Representation](https://leetcode.cn/problems/circular-permutation-in-binary-representation/) | [C++](./src/Problem_1238_circularPermutation.cc)|Medium|
 |1235|[Maximum Profit in Job Scheduling🚀](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) | [C++](./src/Problem_1235_jobScheduling.cc)|Hard|
