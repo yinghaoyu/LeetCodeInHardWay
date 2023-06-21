@@ -20,6 +20,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
+|2496|[Maximum Value of a String in an Array](https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/) | [C++](./src/Problem_2496_maximumValue.cc)|Easy|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [C++](./src/Problem_2455_averageValue.cc)|Easy|
 |2451|[Odd String Difference](https://leetcode.cn/problems/odd-string-difference/) | [C++](./src/Problem_2451_oddString.cc)|Easy|
