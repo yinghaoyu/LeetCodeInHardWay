@@ -24,6 +24,7 @@ LeetCode Solution In Hard Way
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2496|[Maximum Value of a String in an Array](https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/) | [C++](./src/Problem_2496_maximumValue.cc)|Easy|
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
+|2481|[Minimum Cuts to Divide a Circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/) | [C++](./src/Problem_2481_numberOfCuts.cc)|Easy|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [C++](./src/Problem_2455_averageValue.cc)|Easy|
 |2451|[Odd String Difference](https://leetcode.cn/problems/odd-string-difference/) | [C++](./src/Problem_2451_oddString.cc)|Easy|
