@@ -22,6 +22,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
+|2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
 |2496|[Maximum Value of a String in an Array](https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/) | [C++](./src/Problem_2496_maximumValue.cc)|Easy|
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
 |2481|[Minimum Cuts to Divide a Circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/) | [C++](./src/Problem_2481_numberOfCuts.cc)|Easy|
