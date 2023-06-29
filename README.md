@@ -103,6 +103,7 @@ LeetCode Solution In Hard Way
 |1590|[Make Sum Divisible by P](https://leetcode.cn/problems/make-sum-divisible-by-p/) | [C++](./src/Problem_1590_minSubarray.cc)|Medium|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | [C++](./src/Problem_1574_findLengthOfShortestSubarray.cc)|Medium|
+|1494|[Parallel Courses II](https://leetcode.cn/problems/parallel-courses-ii/) | [C++](./src/Problem_1494_minNumberOfSemesters.cc)|Hard|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/) | [C++](./src/Problem_1464_maxProduct.cc)|Easy|
