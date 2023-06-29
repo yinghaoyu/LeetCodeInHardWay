@@ -152,6 +152,7 @@ LeetCode Solution In Hard Way
 |1041|[Robot Bounded In Circle](https://leetcode.cn/problems/robot-bounded-in-circle/) | [C++](./src/Problem_1041_isRobotBounded.cc)|Medium|
 |1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [C++](./src/Problem_1031_maxSumTwoNoOverlap.cc)|Medium|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
+|1026|[Maximum Difference Between Node and Ancestor](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/) | [C++](./src/Problem_1026_maxAncestorDiff.cc)|Medium|
 |1023|[Camelcase Matching](https://leetcode.cn/problems/camelcase-matching/) | [C++](./src/Problem_1023_camelMatch.cc)|Medium|
 |1019|[Next Greater Node In Linked List](https://leetcode.cn/problems/next-greater-node-in-linked-list/) | [C++](./src/Problem_1019_nextLargerNodes.cc)|Medium|
 |1017|[Convert to Base -2](https://leetcode.cn/problems/convert-to-base-2/) | [C++](./src/Problem_1017_baseNeg2.cc)|Medium|
