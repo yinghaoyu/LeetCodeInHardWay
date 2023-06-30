@@ -24,6 +24,7 @@ LeetCode Solution In Hard Way
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
 |2496|[Maximum Value of a String in an Array](https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/) | [C++](./src/Problem_2496_maximumValue.cc)|Easy|
+|2490|[Circular Sentence](https://leetcode.cn/problems/circular-sentence/) | [C++](./src/Problem_2490_isCircularSentence.cc)|Easy|
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
 |2481|[Minimum Cuts to Divide a Circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/) | [C++](./src/Problem_2481_numberOfCuts.cc)|Easy|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
