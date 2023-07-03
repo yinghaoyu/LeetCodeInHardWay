@@ -241,6 +241,7 @@ LeetCode Solution In Hard Way
 |0460|[LFU Cache](https://leetcode.cn/problems/lfu-cache/) | [C++](./src/Problem_0460_LFUCache.cc)|Hard|
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
 |0448|[Find All Numbers Disappeared in an Array](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/Problem_0448_findDisappearedNumbers.cc)|Easy|
+|0445|[Add Two Numbers II](https://leetcode.cn/problems/add-two-numbers-ii/) | [C++](./src/Problem_0445_addTwoNumbers.cc)|Medium|
 |0438|[Find All Anagrams in a String](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
 |0437|[Path Sum III](https://leetcode.cn/problems/path-sum-iii/) | [C++](./src/Problem_0437_pathSum.cc)|Medium|
 |0419|[Battleships in a Board](https://leetcode.cn/problems/battleships-in-a-board/) | [C++](./src/Problem_0419_countBattleships.cc)|Medium|
