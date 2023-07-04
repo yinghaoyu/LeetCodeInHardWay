@@ -28,6 +28,7 @@ LeetCode Solution In Hard Way
 |2490|[Circular Sentence](https://leetcode.cn/problems/circular-sentence/) | [C++](./src/Problem_2490_isCircularSentence.cc)|Easy|
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
 |2481|[Minimum Cuts to Divide a Circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/) | [C++](./src/Problem_2481_numberOfCuts.cc)|Easy|
+|2465|[Number of Distinct Averages](https://leetcode.cn/problems/number-of-distinct-averages/) | [C++](./src/Problem_2465_distinctAverages.cc)|Easy|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [C++](./src/Problem_2455_averageValue.cc)|Easy|
 |2451|[Odd String Difference](https://leetcode.cn/problems/odd-string-difference/) | [C++](./src/Problem_2451_oddString.cc)|Easy|
