@@ -138,6 +138,7 @@ LeetCode Solution In Hard Way
 |1187|[Make Array Strictly Increasing](https://leetcode.cn/problems/make-array-strictly-increasing/) | [C++](./src/Problem_1187_makeArrayIncreasing.cc)|Hard|
 |1186|[Maximum Subarray Sum with One Deletion](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/) | [C++](./src/Problem_1186_maximumSum.cc)|Medium|
 |1177|[Can Make Palindrome from Substring🚀](https://leetcode.cn/problems/can-make-palindrome-from-substring/) | [C++](./src/Problem_1177_canMakePaliQueries.cc)|Medium|
+|1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | [C++](./src/Problem_1171_removeZeroSumSublists.cc)|Medium|
 |1163|[Last Substring in Lexicographical Order](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | [C++](./src/Problem_1163_lastSubstring.cc)|Hard|
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) | [C++](./src/Problem_1156_maxRepOpt1.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
