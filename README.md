@@ -120,6 +120,7 @@ LeetCode Solution In Hard Way
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/Problem_1413_MinStartValue.cc)|Easy|
 |1401|[Circle and Rectangle Overlapping](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) | [C++](./src/Problem_1401_checkOverlap.cc)|Medium|
 |1377|[Frog Position After T Seconds](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [C++](./src/Problem_1377_frogPosition.cc)|Hard|
+|1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned/) | [C++](./src/Problem_1375_numTimesAllBlue.cc)|Medium|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
