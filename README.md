@@ -40,6 +40,7 @@ LeetCode Solution In Hard Way
 |2404|[Most Frequent Even Element](https://leetcode.cn/problems/most-frequent-even-element/) | [C++](./src/Problem_2404_mostFrequentEven.cc)|Easy|
 |2373|[Largest Local Values in a Matrix](https://leetcode.cn/problems/largest-local-values-in-a-matrix/) | [C++](./src/Problem_2373_largestLocal.cc)|Easy|
 |2363|[Merge Similar Items](https://leetcode.cn/problems/merge-similar-items/) | [C++](./src/Problem_2363_mergeSimilarItems.cc)|Easy|
+|2352|[Equal Row and Column Pairs](https://leetcode.cn/problems/equal-row-and-column-pairs/) | [C++](./src/Problem_2352_equalPairs.cc)|Medium|
 |2341|[Maximum Number of Pairs in Array](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/) | [C++](./src/Problem_2341_numberOfPairs.cc)|Easy|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
 |2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
