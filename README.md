@@ -6,6 +6,7 @@ LeetCode Solution In Hard Way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |剑指 Offer 47|[礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
+|剑指 Offer 36|[二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) | [C++](./src/Problem_STO_0036_treeToDoublyList.cc)|Medium|
 |剑指 Offer 34|[二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) | [C++](./src/Problem_STO_0034_pathSum.cc)|Medium|
 |剑指 Offer 06|[从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [C++](./src/Problem_STO_0006_reversePrint.cc)|Easy|
 |剑指 Offer 05|[替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/) | [C++](./src/Problem_STO_0005_replaceSpace.cc)|Easy|
