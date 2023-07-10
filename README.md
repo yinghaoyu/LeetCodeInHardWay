@@ -337,6 +337,7 @@ LeetCode Solution In Hard Way
 |0172|[Factorial Trailing Zeroes](https://leetcode.cn/problems/factorial-trailing-zeroes/) | [C++](./src/Problem_0172_trailingZeroes.cc)|Medium|
 |0171|[Excel Sheet Column Number](https://leetcode.cn/problems/excel-sheet-column-number/) | [C++](./src/Problem_0171_titleToNumber.cc)|Easy|
 |0169|[Majority Element](https://leetcode.cn/problems/majority-element/) | [C++](./src/Problem_0169_majorityElement.cc)|Easy|
+|0167|[Two Sum II - Input Array Is Sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | [C++](./src/Problem_0167_twoSum.cc)|Medium|
 |0166|[Fraction to Recurring Decimal](https://leetcode.cn/problems/fraction-to-recurring-decimal/) | [C++](./src/Problem_0166_fractionToDecimal.cc)|Medium|
 |0163|[Missing Ranges](https://leetcode.cn/problems/missing-ranges/) | [C++](./src/Problem_0163_findMissingRanges.cc)|Easy|
 |0162|[Find Peak Element](https://leetcode.cn/problems/find-peak-element/) | [C++](./src/Problem_0162_findPeakElement.cc)|Medium|
