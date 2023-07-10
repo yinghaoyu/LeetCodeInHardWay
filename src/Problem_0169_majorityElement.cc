@@ -10,7 +10,6 @@ class Solution
  public:
   int majorityElement(vector<int> &nums)
   {
-    int ans = 0;
     int blood = 0;
     int solider = 0;
     for (auto &num : nums)
