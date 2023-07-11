@@ -274,6 +274,7 @@ LeetCode Solution In Hard Way
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0406|[Queue Reconstruction by Height](https://leetcode.cn/problems/queue-reconstruction-by-height/) | [C++](./src/Problem_0406_reconstructQueue.cc)|Medium|
 |0402|[Remove K Digits](https://leetcode.cn/problems/remove-k-digits/) | [C++](./src/Problem_0402_removeKdigits.cc)|Medium|
+|0400|[Nth Digit](https://leetcode.cn/problems/nth-digit/) | [C++](./src/Problem_0400_findNthDigit.cc)|Medium|
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
 |0394|[Decode String](https://leetcode.cn/problems/decode-string/) | [C++](./src/Problem_0394_decodeString.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
