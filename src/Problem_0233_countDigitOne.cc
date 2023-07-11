@@ -7,6 +7,7 @@
 using namespace std;
 
 // 数形 dp
+// TODO: figure it out
 class Solution
 {
  public:
@@ -52,7 +53,7 @@ class Solution
   // 预处理
   vector<vector<int>> getDp(int n)
   {
-    const int N = 10;
+    const int N = 11;
     const int M = 10;
     // dp[i][j]的含义为，第 i 位填 j 后的 1 的个数
     vector<vector<int>> dp(N, vector<int>(M));
