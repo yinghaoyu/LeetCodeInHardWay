@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 48|[最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | [C++](./src/Problem_STO_0048_lengthOfLongestSubstring.cc)|Medium|
 |剑指 Offer 47|[礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
 |剑指 Offer 46|[把数字翻译成字符串](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | [C++](./src/Problem_STO_0046_translateNum.cc)|Medium|
 |剑指 Offer 45|[把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [C++](./src/Problem_STO_0045_minNumber.cc)|Medium|
