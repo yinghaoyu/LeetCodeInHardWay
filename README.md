@@ -6,6 +6,7 @@ LeetCode Solution In Hard Way
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |剑指 Offer 47|[礼物的最大价值](https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/) | [C++](./src/Problem_STO_0047_maxValue.cc)|Medium|
+|剑指 Offer 45|[把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [C++](./src/Problem_STO_0045_minNumber.cc)|Medium|
 |剑指 Offer 44|[数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0044_findNthDigit.cc)|Medium|
 |剑指 Offer 43|[1～n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/) | [C++](./src/Problem_STO_0043_countDigitOne.cc)|Hard|
 |剑指 Offer 42|[连续子数组的最大和](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [C++](./src/Problem_STO_0042_maxSubArray.cc)|Easy|
