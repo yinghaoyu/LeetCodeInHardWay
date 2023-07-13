@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 53|[II. 0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0053_missingNumber.cc)|Easy|
 |剑指 Offer 53|[I. 在排序数组中查找数字 I](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | [C++](./src/Problem_STO_0053_search.cc)|Easy|
 |剑指 Offer 52|[两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [C++](./src/Problem_STO_0052_getIntersectionNode.cc)|Easy|
 |剑指 Offer 51|[数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [C++](./src/Problem_STO_0051_reversePairs.cc)|Hard|
