@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 52|[两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [C++](./src/Problem_STO_0052_getIntersectionNode.cc)|Easy|
 |剑指 Offer 51|[数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [C++](./src/Problem_STO_0051_reversePairs.cc)|Hard|
 |剑指 Offer 50|[第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | [C++](./src/Problem_STO_0050_firstUniqChar.cc)|Easy|
 |剑指 Offer 49|[丑数](https://leetcode.cn/problems/chou-shu-lcof/) | [C++](./src/Problem_STO_0049_nthUglyNumber.cc)|Medium|
