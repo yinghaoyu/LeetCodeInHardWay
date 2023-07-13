@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 51|[数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [C++](./src/Problem_STO_0051_reversePairs.cc)|Hard|
 |剑指 Offer 50|[第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | [C++](./src/Problem_STO_0050_firstUniqChar.cc)|Easy|
 |剑指 Offer 49|[丑数](https://leetcode.cn/problems/chou-shu-lcof/) | [C++](./src/Problem_STO_0049_nthUglyNumber.cc)|Medium|
 |剑指 Offer 48|[最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | [C++](./src/Problem_STO_0048_lengthOfLongestSubstring.cc)|Medium|
