@@ -51,7 +51,15 @@ class Solution
     return process(arr, L, M) + process(arr, M + 1, R) + merge(arr, L, M, R);
   }
 
-  int reversePairs(vector<int> &nums) { return process(nums, 0, nums.size() - 1); }
+  int reversePairs(vector<int> &nums)
+  {
+    if (nums.size() == 0)
+    {
+      return 0;
+    }
+
+    return process(nums, 0, nums.size() - 1);
+  }
 };
 
 void test()
