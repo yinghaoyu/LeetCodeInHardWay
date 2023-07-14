@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 56|[I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | [C++](./src/Problem_STO_0056_singleNumbers.cc)|Medium|
 |剑指 Offer 55|[II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/) | [C++](./src/Problem_STO_0055_isBalanced.cc)|Easy|
 |剑指 Offer 55|[I. 二叉树的深度](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/) | [C++](./src/Problem_STO_0055_maxDepth.cc)|Easy|
 |剑指 Offer 54|[二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [C++](./src/Problem_STO_0054_kthLargest.cc)|Easy|
