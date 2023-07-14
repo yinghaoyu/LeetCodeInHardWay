@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 57|[和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | [C++](./src/Problem_STO_0057_twoSum.cc)|Easy|
 |剑指 Offer 56|[II. 数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | [C++](./src/Problem_STO_0056_singleNumbersII.cc)|Medium|
 |剑指 Offer 56|[I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | [C++](./src/Problem_STO_0056_singleNumbers.cc)|Medium|
 |剑指 Offer 55|[II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/) | [C++](./src/Problem_STO_0055_isBalanced.cc)|Easy|
