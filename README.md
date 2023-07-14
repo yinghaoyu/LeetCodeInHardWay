@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 60|[n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) | [C++](./src/Problem_STO_0060_dicesProbability.cc)|Medium|
 |剑指 Offer 57|[I. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | [C++](./src/Problem_STO_0058_reverseWords.cc)|Easy|
 |剑指 Offer 57|[II. 和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | [C++](./src/Problem_STO_0057_findContinuousSequence.cc)|Easy|
 |剑指 Offer 57|[和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | [C++](./src/Problem_STO_0057_twoSum.cc)|Easy|
