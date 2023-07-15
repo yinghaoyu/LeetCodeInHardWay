@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 001|[整数除法](https://leetcode.cn/problems/xoh6Oh/) | [C++](./src/Problem_STOII_0001_.cc)|Medium|
 |剑指 Offer 66|[构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof/) | [C++](./src/Problem_STO_0066_constructArr.cc)|Medium|
 |剑指 Offer 65|[不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | [C++](./src/Problem_STO_0065_add.cc)|Easy|
 |剑指 Offer 60|[n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) | [C++](./src/Problem_STO_0060_dicesProbability.cc)|Medium|

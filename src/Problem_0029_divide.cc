@@ -31,7 +31,7 @@ class Solution
       // 非进位部分
       sum = a ^ b;
       // 进位部分要往左移1位
-      b = (a & b) << 1;
+      b = static_cast<unsigned int>(a & b) << 1;
       a = sum;
     }
     return sum;
@@ -52,8 +52,8 @@ class Solution
       {
         ans = add(ans, a);
       }
-      a <<= 1;
-      b = (unsigned int) b >> 1;  // 无符号右移
+      a = static_cast<unsigned int>(a) << 1;
+      b = static_cast<unsigned int>(b) >> 1;  // 无符号右移
     }
     return ans;
   }
