@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 005|[单词长度的最大乘积](https://leetcode.cn/problems/aseY1I/) | [C++](./src/Problem_STOII_0005_maxProduct.cc)|Medium|
 |剑指 Offer II 004|[只出现一次的数字](https://leetcode.cn/problems/WGki4K/) | [C++](./src/Problem_STOII_0004_singleNumber.cc)|Easy|
 |剑指 Offer II 003|[前 n 个数字二进制中 1 的个数](https://leetcode.cn/problems/w3tCBm/) | [C++](./src/Problem_STOII_0003_countBits.cc)|Easy|
 |剑指 Offer II 002|[二进制加法](https://leetcode.cn/problems/JFETK5/) | [C++](./src/Problem_STOII_0002_addBinary.cc)|Easy|
