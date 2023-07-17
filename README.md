@@ -296,6 +296,7 @@ LeetCode Solution In Hard Way
 |0621|[Task Scheduler](https://leetcode.cn/problems/task-scheduler/) | [C++](./src/Problem_0621_leastInterval.cc)|Medium|
 |0617|[Merge Two Binary Trees](https://leetcode.cn/problems/merge-two-binary-trees/) | [C++](./src/Problem_0617_mergeTrees.cc)|Easy|
 |0581|[Shortest Unsorted Continuous Subarray](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) | [C++](./src/Problem_0581_findUnsortedSubarray.cc)|Medium|
+|0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
