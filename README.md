@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 011|[0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS/) | [C++](./src/Problem_STOII_0011_findMaxLength.cc)|Medium|
 |剑指 Offer II 010|[和为 k 的子数组](https://leetcode.cn/problems/QTMn0o/) | [C++](./src/Problem_STOII_0010_subarraySum.cc)|Medium|
 |剑指 Offer II 009|[乘积小于 K 的子数组](https://leetcode.cn/problems/ZVAVXX/) | [C++](./src/Problem_STOII_0009_numSubarrayProductLessThanK.cc)|Medium|
 |剑指 Offer II 008|[和大于等于 target 的最短子数组](https://leetcode.cn/problems/1fGaJU/) | [C++](./src/Problem_STOII_0008_minSubArrayLen.cc)|Medium|
