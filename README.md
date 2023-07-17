@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 007|[数组中和为 0 的三个数](https://leetcode.cn/problems/1fGaJU/) | [C++](./src/Problem_STOII_0007_threeSum.cc)|Medium|
 |剑指 Offer II 006|[排序数组中两个数字之和](https://leetcode.cn/problems/kLl5u1/) | [C++](./src/Problem_STOII_0006_twoSum.cc)|Medium|
 |剑指 Offer II 005|[单词长度的最大乘积](https://leetcode.cn/problems/aseY1I/) | [C++](./src/Problem_STOII_0005_maxProduct.cc)|Medium|
 |剑指 Offer II 004|[只出现一次的数字](https://leetcode.cn/problems/WGki4K/) | [C++](./src/Problem_STOII_0004_singleNumber.cc)|Easy|
