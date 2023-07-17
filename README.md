@@ -340,6 +340,7 @@ LeetCode Solution In Hard Way
 |0315|[Count of Smaller Numbers After Self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | [C++](./src/Problem_0315_countSmaller.cc)|Hard|
 |0309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./src/Problem_0309_maxProfit.cc)|Medium|
 |0308|[Range Sum Query 2D - Mutable🔒🚀](https://leetcode.cn/problems/range-sum-query-2d-mutable/) | [C++](./src/Problem_0308_NumMatrix.cc)|Hard|
+|0304|[Range Sum Query 2D - Immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable/) | [C++](./src/Problem_0304_NumMatrix.cc)|Medium|
 |0300|[Longest Increasing Subsequence🚀](https://leetcode.cn/problems/longest-increasing-subsequence/) | [C++](./src/Problem_0300_lengthOfLIS.cc)|Medium|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [C++](./src/Problem_0297_Codec.cc)|Hard|
 |0295|[Find Median from Data Stream](https://leetcode.cn/problems/find-median-from-data-stream/) | [C++](./src/Problem_0295_MedianFinder.cc)|Hard|
