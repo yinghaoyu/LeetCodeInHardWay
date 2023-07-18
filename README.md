@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 021|[删除链表的倒数第 n 个结点](https://leetcode.cn/problems/SLwz0R/) | [C++](./src/Problem_STOII_0021_removeNthFromEnd.cc)|Medium|
 |剑指 Offer II 020|[回文子字符串的个数](https://leetcode.cn/problems/a7VOhD/) | [C++](./src/Problem_STOII_0020_countSubstrings.cc)|Medium|
 |剑指 Offer II 019|[最多删除一个字符得到回文](https://leetcode.cn/problems/RQku0D/) | [C++](./src/Problem_STOII_0019_validPalindrome.cc)|Easy|
 |剑指 Offer II 018|[有效的回文](https://leetcode.cn/problems/XltzEq/) | [C++](./src/Problem_STOII_0018_isPalindrome.cc)|Easy|
