@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 019|[最多删除一个字符得到回文](https://leetcode.cn/problems/RQku0D/) | [C++](./src/Problem_STOII_0019_validPalindrome.cc)|Easy|
 |剑指 Offer II 018|[有效的回文](https://leetcode.cn/problems/XltzEq/) | [C++](./src/Problem_STOII_0018_isPalindrome.cc)|Easy|
 |剑指 Offer II 017|[含有所有字符的最短字符串](https://leetcode.cn/problems/M1oyTv/) | [C++](./src/Problem_STOII_0017_minWindow.cc)|Hard|
 |剑指 Offer II 016|[不含重复字符的最长子字符串](https://leetcode.cn/problems/wtcaE1/) | [C++](./src/Problem_STOII_0016_lengthOfLongestSubstring.cc)|Medium|
