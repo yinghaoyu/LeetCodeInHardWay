@@ -106,6 +106,7 @@ LeetCode Solution In Hard Way
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
 |1910|[Remove All Occurrences of a Substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/) | [C++](./src/Problem_1910_removeOccurrences.cc)|Medium|
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/) | [C++](./src/Problem_1911_maxAlternatingSum.cc)|Medium|
+|1851|[Minimum Interval to Include Each Query](https://leetcode.cn/problems/minimum-interval-to-include-each-query/) | [C++](./src/Problem_1851_minInterval.cc)|Hard|
 |1832|[Check if the Sentence Is Pangram](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/) | [C++](./src/Problem_1832_checkIfPangram.cc)|Easy|
 |1827|[Minimum Operations to Make the Array Increasing](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/) | [C++](./src/Problem_1827_minOperations.cc)|Easy|
 |1822|[Sign of the Product of an Array](https://leetcode.cn/problems/sign-of-the-product-of-an-array/) | [C++](./src/Problem_1822_arraySign.cc)|Easy|
