@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 028|[展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/) | [C++](./src/Problem_STOII_0028_flatten.cc)|Medium|
 |剑指 Offer II 027|[回文链表](https://leetcode.cn/problems/aMhZSa/) | [C++](./src/Problem_STOII_0027_isPalindrome.cc)|Easy|
 |剑指 Offer II 025|[链表中的两数相加](https://leetcode.cn/problems/lMSNwu/) | [C++](./src/Problem_STOII_0025_addTwoNumbers.cc)|Medium|
 |剑指 Offer II 022|[链表中环的入口节点](https://leetcode.cn/problems/c32eOV/) | [C++](./src/Problem_STOII_0022_detectCycle.cc)|Medium|
