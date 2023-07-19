@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 031|[最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [C++](./src/Problem_STOII_0031_LRUCache.cc)|Medium|
 |剑指 Offer II 030|[插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) | [C++](./src/Problem_STOII_0030_RandomizedSet.cc)|Medium|
 |剑指 Offer II 029|[排序的循环链表](https://leetcode.cn/problems/4ueAj6/) | [C++](./src/Problem_STOII_0029_insert.cc)|Medium|
 |剑指 Offer II 028|[展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/) | [C++](./src/Problem_STOII_0028_flatten.cc)|Medium|
