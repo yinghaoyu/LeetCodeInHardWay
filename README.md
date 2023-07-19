@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 033|[变位词组](https://leetcode.cn/problems/sfvd7V/) | [C++](./src/Problem_STOII_0033_groupAnagrams.cc)|Medium|
 |剑指 Offer II 032|[有效的变位词](https://leetcode.cn/problems/dKk3P7/) | [C++](./src/Problem_STOII_0032_isAnagram.cc)|Easy|
 |剑指 Offer II 031|[最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [C++](./src/Problem_STOII_0031_LRUCache.cc)|Medium|
 |剑指 Offer II 030|[插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) | [C++](./src/Problem_STOII_0030_RandomizedSet.cc)|Medium|
