@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 038|[每日温度](https://leetcode.cn/problems/iIQa4I/) | [C++](./src/Problem_STOII_0038_dailyTemperatures.cc)|Medium|
 |剑指 Offer II 037|[小行星碰撞](https://leetcode.cn/problems/XagZNi/) | [C++](./src/Problem_STOII_0037_asteroidCollision.cc)|Medium|
 |剑指 Offer II 036|[后缀表达式](https://leetcode.cn/problems/8Zf90G/) | [C++](./src/Problem_STOII_0036_evalRPN.cc)|Medium|
 |剑指 Offer II 035|[最小时间差](https://leetcode.cn/problems/569nqc/) | [C++](./src/Problem_STOII_0035_findMinDifference.cc)|Medium|
