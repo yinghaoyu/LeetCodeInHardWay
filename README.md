@@ -322,6 +322,7 @@ LeetCode Solution In Hard Way
 |0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
+|0539|[Minimum Time Difference](https://leetcode.cn/problems/minimum-time-difference/) | [C++](./src/Problem_0539_findMinDifference.cc)|Medium|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
