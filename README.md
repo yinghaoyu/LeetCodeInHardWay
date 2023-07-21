@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 043|[往完全二叉树添加节点](https://leetcode.cn/problems/NaqhDT/) | [C++](./src/Problem_STOII_0043_CBTInserter.cc)|Medium|
 |剑指 Offer II 042|[最近请求次数](https://leetcode.cn/problems/H8086Q/) | [C++](./src/Problem_STOII_0042_RecentCounter.cc)|Easy|
 |剑指 Offer II 041|[滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/) | [C++](./src/Problem_STOII_0041_MovingAverage.cc)|Easy|
 |剑指 Offer II 040|[矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ/) | [C++](./src/Problem_STOII_0040_maximalRectangle.cc)|Hard|
