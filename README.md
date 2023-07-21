@@ -259,6 +259,7 @@ LeetCode Solution In Hard Way
 |0953|[Verifying an Alien Dictionary](https://leetcode.cn/problems/verifying-an-alien-dictionary/) | [C++](./src/Problem_0953_isAlienSorted.cc)|Easy|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
+|0933|[Number of Recent Calls](https://leetcode.cn/problems/number-of-recent-calls/) | [C++](./src/Problem_0933_RecentCounter.cc)|Easy|
 |0931|[Minimum Falling Path Sum](https://leetcode.cn/problems/minimum-falling-path-sum/) | [C++](./src/Problem_0931_minFallingPathSum.cc)|Medium|
 |0927|[Three Equal Parts](https://leetcode.cn/problems/three-equal-parts/) | [C++](./src/Problem_0927_threeEqualParts.cc)|Hard|
 |0921|[Minimum Add to Make Parentheses Valid](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/) | [C++](./src/Problem_0921_minAddToMakeValid.cc)|Medium|
