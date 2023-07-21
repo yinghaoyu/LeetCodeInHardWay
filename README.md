@@ -265,6 +265,7 @@ LeetCode Solution In Hard Way
 |0931|[Minimum Falling Path Sum](https://leetcode.cn/problems/minimum-falling-path-sum/) | [C++](./src/Problem_0931_minFallingPathSum.cc)|Medium|
 |0927|[Three Equal Parts](https://leetcode.cn/problems/three-equal-parts/) | [C++](./src/Problem_0927_threeEqualParts.cc)|Hard|
 |0921|[Minimum Add to Make Parentheses Valid](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/) | [C++](./src/Problem_0921_minAddToMakeValid.cc)|Medium|
+|0919|[Complete Binary Tree Inserter](https://leetcode.cn/problems/complete-binary-tree-inserter/) | [C++](./src/Problem_0919_CBTInserter.cc)|Medium|
 |0918|[Maximum Sum Circular Subarray](https://leetcode.cn/problems/maximum-sum-circular-subarray/) | [C++](./src/Problem_0918_maxSubarraySumCircular.cc)|Medium|
 |0907|[Sum of Subarray Minimums🚀](https://leetcode.cn/problems/sum-of-subarray-minimums/) | [C++](./src/Problem_0907_sumSubarrayMins.cc)|Medium|
 |0906|[Super Palindromes](https://leetcode.cn/problems/super-palindromes/) | [C++](./src/Problem_0906_superpalindromesInRange.cc)|Hard|
