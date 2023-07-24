@@ -312,6 +312,7 @@ LeetCode Solution In Hard Way
 |0739|[Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | [C++](./src/Problem_0739_dailyTemperatures.cc)|Medium|
 |0735|[Asteroid Collision](https://leetcode.cn/problems/asteroid-collision/) | [C++](./src/Problem_0735_asteroidCollision.cc)|Medium|
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|
+|0711|[Jewels and Stones](https://leetcode.cn/problems/jewels-and-stones/) | [C++](./src/Problem_0711_numJewelsInStones.cc)|Easy|
 |0708|[Insert into a Sorted Circular Linked List](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/) | [C++](./src/Problem_0708_insert.cc)|Medium|
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
 |0698|[Partition to K Equal Sum Subsets🚀](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
