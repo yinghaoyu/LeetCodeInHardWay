@@ -457,6 +457,7 @@ LeetCode Solution In Hard Way
 |0134|[Gas Station](https://leetcode.cn/problems/gas-station/) | [C++](./src/Problem_0134_canCompleteCircuit.cc)|Medium|
 |0131|[Palindrome Partitioning🚀](https://leetcode.cn/problems/palindrome-partitioning/) | [C++](./src/Problem_0131_partition.cc)|Medium|
 |0130|[Surrounded Regions](https://leetcode.cn/problems/surrounded-regions/) | [C++](./src/Problem_0130_solve.cc)|Medium|
+|0129|[Sum Root to Leaf Numbers](https://leetcode.cn/problems/sum-root-to-leaf-numbers/) | [C++](./src/Problem_0129_sumNumbers.cc)|Medium|
 |0128|[Longest Consecutive Sequence](https://leetcode.cn/problems/longest-consecutive-sequence/) | [C++](./src/Problem_0128_longestConsecutive.cc)|Medium|
 |0127|[Word Ladder](https://leetcode.cn/problems/word-ladder/) | [C++](./src/Problem_0127_ladderLength.cc)|Hard|
 |0125|[Valid Palindrome](https://leetcode.cn/problems/valid-palindrome/) | [C++](./src/Problem_0125_isPalindrome.cc)|Easy|
