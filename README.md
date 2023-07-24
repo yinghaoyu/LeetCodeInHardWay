@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 046|[二叉树的右侧视图](https://leetcode.cn/problems/WNC0Lk/) | [C++](./src/Problem_STOII_0046_rightSideView.cc)|Medium|
 |剑指 Offer II 045|[二叉树最底层最左边的值](https://leetcode.cn/problems/LwUNpT/) | [C++](./src/Problem_STOII_0045_findBottomLeftValue.cc)|Medium|
 |剑指 Offer II 043|[往完全二叉树添加节点](https://leetcode.cn/problems/NaqhDT/) | [C++](./src/Problem_STOII_0043_CBTInserter.cc)|Medium|
 |剑指 Offer II 042|[最近请求次数](https://leetcode.cn/problems/H8086Q/) | [C++](./src/Problem_STOII_0042_RecentCounter.cc)|Easy|
