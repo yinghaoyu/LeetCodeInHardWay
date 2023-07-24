@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 048|[序列化与反序列化二叉树](https://leetcode.cn/problems/h54YBf/) | [C++](./src/Problem_STOII_0048_Codec.cc)|Hard|
 |剑指 Offer II 047|[二叉树剪枝](https://leetcode.cn/problems/pOCWxh/) | [C++](./src/Problem_STOII_0047_pruneTree.cc)|Medium|
 |剑指 Offer II 046|[二叉树的右侧视图](https://leetcode.cn/problems/WNC0Lk/) | [C++](./src/Problem_STOII_0046_rightSideView.cc)|Medium|
 |剑指 Offer II 045|[二叉树最底层最左边的值](https://leetcode.cn/problems/LwUNpT/) | [C++](./src/Problem_STOII_0045_findBottomLeftValue.cc)|Medium|
