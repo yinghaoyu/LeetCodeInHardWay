@@ -423,6 +423,7 @@ LeetCode Solution In Hard Way
 |0204|[Count Primes](https://leetcode.cn/problems/count-primes/) | [C++](./src/Problem_0204_countPrimes.cc)|Medium|
 |0202|[Happy Number](https://leetcode.cn/problems/happy-number/) | [C++](./src/Problem_0202_isHappy.cc)|Easy|
 |0200|[Number of Islands](https://leetcode.cn/problems/number-of-islands/) | [C++](./src/Problem_0200_numIslands.cc)|Medium|
+|0199|[Binary Tree Right Side View](https://leetcode.cn/problems/binary-tree-right-side-view/) | [C++](./src/Problem_0199_rightSideView.cc)|Medium|
 |0198|[House Robber](https://leetcode.cn/problems/house-robber/) | [C++](./src/Problem_0198_rob.cc)|Medium|
 |0191|[Number of 1 Bits](https://leetcode.cn/problems/number-of-1-bits/) | [C++](./src/Problem_0191_hammingWeight.cc)|Easy|
 |0190|[Reverse Bits](https://leetcode.cn/problems/reverse-bits/) | [C++](./src/Problem_0190_reverseBits.cc)|Easy|
