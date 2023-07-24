@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 050|[向下的路径节点之和](https://leetcode.cn/problems/6eUYwP/) | [C++](./src/Problem_STOII_0050_pathSum.cc)|Medium|
 |剑指 Offer II 049|[从根节点到叶节点的路径数字之和](https://leetcode.cn/problems/3Etpl5/) | [C++](./src/Problem_STOII_0049_sumNumbers.cc)|Medium|
 |剑指 Offer II 048|[序列化与反序列化二叉树](https://leetcode.cn/problems/h54YBf/) | [C++](./src/Problem_STOII_0048_Codec.cc)|Hard|
 |剑指 Offer II 047|[二叉树剪枝](https://leetcode.cn/problems/pOCWxh/) | [C++](./src/Problem_STOII_0047_pruneTree.cc)|Medium|
