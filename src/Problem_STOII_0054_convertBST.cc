@@ -16,7 +16,7 @@ struct TreeNode
 // seem as leetcode 0538 1038
 // https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
 // https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/
-// see at Problem_0538_convertBST.cc Problem_1038_convertBST.cc
+// see at Problem_0538_convertBST.cc Problem_1038_bstToGst.cc
 // 反向 Morris 遍历
 class Solution
 {
