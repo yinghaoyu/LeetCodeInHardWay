@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 053|[二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/) | [C++](./src/Problem_STOII_0053_inorderSuccessor.cc)|Medium|
 |剑指 Offer II 052|[展平二叉搜索树](https://leetcode.cn/problems/NYBBNL/) | [C++](./src/Problem_STOII_0052_increasingBST.cc)|Easy|
 |剑指 Offer II 051|[节点之和最大的路径](https://leetcode.cn/problems/jC7MId/) | [C++](./src/Problem_STOII_0051_maxPathSum.cc)|Hard|
 |剑指 Offer II 050|[向下的路径节点之和](https://leetcode.cn/problems/6eUYwP/) | [C++](./src/Problem_STOII_0050_pathSum.cc)|Medium|
