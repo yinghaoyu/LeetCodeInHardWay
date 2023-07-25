@@ -123,6 +123,7 @@ LeetCode Solution In Hard Way
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
 |2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
+|2208|[Minimum Operations to Halve Array Sum](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/) | [C++](./src/Problem_2208_halveArray.cc)|Medium|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/) | [C++](./src/Problem_2178_maximumEvenSplit.cc)|Medium|
 |2132|[Stamping the Grid🚀](https://leetcode.cn/problems/stamping-the-grid/) | [C++](./src/Problem_2132_possibleToStamp.cc)|Hard|
