@@ -45,7 +45,9 @@ class Solution
     int p4 = x->val + leftInfo.maxSumFromHead;
     int p5 = x->val + rightInfo.maxSumFromHead;
     int p6 = x->val + leftInfo.maxSumFromHead + rightInfo.maxSumFromHead;
+    // p1 p2 p6不能向上递归，p1 p2会使链断开，p6 会使链分叉
     int maxSum = std::max(std::max(p1, p2), std::max(std::max(p3, p4), std::max(p5, p6)));
+    // p3 p4 p5能向上递归
     int maxSumFromHead = std::max(p3, std::max(p4, p5));
     return Info(maxSum, maxSumFromHead);
   }
