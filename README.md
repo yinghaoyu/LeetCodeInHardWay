@@ -351,6 +351,7 @@ LeetCode Solution In Hard Way
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0539|[Minimum Time Difference](https://leetcode.cn/problems/minimum-time-difference/) | [C++](./src/Problem_0539_findMinDifference.cc)|Medium|
+|0538|[Convert BST to Greater Tree](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [C++](./src/Problem_0538_convertBST.cc)|Medium|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
