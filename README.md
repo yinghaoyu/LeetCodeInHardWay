@@ -107,6 +107,7 @@ LeetCode Solution In Hard Way
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
+|2500|[Delete Greatest Value in Each Row](https://leetcode.cn/problems/delete-greatest-value-in-each-row/) | [C++](./src/Problem_2500_deleteGreatestValue.cc)|Easy|
 |2496|[Maximum Value of a String in an Array](https://leetcode.cn/problems/maximum-value-of-a-string-in-an-array/) | [C++](./src/Problem_2496_maximumValue.cc)|Easy|
 |2490|[Circular Sentence](https://leetcode.cn/problems/circular-sentence/) | [C++](./src/Problem_2490_isCircularSentence.cc)|Easy|
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
