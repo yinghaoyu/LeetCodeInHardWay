@@ -102,6 +102,7 @@ LeetCode Solution In Hard Way
 |2679|[Sum in a Matrix](https://leetcode.cn/problems/sum-in-a-matrix/) | [C++](./src/Problem_2679_matrixSum.cc)|Medium|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2600|[K Items With the Maximum Sum](https://leetcode.cn/problems/k-items-with-the-maximum-sum/) | [C++](./src/Problem_2600_kItemsWithMaximumSum.cc)|Easy|
+|2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
