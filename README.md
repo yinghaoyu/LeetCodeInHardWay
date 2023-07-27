@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 056|[二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ/) | [C++](./src/Problem_STOII_0056_findTarget.cc)|Easy|
 |剑指 Offer II 055|[二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [C++](./src/Problem_STOII_0055_BSTIterator.cc)|Medium|
 |剑指 Offer II 054|[所有大于等于节点的值之和](https://leetcode.cn/problems/w6cpku/) | [C++](./src/Problem_STOII_0054_convertBST.cc)|Medium|
 |剑指 Offer II 053|[二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/) | [C++](./src/Problem_STOII_0053_inorderSuccessor.cc)|Medium|
