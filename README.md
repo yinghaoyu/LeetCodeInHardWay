@@ -446,6 +446,7 @@ LeetCode Solution In Hard Way
 |0189|[Rotate Array](https://leetcode.cn/problems/rotate-array/) | [C++](./src/Problem_0189_rotate.cc)|Medium|
 |0188|[Best Time to Buy and Sell Stock IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./src/Problem_0188_maxProfit.cc)|Hard|
 |0179|[Largest Number](https://leetcode.cn/problems/largest-number/) | [C++](./src/Problem_0179_largestNumber.cc)|Medium|
+|0173|[Binary Search Tree Iterator](https://leetcode.cn/problems/binary-search-tree-iterator/) | [C++](./src/Problem_0173_BSTIterator.cc)|Medium|
 |0172|[Factorial Trailing Zeroes](https://leetcode.cn/problems/factorial-trailing-zeroes/) | [C++](./src/Problem_0172_trailingZeroes.cc)|Medium|
 |0171|[Excel Sheet Column Number](https://leetcode.cn/problems/excel-sheet-column-number/) | [C++](./src/Problem_0171_titleToNumber.cc)|Easy|
 |0169|[Majority Element](https://leetcode.cn/problems/majority-element/) | [C++](./src/Problem_0169_majorityElement.cc)|Easy|
