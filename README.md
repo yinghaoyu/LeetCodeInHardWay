@@ -342,6 +342,7 @@ LeetCode Solution In Hard Way
 |0658|[Find K Closest Elements](https://leetcode.cn/problems/find-k-closest-elements/) | [C++](./src/Problem_0658_findClosestElements.cc)|Medium|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
 |0654|[Maximum Binary Tree](https://leetcode.cn/problems/maximum-binary-tree/submissions/) | [C++](./src/Problem_0654_constructMaximumBinaryTree.cc)|Medium|
+|0653|[Two Sum IV - Input is a BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) | [C++](./src/Problem_0653_findTarget.cc)|Easy|
 |0652|[Find Duplicate Subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/) | [C++](./src/Problem_0652_findDuplicateSubtrees.cc)|Medium|
 |0651|[4 Keys Keyboard](https://leetcode.cn/problems/4-keys-keyboard/) | [C++](./src/Problem_0651_maxA.cc)|Medium|
 |0647|[Palindromic Substrings](https://leetcode.cn/problems/palindromic-substrings/) | [C++](./src/Problem_0647_countSubstrings.cc)|Medium|
