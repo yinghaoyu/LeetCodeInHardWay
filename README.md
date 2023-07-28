@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 060|[出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) | [C++](./src/Problem_STOII_0060_topKFrequent.cc)|Medium|
 |剑指 Offer II 059|[数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C/) | [C++](./src/Problem_STOII_0059_KthLargest.cc)|Easy|
 |剑指 Offer II 058|[日程表](https://leetcode.cn/problems/fi9suh/) | [C++](./src/Problem_STOII_0058_MyCalendar.cc)|Medium|
 |剑指 Offer II 057|[值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu/) | [C++](./src/Problem_STOII_0057_containsNearbyAlmostDuplicate.cc)|Medium|
