@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 059|[数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C/) | [C++](./src/Problem_STOII_0059_KthLargest.cc)|Easy|
 |剑指 Offer II 058|[日程表](https://leetcode.cn/problems/fi9suh/) | [C++](./src/Problem_STOII_0058_MyCalendar.cc)|Medium|
 |剑指 Offer II 057|[值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu/) | [C++](./src/Problem_STOII_0057_containsNearbyAlmostDuplicate.cc)|Medium|
 |剑指 Offer II 056|[二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ/) | [C++](./src/Problem_STOII_0056_findTarget.cc)|Easy|
