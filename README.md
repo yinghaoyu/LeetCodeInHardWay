@@ -337,6 +337,7 @@ LeetCode Solution In Hard Way
 |0711|[Jewels and Stones](https://leetcode.cn/problems/jewels-and-stones/) | [C++](./src/Problem_0711_numJewelsInStones.cc)|Easy|
 |0708|[Insert into a Sorted Circular Linked List](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/) | [C++](./src/Problem_0708_insert.cc)|Medium|
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
+|0703|[Kth Largest Element in a Stream](https://leetcode.cn/problems/kth-largest-element-in-a-stream/) | [C++](./src/Problem_0703_KthLargest.cc)|Easy|
 |0698|[Partition to K Equal Sum Subsets🚀](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
 |0680|[Valid Palindrome II](https://leetcode.cn/problems/valid-palindrome-ii/) | [C++](./src/Problem_0680_validPalindrome.cc)|Easy|
