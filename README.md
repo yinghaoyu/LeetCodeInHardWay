@@ -503,6 +503,7 @@ LeetCode Solution In Hard Way
 |0096|[Unique Binary Search Trees](https://leetcode.cn/problems/unique-binary-search-trees/) | [C++](./src/Problem_0096_numTrees.cc)|Medium|
 |0094|[Binary Tree Inorder Traversal](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [C++](./src/Problem_0094_inorderTraversal.cc)|Easy|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
+|0090|[Subsets II](https://leetcode.cn/problems/subsets-ii/) | [C++](./src/Problem_0090_subsetsWithDup.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
 |0085|[Maximal Rectangle](https://leetcode.cn/problems/maximal-rectangle/) | [C++](./src/Problem_0085_maximalRectangle.cc)|Hard|
 |0084|[Largest Rectangle in Histogram🚀](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | [C++](./src/Problem_0084_largestRectangleArea.cc)|Hard|
