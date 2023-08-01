@@ -389,6 +389,7 @@ LeetCode Solution In Hard Way
 |0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
 |0380|[Insert Delete GetRandom O(1)](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C++](./src/Problem_0380_RandomizedSet.cc)|Medium|
 |0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/Problem_0378_kthSmallest.cc)|Medium|
+|0373|[Find K Pairs with Smallest Sums](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) | [C++](./src/Problem_0373_kSmallestPairs.cc)|Medium|
 |0371|[Sum of Two Integers](https://leetcode.cn/problems/sum-of-two-integers/) | [C++](./src/Problem_0371_getSum.cc)|Medium|
 |0350|[Intersection of Two Arrays II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/) | [C++](./src/Problem_0350_intersect.cc)|Easy|
 |0348|[Design Tic-Tac-Toe](https://leetcode.cn/problems/design-tic-tac-toe/) | [C++](./src/Problem_0348_TicTacToe.cc)|Medium|
