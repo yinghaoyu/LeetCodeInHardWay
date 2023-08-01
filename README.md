@@ -356,6 +356,7 @@ LeetCode Solution In Hard Way
 |0653|[Two Sum IV - Input is a BST](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) | [C++](./src/Problem_0653_findTarget.cc)|Easy|
 |0652|[Find Duplicate Subtrees](https://leetcode.cn/problems/find-duplicate-subtrees/) | [C++](./src/Problem_0652_findDuplicateSubtrees.cc)|Medium|
 |0651|[4 Keys Keyboard](https://leetcode.cn/problems/4-keys-keyboard/) | [C++](./src/Problem_0651_maxA.cc)|Medium|
+|0648|[Replace Words](https://leetcode.cn/problems/replace-words/) | [C++](./src/Problem_0648_replaceWords.cc)|Medium|
 |0647|[Palindromic Substrings](https://leetcode.cn/problems/palindromic-substrings/) | [C++](./src/Problem_0647_countSubstrings.cc)|Medium|
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
