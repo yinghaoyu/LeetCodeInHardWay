@@ -105,6 +105,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|2681|[Power of Heroes](https://leetcode.cn/problems/power-of-heroes/) | [C++](./src/Problem_2681_sumOfPower.cc)|Hard|
 |2679|[Sum in a Matrix](https://leetcode.cn/problems/sum-in-a-matrix/) | [C++](./src/Problem_2679_matrixSum.cc)|Medium|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2600|[K Items With the Maximum Sum](https://leetcode.cn/problems/k-items-with-the-maximum-sum/) | [C++](./src/Problem_2600_kItemsWithMaximumSum.cc)|Easy|
