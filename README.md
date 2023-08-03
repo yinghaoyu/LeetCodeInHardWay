@@ -340,6 +340,7 @@ LeetCode Solution In Hard Way
 |0735|[Asteroid Collision](https://leetcode.cn/problems/asteroid-collision/) | [C++](./src/Problem_0735_asteroidCollision.cc)|Medium|
 |0729|[My Calendar I](https://leetcode.cn/problems/my-calendar-i/) | [C++](./src/Problem_0729_MyCalendar.cc)|Medium|
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|
+|0722|[Remove Comments](https://leetcode.cn/problems/remove-comments/) | [C++](./src/Problem_0722_removeComments.cc)|Medium|
 |0711|[Jewels and Stones](https://leetcode.cn/problems/jewels-and-stones/) | [C++](./src/Problem_0711_numJewelsInStones.cc)|Easy|
 |0708|[Insert into a Sorted Circular Linked List](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/) | [C++](./src/Problem_0708_insert.cc)|Medium|
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
