@@ -279,6 +279,7 @@ LeetCode Solution In Hard Way
 |1003|[Check If Word Is Valid After Substitutions](https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/) | [C++](./src/Problem_1003_isValid.cc)|Medium|
 |1000|[Minimum Cost to Merge Stones](https://leetcode.cn/problems/minimum-cost-to-merge-stones/) | [C++](./src/Problem_1000_mergeStones.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
+|0980|[Unique Paths III](https://leetcode.cn/problems/unique-paths-iii/) | [C++](./src/Problem_0980_uniquePathsIII.cc)|Hard|
 |0979|[Distribute Coins in Binary Tree](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | [C++](./src/Problem_0979_distributeCoins.cc)|Medium|
 |0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
 |0970|[Powerful Integers](https://leetcode.cn/problems/powerful-integers/) | [C++](./src/Problem_0970_powerfulIntegers.cc)|Medium|
