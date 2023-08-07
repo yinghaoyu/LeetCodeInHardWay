@@ -352,6 +352,7 @@ LeetCode Solution In Hard Way
 |0698|[Partition to K Equal Sum Subsets🚀](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
 |0680|[Valid Palindrome II](https://leetcode.cn/problems/valid-palindrome-ii/) | [C++](./src/Problem_0680_validPalindrome.cc)|Easy|
+|0677|[Map Sum Pairs](https://leetcode.cn/problems/map-sum-pairs/) | [C++](./src/Problem_0677_MapSum.cc)|Medium|
 |0676|[Implement Magic Dictionary](https://leetcode.cn/problems/implement-magic-dictionary/) | [C++](./src/Problem_0676_MagicDictionary.cc)|Medium|
 |0673|[Number of Longest Increasing Subsequence🚀](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/) | [C++](./src/Problem_0673_findNumberOfLIS.cc)|Medium|
 |0672|[Bulb Switcher II](https://leetcode.cn/problems/bulb-switcher-ii/) | [C++](./src/Problem_0672_flipLights.cc)|Medium|
