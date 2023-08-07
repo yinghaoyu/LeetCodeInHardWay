@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 065|[单词的压缩编码](https://leetcode.cn/problems/iSwD2y/) | [C++](./src/Problem_STOII_0065_minimumLengthEncoding.cc)|Medium|
 |剑指 Offer II 064|[实现一个魔法字典](https://leetcode.cn/problems/US1pGT/) | [C++](./src/Problem_STOII_0064_MagicDictionary.cc)|Medium|
 |剑指 Offer II 063|[替换单词](https://leetcode.cn/problems/UhWRSj/) | [C++](./src/Problem_STOII_0063_replaceWords.cc)|Medium|
 |剑指 Offer II 062|[实现前缀树](https://leetcode.cn/problems/QC3q1f/) | [C++](./src/Problem_STOII_0062_Trie.cc)|Medium|
