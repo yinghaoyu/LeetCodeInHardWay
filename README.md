@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 067|[数组中两个数的最大异或值](https://leetcode.cn/problems/ms70jA/) | [C++](./src/Problem_STOII_0067_findMaximumXOR.cc)|Medium|
 |剑指 Offer II 066|[键值映射](https://leetcode.cn/problems/z1R5dt/) | [C++](./src/Problem_STOII_0066_MapSum.cc)|Medium|
 |剑指 Offer II 065|[单词的压缩编码](https://leetcode.cn/problems/iSwD2y/) | [C++](./src/Problem_STOII_0065_minimumLengthEncoding.cc)|Medium|
 |剑指 Offer II 064|[实现一个魔法字典](https://leetcode.cn/problems/US1pGT/) | [C++](./src/Problem_STOII_0064_MagicDictionary.cc)|Medium|
