@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 069|[山脉数组的峰顶索引](https://leetcode.cn/problems/B1IidL/) | [C++](./src/Problem_STOII_0069_peakIndexInMountainArray.cc)|Easy|
 |剑指 Offer II 068|[搜索插入位置](https://leetcode.cn/problems/N6YdxV/) | [C++](./src/Problem_STOII_0068_searchInsert.cc)|Easy|
 |剑指 Offer II 067|[数组中两个数的最大异或值](https://leetcode.cn/problems/ms70jA/) | [C++](./src/Problem_STOII_0067_findMaximumXOR.cc)|Medium|
 |剑指 Offer II 066|[键值映射](https://leetcode.cn/problems/z1R5dt/) | [C++](./src/Problem_STOII_0066_MapSum.cc)|Medium|
