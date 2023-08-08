@@ -552,6 +552,7 @@ LeetCode Solution In Hard Way
 |0038|[Count and Say](https://leetcode.cn/problems/count-and-say/) | [C++](./src/Problem_0038_countAndSay.cc)|Medium|
 |0037|[Sudoku Solver](https://leetcode.cn/problems/sudoku-solver/) | [C++](./src/Problem_0037_solveSudoku.cc)|Hard|
 |0036|[Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) | [C++](./src/Problem_0036_isValidSudoku.cc)|Medium|
+|0035|[Search Insert Position](https://leetcode.cn/problems/search-insert-position/) | [C++](./src/Problem_0035_searchInsert.cc)|Easy|
 |0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/Problem_0034_searchRange.cc)|Medium|
 |0033|[Search in Rotated Sorted Array](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [C++](./src/Problem_0033_search.cc)|Medium|
 |0032|[Longest Valid Parentheses](https://leetcode.cn/problems/longest-valid-parentheses/) | [C++](./src/Problem_0032_longestValidParentheses.cc)|Hard|
