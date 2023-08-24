@@ -235,6 +235,7 @@ LeetCode Solution In Hard Way
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
+|1267|[Count Servers that Communicate](https://leetcode.cn/problems/count-servers-that-communicate/) | [C++](./src/Problem_1267_countServers.cc)|Medium|
 |1262|[Greatest Sum Divisible by Three](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) | [C++](./src/Problem_1262_maxSumDivThree.cc)|Medium|
 |1254|[Number of Closed Islands](https://leetcode.cn/problems/number-of-closed-islands/) | [C++](./src/Problem_1254_closedIsland.cc)|Medium|
 |1253|[Reconstruct a 2-Row Binary Matrix](https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix/) | [C++](./src/Problem_1253_reconstructMatrix.cc)|Medium|
