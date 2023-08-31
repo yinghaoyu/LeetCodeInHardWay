@@ -200,6 +200,7 @@ LeetCode Solution In Hard Way
 |1668|[Maximum Repeating Substring🚀](https://leetcode.cn/problems/maximum-repeating-substring/) | [C++](./src/Problem_1668_maxRepeating.cc)|Easy|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
+|1654|[Minimum Jumps to Reach Home](https://leetcode.cn/problems/minimum-jumps-to-reach-home/) | [C++](./src/Problem_1654_minimumJumps.cc)|Medium|
 |1652|[Defuse the Bomb](https://leetcode.cn/problems/defuse-the-bomb/) | [C++](./src/Problem_1652_decrypt.cc)|Easy|
 |1641|[Count Sorted Vowel Strings](https://leetcode.cn/problems/count-sorted-vowel-strings/) | [C++](./src/Problem_1641_countVowelStrings.cc)|Medium|
 |1638|[Count Substrings That Differ by One Character](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/) | [C++](./src/Problem_1638_countSubstrings.cc)|Medium|
