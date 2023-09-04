@@ -394,6 +394,7 @@ LeetCode Solution In Hard Way
 |0467|[Unique Substrings in Wraparound String](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/) | [C++](./src/Problem_0467_findSubstringInWraproundString.cc)|Medium|
 |0460|[LFU Cache](https://leetcode.cn/problems/lfu-cache/) | [C++](./src/Problem_0460_LFUCache.cc)|Hard|
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
+|0449|[Serialize and Deserialize BST](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=daily-question&envId=2023-09-04) | [C++](./src/Problem_0449_Codec.cc)|Medium|
 |0448|[Find All Numbers Disappeared in an Array](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/Problem_0448_findDisappearedNumbers.cc)|Easy|
 |0445|[Add Two Numbers II](https://leetcode.cn/problems/add-two-numbers-ii/) | [C++](./src/Problem_0445_addTwoNumbers.cc)|Medium|
 |0438|[Find All Anagrams in a String](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
