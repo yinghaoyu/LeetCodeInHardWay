@@ -117,6 +117,7 @@ LeetCode Solution In Hard Way
 |2681|[Power of Heroes](https://leetcode.cn/problems/power-of-heroes/) | [C++](./src/Problem_2681_sumOfPower.cc)|Hard|
 |2679|[Sum in a Matrix](https://leetcode.cn/problems/sum-in-a-matrix/) | [C++](./src/Problem_2679_matrixSum.cc)|Medium|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
+|2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/) | [C++](./src/Problem_2605_minNumber.cc)|Easy|
 |2600|[K Items With the Maximum Sum](https://leetcode.cn/problems/k-items-with-the-maximum-sum/) | [C++](./src/Problem_2600_kItemsWithMaximumSum.cc)|Easy|
 |2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
