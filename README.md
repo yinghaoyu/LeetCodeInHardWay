@@ -123,6 +123,7 @@ LeetCode Solution In Hard Way
 |2596|[Check Knight Tour Configuration](https://leetcode.cn/problems/check-knight-tour-configuration/) | [C++](./src/Problem_2596_checkValidGrid.cc)|Medium|
 |2594|[Minimum Time to Repair Cars](https://leetcode.cn/problems/minimum-time-to-repair-cars/) | [C++](./src/Problem_2594_repairCars.cc)|Medium|
 |2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
+|2560|[House Robber IV](https://leetcode.cn/problems/house-robber-iv/) | [C++](./src/Problem_2560_minCapability.cc)|Medium|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
