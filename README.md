@@ -327,6 +327,7 @@ LeetCode Solution In Hard Way
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
 |0882|[Reachable Nodes In Subdivided Graph🚀](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/) | [C++](./src/Problem_0882_reachableNodes.cc)|Hard|
 |0878|[Nth Magical Number](https://leetcode.cn/problems/nth-magical-number/) | [C++](./src/Problem_0878_nthMagicalNumber.cc)|Hard|
+|0875|[Koko Eating Bananas](https://leetcode.cn/problems/koko-eating-bananas/) | [C++](./src/Problem_0875_minEatingSpeed.cc)|Medium|
 |0874|[Walking Robot Simulation](https://leetcode.cn/problems/walking-robot-simulation/) | [C++](./src/Problem_0874_robotSim.cc)|Medium|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0864|[Shortest Path to Get All Keys🚀](https://leetcode.cn/problems/shortest-path-to-get-all-keys/) | [C++](./src/Problem_0864_shortestPathAllKeys.cc)|Medium|
