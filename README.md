@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 071|[按权重随机选择](https://leetcode.cn/problems/cuyjEf/) | [C++](./src/Problem_STOII_0071_pickIndex.cc)|Medium|
 |剑指 Offer II 070|[有序数组中的单一元素](https://leetcode.cn/problems/skFtm2/) | [C++](./src/Problem_STOII_0070_singleNonDuplicate.cc)|Medium|
 |剑指 Offer II 069|[山脉数组的峰顶索引](https://leetcode.cn/problems/B1IidL/) | [C++](./src/Problem_STOII_0069_peakIndexInMountainArray.cc)|Easy|
 |剑指 Offer II 068|[搜索插入位置](https://leetcode.cn/problems/N6YdxV/) | [C++](./src/Problem_STOII_0068_searchInsert.cc)|Easy|
