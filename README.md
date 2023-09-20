@@ -399,6 +399,7 @@ LeetCode Solution In Hard Way
 |0540|[Single Element in a Sorted Array](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [C++](./src/Problem_0540_singleNonDuplicate.cc)|Medium|
 |0539|[Minimum Time Difference](https://leetcode.cn/problems/minimum-time-difference/) | [C++](./src/Problem_0539_findMinDifference.cc)|Medium|
 |0538|[Convert BST to Greater Tree](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [C++](./src/Problem_0538_convertBST.cc)|Medium|
+|0528|[Random Pick with Weight](https://leetcode.cn/problems/random-pick-with-weight/description/) | [C++](./src/Problem_0528_pickIndex.cc)|Medium|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
