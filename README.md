@@ -395,6 +395,7 @@ LeetCode Solution In Hard Way
 |0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
+|0540|[Single Element in a Sorted Array](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [C++](./src/Problem_0540_singleNonDuplicate.cc)|Medium|
 |0539|[Minimum Time Difference](https://leetcode.cn/problems/minimum-time-difference/) | [C++](./src/Problem_0539_findMinDifference.cc)|Medium|
 |0538|[Convert BST to Greater Tree](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [C++](./src/Problem_0538_convertBST.cc)|Medium|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
