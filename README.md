@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 074|[合并区间](https://leetcode.cn/problems/SsGoHC/) | [C++](./src/Problem_STOII_0074_merge.cc)|Medium|
 |剑指 Offer II 073|[爱吃香蕉的狒狒](https://leetcode.cn/problems/nZZqjQ/) | [C++](./src/Problem_STOII_0073_minEatingSpeed.cc)|Medium|
 |剑指 Offer II 072|[x 的平方根](https://leetcode.cn/problems/jJ0w9p/) | [C++](./src/Problem_STOII_0072_mySqrt.cc)|Easy|
 |剑指 Offer II 071|[按权重随机选择](https://leetcode.cn/problems/cuyjEf/) | [C++](./src/Problem_STOII_0071_pickIndex.cc)|Medium|
