@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 077|[排序链表](https://leetcode.cn/problems/7WHec2/) | [C++](./src/Problem_STOII_0077_sortList.cc)|Medium|
 |剑指 Offer II 076|[数组中的第 K 个最大元素](https://leetcode.cn/problems/xx4gT2/) | [C++](./src/Problem_STOII_0076_findKthLargest.cc)|Medium|
 |剑指 Offer II 075|[数组的相对排序](https://leetcode.cn/problems/0H97ZC/) | [C++](./src/Problem_STOII_0075_relativeSortArray.cc)|Easy|
 |剑指 Offer II 074|[合并区间](https://leetcode.cn/problems/SsGoHC/) | [C++](./src/Problem_STOII_0074_merge.cc)|Medium|
