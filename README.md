@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 088|[使用最小花费爬楼梯](https://leetcode.cn/problems/GzCJIP/) | [C++](./src/Problem_STOII_0088_minCostClimbingStairs.cc)|Easy|
 |剑指 Offer II 087|[复原 IP 地址](https://leetcode.cn/problems/0on3uN/) | [C++](./src/Problem_STOII_0087_restoreIpAddresses.cc)|Medium|
 |剑指 Offer II 086|[分割回文串](https://leetcode.cn/problems/M99OJA/) | [C++](./src/Problem_STOII_0086_partition.cc)|Medium|
 |剑指 Offer II 085|[括号生成](https://leetcode.cn/problems/IDBivT/) | [C++](./src/Problem_STOII_0085_generateParenthesis.cc)|Medium|
