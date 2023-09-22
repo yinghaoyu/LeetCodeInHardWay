@@ -587,6 +587,7 @@ LeetCode Solution In Hard Way
 |0044|[Wildcard Matching](https://leetcode.cn/problems/wildcard-matching/) | [C++](./src/Problem_0044_isMatch.cc)|Hard|
 |0042|[Trapping Rain Water](https://leetcode.cn/problems/trapping-rain-water/) | [C++](./src/Problem_0042_trap.cc)|Hard|
 |0041|[First Missing Positive](https://leetcode.cn/problems/first-missing-positive/) | [C++](./src/Problem_0041_firstMissingPositive.cc)|Hard|
+|0040|[Combination Sum II](https://leetcode.cn/problems/combination-sum-ii/description/) | [C++](./src/Problem_0040_combinationSum2.cc)|Medium|
 |0039|[Combination Sum](https://leetcode.cn/problems/combination-sum/) | [C++](./src/Problem_0039_combinationSum.cc)|Medium|
 |0038|[Count and Say](https://leetcode.cn/problems/count-and-say/) | [C++](./src/Problem_0038_countAndSay.cc)|Medium|
 |0037|[Sudoku Solver](https://leetcode.cn/problems/sudoku-solver/) | [C++](./src/Problem_0037_solveSudoku.cc)|Hard|
