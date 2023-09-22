@@ -584,6 +584,7 @@ LeetCode Solution In Hard Way
 |0050|[Pow(x, n)](https://leetcode.cn/problems/powx-n/) | [C++](./src/Problem_0050_myPow.cc)|Medium|
 |0049|[Group Anagrams](https://leetcode.cn/problems/group-anagrams/) | [C++](./src/Problem_0049_groupAnagrams.cc)|Medium|
 |0048|[Rotate Image](https://leetcode.cn/problems/rotate-image/) | [C++](./src/Problem_0048_rotate.cc)|Medium|
+|0047|[Permutations II](https://leetcode.cn/problems/permutations-ii/) | [C++](./src/Problem_0047_permuteUnique.cc)|Medium|
 |0046|[Permutations](https://leetcode.cn/problems/permutations/) | [C++](./src/Problem_0046_permute.cc)|Medium|
 |0045|[Jump Game II](https://leetcode.cn/problems/jump-game-ii/) | [C++](./src/Problem_0045_jump.cc)|Medium|
 |0044|[Wildcard Matching](https://leetcode.cn/problems/wildcard-matching/) | [C++](./src/Problem_0044_isMatch.cc)|Hard|
