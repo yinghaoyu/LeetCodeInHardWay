@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 086|[分割回文串](https://leetcode.cn/problems/M99OJA/) | [C++](./src/Problem_STOII_0086_partition.cc)|Medium|
 |剑指 Offer II 085|[括号生成](https://leetcode.cn/problems/IDBivT/) | [C++](./src/Problem_STOII_0085_generateParenthesis.cc)|Medium|
 |剑指 Offer II 084|[全排列 II](https://leetcode.cn/problems/7p8L0Z/) | [C++](./src/Problem_STOII_0084_permuteUnique.cc)|Medium|
 |剑指 Offer II 083|[全排列](https://leetcode.cn/problems/VvJkup/) | [C++](./src/Problem_STOII_0083_permute.cc)|Medium|
