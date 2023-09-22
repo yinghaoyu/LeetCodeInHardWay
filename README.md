@@ -134,6 +134,7 @@ LeetCode Solution In Hard Way
 |2603|[Collect Coins in a Tree](https://leetcode.cn/problems/collect-coins-in-a-tree/) | [C++](./src/Problem_2603_collectTheCoins.cc)|Hard|
 |2600|[K Items With the Maximum Sum](https://leetcode.cn/problems/k-items-with-the-maximum-sum/) | [C++](./src/Problem_2600_kItemsWithMaximumSum.cc)|Easy|
 |2596|[Check Knight Tour Configuration](https://leetcode.cn/problems/check-knight-tour-configuration/) | [C++](./src/Problem_2596_checkValidGrid.cc)|Medium|
+|2591|[Distribute Money to Maximum Children](https://leetcode.cn/problems/distribute-money-to-maximum-children/) | [C++](./src/Problem_2591_distMoney.cc)|Easy|
 |2594|[Minimum Time to Repair Cars](https://leetcode.cn/problems/minimum-time-to-repair-cars/) | [C++](./src/Problem_2594_repairCars.cc)|Medium|
 |2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
 |2560|[House Robber IV](https://leetcode.cn/problems/house-robber-iv/) | [C++](./src/Problem_2560_minCapability.cc)|Medium|
