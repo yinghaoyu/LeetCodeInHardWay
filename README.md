@@ -559,6 +559,7 @@ LeetCode Solution In Hard Way
 |0084|[Largest Rectangle in Histogram🚀](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | [C++](./src/Problem_0084_largestRectangleArea.cc)|Hard|
 |0079|[Word Search](https://leetcode.cn/problems/word-search/) | [C++](./src/Problem_0079_exist.cc)|Medium|
 |0078|[Subsets](https://leetcode.cn/problems/subsets/) | [C++](./src/Problem_0078_subsets.cc)|Medium|
+|0077|[Combinations](https://leetcode.cn/problems/combinations) | [C++](./src/Problem_0077_combine.cc)|Medium|
 |0076|[Minimum Window Substring🚀](https://leetcode.cn/problems/minimum-window-substring/) | [C++](./src/Problem_0076_minWindow.cc)|Hard|
 |0075|[Sort Colors](https://leetcode.cn/problems/sort-colors/) | [C++](./src/Problem_0075_sortColors.cc)|Medium|
 |0074|[Search a 2D Matrix](https://leetcode.cn/problems/search-a-2d-matrix/) | [C++](./src/Problem_0074_searchMatrix.cc)|Medium|
