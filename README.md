@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 091|[粉刷房子](https://leetcode.cn/problems/JEj789/) | [C++](./src/Problem_STOII_0091_minCost.cc)|Medium|
 |剑指 Offer II 090|[打家劫舍 II](https://leetcode.cn/problems/PzWKhm/) | [C++](./src/Problem_STOII_0090_rob.cc)|Medium|
 |剑指 Offer II 089|[打家劫舍](https://leetcode.cn/problems/Gu0c2T/) | [C++](./src/Problem_STOII_0089_rob.cc)|Medium|
 |剑指 Offer II 088|[使用最小花费爬楼梯](https://leetcode.cn/problems/GzCJIP/) | [C++](./src/Problem_STOII_0088_minCostClimbingStairs.cc)|Easy|
