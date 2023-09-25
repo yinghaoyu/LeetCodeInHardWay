@@ -5,6 +5,7 @@ LeetCode Solution In Hard Way
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer II 092|[将字符串翻转到单调递增](https://leetcode.cn/problems/cyJERH/) | [C++](./src/Problem_STOII_0092_minFlipsMonoIncr.cc)|Medium|
 |剑指 Offer II 091|[粉刷房子](https://leetcode.cn/problems/JEj789/) | [C++](./src/Problem_STOII_0091_minCost.cc)|Medium|
 |剑指 Offer II 090|[打家劫舍 II](https://leetcode.cn/problems/PzWKhm/) | [C++](./src/Problem_STOII_0090_rob.cc)|Medium|
 |剑指 Offer II 089|[打家劫舍](https://leetcode.cn/problems/Gu0c2T/) | [C++](./src/Problem_STOII_0089_rob.cc)|Medium|
