@@ -186,6 +186,7 @@ LeetCode Solution In Hard Way
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/) | [C++](./src/Problem_2071_maxTaskAssign.cc)|Hard|
 |2050|[Parallel Courses III](https://leetcode.cn/problems/parallel-courses-iii/) | [C++](./src/Problem_2050_minimumTime.cc)|Hard|
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/) | [C++](./src/Problem_2042_areNumbersAscending.cc)|Easy|
+|2034|[Stock Price Fluctuation](https://leetcode.cn/problems/stock-price-fluctuation/) | [C++](./src/Problem_2034_StockPrice.cc)|Medium|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
