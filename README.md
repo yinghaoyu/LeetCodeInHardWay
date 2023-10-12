@@ -150,6 +150,7 @@ LeetCode Solution In Hard Way
 |2594|[Minimum Time to Repair Cars](https://leetcode.cn/problems/minimum-time-to-repair-cars/) | [C++](./src/Problem_2594_repairCars.cc)|Medium|
 |2578|[Split With Minimum Sum](https://leetcode.cn/problems/split-with-minimum-sum/) | [C++](./src/Problem_2578_splitNum.cc)|Easy|
 |2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
+|2562|[Find the Array Concatenation Value](https://leetcode.cn/problems/find-the-array-concatenation-value/) | [C++](./src/Problem_2562_findTheArrayConcVal.cc)|Easy|
 |2560|[House Robber IV](https://leetcode.cn/problems/house-robber-iv/) | [C++](./src/Problem_2560_minCapability.cc)|Medium|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
