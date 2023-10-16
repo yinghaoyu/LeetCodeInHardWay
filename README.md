@@ -496,6 +496,7 @@ LeetCode Solution In Hard Way
 |0277|[Find the Celebrity](https://leetcode.cn/problems/find-the-celebrity/) | [C++](./src/Problem_0277_findCelebrity.cc)|Medium|
 |0269|[Alien Dictionary](https://leetcode.cn/problems/alien-dictionary/) | [C++](./src/Problem_0269_alienOrder.cc)|Hard|
 |0268|[Missing Number](https://leetcode.cn/problems/missing-number/) | [C++](./src/Problem_0268_missingNumber.cc)|Easy|
+|0260|[Single Number III](https://leetcode.cn/problems/single-number-iii/) | [C++](./src/Problem_0260_singleNumber.cc)|Medium|
 |0256|[Paint House🔒](https://leetcode.cn/problems/paint-house/) | [C++](./src/Problem_0256_minCost.cc)|Medium|
 |0253|[Meeting Rooms II🔒](https://leetcode.cn/problems/meeting-rooms-ii/) | [C++](./src/Problem_0253_minMeetingRooms.cc)|Medium|
 |0251|[Flatten 2D Vector](https://leetcode.cn/problems/flatten-2d-vector/) | [C++](./src/Problem_0251_Vector2D.cc)|Medium|
