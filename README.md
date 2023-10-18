@@ -155,6 +155,7 @@ LeetCode Solution In Hard Way
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
+|2530|[Maximal Score After Applying K Operations](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/) | [C++](./src/Problem_2530_maxKelements.cc)|Medium|
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
 |2512|[Reward Top K Students](https://leetcode.cn/problems/reward-top-k-students/) | [C++](./src/Problem_2512_topStudents.cc)|Medium|
 |2500|[Delete Greatest Value in Each Row](https://leetcode.cn/problems/delete-greatest-value-in-each-row/) | [C++](./src/Problem_2500_deleteGreatestValue.cc)|Easy|
