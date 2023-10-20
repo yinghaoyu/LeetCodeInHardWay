@@ -220,6 +220,7 @@ LeetCode Solution In Hard Way
 |1769|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [C++](./src/Problem_1769_minOperations.cc)|Medium|
 |1768|[Merge Strings Alternately](https://leetcode.cn/problems/merge-strings-alternately/) | [C++](./src/Problem_1768_mergeAlternately.cc)|Easy|
 |1764|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array/) | [C++](./src/Problem_1764_canChoose.cc)|Medium|
+|1762|[Tuple with Same Product](https://leetcode.cn/problems/tuple-with-same-product/) | [C++](./src/Problem_1762_tupleSameProduct.cc)|Medium|
 |1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/description/) | [C++](./src/Problem_1761_minTrioDegree.cc)|Hard|
 |1760|[Minimum Limit of Balls in a Bag🚀](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/) | [C++](./src/Problem_1760_minimumSize.cc)|Medium|
 |1758|[Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/) | [C++](./src/Problem_1758_minOperations.cc)|Easy|
