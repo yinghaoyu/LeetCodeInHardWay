@@ -299,7 +299,9 @@ LeetCode Solution In Hard Way
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character/) | [C++](./src/Problem_1170_numSmallerByFrequency.cc)|Medium|
 |1163|[Last Substring in Lexicographical Order](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | [C++](./src/Problem_1163_lastSubstring.cc)|Hard|
 |1157|[Online Majority Element In Subarray](https://leetcode.cn/problems/online-majority-element-in-subarray/) | [C++](./src/Problem_1157_MajorityChecker.cc)|Hard|
+Number of Dice Rolls With Target Sum
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) | [C++](./src/Problem_1156_maxRepOpt1.cc)|Medium|
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1141|[Decrease Elements To Make Array Zigzag](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/) | [C++](./src/Problem_1141_movesToMakeZigzag.cc)|Medium|
