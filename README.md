@@ -501,6 +501,7 @@ Number of Dice Rolls With Target Sum
 |0283|[Move Zeroes](https://leetcode.cn/problems/move-zeroes/) | [C++](./src/Problem_0283_moveZeroes.cc)|Easy|
 |0279|[Perfect Squares](https://leetcode.cn/problems/perfect-squares/) | [C++](./src/Problem_0279_numSquares.cc)|Medium|
 |0277|[Find the Celebrity](https://leetcode.cn/problems/find-the-celebrity/) | [C++](./src/Problem_0277_findCelebrity.cc)|Medium|
+|0275|[H-Index II](https://leetcode.cn/problems/h-index-ii/) | [C++](./src/Problem_0275_hIndex.cc)|Medium|
 |0269|[Alien Dictionary](https://leetcode.cn/problems/alien-dictionary/) | [C++](./src/Problem_0269_alienOrder.cc)|Hard|
 |0268|[Missing Number](https://leetcode.cn/problems/missing-number/) | [C++](./src/Problem_0268_missingNumber.cc)|Easy|
 |0260|[Single Number III](https://leetcode.cn/problems/single-number-iii/) | [C++](./src/Problem_0260_singleNumber.cc)|Medium|
