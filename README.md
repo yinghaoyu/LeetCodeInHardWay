@@ -183,6 +183,7 @@ LeetCode Solution In Hard Way
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
 |2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
+|2304|[Minimum Path Cost in a Grid](https://leetcode.cn/problems/minimum-path-cost-in-a-grid/) | [C++](./src/Problem_2304_minPathCost.cc)|Medium|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2300_successfulPairs.cc)|Medium|
 |2258|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/escape-the-spreading-fire/) | [C++](./src/Problem_2258_maximumMinutes.cc)|Hard|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/) | [C++](./src/Problem_2251_fullBloomFlowers.cc)|Hard|
