@@ -280,6 +280,7 @@ LeetCode Solution In Hard Way
 |1422|[Maximum Score After Splitting a String](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) | [C++](./src/Problem_1422_MaxScore.cc)|Easy|
 |1417|[Reformat The String](https://leetcode.cn/problems/reformat-the-string/) | [C++](./src/Problem_1417_Reformat.cc)|Easy|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/Problem_1413_MinStartValue.cc)|Easy|
+|1410|[HTML Entity Parser](https://leetcode.cn/problems/html-entity-parser/) | [C++](./src/Problem_1410_entityParser.cc)|Medium|
 |1401|[Circle and Rectangle Overlapping](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) | [C++](./src/Problem_1401_checkOverlap.cc)|Medium|
 |1377|[Frog Position After T Seconds](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [C++](./src/Problem_1377_frogPosition.cc)|Hard|
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned/) | [C++](./src/Problem_1375_numTimesAllBlue.cc)|Medium|
