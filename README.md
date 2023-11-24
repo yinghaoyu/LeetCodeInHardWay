@@ -138,6 +138,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | [C++](./src/Problem_2698_punishmentNumber.cc)|Medium|
 |2681|[Power of Heroes](https://leetcode.cn/problems/power-of-heroes/) | [C++](./src/Problem_2681_sumOfPower.cc)|Hard|
 |2679|[Sum in a Matrix](https://leetcode.cn/problems/sum-in-a-matrix/) | [C++](./src/Problem_2679_matrixSum.cc)|Medium|
