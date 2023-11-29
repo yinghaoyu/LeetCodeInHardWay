@@ -181,6 +181,7 @@ LeetCode Solution In Hard Way
 |2363|[Merge Similar Items](https://leetcode.cn/problems/merge-similar-items/) | [C++](./src/Problem_2363_mergeSimilarItems.cc)|Easy|
 |2352|[Equal Row and Column Pairs](https://leetcode.cn/problems/equal-row-and-column-pairs/) | [C++](./src/Problem_2352_equalPairs.cc)|Medium|
 |2341|[Maximum Number of Pairs in Array](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/) | [C++](./src/Problem_2341_numberOfPairs.cc)|Easy|
+|2336|[Smallest Number in Infinite Set](https://leetcode.cn/problems/smallest-number-in-infinite-set/) | [C++](./src/Problem_2336_SmallestInfiniteSet.cc)|Medium|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
 |2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
