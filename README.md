@@ -543,6 +543,7 @@ Number of Dice Rolls With Target Sum
 |0206|[Reverse Linked List](https://leetcode.cn/problems/reverse-linked-list/) | [C++](./src/Problem_0206_reverseList.cc)|Easy|
 |0204|[Count Primes](https://leetcode.cn/problems/count-primes/) | [C++](./src/Problem_0204_countPrimes.cc)|Medium|
 |0202|[Happy Number](https://leetcode.cn/problems/happy-number/) | [C++](./src/Problem_0202_isHappy.cc)|Easy|
+|0201|[Bitwise AND of Numbers Range](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [C++](./src/Problem_0201_rangeBitwiseAnd.cc)|Medium|
 |0200|[Number of Islands](https://leetcode.cn/problems/number-of-islands/) | [C++](./src/Problem_0200_numIslands.cc)|Medium|
 |0199|[Binary Tree Right Side View](https://leetcode.cn/problems/binary-tree-right-side-view/) | [C++](./src/Problem_0199_rightSideView.cc)|Medium|
 |0198|[House Robber](https://leetcode.cn/problems/house-robber/) | [C++](./src/Problem_0198_rob.cc)|Medium|
