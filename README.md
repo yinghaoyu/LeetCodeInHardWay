@@ -457,6 +457,7 @@ Number of Dice Rolls With Target Sum
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
 |0467|[Unique Substrings in Wraparound String](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/) | [C++](./src/Problem_0467_findSubstringInWraproundString.cc)|Medium|
+|0461|[Hamming Distance](https://leetcode.cn/problems/hamming-distance/) | [C++](./src/Problem_0461_hammingDistance.cc)|Easy|
 |0460|[LFU Cache](https://leetcode.cn/problems/lfu-cache/) | [C++](./src/Problem_0460_LFUCache.cc)|Hard|
 |0454|[4Sum II](https://leetcode.cn/problems/4sum-ii/) | [C++](./src/Problem_0454_fourSumCount.cc)|Medium|
 |0449|[Serialize and Deserialize BST](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=daily-question&envId=2023-09-04) | [C++](./src/Problem_0449_Codec.cc)|Medium|
