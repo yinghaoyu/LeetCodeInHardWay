@@ -193,6 +193,7 @@ LeetCode Solution In Hard Way
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/) | [C++](./src/Problem_2208_halveArray.cc)|Medium|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/) | [C++](./src/Problem_2178_maximumEvenSplit.cc)|Medium|
+|2166|[Design Bitset](https://leetcode.cn/problems/design-bitset/) | [C++](./src/Problem_2166_Bitset.cc)|Medium|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/) | [C++](./src/Problem_2136_earliestFullBloom.cc)|Medium|
 |2132|[Stamping the Grid🚀](https://leetcode.cn/problems/stamping-the-grid/) | [C++](./src/Problem_2132_possibleToStamp.cc)|Hard|
 |2106|[Maximum Fruits Harvested After at Most K Steps](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/) | [C++](./src/Problem_2106_maxTotalFruits.cc)|Hard|
