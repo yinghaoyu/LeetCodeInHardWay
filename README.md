@@ -142,6 +142,7 @@ LeetCode Solution In Hard Way
 |2698|[Find the Punishment Number of an Integer](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | [C++](./src/Problem_2698_punishmentNumber.cc)|Medium|
 |2681|[Power of Heroes](https://leetcode.cn/problems/power-of-heroes/) | [C++](./src/Problem_2681_sumOfPower.cc)|Hard|
 |2679|[Sum in a Matrix](https://leetcode.cn/problems/sum-in-a-matrix/) | [C++](./src/Problem_2679_matrixSum.cc)|Medium|
+|2661|[First Completely Painted Row or Column](https://leetcode.cn/problems/first-completely-painted-row-or-column/) | [C++](./src/Problem_2661_firstCompleteIndex.cc)|Medium|
 |2651|[Calculate Delayed Arrival Time](https://leetcode.cn/problems/calculate-delayed-arrival-time/description/?envType=daily-question&envId=2023-09-08) | [C++](./src/Problem_2651_findDelayedArrivalTime.cc)|Easy|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/) | [C++](./src/Problem_2609_findTheLongestBalancedSubstring.cc)|Easy|
