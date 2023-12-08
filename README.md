@@ -205,6 +205,7 @@ LeetCode Solution In Hard Way
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/) | [C++](./src/Problem_2042_areNumbersAscending.cc)|Easy|
 |2034|[Stock Price Fluctuation](https://leetcode.cn/problems/stock-price-fluctuation/) | [C++](./src/Problem_2034_StockPrice.cc)|Medium|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
+|2008|[Maximum Earnings From Taxi](https://leetcode.cn/problems/maximum-earnings-from-taxi/) | [C++](./src/Problem_2008_maxTaxiEarnings.cc)|Medium|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
 |1910|[Remove All Occurrences of a Substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/) | [C++](./src/Problem_1910_removeOccurrences.cc)|Medium|
