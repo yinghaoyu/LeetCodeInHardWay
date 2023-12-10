@@ -46,10 +46,12 @@ class Solution
   int multi(int a, int b)
   {
     int ans = 0;
+    // 模拟乘法运算
     while (b != 0)
     {
       if ((b & 1) != 0)
       {
+        // 检查最低位
         ans = add(ans, a);
       }
       a = static_cast<unsigned int>(a) << 1;
@@ -60,19 +62,26 @@ class Solution
 
   bool isNeg(int n) { return n < 0; }
 
+  // 必须保证 a 和 b 都不是整数最小值
+  // 因为整数最小值不能转成自己的绝对值
   int div(int a, int b)
   {
     // 这里要求 a 和 b 均不能为 INT32_MIN
     int x = isNeg(a) ? neg(a) : a;
     int y = isNeg(b) ? neg(b) : b;
     int res = 0;
+    // 把 x 想象成 x = y * 2^i + y * 2^(i-1) + ... + y * 2^1 + y * 2^0
+    // 其中 i 为 x 的 bit 位
+    // 检查 x 的每一位，依次从高位到低位检查
+    // 由于 x >= 0，所以 i 取 31 或 30 开始都行
     for (int i = 31; i > neg(1); i = sub(i, 1))
     {
-      // 检查x能减去多少个y
+      // 第 i 个 bit 位不为0，说明存在因子 y * 2^i
       if ((x >> i) >= y)
       {
-        // x能减去 1 << i 个y
+        // 把结果置上第 i 个 bit 位
         res |= (1 << i);
+        // x 减去 y * 2^i，然后检查更低位的因子
         x = sub(x, y << i);
       }
     }
@@ -90,9 +99,12 @@ class Solution
     {
       if (divisor == neg(1))
       {
+        // a 是整数最小，b 是 -1，返回整数最大
         return INT32_MAX;
       }
-      // 先算出 (INT32_MIN + 1) / divisor 的商，div函数要求入参不能为INT32_MIN
+      // 由于 INT32_MIN 不能计算绝对值，因此可以先加一个offset(这里取1)，使得可以使用 div(a, b)
+
+      // 先算出 (INT32_MIN + 1) / divisor 的商
       int ans = div(add(dividend, 1), divisor);
       // 然后计算 (dividend - ans * divisor) / divisor 的商
       // 再将两者相加
