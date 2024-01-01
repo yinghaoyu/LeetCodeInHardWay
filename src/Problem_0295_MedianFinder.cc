@@ -1,5 +1,4 @@
 #include <functional>
-#include <iostream>
 #include <queue>
 #include <vector>
 
@@ -10,6 +9,10 @@ class MedianFinder
  public:
   MedianFinder() {}
 
+  // 较小的一半放在大根堆 max，较大的一半放在小根堆 min
+  // 如果 max 为空，先进 max
+  // 如果num <= max.top() 进 max，否则进 min
+  // 如果 |max.size() - min.size()| == 2，则进行调整
   void addNum(int num)
   {
     if (max.empty())
