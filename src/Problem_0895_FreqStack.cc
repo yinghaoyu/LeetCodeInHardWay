@@ -1,4 +1,3 @@
-#include <iostream>
 #include <list>
 #include <queue>
 #include <unordered_map>
@@ -45,15 +44,18 @@ class FreqStack
       count = c;
       ptr = p;
     }
+    // 先按词频从大到小排序，再按进栈顺序从大到小排序
+    bool operator<(const Info& other) const { return this->count < other.count || this->count == other.count && this->seq < other.seq; }
 
-    bool operator<(const Info &other) const { return this->count < other.count || this->count == other.count && this->seq < other.seq; }
-
-    int seq;
-    int count;
+    int seq;    // 进展顺序
+    int count;  // 词频
     list<int>::iterator ptr;
   };
+  // key, freq
   unordered_map<int, int> freq;
+  // Info {seq, key, freq}
   priority_queue<Info> que;
+  // key
   list<int> stack;
   int seq = 0;
 };
