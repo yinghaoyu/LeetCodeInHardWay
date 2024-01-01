@@ -485,6 +485,7 @@ Number of Dice Rolls With Target Sum
 |0394|[Decode String](https://leetcode.cn/problems/decode-string/) | [C++](./src/Problem_0394_decodeString.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
 |0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
+|0381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [C++](./src/Problem_0381_RandomizedCollection.cc)|Hard|
 |0380|[Insert Delete GetRandom O(1)](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C++](./src/Problem_0380_RandomizedSet.cc)|Medium|
 |0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/Problem_0378_kthSmallest.cc)|Medium|
 |0373|[Find K Pairs with Smallest Sums](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) | [C++](./src/Problem_0373_kSmallestPairs.cc)|Medium|
