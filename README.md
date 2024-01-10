@@ -360,6 +360,7 @@ Number of Dice Rolls With Target Sum
 |0970|[Powerful Integers](https://leetcode.cn/problems/powerful-integers/) | [C++](./src/Problem_0970_powerfulIntegers.cc)|Medium|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
+|0958|[Check Completeness of a Binary Tree](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/) | [C++](./src/Problem_0958_isCompleteTree.cc)|Medium|
 |0953|[Verifying an Alien Dictionary](https://leetcode.cn/problems/verifying-an-alien-dictionary/) | [C++](./src/Problem_0953_isAlienSorted.cc)|Easy|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
