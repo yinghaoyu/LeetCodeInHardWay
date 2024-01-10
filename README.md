@@ -438,6 +438,7 @@ Number of Dice Rolls With Target Sum
 |0673|[Number of Longest Increasing Subsequence🚀](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/) | [C++](./src/Problem_0673_findNumberOfLIS.cc)|Medium|
 |0672|[Bulb Switcher II](https://leetcode.cn/problems/bulb-switcher-ii/) | [C++](./src/Problem_0672_flipLights.cc)|Medium|
 |0670|[Maximum Swap](https://leetcode.cn/problems/maximum-swap/) | [C++](./src/Problem_0670_maximumSwap.cc)|Medium|
+|0669|[Trim a Binary Search Tree](https://leetcode.cn/problems/trim-a-binary-search-tree/) | [C++](./src/Problem_0669_trimBST.cc)|Medium|
 |0662|[Maximum Width of Binary Tree](https://leetcode.cn/problems/maximum-width-of-binary-tree/) | [C++](./src/Problem_0662_widthOfBinaryTree.cc)|Medium|
 |0658|[Find K Closest Elements](https://leetcode.cn/problems/find-k-closest-elements/) | [C++](./src/Problem_0658_findClosestElements.cc)|Medium|
 |0655|[Print Binary Tree](https://leetcode.cn/problems/print-binary-tree/) | [C++](./src/Problem_0655_printTree.cc)|Medium|
