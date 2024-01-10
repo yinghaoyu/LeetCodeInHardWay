@@ -542,6 +542,7 @@ Number of Dice Rolls With Target Sum
 |0230|[Kth Smallest Element in a BST](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | [C++](./src/Problem_0230_kthSmallest.cc)|Medium|
 |0227|[Basic Calculator II](https://leetcode.cn/problems/basic-calculator-ii/) | [C++](./src/Problem_0227_calculate.cc)|Medium|
 |0226|[Invert Binary Tree](https://leetcode.cn/problems/invert-binary-tree/) | [C++](./src/Problem_0226_invertTree.cc)|Easy|
+|0222|[Count Complete Tree Nodes](https://leetcode.cn/problems/count-complete-tree-nodes/) | [C++](./src/Problem_0222_countNodes.cc)|Easy|
 |0221|[Maximal Square](https://leetcode.cn/problems/maximal-square/) | [C++](./src/Problem_0221_maximalSquare.cc)|Medium|
 |0220|[Contains Duplicate III](https://leetcode.cn/problems/contains-duplicate-iii/) | [C++](./src/Problem_0220_containsNearbyAlmostDuplicate.cc)|Hard|
 |0218|[The Skyline Problem🚀](https://leetcode.cn/problems/the-skyline-problem/) | [C++](./src/Problem_0218_getSkyline.cc)|Hard|
