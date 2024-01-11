@@ -423,6 +423,7 @@ Number of Dice Rolls With Target Sum
 |0739|[Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | [C++](./src/Problem_0739_dailyTemperatures.cc)|Medium|
 |0735|[Asteroid Collision](https://leetcode.cn/problems/asteroid-collision/) | [C++](./src/Problem_0735_asteroidCollision.cc)|Medium|
 |0729|[My Calendar I](https://leetcode.cn/problems/my-calendar-i/) | [C++](./src/Problem_0729_MyCalendar.cc)|Medium|
+|0726|[Number of Atoms](https://leetcode.cn/problems/number-of-atoms/) | [C++](./src/Problem_0726_countOfAtoms.cc)|Hard|
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|
 |0722|[Remove Comments](https://leetcode.cn/problems/remove-comments/) | [C++](./src/Problem_0722_removeComments.cc)|Medium|
 |0714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [C++](./src/Problem_0714_maxProfit.cc)|Medium|
