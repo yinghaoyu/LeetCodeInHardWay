@@ -640,6 +640,7 @@ LeetCode Solution In Hard Way
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
 |0054|[Spiral Matrix](https://leetcode.cn/problems/spiral-matrix/) | [C++](./src/Problem_0054_spiralOrder.cc)|Medium|
 |0053|[Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | [C++](./src/Problem_0053_maxSubArray.cc)|Medium|
+|0052|[N-Queens II](https://leetcode.cn/problems/n-queens-ii/) | [C++](./src/Problem_0052_totalNQueens.cc)|Hard|
 |0050|[Pow(x, n)](https://leetcode.cn/problems/powx-n/) | [C++](./src/Problem_0050_myPow.cc)|Medium|
 |0049|[Group Anagrams](https://leetcode.cn/problems/group-anagrams/) | [C++](./src/Problem_0049_groupAnagrams.cc)|Medium|
 |0048|[Rotate Image](https://leetcode.cn/problems/rotate-image/) | [C++](./src/Problem_0048_rotate.cc)|Medium|
