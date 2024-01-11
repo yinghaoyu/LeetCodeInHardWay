@@ -318,7 +318,6 @@ LeetCode Solution In Hard Way
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character/) | [C++](./src/Problem_1170_numSmallerByFrequency.cc)|Medium|
 |1163|[Last Substring in Lexicographical Order](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | [C++](./src/Problem_1163_lastSubstring.cc)|Hard|
 |1157|[Online Majority Element In Subarray](https://leetcode.cn/problems/online-majority-element-in-subarray/) | [C++](./src/Problem_1157_MajorityChecker.cc)|Hard|
-Number of Dice Rolls With Target Sum
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) | [C++](./src/Problem_1156_maxRepOpt1.cc)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
