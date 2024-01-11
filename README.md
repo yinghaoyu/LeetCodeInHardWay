@@ -294,6 +294,7 @@ LeetCode Solution In Hard Way
 |1401|[Circle and Rectangle Overlapping](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) | [C++](./src/Problem_1401_checkOverlap.cc)|Medium|
 |1377|[Frog Position After T Seconds](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [C++](./src/Problem_1377_frogPosition.cc)|Hard|
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned/) | [C++](./src/Problem_1375_numTimesAllBlue.cc)|Medium|
+|1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | [C++](./src/Problem_1371_findTheLongestSubstring.cc)|Medium|
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | [C++](./src/Problem_1333_filterRestaurants.cc)|Medium|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
