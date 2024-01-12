@@ -431,6 +431,7 @@ LeetCode Solution In Hard Way
 |0726|[Number of Atoms](https://leetcode.cn/problems/number-of-atoms/) | [C++](./src/Problem_0726_countOfAtoms.cc)|Hard|
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|
 |0722|[Remove Comments](https://leetcode.cn/problems/remove-comments/) | [C++](./src/Problem_0722_removeComments.cc)|Medium|
+|0719|[Find K-th Smallest Pair Distance](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/) | [C++](./src/Problem_0719_smallestDistancePair.cc)|Hard|
 |0714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [C++](./src/Problem_0714_maxProfit.cc)|Medium|
 |0711|[Jewels and Stones](https://leetcode.cn/problems/jewels-and-stones/) | [C++](./src/Problem_0711_numJewelsInStones.cc)|Easy|
 |0708|[Insert into a Sorted Circular Linked List](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/) | [C++](./src/Problem_0708_insert.cc)|Medium|
