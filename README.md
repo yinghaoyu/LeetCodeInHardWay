@@ -472,6 +472,7 @@ LeetCode Solution In Hard Way
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
+|0475|[Heaters](https://leetcode.cn/problems/heaters/) | [C++](./src/Problem_0475_findRadius.cc)|Medium|
 |0467|[Unique Substrings in Wraparound String](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/) | [C++](./src/Problem_0467_findSubstringInWraproundString.cc)|Medium|
 |0461|[Hamming Distance](https://leetcode.cn/problems/hamming-distance/) | [C++](./src/Problem_0461_hammingDistance.cc)|Easy|
 |0460|[LFU Cache](https://leetcode.cn/problems/lfu-cache/) | [C++](./src/Problem_0460_LFUCache.cc)|Hard|
