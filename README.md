@@ -521,6 +521,7 @@ LeetCode Solution In Hard Way
 |0324|[Wiggle Sort II](https://leetcode.cn/problems/wiggle-sort-ii/) | [C++](./src/Problem_0324_wiggleSort.cc)|Medium|
 |0322|[Coin Change](https://leetcode.cn/problems/coin-change/) | [C++](./src/Problem_0322_coinChange.cc)|Medium|
 |0318|[Maximum Product of Word Lengths](https://leetcode.cn/problems/maximum-product-of-word-lengths/) | [C++](./src/Problem_0318_maxProduct.cc)|Medium|
+|0316|[Remove Duplicate Letters](https://leetcode.cn/problems/remove-duplicate-letters/) | [C++](./src/Problem_0316_removeDuplicateLetters.cc)|Medium|
 |0315|[Count of Smaller Numbers After Self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | [C++](./src/Problem_0315_countSmaller.cc)|Hard|
 |0309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./src/Problem_0309_maxProfit.cc)|Medium|
 |0308|[Range Sum Query 2D - Mutable🔒🚀](https://leetcode.cn/problems/range-sum-query-2d-mutable/) | [C++](./src/Problem_0308_NumMatrix.cc)|Hard|
