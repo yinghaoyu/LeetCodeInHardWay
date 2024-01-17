@@ -8,6 +8,7 @@ using namespace std;
 class Solution
 {
  public:
+  // 经典二分法
   // 时间复杂度O(n * log(n) + log(max-min) * n)，额外空间复杂度O(1)
   int smallestDistancePair(vector<int>& nums, int k)
   {
