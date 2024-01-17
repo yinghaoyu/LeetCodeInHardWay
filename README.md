@@ -423,6 +423,7 @@ LeetCode Solution In Hard Way
 |0777|[Swap Adjacent in LR String🚀](https://leetcode.cn/problems/swap-adjacent-in-lr-string/) | [C++](./src/Problem_0777_canTransform.cc)|Medium|
 |0775|[Global and Local Inversions](https://leetcode.cn/problems/global-and-local-inversions/) | [C++](./src/Problem_0775_isIdealPermutation.cc)|Medium|
 |0772|[Basic Calculator III🔒🚀](https://leetcode.cn/problems/basic-calculator-iii/) | [C++](./src/Problem_0772_calculate.cc)|Hard|
+|0765|[Couples Holding Hands](https://leetcode.cn/problems/couples-holding-hands/) | [C++](./src/Problem_0765_minSwapsCouples.cc)|Hard|
 |0764|[Largest Plus Sign](https://leetcode.cn/problems/largest-plus-sign/description/) | [C++](./src/Problem_0764_orderOfLargestPlusSign.cc)|Medium|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0754|[Reach a Number🚀](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
