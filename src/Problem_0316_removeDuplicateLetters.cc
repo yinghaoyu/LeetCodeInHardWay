@@ -14,7 +14,6 @@ class Solution
     vector<int> cnt(26);
     vector<bool> enter(26);
     string ans;
-    int r = 0;
     for (char c : s)
     {
       cnt[c - 'a']++;
