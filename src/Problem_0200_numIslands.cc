@@ -17,27 +17,27 @@ class Solution
     vector<int> help;
     vector<int> size;
     int number;
-    int m;
+    int cols;
 
-    int index(int i, int j) { return i * m + j; }
+    int index(int i, int j) { return i * cols + j; }
 
    public:
-    UnionFind(vector<vector<char>> &grid)
+    UnionFind(vector<vector<char>>& grid)
     {
       number = 0;
       int n = grid.size();
-      m = grid[0].size();
-      int len = m * n;
-      parents = vector<int>(len);
-      help = vector<int>(len);
-      size = vector<int>(len);
+      cols = grid[0].size();
+      int len = cols * n;
+      parents.resize(len);
+      help.resize(len);
+      size.resize(len);
       for (int i = 0; i < n; i++)
       {
-        for (int j = 0; j < m; j++)
+        for (int j = 0, idx; j < cols; j++)
         {
           if (grid[i][j] == '1')
           {
-            int idx = index(i, j);
+            idx = index(i, j);
             parents[idx] = idx;
             size[idx] = 1;
             number++;
@@ -87,7 +87,8 @@ class Solution
   };
 
  public:
-  int numIslands1(vector<vector<char>> &grid)
+  // 并查集
+  int numIslands1(vector<vector<char>>& grid)
   {
     int n = grid.size();
     int m = grid[0].size();
@@ -126,7 +127,8 @@ class Solution
     return uf.num();
   }
 
-  int numIslands2(vector<vector<char>> &grid)
+  // dfs
+  int numIslands2(vector<vector<char>>& grid)
   {
     if (grid.size() == 0 || grid[0].size() == 0)
     {
@@ -149,7 +151,7 @@ class Solution
     return ans;
   }
 
-  void infect(vector<vector<char>> &grid, int i, int j, int n, int m)
+  void infect(vector<vector<char>>& grid, int i, int j, int n, int m)
   {
     if (i < 0 || i >= n || j < 0 || j >= m || grid[i][j] != '1')
     {
