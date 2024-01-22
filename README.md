@@ -368,6 +368,7 @@ LeetCode Solution In Hard Way
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
 |0958|[Check Completeness of a Binary Tree](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/) | [C++](./src/Problem_0958_isCompleteTree.cc)|Medium|
 |0953|[Verifying an Alien Dictionary](https://leetcode.cn/problems/verifying-an-alien-dictionary/) | [C++](./src/Problem_0953_isAlienSorted.cc)|Easy|
+|0947|[Most Stones Removed with Same Row or Column](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/) | [C++](./src/Problem_0947_removeStones.cc)|Medium|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
 |0933|[Number of Recent Calls](https://leetcode.cn/problems/number-of-recent-calls/) | [C++](./src/Problem_0933_RecentCounter.cc)|Easy|
