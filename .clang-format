@@ -3,7 +3,7 @@ BreakBeforeBraces: Allman
 IndentWidth: 2
 TabWidth: 2
 BasedOnStyle: Chromium
-ColumnLimit: 160
+ColumnLimit: 100
 DerivePointerAlignment: false
 IndentCaseLabels: false
 SpaceAfterCStyleCast: true
