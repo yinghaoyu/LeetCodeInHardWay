@@ -12,7 +12,7 @@ using namespace std;
 class Solution
 {
  public:
-  string alienOrder(vector<string> &words)
+  string alienOrder(vector<string>& words)
   {
     if (words.size() == 0)
     {
@@ -62,7 +62,7 @@ class Solution
     }
     string ans;
     queue<char> q;
-    for (auto &[key, _] : indegree)
+    for (auto& [key, _] : indegree)
     {
       if (indegree.at(key) == 0)
       {

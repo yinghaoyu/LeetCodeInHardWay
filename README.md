@@ -372,6 +372,7 @@ LeetCode Solution In Hard Way
 |0953|[Verifying an Alien Dictionary](https://leetcode.cn/problems/verifying-an-alien-dictionary/) | [C++](./src/Problem_0953_isAlienSorted.cc)|Easy|
 |0947|[Most Stones Removed with Same Row or Column](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/) | [C++](./src/Problem_0947_removeStones.cc)|Medium|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
+|0936|[Stamping The Sequence](https://leetcode.cn/problems/stamping-the-sequence/) | [C++](./src/Problem_0936_movesToStamp.cc)|Hard|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
 |0933|[Number of Recent Calls](https://leetcode.cn/problems/number-of-recent-calls/) | [C++](./src/Problem_0933_RecentCounter.cc)|Easy|
 |0931|[Minimum Falling Path Sum](https://leetcode.cn/problems/minimum-falling-path-sum/) | [C++](./src/Problem_0931_minFallingPathSum.cc)|Medium|
