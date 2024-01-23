@@ -11,7 +11,7 @@ class Solution
   int largestIsland(vector<vector<int>>& grid)
   {
     int n = grid.size();
-    int m = grid.size();
+    int m = grid[0].size();
     int id = 2;
     for (int i = 0; i < n; i++)
     {
@@ -36,7 +36,7 @@ class Solution
       }
     }
     // 讨论所有的0，变成1，能带来的最大岛的大小
-    vector<int> visited(id);
+    vector<bool> visited(id);
     int up, down, left, right, merge;
     for (int i = 0; i < n; i++)
     {
@@ -69,7 +69,7 @@ class Solution
           visited[up] = false;
           visited[down] = false;
           visited[left] = false;
-          visited[down] = false;
+          visited[right] = false;
         }
       }
     }
