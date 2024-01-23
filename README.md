@@ -326,6 +326,7 @@ LeetCode Solution In Hard Way
 |1171|[Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | [C++](./src/Problem_1171_removeZeroSumSublists.cc)|Medium|
 |1170|[Compare Strings by Frequency of the Smallest Character](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character/) | [C++](./src/Problem_1170_numSmallerByFrequency.cc)|Medium|
 |1163|[Last Substring in Lexicographical Order](https://leetcode.cn/problems/last-substring-in-lexicographical-order/) | [C++](./src/Problem_1163_lastSubstring.cc)|Hard|
+|1162|[As Far from Land as Possible](https://leetcode.cn/problems/as-far-from-land-as-possible/) | [C++](./src/Problem_1162_maxDistance.cc)|Medium|
 |1157|[Online Majority Element In Subarray](https://leetcode.cn/problems/online-majority-element-in-subarray/) | [C++](./src/Problem_1157_MajorityChecker.cc)|Hard|
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) | [C++](./src/Problem_1156_maxRepOpt1.cc)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
