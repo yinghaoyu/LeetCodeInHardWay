@@ -406,6 +406,7 @@ LeetCode Solution In Hard Way
 |0850|[Rectangle Area II🚀](https://leetcode.cn/problems/rectangle-area-ii/) | [C++](./src/Problem_0850_rectangleArea.cc)|Hard|
 |0839|[Similar String Groups](https://leetcode.cn/problems/similar-string-groups/) | [C++](./src/Problem_0839_numSimilarGroups.cc)|Hard|
 |0828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | [C++](./src/Problem_0828_uniqueLetterString.cc)|Hard|
+|0827|[Making A Large Island](https://leet)code.cn/problems/making-a-large-island/ | [C++](./src/Problem_0827_largestIsland.cc)|Hard|
 |0823|[Binary Trees With Factors](https://leetcode.cn/problems/binary-trees-with-factors/description/) | [C++](./src/Problem_0823_numFactoredBinaryTrees.cc)|Medium|
 |0820|[Short Encoding of Words](https://leetcode.cn/problems/short-encoding-of-words/) | [C++](./src/Problem_0820_minimumLengthEncoding.cc)|Medium|
 |0817|[Linked List Components](https://leetcode.cn/problems/linked-list-components/) | [C++](./src/Problem_0817_numComponents.cc)|Medium|
