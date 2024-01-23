@@ -404,6 +404,7 @@ LeetCode Solution In Hard Way
 |0856|[Score of Parentheses🚀](https://leetcode.cn/problems/score-of-parentheses/) | [C++](./src/Problem_0856_scoreOfParentheses.cc)|Medium|
 |0854|[K-Similar Strings🚀](https://leetcode.cn/problems/k-similar-strings/) | [C++](./src/Problem_0854_kSimilarity.cc)|Hard|
 |0852|[Peak Index in a Mountain Array](https://leetcode.cn/problems/peak-index-in-a-mountain-array/) | [C++](./src/Problem_0852_peakIndexInMountainArray.cc)|Medium|
+|0851|[Loud and Rich](https://leetcode.cn/problems/loud-and-rich/) | [C++](./src/Problem_0851_loudAndRich.cc)|Medium|
 |0850|[Rectangle Area II🚀](https://leetcode.cn/problems/rectangle-area-ii/) | [C++](./src/Problem_0850_rectangleArea.cc)|Hard|
 |0839|[Similar String Groups](https://leetcode.cn/problems/similar-string-groups/) | [C++](./src/Problem_0839_numSimilarGroups.cc)|Hard|
 |0828|[Count Unique Characters of All Substrings of a Given String](https://leetcode.cn/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | [C++](./src/Problem_0828_uniqueLetterString.cc)|Hard|
