@@ -375,6 +375,7 @@ LeetCode Solution In Hard Way
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
 |0933|[Number of Recent Calls](https://leetcode.cn/problems/number-of-recent-calls/) | [C++](./src/Problem_0933_RecentCounter.cc)|Easy|
 |0931|[Minimum Falling Path Sum](https://leetcode.cn/problems/minimum-falling-path-sum/) | [C++](./src/Problem_0931_minFallingPathSum.cc)|Medium|
+|0928|[Minimize Malware Spread II](https://leetcode.cn/problems/minimize-malware-spread-ii/) | [C++](./src/Problem_0928_minMalwareSpread.cc)|Hard|
 |0927|[Three Equal Parts](https://leetcode.cn/problems/three-equal-parts/) | [C++](./src/Problem_0927_threeEqualParts.cc)|Hard|
 |0926|[Flip String to Monotone Increasing](https://leetcode.cn/problems/flip-string-to-monotone-increasing/) | [C++](./src/Problem_0926_minFlipsMonoIncr.cc)|Medium|
 |0922|[Sort Array By Parity II](https://leetcode.cn/problems/sort-array-by-parity-ii/) | [C++](./src/Problem_0922_sortArrayByParityII.cc)|Easy|
