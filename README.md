@@ -246,6 +246,7 @@ LeetCode Solution In Hard Way
 |1761|[Minimum Degree of a Connected Trio in a Graph](https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/description/) | [C++](./src/Problem_1761_minTrioDegree.cc)|Hard|
 |1760|[Minimum Limit of Balls in a Bag🚀](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/) | [C++](./src/Problem_1760_minimumSize.cc)|Medium|
 |1758|[Minimum Changes To Make Alternating Binary String](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/) | [C++](./src/Problem_1758_minOperations.cc)|Easy|
+|1755|[Closest Subsequence Sum](https://leetcode.cn/problems/closest-subsequence-sum/) | [C++](./src/Problem_1755_minAbsDifference.cc)|Hard|
 |1753|[Maximum Score From Removing Stones](https://leetcode.cn/problems/maximum-score-from-removing-stones/) | [C++](./src/Problem_1753_maximumScore.cc)|Medium|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/) | [C++](./src/Problem_1752_check.cc)|Easy|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/) | [C++](./src/Problem_1749_maxAbsoluteSum.cc)|Medium|

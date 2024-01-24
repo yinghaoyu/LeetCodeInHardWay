@@ -14,7 +14,7 @@ class Solution
   // 应该根据具体数据状况决定用什么来找邻居
   // 1)如果字符串长度比较短，字符串数量比较多，以下方法适合
   // 2)如果字符串长度比较长，字符串数量比较少，以下方法不适合
-  vector<string> getNext(string word, unordered_set<string> &dict)
+  vector<string> getNext(string word, unordered_set<string>& dict)
   {
     vector<string> res;
     for (char cur = 'a'; cur <= 'z'; cur++)
@@ -38,7 +38,7 @@ class Solution
     return res;
   }
 
-  unordered_map<string, vector<string>> getNexts(vector<string> &words)
+  unordered_map<string, vector<string>> getNexts(vector<string>& words)
   {
     unordered_set<string> dict(words.begin(), words.end());
     unordered_map<string, vector<string>> nexts;
@@ -50,7 +50,7 @@ class Solution
     return nexts;
   }
 
-  int ladderLength(string beginWord, string endWord, vector<string> &wordList)
+  int ladderLength(string beginWord, string endWord, vector<string>& wordList)
   {
     wordList.push_back(beginWord);
     unordered_map<string, vector<string>> nexts = getNexts(wordList);
