@@ -627,6 +627,7 @@ LeetCode Solution In Hard Way
 |0129|[Sum Root to Leaf Numbers](https://leetcode.cn/problems/sum-root-to-leaf-numbers/) | [C++](./src/Problem_0129_sumNumbers.cc)|Medium|
 |0128|[Longest Consecutive Sequence](https://leetcode.cn/problems/longest-consecutive-sequence/) | [C++](./src/Problem_0128_longestConsecutive.cc)|Medium|
 |0127|[Word Ladder](https://leetcode.cn/problems/word-ladder/) | [C++](./src/Problem_0127_ladderLength.cc)|Hard|
+|0126|[Word Ladder II](https://leetcode.cn/problems/word-ladder-ii/) | [C++](./src/Problem_0126_findLadders.cc)|Hard|
 |0125|[Valid Palindrome](https://leetcode.cn/problems/valid-palindrome/) | [C++](./src/Problem_0125_isPalindrome.cc)|Easy|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) | [C++](./src/Problem_0124_maxPathSum.cc)|Hard|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/) | [C++](./src/Problem_0123_maxProfit.cc)|Hard|
