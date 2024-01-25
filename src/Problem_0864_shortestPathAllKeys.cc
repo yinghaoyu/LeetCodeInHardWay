@@ -11,7 +11,7 @@ using namespace std;
 class Solution
 {
  public:
-  int shortestPathAllKeys(vector<string> &grid)
+  int shortestPathAllKeys(vector<string>& grid)
   {
     int n = grid.size();
     int m = grid[0].size();
@@ -43,7 +43,8 @@ class Solution
     queue<tuple<int, int, int>> que;
     // 到起点的距离 distance[x][y][k]，x表示横坐标，y表示纵坐标，k的每 1 bit表示获取的锁
     // k = 00001 表示获取了索引为 0 的锁
-    vector<vector<vector<int>>> distance(n, vector<vector<int>>(m, vector<int>(1 << keys.size(), -1)));
+    vector<vector<vector<int>>> distance(n,
+                                         vector<vector<int>>(m, vector<int>(1 << keys.size(), -1)));
     que.emplace(start_x, start_y, 0);  // 0表示没有获取钥匙
     distance[start_x][start_y][0] = 0;
     while (!que.empty())
