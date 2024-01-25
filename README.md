@@ -443,6 +443,7 @@ LeetCode Solution In Hard Way
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0754|[Reach a Number🚀](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
 |0746|[Min Cost Climbing Stairs](https://leetcode.cn/problems/min-cost-climbing-stairs/) | [C++](./src/Problem_0746_minCostClimbingStairs.cc)|Easy|
+|0743|[Network Delay Time](https://leetcode.cn/problems/network-delay-time/) | [C++](./src/Problem_0743_networkDelayTime.cc)|Hard|
 |0741|[Cherry Pickup](https://leetcode.cn/problems/cherry-pickup/) | [C++](./src/Problem_0741_cherryPickup.cc)|Hard|
 |0739|[Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | [C++](./src/Problem_0739_dailyTemperatures.cc)|Medium|
 |0735|[Asteroid Collision](https://leetcode.cn/problems/asteroid-collision/) | [C++](./src/Problem_0735_asteroidCollision.cc)|Medium|
