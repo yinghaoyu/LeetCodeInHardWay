@@ -436,6 +436,7 @@ LeetCode Solution In Hard Way
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
 |0779|[K-th Symbol in Grammar](https://leetcode.cn/problems/k-th-symbol-in-grammar/) | [C++](./src/Problem_0779_kthGrammar.cc)|Medium|
+|0778|[Swim in Rising Water](https://leetcode.cn/problems/swim-in-rising-water/) | [C++](./src/Problem_0778_swimInWater.cc)|Hard|
 |0777|[Swap Adjacent in LR String🚀](https://leetcode.cn/problems/swap-adjacent-in-lr-string/) | [C++](./src/Problem_0777_canTransform.cc)|Medium|
 |0775|[Global and Local Inversions](https://leetcode.cn/problems/global-and-local-inversions/) | [C++](./src/Problem_0775_isIdealPermutation.cc)|Medium|
 |0772|[Basic Calculator III🔒🚀](https://leetcode.cn/problems/basic-calculator-iii/) | [C++](./src/Problem_0772_calculate.cc)|Hard|
