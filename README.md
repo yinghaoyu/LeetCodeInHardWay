@@ -647,6 +647,7 @@ LeetCode Solution In Hard Way
 |0121|[Best Time to Buy and Sell Stock](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | [C++](./src/Problem_0121_maxProfit.cc)|Easy|
 |0118|[Pascal's Triangle](https://leetcode.cn/problems/pascals-triangle/) | [C++](./src/Problem_0118_generate.cc)|Easy|
 |0116|[Populating Next Right Pointers in Each Node](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/) | [C++](./src/Problem_0116_connect.cc)|Medium|
+|0115|[Distinct Subsequences](https://leetcode.cn/problems/distinct-subsequences/) | [C++](./src/Problem_0115_connect.cc)|Hard|
 |0114|[Flatten Binary Tree to Linked List](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) | [C++](./src/Problem_0114_flatten.cc)|Medium|
 |0113|[Path Sum II](https://leetcode.cn/problems/path-sum-ii/) | [C++](./src/Problem_0113_pathSum.cc)|Medium|
 |0110|[Balanced Binary Tree](https://leetcode.cn/problems/balanced-binary-tree/) | [C++](./src/Problem_0110_isBalanced.cc)|Easy|
