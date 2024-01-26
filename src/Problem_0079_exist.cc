@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
  public:
-  bool process(vector<vector<char>> &board, int i, int j, string &word, int w)
+  bool f(vector<vector<char>>& board, int i, int j, string& word, int w)
   {
     if (w == word.length())
     {
@@ -24,19 +24,19 @@ class Solution
     }
     char tmp = board[i][j];
     board[i][j] = 0;
-    bool p = process(board, i - 1, j, word, w + 1) || process(board, i + 1, j, word, w + 1) || process(board, i, j - 1, word, w + 1) ||
-             process(board, i, j + 1, word, w + 1);
+    bool p = f(board, i - 1, j, word, w + 1) || f(board, i + 1, j, word, w + 1) ||
+             f(board, i, j - 1, word, w + 1) || f(board, i, j + 1, word, w + 1);
     board[i][j] = tmp;
     return p;
   }
 
-  bool exist(vector<vector<char>> &board, string word)
+  bool exist(vector<vector<char>>& board, string word)
   {
     for (int i = 0; i < board.size(); i++)
     {
       for (int j = 0; j < board[0].size(); j++)
       {
-        if (process(board, i, j, word, 0))
+        if (f(board, i, j, word, 0))
         {
           return true;
         }

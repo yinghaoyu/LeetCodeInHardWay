@@ -337,6 +337,7 @@ LeetCode Solution In Hard Way
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
+|1143|[Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | [C++](./src/Problem_1143_longestCommonSubsequence.cc)|Medium|
 |1141|[Decrease Elements To Make Array Zigzag](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/) | [C++](./src/Problem_1141_movesToMakeZigzag.cc)|Medium|
 |1140|[Stone Game II](https://leetcode.cn/problems/stone-game-ii/) | [C++](./src/Problem_1140_stoneGameII.cc)|Medium|
 |1139|[Largest 1-Bordered Square](https://leetcode.cn/problems/largest-1-bordered-square/) | [C++](./src/Problem_1139_largest1BorderedSquare.cc)|Medium|
