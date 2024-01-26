@@ -484,6 +484,7 @@ LeetCode Solution In Hard Way
 |0646|[Maximum Length of Pair Chain](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | [C++](./src/Problem_0646_findLongestChain.cc)|Medium|
 |0641|[Design Circular Deque](https://leetcode.cn/problems/design-circular-deque/) | [C++](./src/Problem_0641_MyCircularDeque.cc)|Medium|
 |0640|[Solve the Equation](https://leetcode.cn/problems/solve-the-equation/) | [C++](./src/Problem_0640_SolveEquation.cc)|Medium|
+|0639|[Decode Ways II](https://leetcode.cn/problems/decode-ways-ii/) | [C++](./src/Problem_0639_numDecodings.cc)|Hard|
 |0630|[Course Schedule III](https://leetcode.cn/problems/course-schedule-iii/) | [C++](./src/Problem_0630_scheduleCourse.cc)|Hard|
 |0621|[Task Scheduler](https://leetcode.cn/problems/task-scheduler/) | [C++](./src/Problem_0621_leastInterval.cc)|Medium|
 |0617|[Merge Two Binary Trees](https://leetcode.cn/problems/merge-two-binary-trees/) | [C++](./src/Problem_0617_mergeTrees.cc)|Easy|
