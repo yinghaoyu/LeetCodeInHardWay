@@ -52,7 +52,7 @@ class Solution
 
   // 动态规划空间优化
   // TODO: figure it out
-  int process(string &str1, string str2, int ic, int dc, int rc)
+  int process(string& str1, string str2, int ic, int dc, int rc)
   {
     if (str1.length() == 0 || str2.length() == 0)
     {
