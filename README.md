@@ -568,6 +568,7 @@ LeetCode Solution In Hard Way
 |0275|[H-Index II](https://leetcode.cn/problems/h-index-ii/) | [C++](./src/Problem_0275_hIndex.cc)|Medium|
 |0269|[Alien Dictionary](https://leetcode.cn/problems/alien-dictionary/) | [C++](./src/Problem_0269_alienOrder.cc)|Hard|
 |0268|[Missing Number](https://leetcode.cn/problems/missing-number/) | [C++](./src/Problem_0268_missingNumber.cc)|Easy|
+|0264|[Ugly Number II](https://leetcode.cn/problems/ugly-number-ii/) | [C++](./src/Problem_0264_nthUglyNumber.cc)|Medium|
 |0260|[Single Number III](https://leetcode.cn/problems/single-number-iii/) | [C++](./src/Problem_0260_singleNumber.cc)|Medium|
 |0256|[Paint House🔒](https://leetcode.cn/problems/paint-house/) | [C++](./src/Problem_0256_minCost.cc)|Medium|
 |0253|[Meeting Rooms II🔒](https://leetcode.cn/problems/meeting-rooms-ii/) | [C++](./src/Problem_0253_minMeetingRooms.cc)|Medium|
