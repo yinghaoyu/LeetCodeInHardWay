@@ -435,6 +435,7 @@ LeetCode Solution In Hard Way
 |0795|[Number of Subarrays with Bounded Maximum](https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/) | [C++](./src/Problem_0795_numSubarrayBoundedMax.cc)|Medium|
 |0790|[Domino and Tromino Tiling🚀](https://leetcode.cn/problems/domino-and-tromino-tiling/) | [C++](./src/Problem_0790_numTilings.cc)|Medium|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
+|0787|[Cheapest Flights Within K Stops](https://leetcode.cn/problems/cheapest-flights-within-k-stops/) | [C++](./src/Problem_0787_findCheapestPrice.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
 |0779|[K-th Symbol in Grammar](https://leetcode.cn/problems/k-th-symbol-in-grammar/) | [C++](./src/Problem_0779_kthGrammar.cc)|Medium|
 |0778|[Swim in Rising Water](https://leetcode.cn/problems/swim-in-rising-water/) | [C++](./src/Problem_0778_swimInWater.cc)|Hard|
