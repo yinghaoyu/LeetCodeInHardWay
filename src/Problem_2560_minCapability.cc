@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  int minCapability(vector<int> &nums, int k)
+  int minCapability(vector<int>& nums, int k)
   {
     int left = *min_element(nums.begin(), nums.end());
     int right = *max_element(nums.begin(), nums.end());
