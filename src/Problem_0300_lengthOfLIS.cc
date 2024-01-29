@@ -8,7 +8,9 @@ using namespace std;
 class Solution
 {
  public:
-  int dp(vector<int> &nums)
+  // 普通解法的动态规划
+  // 时间复杂度O(n^2)，数组稍大就会超时
+  int dp(vector<int>& nums)
   {
     int n = nums.size();
     // dp[i]的含义为：必须以nums[i]为结尾的最大递增子序列的数量
@@ -32,7 +34,7 @@ class Solution
   }
 
   // 贪心 + 二分
-  int lengthOfLIS(vector<int> &nums)
+  int lengthOfLIS(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
