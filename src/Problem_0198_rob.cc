@@ -9,20 +9,20 @@ using namespace std;
 class Solution
 {
  public:
-  int process(vector<int> &nums, int index, int money)
+  int f(vector<int>& nums, int index, int money)
   {
     if (index >= nums.size())
     {
       return money;
     }
-    int p1 = process(nums, index + 1, money);
-    int p2 = process(nums, index + 2, money + nums[index]);
+    int p1 = f(nums, index + 1, money);
+    int p2 = f(nums, index + 2, money + nums[index]);
     return std::max(p1, p2);
   }
 
-  int rob(vector<int> &nums) { return process(nums, 0, 0); }
+  int rob(vector<int>& nums) { return f(nums, 0, 0); }
 
-  int dp1(vector<int> &nums)
+  int dp1(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
@@ -33,6 +33,7 @@ class Solution
       return nums[0];
     }
     int n = nums.size();
+    // dp[i] : nums[0...i]范围上可以随意选择数字，但是不能选相邻数，能得到的最大累加和
     vector<int> dp(n);
     dp[0] = nums[0];
     dp[1] = std::max(nums[0], nums[1]);
@@ -44,7 +45,7 @@ class Solution
   }
 
   // 空间优化
-  int dp2(vector<int> &nums)
+  int dp2(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
