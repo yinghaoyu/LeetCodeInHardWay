@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  int maxSubarraySumCircular1(vector<int> &nums)
+  int maxSubarraySumCircular1(vector<int>& nums)
   {
     int n = nums.size();
     // leftMax[i] 表示必须以arr[0]开始， [0, i] 区间内的最大子数组和
@@ -37,7 +37,7 @@ class Solution
     return ans;
   }
 
-  int maxSubarraySumCircular2(vector<int> &nums)
+  int maxSubarraySumCircular2(vector<int>& nums)
   {
     int n = nums.size();
     // preMax 表示必须以 nums[i] 为结尾子数组的最大值
@@ -61,7 +61,7 @@ class Solution
     return max > 0 ? std::max(max, sum - min) : max;
   }
 
-  int maxSubarraySumCircular3(vector<int> &nums)
+  int maxSubarraySumCircular3(vector<int>& nums)
   {
     int n = nums.size();
     deque<pair<int, int>> q;
