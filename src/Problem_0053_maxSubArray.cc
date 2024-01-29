@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <iostream>
 #include <vector>
 
@@ -8,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  int maxSubArray1(vector<int> &nums)
+  int maxSubArray1(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
@@ -29,7 +30,7 @@ class Solution
     return max;
   }
 
-  int cross(vector<int> &nums, int left, int mid, int right)
+  int cross(vector<int>& nums, int left, int mid, int right)
   {
     // 一定会包含 nums[mid] 这个元素
     int sum = 0;
@@ -60,7 +61,7 @@ class Solution
     return leftSum + rightSum;
   }
 
-  int process(vector<int> &nums, int left, int right)
+  int f(vector<int>& nums, int left, int right)
   {
     if (left == right)
     {
@@ -70,21 +71,22 @@ class Solution
     // 最大值在左边
     // 最大值在中间
     // 最大值在右边
-    return std::max(cross(nums, left, mid, right), std::max(process(nums, left, mid), process(nums, mid + 1, right)));
+    return std::max(cross(nums, left, mid, right),
+                    std::max(f(nums, left, mid), f(nums, mid + 1, right)));
   }
 
   // 分治法
-  int maxSubArray2(vector<int> &nums)
+  int maxSubArray2(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
       return 0;
     }
-    return process(nums, 0, nums.size() - 1);
+    return f(nums, 0, nums.size() - 1);
   }
 
   // 动态规划空间优化
-  int maxSubArray3(vector<int> &nums)
+  int maxSubArray3(vector<int>& nums)
   {
     if (nums.size() == 0)
     {
@@ -99,6 +101,42 @@ class Solution
       cur = cur < 0 ? 0 : cur;
     }
     return max;
+  }
+
+  // 如下代码为附加问题的实现
+  // 子数组中找到拥有最大累加和的子数组
+  // 并返回如下三个信息:
+  // 1) 最大累加和子数组的开头left
+  // 2) 最大累加和子数组的结尾right
+  // 3) 最大累加和子数组的累加和sum
+  // 如果不止一个子数组拥有最大累加和，那么找到哪一个都可以
+  void extra(vector<int>& nums)
+  {
+    int sum = INT32_MIN;
+    int left = -1;
+    int right = -1;
+    for (int l = 0, r = 0, pre = INT32_MIN; r < nums.size(); r++)
+    {
+      if (pre >= 0)
+      {
+        // 吸收前面的累加和有利可图
+        // 那就不换开头
+        pre += nums[r];
+      }
+      else
+      {
+        // 吸收前面的累加和已经无利可图
+        // 那就换开头
+        pre = nums[r];
+        l = r;
+      }
+      if (pre > sum)
+      {
+        sum = pre;
+        left = l;
+        right = r;
+      }
+    }
   }
 };
 
