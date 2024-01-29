@@ -405,6 +405,7 @@ LeetCode Solution In Hard Way
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
 |0882|[Reachable Nodes In Subdivided Graph🚀](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/) | [C++](./src/Problem_0882_reachableNodes.cc)|Hard|
 |0881|[Boats to Save People](https://leetcode.cn/problems/boats-to-save-people/) | [C++](./src/Problem_0881_numRescueBoats.cc)|Medium|
+|0879|[Profitable Schemes](https://leetcode.cn/problems/profitable-schemes/) | [C++](./src/Problem_0879_profitableSchemes.cc)|Hard|
 |0878|[Nth Magical Number](https://leetcode.cn/problems/nth-magical-number/) | [C++](./src/Problem_0878_nthMagicalNumber.cc)|Hard|
 |0875|[Koko Eating Bananas](https://leetcode.cn/problems/koko-eating-bananas/) | [C++](./src/Problem_0875_minEatingSpeed.cc)|Medium|
 |0874|[Walking Robot Simulation](https://leetcode.cn/problems/walking-robot-simulation/) | [C++](./src/Problem_0874_robotSim.cc)|Medium|
