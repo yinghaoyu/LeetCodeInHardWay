@@ -463,6 +463,7 @@ LeetCode Solution In Hard Way
 |0741|[Cherry Pickup](https://leetcode.cn/problems/cherry-pickup/) | [C++](./src/Problem_0741_cherryPickup.cc)|Hard|
 |0739|[Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | [C++](./src/Problem_0739_dailyTemperatures.cc)|Medium|
 |0735|[Asteroid Collision](https://leetcode.cn/problems/asteroid-collision/) | [C++](./src/Problem_0735_asteroidCollision.cc)|Medium|
+|0730|[Count Different Palindromic Subsequences](https://leetcode.cn/problems/count-different-palindromic-subsequences/) | [C++](./src/Problem_0730_countPalindromicSubsequences.cc)|Hard|
 |0729|[My Calendar I](https://leetcode.cn/problems/my-calendar-i/) | [C++](./src/Problem_0729_MyCalendar.cc)|Medium|
 |0726|[Number of Atoms](https://leetcode.cn/problems/number-of-atoms/) | [C++](./src/Problem_0726_countOfAtoms.cc)|Hard|
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|

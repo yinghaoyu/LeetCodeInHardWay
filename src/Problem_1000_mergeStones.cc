@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  vector<int> getSum(vector<int> &arr)
+  vector<int> getSum(vector<int>& arr)
   {
     int n = arr.size();
     vector<int> sum(n + 1);
@@ -21,7 +21,13 @@ class Solution
   }
 
   // L...R范围上，每次合并K个数，一定要合成出part个数，最小代价是多少
-  int process(vector<int> &arr, int L, int R, int K, int part, vector<int> &sum, vector<vector<vector<int>>> &dp)
+  int f(vector<int>& arr,
+        int L,
+        int R,
+        int K,
+        int part,
+        vector<int>& sum,
+        vector<vector<vector<int>>>& dp)
   {
     if (dp[L][R][part] != 0)
     {
@@ -36,7 +42,7 @@ class Solution
     if (part == 1)
     {
       // 说明最后一次必然合并K部分，这样下次才能合并成一个数
-      int pre = process(arr, L, R, K, K, sum, dp);
+      int pre = f(arr, L, R, K, K, sum, dp);
       if (pre == -1)
       {
         dp[L][R][part] = -1;
@@ -49,8 +55,8 @@ class Solution
     // 枚举所有可能的情况
     for (int i = L; i < R; i += (K - 1))
     {
-      int left = process(arr, L, i, K, 1, sum, dp);
-      int right = process(arr, i + 1, R, K, part - 1, sum, dp);
+      int left = f(arr, L, i, K, 1, sum, dp);
+      int right = f(arr, i + 1, R, K, part - 1, sum, dp);
       if (left != -1 && right != -1)
       {
         ans = std::min(ans, right + left);
@@ -65,7 +71,7 @@ class Solution
   }
 
   // 暴力递归 + 记忆化搜索
-  int mergeStones(vector<int> &stones, int k)
+  int mergeStones(vector<int>& stones, int k)
   {
     int n = stones.size();
     // 最后一次必然拿走k个，之前每次拿走k-1个
@@ -75,11 +81,11 @@ class Solution
     }
     vector<int> sum = getSum(stones);
     vector<vector<vector<int>>> dp(n, vector<vector<int>>(n, vector<int>(k + 1)));
-    return process(stones, 0, n - 1, k, 1, sum, dp);
+    return f(stones, 0, n - 1, k, 1, sum, dp);
   }
 
   // 递归改动态规划
-  int dp(vector<int> &stones, int k)
+  int dp(vector<int>& stones, int k)
   {
     int n = stones.size();
     if ((n - 1) % (k - 1) != 0)
