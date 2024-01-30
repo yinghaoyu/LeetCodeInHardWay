@@ -13,7 +13,7 @@ class Solution
   // '*' 匹配任意长度字符串包括空字符串
   // '?' 匹配任意单个字符
   // s[si...] 能否被 p[pi...] 匹配出来
-  bool process(string s, string p, int si, int pi)
+  bool f(string s, string p, int si, int pi)
   {
     if (si == s.length())
     {
@@ -27,7 +27,7 @@ class Solution
       {
         // p -> "..."
         // p[pi] == '*' && p[pi+1...] -> "..."
-        return p[pi] == '*' && process(s, p, si, pi + 1);
+        return p[pi] == '*' && f(s, p, si, pi + 1);
       }
     }
     if (pi == p.length())
@@ -41,17 +41,17 @@ class Solution
     // p[pi] -> 小写字母 或 '?' 或 '*'
     if (p[pi] != '?' && p[pi] != '*')
     {
-      return s[si] == p[pi] && process(s, p, si + 1, pi + 1);
+      return s[si] == p[pi] && f(s, p, si + 1, pi + 1);
     }
     // si... pi... pi ? *
     if (p[pi] == '?')
     {
-      return process(s, p, si + 1, pi + 1);
+      return f(s, p, si + 1, pi + 1);
     }
     for (int len = 0; len <= s.length() - si; len++)
     {
       // p[pi] 尝试用 * 去匹配s[si]的后续任意长度
-      if (process(s, p, si + len, pi + 1))
+      if (f(s, p, si + len, pi + 1))
       {
         return true;
       }
@@ -59,7 +59,7 @@ class Solution
     return false;
   }
 
-  bool isMatch1(string s, string p) { return process(s, p, 0, 0); }
+  bool isMatch1(string s, string p) { return f(s, p, 0, 0); }
 
   // 递归改动态规划
   bool isMatch2(string s, string p)
@@ -143,15 +143,18 @@ void testIsMatch()
   EXPECT_FALSE(s.isMatch1("aa", "a"));
   EXPECT_TRUE(s.isMatch1("aa", "*"));
   EXPECT_FALSE(s.isMatch1("cb", "?a"));
-  EXPECT_FALSE(s.isMatch1("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
+  EXPECT_FALSE(
+      s.isMatch1("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
   EXPECT_FALSE(s.isMatch2("aa", "a"));
   EXPECT_TRUE(s.isMatch2("aa", "*"));
   EXPECT_FALSE(s.isMatch2("cb", "?a"));
-  EXPECT_FALSE(s.isMatch2("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
+  EXPECT_FALSE(
+      s.isMatch2("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
   EXPECT_FALSE(s.isMatch3("aa", "a"));
   EXPECT_TRUE(s.isMatch3("aa", "*"));
   EXPECT_FALSE(s.isMatch3("cb", "?a"));
-  EXPECT_FALSE(s.isMatch3("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
+  EXPECT_FALSE(
+      s.isMatch3("bbbbbbbabbaabbabbbbaaabbabbabaaabbababbbabbbabaaabaab", "b*b*ab**ba*b**b***bba"));
   EXPECT_SUMMARY;
 }
 
