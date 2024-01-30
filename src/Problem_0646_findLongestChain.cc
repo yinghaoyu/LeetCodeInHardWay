@@ -15,7 +15,7 @@ class Solution
   // dp[i] 的值即可赋为这个最大值加一
   // 这种动态规划的思路要求计算 dp[i] 时，所有潜在的 dp[j] 已经计算完成
   // 可以先将 pairs 进行排序来满足这一要求。初始化时，dp 需要全部赋值为 1
-  int findLongestChain1(vector<vector<int>> &pairs)
+  int findLongestChain1(vector<vector<int>>& pairs)
   {
     int N = pairs.size();
     std::sort(pairs.begin(), pairs.end());
@@ -38,7 +38,7 @@ class Solution
   // 用一个数组 arr 来记录当前最优情况，
   // arr[i] 就表示长度为 i+1 的数对链的末尾可以取得的最小值，
   // 遇到一个新数对时，先用二分查找得到这个数对可以放置的位置，再更新 arr。
-  int findLongestChain2(vector<vector<int>> &pairs)
+  int findLongestChain2(vector<vector<int>>& pairs)
   {
     sort(pairs.begin(), pairs.end());
     vector<int> arr;
@@ -62,7 +62,7 @@ class Solution
   // 最优的选择是挑选第二个数字最小的，
   // 这样能给挑选后续的数对留下更多的空间
   static bool compare(vector<int> l, vector<int> r) { return l[1] < r[1]; }
-  int findLongestChain3(vector<vector<int>> &pairs)
+  int findLongestChain3(vector<vector<int>>& pairs)
   {
     std::sort(pairs.begin(), pairs.end(), compare);
     int ans = 1;
