@@ -136,6 +136,7 @@ LeetCode Solution In Hard Way
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
+|08.14|[Boolean Evaluation LCCI](https://leetcode.cn/problems/boolean-evaluation-lcci/) | [C++](./src/Problem_08.14_countEval.cc)|Medium|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
 |02.02|[Kth Node From End of List LCCI](https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/) | [C++](./src/Problem_02.02_kthToLast.cc)|Easy|
 |02.01|[Remove Duplicate Node LCCI](https://leetcode.cn/problems/remove-duplicate-node-lcci/) | [C++](./src/Problem_02.01_removeDuplicateNodes.cc)|Easy|
