@@ -315,6 +315,7 @@ LeetCode Solution In Hard Way
 |1368|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [C++](./src/Problem_1368_minCost.cc)|Hard|
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | [C++](./src/Problem_1333_filterRestaurants.cc)|Medium|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
+|1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [C++](./src/Problem_1312_minInsertions.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
 |1282|[Group the People Given the Group Size They Belong To](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1282_GroupThePeople.cc)|Medium|
 |1267|[Count Servers that Communicate](https://leetcode.cn/problems/count-servers-that-communicate/) | [C++](./src/Problem_1267_countServers.cc)|Medium|
