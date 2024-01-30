@@ -562,6 +562,7 @@ LeetCode Solution In Hard Way
 |0338|[Counting Bits](https://leetcode.cn/problems/counting-bits/) | [C++](./src/Problem_0338_countBits.cc)|Easy|
 |0337|[House Robber III](https://leetcode.cn/problems/house-robber-iii/) | [C++](./src/Problem_0337_rob.cc)|Medium|
 |0334|[Increasing Triplet Subsequence](https://leetcode.cn/problems/increasing-triplet-subsequence/) | [C++](./src/Problem_0334_increasingTriplet.cc)|Medium|
+|0333|[Largest BST Subtree🔒](https://leetcode.cn/problems/largest-bst-subtree/) | [C++](./src/Problem_0333_largestBSTSubtree.cc)|Medium|
 |0329|[Longest Increasing Path in a Matrix](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) | [C++](./src/Problem_0329_longestIncreasingPath.cc)|Hard|
 |0328|[Odd Even Linked List](https://leetcode.cn/problems/odd-even-linked-list/) | [C++](./src/Problem_0328_oddEvenList.cc)|Medium|
 |0327|[Count of Range Sum](https://leetcode.cn/problems/count-of-range-sum/) | [C++](./src/Problem_0327_countRangeSum.cc)|Hard|
