@@ -290,6 +290,7 @@ LeetCode Solution In Hard Way
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | [C++](./src/Problem_1574_findLengthOfShortestSubarray.cc)|Medium|
 |1552|[Magnetic Force Between Two Balls](https://leetcode.cn/problems/magnetic-force-between-two-balls/) | [C++](./src/Problem_1552_maxDistance.cc)|Medium|
+|1547|[Minimum Cost to Cut a Stick](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/) | [C++](./src/Problem_1547_minCost.cc)|Hard|
 |1504|[Count Submatrices With All Ones](https://leetcode.cn/problems/count-submatrices-with-all-ones/) | [C++](./src/Problem_1504_numSubmat.cc)|Medium|
 |1499|[Max Value of Equation](https://leetcode.cn/problems/max-value-of-equation/) | [C++](./src/Problem_1499_findMaxValueOfEquation.cc)|Hard|
 |1494|[Parallel Courses II](https://leetcode.cn/problems/parallel-courses-ii/) | [C++](./src/Problem_1494_minNumberOfSemesters.cc)|Hard|
