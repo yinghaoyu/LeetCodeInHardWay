@@ -10,9 +10,9 @@ class Solution
 {
  public:
   // 过滤掉无效字符
-  bool isValid(string &str, string &pattern)
+  bool isValid(string& str, string& pattern)
   {
-    for (char &cha : str)
+    for (char& cha : str)
     {
       // str不能有.和*
       if (cha == '.' || cha == '*')
@@ -38,12 +38,12 @@ class Solution
     {
       return false;
     }
-    return isValid(s, p) && process1(s, p, 0, 0);
+    return isValid(s, p) && f1(s, p, 0, 0);
   }
 
   // str[i.....] 能否被 pattern[j...] 变出来
   // 潜台词：j位置，pattern[j] != '*'
-  bool process1(string &str, string &pattern, int i, int j)
+  bool process1(string& str, string& pattern, int i, int j)
   {
     if (j == pattern.length())
     {
@@ -68,7 +68,8 @@ class Solution
     {
       // j到了有效字符的最后一个位置
       // 或者j的下一个位置不是*，则p[j]必须要独立面对s[i]
-      return ((str[i] == pattern[j]) || (pattern[j] == '.')) && process1(str, pattern, i + 1, j + 1);
+      return ((str[i] == pattern[j]) || (pattern[j] == '.')) &&
+             process1(str, pattern, i + 1, j + 1);
     }
     // pattern[j+1] == '*'
     if (pattern[j] != '.' && str[i] != pattern[j])
@@ -133,7 +134,7 @@ class Solution
   }
 
   // 记忆化搜索
-  bool f2(string s, string p, int si, int pi, vector<vector<int>> &dp)
+  bool f2(string s, string p, int si, int pi, vector<vector<int>>& dp)
   {
     if (dp[si][pi] != 0)
     {
@@ -163,7 +164,35 @@ class Solution
     dp[si][pi] = ans ? 1 : -1;
     return ans;
   }
-  // TODO: 递归改dp
+
+  // 动态规划
+  // TODO: figure it out.
+  bool isMatch4(string s, string p)
+  {
+    int n = s.length();
+    int m = p.length();
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1));
+    dp[n][m] = true;
+    for (int j = m - 1; j >= 0; j--)
+    {
+      dp[n][j] = j + 1 < m && p[j + 1] == '*' && dp[n][j + 2];
+    }
+    for (int i = n - 1; i >= 0; i--)
+    {
+      for (int j = m - 1; j >= 0; j--)
+      {
+        if (j + 1 == m || p[j + 1] != '*')
+        {
+          dp[i][j] = (s[i] == p[j] || p[j] == '.') && dp[i + 1][j + 1];
+        }
+        else
+        {
+          dp[i][j] = dp[i][j + 2] || ((s[i] == p[j] || p[j] == '.') && dp[i + 1][j]);
+        }
+      }
+    }
+    return dp[0][0];
+  }
 };
 
 void testIsMatch()
@@ -178,6 +207,9 @@ void testIsMatch()
   EXPECT_FALSE(s.isMatch3("aa", "a"));
   EXPECT_TRUE(s.isMatch3("aa", "a*"));
   EXPECT_TRUE(s.isMatch3("ab", ".*"));
+  EXPECT_FALSE(s.isMatch4("aa", "a"));
+  EXPECT_TRUE(s.isMatch4("aa", "a*"));
+  EXPECT_TRUE(s.isMatch4("ab", ".*"));
   EXPECT_SUMMARY;
 }
 
