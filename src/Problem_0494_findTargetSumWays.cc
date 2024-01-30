@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  int process(vector<int> &nums, int index, int rest, unordered_map<int, unordered_map<int, int>> &map)
+  int f(vector<int>& nums, int index, int rest, unordered_map<int, unordered_map<int, int>>& map)
   {
     if (map.count(index) && map.at(index).count(rest))
     {
@@ -19,17 +19,69 @@ class Solution
     {
       return rest == 0;
     }
-    int p1 = process(nums, index + 1, rest + nums[index], map);
-    int p2 = process(nums, index + 1, rest - nums[index], map);
+    int p1 = f(nums, index + 1, rest + nums[index], map);
+    int p2 = f(nums, index + 1, rest - nums[index], map);
     map[index][rest] = p1 + p2;
     return map.at(index).at(rest);
   }
 
   // 递归 + 记忆化搜索
-  int findTargetSumWays1(vector<int> &nums, int target)
+  int findTargetSumWays1(vector<int>& nums, int target)
   {
     unordered_map<int, unordered_map<int, int>> map;
-    return process(nums, 0, target, map);
+    return f(nums, 0, target, map);
+  }
+
+  // 普通尝试
+  // 严格位置依赖的动态规划
+  // 平移技巧
+  int findTargetSumWays2(vector<int>& nums, int target)
+  {
+    int sum = 0;
+    for (int num : nums)
+    {
+      sum += num;
+    }
+    if (target < -sum || target > sum)
+    {
+      return 0;
+    }
+    int n = nums.size();
+    // -sum ~ +sum -> 2 * sum + 1
+    int m = 2 * sum + 1;
+    // 原本的dp[i][j]含义:
+    // nums[0...i-1]范围上，已经形成的累加和是sum
+    // nums[i...]范围上，每个数字可以标记+或者-
+    // 最终形成累加和为target的不同表达式数目
+    // 因为sum可能为负数，为了下标不出现负数，
+    // "原本的dp[i][j]"由dp表中的dp[i][j + sum]来表示
+    // 也就是平移操作！
+    // 一切"原本的dp[i][j]"一律平移到dp表中的dp[i][j + sum]
+    vector<vector<int>> dp(n + 1, vector<int>(m));
+    // 原本的dp[n][target] = 1，平移！
+    dp[n][target + sum] = 1;
+    for (int i = n - 1; i >= 0; i--)
+    {
+      for (int j = -sum; j <= sum; j++)
+      {
+        if (j + nums[i] + sum < m)
+        {
+          // 原本是 : dp[i][j] = dp[i + 1][j + nums[i]]
+          // 平移！
+          dp[i][j + sum] = dp[i + 1][j + nums[i] + sum];
+        }
+        if (j - nums[i] + sum >= 0)
+        {
+          // 原本是 : dp[i][j] += dp[i + 1][j - nums[i]]
+          // 平移！
+          dp[i][j + sum] += dp[i + 1][j - nums[i] + sum];
+        }
+      }
+    }
+    // 原本应该返回dp[0][0]
+    // 平移！
+    // 返回dp[0][0 + sum]
+    return dp[0][sum];
   }
 
   // 优化点一 :
@@ -61,7 +113,7 @@ class Solution
   // 求有多少方法组成7，其实就是求有多少种达到累加和(7+11)/2=9的方法
   // 优化点五 :
   // 二维动态规划的空间压缩技巧
-  int findTargetSumWays2(vector<int> &arr, int s)
+  int findTargetSumWays3(vector<int>& arr, int s)
   {
     int sum = 0;
     for (int n : arr)
@@ -71,7 +123,7 @@ class Solution
     return sum < s || ((s & 1) ^ (sum & 1)) != 0 ? 0 : subset(arr, (s + sum) >> 1);
   }
 
-  int subset(vector<int> &nums, int s)
+  int subset(vector<int>& nums, int s)
   {
     // dp[i]的含义为：任取数组内的元素，和为i的子集数
     vector<int> dp(s + 1);
@@ -98,6 +150,8 @@ void testFindTargetSumWays()
   EXPECT_EQ_INT(1, s.findTargetSumWays1(n2, 1));
   EXPECT_EQ_INT(5, s.findTargetSumWays2(n1, 3));
   EXPECT_EQ_INT(1, s.findTargetSumWays2(n2, 1));
+  EXPECT_EQ_INT(5, s.findTargetSumWays3(n1, 3));
+  EXPECT_EQ_INT(1, s.findTargetSumWays3(n2, 1));
   EXPECT_SUMMARY;
 }
 
