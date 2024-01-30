@@ -363,6 +363,7 @@ LeetCode Solution In Hard Way
 |1043|[Partition Array for Maximum Sum](https://leetcode.cn/problems/partition-array-for-maximum-sum/) | [C++](./src/Problem_1043_maxSumAfterPartitioning.cc)|Medium|
 |1042|[Flower Planting With No Adjacent](https://leetcode.cn/problems/flower-planting-with-no-adjacent/) | [C++](./src/Problem_1042_gardenNoAdj.cc)|Medium|
 |1041|[Robot Bounded In Circle](https://leetcode.cn/problems/robot-bounded-in-circle/) | [C++](./src/Problem_1041_isRobotBounded.cc)|Medium|
+|1039|[Minimum Score Triangulation of Polygon](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/) | [C++](./src/Problem_1039_minScoreTriangulation.cc)|Medium|
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/) | [C++](./src/Problem_1038_bstToGst.cc)|Medium|
 |1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [C++](./src/Problem_1031_maxSumTwoNoOverlap.cc)|Medium|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
