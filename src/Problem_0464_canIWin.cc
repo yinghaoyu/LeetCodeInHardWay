@@ -33,7 +33,7 @@ class Solution
     {
       // 考察所有数字，但是不能选择之前选了的数字
       // 取 !f(args...) 表示另一个人失败了，那么我就赢了
-      if ((status & (1 << i)) != 0 && !f(n, (status | (1 << i)), rest - i, dp))
+      if ((status & (1 << i)) != 0 && !f(n, (status ^ (1 << i)), rest - i, dp))
       {
         ans = true;
         break;
