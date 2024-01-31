@@ -9,17 +9,17 @@ using namespace std;
 struct TreeNode
 {
   int val;
-  TreeNode *left;
-  TreeNode *right;
+  TreeNode* left;
+  TreeNode* right;
   TreeNode() : val(0), left(nullptr), right(nullptr) {}
   TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+  TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
 class Solution
 {
  public:
-  int pathSum(TreeNode *root, int targetSum)
+  int pathSum(TreeNode* root, int targetSum)
   {
     unordered_map<long long, int> map;
     // 这是因为任何节点本身也可以形成一个路径（长度为1的路径）。
@@ -32,7 +32,7 @@ class Solution
   }
 
   // 前缀和
-  int process(TreeNode *x, int targetSum, long long pre, unordered_map<long long, int> &map)
+  int process(TreeNode* x, int targetSum, long long pre, unordered_map<long long, int>& map)
   {
     if (x == nullptr)
     {
@@ -71,15 +71,15 @@ class Solution
 void testPathSum()
 {
   Solution s;
-  TreeNode *x9 = new TreeNode(1, nullptr, nullptr);
-  TreeNode *x8 = new TreeNode(-2, nullptr, nullptr);
-  TreeNode *x7 = new TreeNode(3, nullptr, nullptr);
-  TreeNode *x6 = new TreeNode(11, nullptr, nullptr);
-  TreeNode *x5 = new TreeNode(2, nullptr, x9);
-  TreeNode *x4 = new TreeNode(3, x7, x8);
-  TreeNode *x3 = new TreeNode(-3, nullptr, x6);
-  TreeNode *x2 = new TreeNode(5, x4, x5);
-  TreeNode *x1 = new TreeNode(10, x2, x3);
+  TreeNode* x9 = new TreeNode(1, nullptr, nullptr);
+  TreeNode* x8 = new TreeNode(-2, nullptr, nullptr);
+  TreeNode* x7 = new TreeNode(3, nullptr, nullptr);
+  TreeNode* x6 = new TreeNode(11, nullptr, nullptr);
+  TreeNode* x5 = new TreeNode(2, nullptr, x9);
+  TreeNode* x4 = new TreeNode(3, x7, x8);
+  TreeNode* x3 = new TreeNode(-3, nullptr, x6);
+  TreeNode* x2 = new TreeNode(5, x4, x5);
+  TreeNode* x1 = new TreeNode(10, x2, x3);
   EXPECT_EQ_INT(3, s.pathSum(x1, 8));
   EXPECT_SUMMARY;
 }
