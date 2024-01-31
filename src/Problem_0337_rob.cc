@@ -7,11 +7,11 @@ using namespace std;
 struct TreeNode
 {
   int val;
-  TreeNode *left;
-  TreeNode *right;
+  TreeNode* left;
+  TreeNode* right;
   TreeNode() : val(0), left(nullptr), right(nullptr) {}
   TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+  TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
 class Solution
@@ -30,22 +30,22 @@ class Solution
   };
 
  public:
-  Info process(TreeNode *cur)
+  Info f(TreeNode* cur)
   {
     if (cur == nullptr)
     {
       return Info(0, 0);
     }
-    Info left = process(cur->left);
-    Info right = process(cur->right);
+    Info left = f(cur->left);
+    Info right = f(cur->right);
     int no = std::max(left.yes, left.no) + std::max(right.yes, right.no);
     int yes = cur->val + left.no + right.no;
     return Info(no, yes);
   }
 
-  int rob(TreeNode *root)
+  int rob(TreeNode* root)
   {
-    Info info = process(root);
+    Info info = f(root);
     return std::max(info.yes, info.no);
   }
 };
@@ -53,18 +53,18 @@ class Solution
 void testRob()
 {
   Solution s;
-  TreeNode *x5 = new TreeNode(1, nullptr, nullptr);
-  TreeNode *x4 = new TreeNode(3, nullptr, nullptr);
-  TreeNode *x3 = new TreeNode(3, nullptr, x5);
-  TreeNode *x2 = new TreeNode(2, nullptr, x4);
-  TreeNode *x1 = new TreeNode(3, x2, x3);
+  TreeNode* x5 = new TreeNode(1, nullptr, nullptr);
+  TreeNode* x4 = new TreeNode(3, nullptr, nullptr);
+  TreeNode* x3 = new TreeNode(3, nullptr, x5);
+  TreeNode* x2 = new TreeNode(2, nullptr, x4);
+  TreeNode* x1 = new TreeNode(3, x2, x3);
 
-  TreeNode *y6 = new TreeNode(1, nullptr, nullptr);
-  TreeNode *y5 = new TreeNode(3, nullptr, nullptr);
-  TreeNode *y4 = new TreeNode(1, nullptr, nullptr);
-  TreeNode *y3 = new TreeNode(5, nullptr, y6);
-  TreeNode *y2 = new TreeNode(4, y4, y5);
-  TreeNode *y1 = new TreeNode(3, y2, y3);
+  TreeNode* y6 = new TreeNode(1, nullptr, nullptr);
+  TreeNode* y5 = new TreeNode(3, nullptr, nullptr);
+  TreeNode* y4 = new TreeNode(1, nullptr, nullptr);
+  TreeNode* y3 = new TreeNode(5, nullptr, y6);
+  TreeNode* y2 = new TreeNode(4, y4, y5);
+  TreeNode* y1 = new TreeNode(3, y2, y3);
   EXPECT_EQ_INT(7, s.rob(x1));
   EXPECT_EQ_INT(9, s.rob(y1));
   EXPECT_SUMMARY;

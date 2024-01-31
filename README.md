@@ -386,6 +386,7 @@ LeetCode Solution In Hard Way
 |0979|[Distribute Coins in Binary Tree](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | [C++](./src/Problem_0979_distributeCoins.cc)|Medium|
 |0975|[Odd Even Jump🚀](https://leetcode.cn/problems/odd-even-jump/) | [C++](./src/Problem_0975_oddEvenJumps.cc)|Hard|
 |0970|[Powerful Integers](https://leetcode.cn/problems/powerful-integers/) | [C++](./src/Problem_0970_powerfulIntegers.cc)|Medium|
+|0968|[Binary Tree Cameras](https://leetcode.cn/problems/binary-tree-cameras/) | [C++](./src/Problem_0968_minCameraCover.cc)|Hard|
 |0964|[Validate Stack Sequences](https://leetcode.cn/problems/validate-stack-sequences/) | [C++](./src/Problem_0964_validateStackSequences.cc)|Medium|
 |0962|[Maximum Width Ramp](https://leetcode.cn/problems/maximum-width-ramp/) | [C++](./src/Problem_0962_maxWidthRamp.cc)|Medium|
 |0958|[Check Completeness of a Binary Tree](https://leetcode.cn/problems/check-completeness-of-a-binary-tree/) | [C++](./src/Problem_0958_isCompleteTree.cc)|Medium|
