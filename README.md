@@ -181,6 +181,7 @@ LeetCode Solution In Hard Way
 |2475|[Number of Unequal Triplets in Array](https://leetcode.cn/problems/number-of-unequal-triplets-in-array/) | [C++](./src/Problem_2475_unequalTriplets.cc)|Easy|
 |2465|[Number of Distinct Averages](https://leetcode.cn/problems/number-of-distinct-averages/) | [C++](./src/Problem_2465_distinctAverages.cc)|Easy|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
+|2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.cn/problems/height-of-binary-tree-after-subtree-removal-queries/) | [C++](./src/Problem_2458_treeQueries.cc)|Hard|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [C++](./src/Problem_2455_averageValue.cc)|Easy|
 |2451|[Odd String Difference](https://leetcode.cn/problems/odd-string-difference/) | [C++](./src/Problem_2451_oddString.cc)|Easy|
 |2437|[Number of Valid Clock Times](https://leetcode.cn/problems/number-of-valid-clock-times/) | [C++](./src/Problem_2437_countTime.cc)|Easy|
