@@ -197,6 +197,7 @@ LeetCode Solution In Hard Way
 |2336|[Smallest Number in Infinite Set](https://leetcode.cn/problems/smallest-number-in-infinite-set/) | [C++](./src/Problem_2336_SmallestInfiniteSet.cc)|Medium|
 |2331|[Evaluate Boolean Binary Tree](https://leetcode.cn/problems/evaluate-boolean-binary-tree/) | [C++](./src/Problem_2331_evaluateTree.cc)|Easy|
 |2325|[Decode the Message](https://leetcode.cn/problems/decode-the-message/) | [C++](./src/Problem_2325_decodeMessage.cc)|Easy|
+|2322|[Minimum Score After Removals on a Tree](https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree/) | [C++](./src/Problem_2322_minimumScore.cc)|Hard|
 |2319|[Check if Matrix Is X-Matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2319_checkXMatrix.cc)|Easy|
 |2304|[Minimum Path Cost in a Grid](https://leetcode.cn/problems/minimum-path-cost-in-a-grid/) | [C++](./src/Problem_2304_minPathCost.cc)|Medium|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2300_successfulPairs.cc)|Medium|
