@@ -313,6 +313,7 @@ LeetCode Solution In Hard Way
 |1401|[Circle and Rectangle Overlapping](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) | [C++](./src/Problem_1401_checkOverlap.cc)|Medium|
 |1377|[Frog Position After T Seconds](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [C++](./src/Problem_1377_frogPosition.cc)|Hard|
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned/) | [C++](./src/Problem_1375_numTimesAllBlue.cc)|Medium|
+|1373|[Maximum Sum BST in Binary Tree](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/) | [C++](./src/Problem_1373_maxSumBST.cc)|Hard|
 |1371|[Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | [C++](./src/Problem_1371_findTheLongestSubstring.cc)|Medium|
 |1368|[Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [C++](./src/Problem_1368_minCost.cc)|Hard|
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | [C++](./src/Problem_1333_filterRestaurants.cc)|Medium|
