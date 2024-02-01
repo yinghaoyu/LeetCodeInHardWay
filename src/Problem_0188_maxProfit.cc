@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
  public:
-  int maxProfit1(int k, vector<int> &prices)
+  int maxProfit1(int k, vector<int>& prices)
   {
     int n = prices.size();
     vector<vector<vector<int>>> dp(n, vector<vector<int>>(k + 1, vector<int>(2)));
@@ -28,7 +28,7 @@ class Solution
   }
 
   // TODO: figure it out
-  int maxProfit2(int k, vector<int> &prices)
+  int maxProfit2(int k, vector<int>& prices)
   {
     if (prices.size() == 0)
     {
@@ -64,7 +64,7 @@ class Solution
     return dp[n - 1][k];
   }
 
-  int allTrans(vector<int> &prices)
+  int allTrans(vector<int>& prices)
   {
     int ans = 0;
     for (int i = 1; i < prices.size(); i++)
@@ -76,7 +76,7 @@ class Solution
 
   // 枚举优化
   // https://www.cnblogs.com/greyzeng/p/16182420.html
-  int maxProfit3(int k, vector<int> &prices)
+  int maxProfit3(int k, vector<int>& prices)
   {
     if (prices.size() == 0)
     {

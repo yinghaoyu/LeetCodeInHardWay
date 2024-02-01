@@ -414,6 +414,7 @@ LeetCode Solution In Hard Way
 |0907|[Sum of Subarray Minimums🚀](https://leetcode.cn/problems/sum-of-subarray-minimums/) | [C++](./src/Problem_0907_sumSubarrayMins.cc)|Medium|
 |0906|[Super Palindromes](https://leetcode.cn/problems/super-palindromes/) | [C++](./src/Problem_0906_superpalindromesInRange.cc)|Hard|
 |0904|[Fruit Into Baskets](https://leetcode.cn/problems/fruit-into-baskets/) | [C++](./src/Problem_0904_totalFruit.cc)|Medium|
+|0903|[Valid Permutations for DI Sequence](https://leetcode.cn/problems/valid-permutations-for-di-sequence/) | [C++](./src/Problem_0903_numPermsDISequence.cc)|Hard|
 |0902|[Numbers At Most N Given Digit Set🚀](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/) | [C++](./src/Problem_0902_atMostNGivenDigitSet.cc)|Hard|
 |0901|[Online Stock Span](https://leetcode.cn/problems/online-stock-span/) | [C++](./src/Problem_0901_StockSpanner.cc)|Medium|
 |0897|[Increasing Order Search Tree](https://leetcode.cn/problems/increasing-order-search-tree/) | [C++](./src/Problem_0897_increasingBST.cc)|Easy|

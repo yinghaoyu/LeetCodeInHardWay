@@ -11,7 +11,7 @@ class Solution
 {
  public:
   // 动态规划
-  int maxProfit1(vector<int> &prices)
+  int maxProfit1(vector<int>& prices)
   {
     int n = prices.size();
     // dp[i][j][k] 含义是：
@@ -36,7 +36,7 @@ class Solution
   }
 
   // 贪心
-  int maxProfit2(vector<int> &prices)
+  int maxProfit2(vector<int>& prices)
   {
     if (prices.size() == 0)
     {

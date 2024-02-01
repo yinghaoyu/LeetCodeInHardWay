@@ -12,7 +12,7 @@ class Solution
   // index 当前是第几天
   // status 0不持有股票，1持有股票
   // profit 当前收益
-  void process(vector<int> &prices, int index, int status, int profit, int &ans)
+  void f(vector<int>& prices, int index, int status, int profit, int& ans)
   {
     if (index == prices.size())
     {
@@ -20,32 +20,32 @@ class Solution
       return;
     }
     // 不买入也不卖出
-    process(prices, index + 1, status, profit, ans);
+    f(prices, index + 1, status, profit, ans);
     // 买入或者卖出
     if (status == 0)
     {
-      process(prices, index + 1, 1, profit - prices[index], ans);
+      f(prices, index + 1, 1, profit - prices[index], ans);
     }
     else
     {
-      process(prices, index + 1, 0, profit + prices[index], ans);
+      f(prices, index + 1, 0, profit + prices[index], ans);
     }
   }
 
   // 递归
-  int maxProfit1(vector<int> &prices)
+  int maxProfit1(vector<int>& prices)
   {
     if (prices.size() == 0)
     {
       return 0;
     }
     int ans = 0;
-    process(prices, 0, 0, 0, ans);
+    f(prices, 0, 0, 0, ans);
     return ans;
   }
 
   // 递归改动态规划
-  int maxProfit2(vector<int> &prices)
+  int maxProfit2(vector<int>& prices)
   {
     if (prices.size() == 0)
     {
@@ -67,7 +67,7 @@ class Solution
   }
 
   // 贪心
-  int maxProfit3(vector<int> &prices)
+  int maxProfit3(vector<int>& prices)
   {
     if (prices.size() == 0)
     {
