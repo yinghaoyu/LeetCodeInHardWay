@@ -13,7 +13,7 @@ class Solution
   // 由于数组长1~16，state每1位bit表示数组元素有没有使用，二进制枚举
   // pre 表示前面元素的累加和
   // dp
-  bool process(vector<int> &nums, int state, int pre, int avg, vector<bool> &dp)
+  bool f(vector<int>& nums, int state, int pre, int avg, vector<bool>& dp)
   {
     if (state == 0)
     {
@@ -36,7 +36,7 @@ class Solution
       if ((state >> i) & 1)  // 当前i位置的元素未使用
       {
         // 这里 % 的作用是，当 pre + num[i] == avg 的时候清0
-        if (process(nums, state ^ (1 << i), ((pre + nums[i]) % avg), avg, dp))
+        if (f(nums, state ^ (1 << i), ((pre + nums[i]) % avg), avg, dp))
         {
           dp[state] = true;
           break;
@@ -46,7 +46,7 @@ class Solution
     return dp[state];
   }
 
-  bool canPartitionKSubsets(vector<int> &nums, int k)
+  bool canPartitionKSubsets(vector<int>& nums, int k)
   {
     int sum = 0;
     int N = nums.size();
@@ -67,10 +67,10 @@ class Solution
     // dp[i]表示示在可用的数字状态为 i 的情况下是否可行
     // 这里的初值用false，结果没错，但会超时
     vector<bool> dp(1 << N, true);
-    return process(nums, (1 << N) - 1, 0, avg, dp);
+    return f(nums, (1 << N) - 1, 0, avg, dp);
   }
 
-  bool dp(vector<int> &nums, int k)
+  bool dp(vector<int>& nums, int k)
   {
     int sum = 0;
     int N = nums.size();
