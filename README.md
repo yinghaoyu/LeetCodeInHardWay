@@ -565,6 +565,7 @@ LeetCode Solution In Hard Way
 |0378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/Problem_0378_kthSmallest.cc)|Medium|
 |0373|[Find K Pairs with Smallest Sums](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) | [C++](./src/Problem_0373_kSmallestPairs.cc)|Medium|
 |0371|[Sum of Two Integers](https://leetcode.cn/problems/sum-of-two-integers/) | [C++](./src/Problem_0371_getSum.cc)|Medium|
+|0357|[Count Numbers with Unique Digits](https://leetcode.cn/problems/count-numbers-with-unique-digits/) | [C++](./src/Problem_0357_countNumbersWithUniqueDigits.cc)|Medium|
 |0354|[Russian Doll Envelopes](https://leetcode.cn/problems/russian-doll-envelopes/) | [C++](./src/Problem_0354_maxEnvelopes.cc)|Hard|
 |0350|[Intersection of Two Arrays II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/) | [C++](./src/Problem_0350_intersect.cc)|Easy|
 |0348|[Design Tic-Tac-Toe](https://leetcode.cn/problems/design-tic-tac-toe/) | [C++](./src/Problem_0348_TicTacToe.cc)|Medium|
