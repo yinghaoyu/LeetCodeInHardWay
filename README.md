@@ -224,6 +224,7 @@ LeetCode Solution In Hard Way
 |2034|[Stock Price Fluctuation](https://leetcode.cn/problems/stock-price-fluctuation/) | [C++](./src/Problem_2034_StockPrice.cc)|Medium|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
 |2008|[Maximum Earnings From Taxi](https://leetcode.cn/problems/maximum-earnings-from-taxi/) | [C++](./src/Problem_2008_maxTaxiEarnings.cc)|Medium|
+|1994|[The Number of Good Subsets](https://leetcode.cn/problems/the-number-of-good-subsets/) | [C++](./src/Problem_1994_numberOfGoodSubsets.cc)|Hard|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
 |1910|[Remove All Occurrences of a Substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/) | [C++](./src/Problem_1910_removeOccurrences.cc)|Medium|
@@ -529,7 +530,7 @@ LeetCode Solution In Hard Way
 |0474|[Ones and Zeroes](https://leetcode.cn/problems/ones-and-zeroes/) | [C++](./src/Problem_0474_findMaxForm.cc)|Medium|
 |0473|[Matchsticks to Square](https://leetcode.cn/problems/matchsticks-to-square/) | [C++](./src/Problem_0473_makesquare.cc)|Medium|
 |0467|[Unique Substrings in Wraparound String](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/) | [C++](./src/Problem_0467_findSubstringInWraproundString.cc)|Medium|
-|0465|[Optimal Account Balancing](https://leetcode.cn/problems/optimal-account-balancing/) | [C++](./src/Problem_0465_minTransfers.cc)|Hard|
+|0465|[Optimal Account Balancing🔒](https://leetcode.cn/problems/optimal-account-balancing/) | [C++](./src/Problem_0465_minTransfers.cc)|Hard|
 |0464|[Can I Win](https://leetcode.cn/problems/can-i-win/) | [C++](./src/Problem_0464_canIWin.cc)|Medium|
 |0461|[Hamming Distance](https://leetcode.cn/problems/hamming-distance/) | [C++](./src/Problem_0461_hammingDistance.cc)|Easy|
 |0460|[LFU Cache](https://leetcode.cn/problems/lfu-cache/) | [C++](./src/Problem_0460_LFUCache.cc)|Hard|
