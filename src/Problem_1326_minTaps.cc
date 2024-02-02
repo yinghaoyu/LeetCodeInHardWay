@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
  public:
-  int minTaps(int n, vector<int> &ranges)
+  int minTaps(int n, vector<int>& ranges)
   {
     vector<int> right_most(n + 1);
     for (int i = 0; i <= n; ++i)

@@ -356,6 +356,7 @@ LeetCode Solution In Hard Way
 |1157|[Online Majority Element In Subarray](https://leetcode.cn/problems/online-majority-element-in-subarray/) | [C++](./src/Problem_1157_MajorityChecker.cc)|Hard|
 |1156|[Swap For Longest Repeated Character Substring](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/) | [C++](./src/Problem_1156_maxRepOpt1.cc)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
+|1153|[String Transforms Into Another String🔒](https://leetcode.cn/problems/string-transforms-into-another-string/) | [C++](./src/Problem_1153_canConvert.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1143|[Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | [C++](./src/Problem_1143_longestCommonSubsequence.cc)|Medium|
