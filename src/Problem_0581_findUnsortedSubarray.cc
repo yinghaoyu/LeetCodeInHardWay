@@ -9,14 +9,15 @@ using namespace std;
 class Solution
 {
  public:
-   // TODO: figure it out
-  int findUnsortedSubarray(vector<int> &nums)
+  int findUnsortedSubarray(vector<int>& nums)
   {
     if (nums.size() < 2)
     {
       return 0;
     }
     int N = nums.size();
+    // max > 当前数，认为不达标
+    // 从左往右遍历，记录最右不达标的位置
     int right = -1;
     int max = INT32_MIN;
     for (int i = 0; i < N; i++)
@@ -27,6 +28,8 @@ class Solution
       }
       max = std::max(max, nums[i]);
     }
+    // min < 当前数，认为不达标
+    // 从右往左遍历，记录最左不达标的位置
     int min = INT32_MAX;
     int left = N;
     for (int i = N - 1; i >= 0; i--)
