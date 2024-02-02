@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// TODO: figure it out.
 class Solution
 {
  private:
@@ -23,6 +22,9 @@ class Solution
   }
 
  public:
+  // 首先，+2 和 -2操作不会改变奇偶性
+  // 其次，两个数相差的越小，需要的操作数越少
+  // 因此可以把奇数和偶数分组，再两两配对
   long long makeSimilar(vector<int>& nums, vector<int>& target)
   {
     int n = nums.size();
@@ -37,6 +39,7 @@ class Solution
     {
       ans += std::abs(nums[i] - target[i]);
     }
+    // 1次操作 +2 和 -2 操作使得值相差 4
     return ans / 4;
   }
 };
