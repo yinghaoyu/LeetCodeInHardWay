@@ -375,6 +375,7 @@ LeetCode Solution In Hard Way
 |1039|[Minimum Score Triangulation of Polygon](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/) | [C++](./src/Problem_1039_minScoreTriangulation.cc)|Medium|
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/) | [C++](./src/Problem_1038_bstToGst.cc)|Medium|
 |1031|[Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/) | [C++](./src/Problem_1031_maxSumTwoNoOverlap.cc)|Medium|
+|1029|[Two City Scheduling](https://leetcode.cn/problems/two-city-scheduling/) | [C++](./src/Problem_1029_twoCitySchedCost.cc)|Medium|
 |1028|[Recover a Tree From Preorder Traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal/) | [C++](./src/Problem_1028_recoverFromPreorder.cc)|Hard|
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/) | [C++](./src/Problem_1026_maxAncestorDiff.cc)|Medium|
 |1023|[Camelcase Matching](https://leetcode.cn/problems/camelcase-matching/) | [C++](./src/Problem_1023_camelMatch.cc)|Medium|

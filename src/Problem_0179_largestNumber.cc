@@ -16,7 +16,7 @@ class Solution
     bool operator()(string o1, string o2) { return (o2 + o1) < (o1 + o2); }
   };
 
-  string largestNumber(vector<int> &nums)
+  string largestNumber(vector<int>& nums)
   {
     int n = nums.size();
     vector<string> strs(n);
@@ -26,7 +26,7 @@ class Solution
     }
     std::sort(strs.begin(), strs.end(), MyComparator());
     string ans;
-    for (auto &str : strs)
+    for (auto& str : strs)
     {
       ans.append(str);
     }
