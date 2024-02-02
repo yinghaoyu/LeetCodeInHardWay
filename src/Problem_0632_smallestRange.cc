@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// TODO: figure it out.
 class Solution
 {
  private:
@@ -44,7 +43,7 @@ class Solution
     int a = 0;
     // 记录最窄区间的结尾
     int b = 0;
-    while (s.size() == k)  // 保证每个有序表至少有一个元素在区间内
+    while (s.size() == k)  // 保证每个序列至少有一个元素在区间内
     {
       // 在有序表中，值最大的记录
       auto max = *s.rbegin();
@@ -59,7 +58,7 @@ class Solution
       }
       if (min.j + 1 < nums[min.i].size())
       {
-        // min从s中移除，就要从这个有序表中加入下一个元素
+        // min从s中移除，就要从这个序列中取出下一个元素
         s.insert({nums[min.i][min.j + 1], min.i, min.j + 1});
       }
     }
