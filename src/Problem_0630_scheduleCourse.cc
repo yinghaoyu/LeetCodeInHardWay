@@ -10,13 +10,14 @@ using namespace std;
 class Solution
 {
  public:
-  int scheduleCourse(vector<vector<int>> &courses)
+  int scheduleCourse(vector<vector<int>>& courses)
   {
     // 将课程按结束时间从小到大排序
-    std::sort(courses.begin(), courses.end(), [](const auto &left, const auto &right) { return left[1] < right[1]; });
+    std::sort(courses.begin(), courses.end(),
+              [](const auto& left, const auto& right) { return left[1] < right[1]; });
     priority_queue<int> que;
     int total = 0;
-    for (auto &course : courses)
+    for (auto& course : courses)
     {
       int duration = course[0];
       int lastDay = course[1];
