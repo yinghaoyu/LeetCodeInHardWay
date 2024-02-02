@@ -295,6 +295,7 @@ LeetCode Solution In Hard Way
 |1590|[Make Sum Divisible by P](https://leetcode.cn/problems/make-sum-divisible-by-p/) | [C++](./src/Problem_1590_minSubarray.cc)|Medium|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/) | [C++](./src/Problem_1582_numSpecial.cc)|Easy|
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | [C++](./src/Problem_1574_findLengthOfShortestSubarray.cc)|Medium|
+|1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges/) | [C++](./src/Problem_1553_minDays.cc)|Hard|
 |1552|[Magnetic Force Between Two Balls](https://leetcode.cn/problems/magnetic-force-between-two-balls/) | [C++](./src/Problem_1552_maxDistance.cc)|Medium|
 |1547|[Minimum Cost to Cut a Stick](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/) | [C++](./src/Problem_1547_minCost.cc)|Hard|
 |1504|[Count Submatrices With All Ones](https://leetcode.cn/problems/count-submatrices-with-all-ones/) | [C++](./src/Problem_1504_numSubmat.cc)|Medium|
