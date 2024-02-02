@@ -532,6 +532,7 @@ LeetCode Solution In Hard Way
 |0516|[Longest Palindromic Subsequence](https://leetcode.cn/problems/longest-palindromic-subsequence/) | [C++](./src/Problem_0516_longestPalindromeSubseq.cc)|Medium|
 |0514|[Freedom Trail](https://leetcode.cn/problems/freedom-trail/) | [C++](./src/Problem_0514_findRotateSteps.cc)|Hard|
 |0509|[Fibonacci Number](https://leetcode.cn/problems/fibonacci-number/) | [C++](./src/Problem_0509_fib.cc)|Easy|
+|0502|[IPO](https://leetcode.cn/problems/ipo/) | [C++](./src/Problem_0502_findMaximizedCapital.cc)|Hard|
 |0486|[Predict the Winner](https://leetcode.cn/problems/predict-the-winner/) | [C++](./src/Problem_0486_predictTheWinner.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
