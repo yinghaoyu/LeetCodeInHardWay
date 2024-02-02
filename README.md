@@ -366,7 +366,7 @@ LeetCode Solution In Hard Way
 |1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1122|[Relative Sort Array](https://leetcode.cn/problems/relative-sort-array/description/) | [C++](./src/Problem_1122_relativeSortArray.cc)|Easy|
-|1121|[Divide Array Into Increasing Sequences](https://leetcode.cn/problems/divide-array-into-increasing-sequences/) | [C++](./src/Problem_1121_canDivideIntoSubsequences.cc)|Medium|
+|1121|[Divide Array Into Increasing Sequences🔒](https://leetcode.cn/problems/divide-array-into-increasing-sequences/) | [C++](./src/Problem_1121_canDivideIntoSubsequences.cc)|Medium|
 |1109|[Corporate Flight Bookings](https://leetcode.cn/problems/corporate-flight-bookings/) | [C++](./src/Problem_1109_corpFlightBookings.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |1105|[Filling Bookcase Shelves](https://leetcode.cn/problems/filling-bookcase-shelves/) | [C++](./src/Problem_1105_minHeightShelves.cc)|Medium|
@@ -435,6 +435,7 @@ LeetCode Solution In Hard Way
 |0878|[Nth Magical Number](https://leetcode.cn/problems/nth-magical-number/) | [C++](./src/Problem_0878_nthMagicalNumber.cc)|Hard|
 |0875|[Koko Eating Bananas](https://leetcode.cn/problems/koko-eating-bananas/) | [C++](./src/Problem_0875_minEatingSpeed.cc)|Medium|
 |0874|[Walking Robot Simulation](https://leetcode.cn/problems/walking-robot-simulation/) | [C++](./src/Problem_0874_robotSim.cc)|Medium|
+|0871|[Minimum Number of Refueling Stops](https://leetcode.cn/problems/minimum-number-of-refueling-stops/) | [C++](./src/Problem_0871_minRefuelStops.cc)|Hard|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0864|[Shortest Path to Get All Keys🚀](https://leetcode.cn/problems/shortest-path-to-get-all-keys/) | [C++](./src/Problem_0864_shortestPathAllKeys.cc)|Medium|
 |0862|[Shortest Subarray with Sum at Least K🚀](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [C++](./src/Problem_0862_shortestSubarray.cc)|Hard|
