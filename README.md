@@ -576,6 +576,7 @@ LeetCode Solution In Hard Way
 |0347|[Top K Frequent Elements](https://leetcode.cn/problems/top-k-frequent-elements/) | [C++](./src/Problem_0347_topKFrequent.cc)|Medium|
 |0346|[Moving Average from Data Stream](https://leetcode.cn/problems/moving-average-from-data-stream/) | [C++](./src/Problem_0346_MovingAverage.cc)|Easy|
 |0344|[Reverse String](https://leetcode.cn/problems/reverse-string/) | [C++](./src/Problem_0344_reverseString.cc)|Easy|
+|0343|[Integer Break](https://leetcode.cn/problems/integer-break/) | [C++](./src/Problem_0343_integerBreak.cc)|Medium|
 |0341|[Flatten Nested List Iterator](https://leetcode.cn/problems/flatten-nested-list-iterator/) | [C++](./src/Problem_0341_NestedIterator.cc)|Medium|
 |0340|[Longest Substring with At Most K Distinct Characters🚀](https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/) | [C++](./src/Problem_0340_lengthOfLongestSubstringKDistinct.cc)|Medium|
 |0338|[Counting Bits](https://leetcode.cn/problems/counting-bits/) | [C++](./src/Problem_0338_countBits.cc)|Easy|
