@@ -32,17 +32,17 @@ class Solution
   class StartAsc
   {
    public:
-    bool operator()(const Line &lhs, const Line &rhs) { return lhs.start < rhs.start; }
+    bool operator()(const Line& lhs, const Line& rhs) { return lhs.start < rhs.start; }
   };
 
   class EndAsc
   {
    public:
-    bool operator()(const Line &lhs, const Line &rhs) { return lhs.end > rhs.end; }
+    bool operator()(const Line& lhs, const Line& rhs) { return lhs.end > rhs.end; }
   };
 
  public:
-  int minMeetingRooms(vector<vector<int>> &intervals)
+  int minMeetingRooms(vector<vector<int>>& intervals)
   {
     vector<Line> lines(intervals.size());
     for (int i = 0; i < intervals.size(); i++)

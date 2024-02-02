@@ -127,6 +127,7 @@ LeetCode Solution In Hard Way
 |剑指 Offer 04|[二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [C++](./src/Problem_STO_0004_findNumberIn2DArray.cc)|Medium|
 |剑指 Offer 03|[数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0003_findRepeatNumber.cc)|Easy|
 |bytedance-006|[夏季特惠](https://leetcode.cn/problems/tJau2o/) | [C++](./src/Problem_bytedance_0006_BuyGoodsHaveDiscount.cc)|Easy|
+|LCR 132|[砍竹子 II](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/) | [C++](./src/Problem_LCR_132_cuttingBamboo.cc)|Medium|
 |LCP 74|[最强祝福力场](https://leetcode.cn/problems/xepqZ5/) | [C++](./src/Problem_LCP_74_fieldOfGreatestBlessing.cc)|Medium|
 |LCP 41|[黑白翻转棋](https://leetcode.cn/problems/fHi6rV/) | [C++](./src/Problem_LCP_41_flipChess.cc)|Medium|
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
