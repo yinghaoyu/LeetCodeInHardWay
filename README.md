@@ -229,8 +229,9 @@ LeetCode Solution In Hard Way
 |1994|[The Number of Good Subsets](https://leetcode.cn/problems/the-number-of-good-subsets/) | [C++](./src/Problem_1994_numberOfGoodSubsets.cc)|Hard|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
-|1910|[Remove All Occurrences of a Substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/) | [C++](./src/Problem_1910_removeOccurrences.cc)|Medium|
+|1921|[Eliminate Maximum Number of Monsters](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/) | [C++](./src/Problem_1921_eliminateMaximum.cc)|Medium|
 |1911|[Maximum Alternating Subsequence Sum](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/) | [C++](./src/Problem_1911_maxAlternatingSum.cc)|Medium|
+|1910|[Remove All Occurrences of a Substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/) | [C++](./src/Problem_1910_removeOccurrences.cc)|Medium|
 |1851|[Minimum Interval to Include Each Query](https://leetcode.cn/problems/minimum-interval-to-include-each-query/) | [C++](./src/Problem_1851_minInterval.cc)|Hard|
 |1832|[Check if the Sentence Is Pangram](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/) | [C++](./src/Problem_1832_checkIfPangram.cc)|Easy|
 |1827|[Minimum Operations to Make the Array Increasing](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/) | [C++](./src/Problem_1827_minOperations.cc)|Easy|
