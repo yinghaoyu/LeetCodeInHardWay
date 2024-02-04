@@ -192,6 +192,7 @@ LeetCode Solution In Hard Way
 |2418|[Sort the People](https://leetcode.cn/problems/sort-the-people/) | [C++](./src/Problem_2418_sortPeople.cc)|Easy|
 |2409|[Count Days Spent Together](https://leetcode.cn/problems/count-days-spent-together/) | [C++](./src/Problem_2409_mostFrequentEven.cc)|Easy|
 |2404|[Most Frequent Even Element](https://leetcode.cn/problems/most-frequent-even-element/) | [C++](./src/Problem_2404_mostFrequentEven.cc)|Easy|
+|2384|[Largest Palindromic Number](https://leetcode.cn/problems/largest-palindromic-number/) | [C++](./src/Problem_2384_largestPalindromic.cc)|Medium|
 |2373|[Largest Local Values in a Matrix](https://leetcode.cn/problems/largest-local-values-in-a-matrix/) | [C++](./src/Problem_2373_largestLocal.cc)|Easy|
 |2363|[Merge Similar Items](https://leetcode.cn/problems/merge-similar-items/) | [C++](./src/Problem_2363_mergeSimilarItems.cc)|Easy|
 |2352|[Equal Row and Column Pairs](https://leetcode.cn/problems/equal-row-and-column-pairs/) | [C++](./src/Problem_2352_equalPairs.cc)|Medium|
