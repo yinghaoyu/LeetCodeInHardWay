@@ -534,6 +534,7 @@ LeetCode Solution In Hard Way
 |0581|[Shortest Unsorted Continuous Subarray](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) | [C++](./src/Problem_0581_findUnsortedSubarray.cc)|Medium|
 |0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
+|0552|[Student Attendance Record II](https://leetcode.cn/problems/student-attendance-record-ii/) | [C++](./src/Problem_0552_checkRecord.cc)|Hard|
 |0546|[Remove Boxes](https://leetcode.cn/problems/remove-boxes/) | [C++](./src/Problem_0546_removeBoxes.cc)|Hard|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0540|[Single Element in a Sorted Array](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [C++](./src/Problem_0540_singleNonDuplicate.cc)|Medium|
