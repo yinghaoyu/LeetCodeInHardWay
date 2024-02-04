@@ -371,6 +371,7 @@ LeetCode Solution In Hard Way
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1122|[Relative Sort Array](https://leetcode.cn/problems/relative-sort-array/description/) | [C++](./src/Problem_1122_relativeSortArray.cc)|Easy|
 |1121|[Divide Array Into Increasing Sequences🔒](https://leetcode.cn/problems/divide-array-into-increasing-sequences/) | [C++](./src/Problem_1121_canDivideIntoSubsequences.cc)|Medium|
+|1120|[Count Vowels Permutation](https://leetcode.cn/problems/count-vowels-permutation/) | [C++](./src/Problem_1120_countVowelPermutation.cc)|Hard|
 |1109|[Corporate Flight Bookings](https://leetcode.cn/problems/corporate-flight-bookings/) | [C++](./src/Problem_1109_corpFlightBookings.cc)|Medium|
 |1106|[Parsing A Boolean Expression🚀](https://leetcode.cn/problems/parsing-a-boolean-expression/) | [C++](./src/Problem_1106_parseBoolExpr.cc)|Hard|
 |1105|[Filling Bookcase Shelves](https://leetcode.cn/problems/filling-bookcase-shelves/) | [C++](./src/Problem_1105_minHeightShelves.cc)|Medium|
