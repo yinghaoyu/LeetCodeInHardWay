@@ -365,6 +365,7 @@ LeetCode Solution In Hard Way
 |1141|[Decrease Elements To Make Array Zigzag](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/) | [C++](./src/Problem_1141_movesToMakeZigzag.cc)|Medium|
 |1140|[Stone Game II](https://leetcode.cn/problems/stone-game-ii/) | [C++](./src/Problem_1140_stoneGameII.cc)|Medium|
 |1139|[Largest 1-Bordered Square](https://leetcode.cn/problems/largest-1-bordered-square/) | [C++](./src/Problem_1139_largest1BorderedSquare.cc)|Medium|
+|1137|[N-th Tribonacci Number](https://leetcode.cn/problems/n-th-tribonacci-number/) | [C++](./src/Problem_1137_tribonacci.cc)|Easy|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.cn/problems/shortest-path-with-alternating-colors/) | [C++](./src/Problem_1129_shortestAlternatingPaths.cc)|Medium|
 |1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem🚀](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|

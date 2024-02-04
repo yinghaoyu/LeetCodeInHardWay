@@ -85,7 +85,7 @@ class Solution
     return 2 * res[0][0] + res[1][0];
   }
 
-  vector<vector<int>> matrixPower(vector<vector<int>> &m, int p)
+  vector<vector<int>> matrixPower(vector<vector<int>>& m, int p)
   {
     vector<vector<int>> res(m.size(), vector<int>(m[0].size()));
     for (int i = 0; i < res.size(); i++)
@@ -107,7 +107,7 @@ class Solution
   }
 
   // 两个矩阵乘完之后的结果返回
-  vector<vector<int>> muliMatrix(vector<vector<int>> &m1, vector<vector<int>> &m2)
+  vector<vector<int>> muliMatrix(vector<vector<int>>& m1, vector<vector<int>>& m2)
   {
     vector<vector<int>> res(m1.size(), vector<int>(m2[0].size()));
     for (int i = 0; i < m1.size(); i++)
