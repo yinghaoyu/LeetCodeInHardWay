@@ -323,6 +323,7 @@ LeetCode Solution In Hard Way
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/Problem_1413_MinStartValue.cc)|Easy|
 |1410|[HTML Entity Parser](https://leetcode.cn/problems/html-entity-parser/) | [C++](./src/Problem_1410_entityParser.cc)|Medium|
 |1401|[Circle and Rectangle Overlapping](https://leetcode.cn/problems/circle-and-rectangle-overlapping/) | [C++](./src/Problem_1401_checkOverlap.cc)|Medium|
+|1397|[Find All Good Strings](https://leetcode.cn/problems/find-all-good-strings/) | [C++](./src/Problem_1397_findGoodStrings.cc)|Hard|
 |1377|[Frog Position After T Seconds](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [C++](./src/Problem_1377_frogPosition.cc)|Hard|
 |1375|[Number of Times Binary String Is Prefix-Aligned](https://leetcode.cn/problems/number-of-times-binary-string-is-prefix-aligned/) | [C++](./src/Problem_1375_numTimesAllBlue.cc)|Medium|
 |1373|[Maximum Sum BST in Binary Tree](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/) | [C++](./src/Problem_1373_maxSumBST.cc)|Hard|
