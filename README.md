@@ -273,6 +273,7 @@ LeetCode Solution In Hard Way
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) | [C++](./src/Problem_1703_minMoves.cc)|Hard|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1697|[Checking Existence of Edge Length Limited Paths🚀](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/) | [C++](./src/Problem_1697_distanceLimitedPathsExist.cc)|Hard|
+|1696|[Jump Game VI](https://leetcode.cn/problems/jump-game-vi/) | [C++](./src/Problem_1696_maxResult.cc)|Medium|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
 |1678|[Goal Parser Interpretation](https://leetcode.cn/problems/goal-parser-interpretation/) | [C++](./src/Problem_1678_interpret.cc)|Easy|
