@@ -535,6 +535,7 @@ LeetCode Solution In Hard Way
 |0621|[Task Scheduler](https://leetcode.cn/problems/task-scheduler/) | [C++](./src/Problem_0621_leastInterval.cc)|Medium|
 |0617|[Merge Two Binary Trees](https://leetcode.cn/problems/merge-two-binary-trees/) | [C++](./src/Problem_0617_mergeTrees.cc)|Easy|
 |0605|[Can Place Flowers](https://leetcode.cn/problems/can-place-flowers/) | [C++](./src/Problem_0605_canPlaceFlowers.cc)|Easy|
+|0590|[N-ary Tree Postorder Traversal](https://leetcode.cn/problems/n-ary-tree-postorder-traversal/) | [C++](./src/Problem_0590_postorder.cc)|Easy|
 |0581|[Shortest Unsorted Continuous Subarray](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/) | [C++](./src/Problem_0581_findUnsortedSubarray.cc)|Medium|
 |0572|[Subtree of Another Tree](https://leetcode.cn/problems/subtree-of-another-tree/) | [C++](./src/Problem_0572_isSubtree.cc)|Easy|
 |0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
