@@ -713,6 +713,7 @@ LeetCode Solution In Hard Way
 |0113|[Path Sum II](https://leetcode.cn/problems/path-sum-ii/) | [C++](./src/Problem_0113_pathSum.cc)|Medium|
 |0110|[Balanced Binary Tree](https://leetcode.cn/problems/balanced-binary-tree/) | [C++](./src/Problem_0110_isBalanced.cc)|Easy|
 |0108|[Convert Sorted Array to Binary Search Tree](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/) | [C++](./src/Problem_0108_sortedArrayToBST.cc)|Easy|
+|0106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](./src/Problem_0106_buildTree.cc)|Medium|
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [C++](./src/Problem_0105_buildTree.cc)|Medium|
 |0104|[Maximum Depth of Binary Tree](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | [C++](./src/Problem_0104_maxDepth.cc)|Easy|
 |0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) | [C++](./src/Problem_0103_zigzagLevelOrder.cc)|Medium|
