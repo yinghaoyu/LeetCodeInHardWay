@@ -574,6 +574,7 @@ LeetCode Solution In Hard Way
 |0437|[Path Sum III](https://leetcode.cn/problems/path-sum-iii/) | [C++](./src/Problem_0437_pathSum.cc)|Medium|
 |0432|[All O`one Data Structure](https://leetcode.cn/problems/all-oone-data-structure/) | [C++](./src/Problem_0432_AllOne.cc)|Hard|
 |0430|[Flatten a Multilevel Doubly Linked List](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/) | [C++](./src/Problem_0430_flatten.cc)|Medium|
+|0429|[N-ary Tree Level Order Traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) | [C++](./src/Problem_0429_levelOrder.cc)|Medium|
 |0421|[Maximum XOR of Two Numbers in an Array](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/) | [C++](./src/Problem_0421_findMaximumXOR.cc)|Medium|
 |0419|[Battleships in a Board](https://leetcode.cn/problems/battleships-in-a-board/) | [C++](./src/Problem_0419_countBattleships.cc)|Medium|
 |0415|[Add Strings](https://leetcode.cn/problems/add-strings/) | [C++](./src/Problem_0415_addStrings.cc)|Easy|
