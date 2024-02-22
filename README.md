@@ -404,6 +404,7 @@ LeetCode Solution In Hard Way
 |1000|[Minimum Cost to Merge Stones](https://leetcode.cn/problems/minimum-cost-to-merge-stones/) | [C++](./src/Problem_1000_mergeStones.cc)|Hard|
 |0998|[Maximum Binary Tree II](https://leetcode.cn/problems/maximum-binary-tree-ii/) | [C++](./src/Problem_0998_insertIntoMaxTree.cc)|Medium|
 |0992|[Subarrays with K Different Integers](https://leetcode.cn/problems/subarrays-with-k-different-integers/) | [C++](./src/Problem_0992_subarraysWithKDistinct.cc)|Hard|
+|0987|[Vertical Order Traversal of a Binary Tree](https://leetcode.cn/problems/vertical-order-traversal-of-a-binary-tree/) | [C++](./src/Problem_0987_verticalTraversal.cc)|Hard|
 |0983|[Minimum Cost For Tickets](https://leetcode.cn/problems/minimum-cost-for-tickets/) | [C++](./src/Problem_0983_mincostTickets.cc)|Medium|
 |0980|[Unique Paths III](https://leetcode.cn/problems/unique-paths-iii/) | [C++](./src/Problem_0980_uniquePathsIII.cc)|Hard|
 |0979|[Distribute Coins in Binary Tree](https://leetcode.cn/problems/distribute-coins-in-binary-tree/) | [C++](./src/Problem_0979_distributeCoins.cc)|Medium|
