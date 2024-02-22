@@ -437,6 +437,7 @@ LeetCode Solution In Hard Way
 |0897|[Increasing Order Search Tree](https://leetcode.cn/problems/increasing-order-search-tree/) | [C++](./src/Problem_0897_increasingBST.cc)|Easy|
 |0895|[Maximum Frequency Stack](https://leetcode.cn/problems/maximum-frequency-stack/) | [C++](./src/Problem_0895_FreqStack.cc)|Hard|
 |0891|[Sum of Subsequence Widths🚀](https://leetcode.cn/problems/sum-of-subsequence-widths/) | [C++](./src/Problem_0891_sumSubseqWidths.cc)|Hard|
+|0889|[Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [C++](./src/Problem_0889_constructFromPrePost.cc)|Medium|
 |0886|[Possible Bipartition🚀](https://leetcode.cn/problems/possible-bipartition/) | [C++](./src/Problem_0886_possibleBipartition.cc)|Medium|
 |0882|[Reachable Nodes In Subdivided Graph🚀](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/) | [C++](./src/Problem_0882_reachableNodes.cc)|Hard|
 |0881|[Boats to Save People](https://leetcode.cn/problems/boats-to-save-people/) | [C++](./src/Problem_0881_numRescueBoats.cc)|Medium|
