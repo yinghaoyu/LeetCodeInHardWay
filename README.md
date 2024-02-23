@@ -452,6 +452,7 @@ LeetCode Solution In Hard Way
 |0878|[Nth Magical Number](https://leetcode.cn/problems/nth-magical-number/) | [C++](./src/Problem_0878_nthMagicalNumber.cc)|Hard|
 |0875|[Koko Eating Bananas](https://leetcode.cn/problems/koko-eating-bananas/) | [C++](./src/Problem_0875_minEatingSpeed.cc)|Medium|
 |0874|[Walking Robot Simulation](https://leetcode.cn/problems/walking-robot-simulation/) | [C++](./src/Problem_0874_robotSim.cc)|Medium|
+|0873|[Length of Longest Fibonacci Subsequence](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence/) | [C++](./src/Problem_0873_lenLongestFibSubseq.cc)|Medium|
 |0871|[Minimum Number of Refueling Stops](https://leetcode.cn/problems/minimum-number-of-refueling-stops/) | [C++](./src/Problem_0871_minRefuelStops.cc)|Hard|
 |0870|[Advantage Shuffle](https://leetcode.cn/problems/advantage-shuffle/) | [C++](./src/Problem_0870_advantageCount.cc)|Medium|
 |0864|[Shortest Path to Get All Keys🚀](https://leetcode.cn/problems/shortest-path-to-get-all-keys/) | [C++](./src/Problem_0864_shortestPathAllKeys.cc)|Medium|
