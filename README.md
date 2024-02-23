@@ -128,6 +128,7 @@ LeetCode Solution In Hard Way
 |剑指 Offer 03|[数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0003_findRepeatNumber.cc)|Easy|
 |bytedance-006|[夏季特惠](https://leetcode.cn/problems/tJau2o/) | [C++](./src/Problem_bytedance_0006_BuyGoodsHaveDiscount.cc)|Easy|
 |LCR 132|[砍竹子 II](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/) | [C++](./src/Problem_LCR_132_cuttingBamboo.cc)|Medium|
+|LCR 096|[交错字符串](https://leetcode.cn/problems/IY6buf/) | [C++](./src/Problem_LCR_096_isInterleave.cc)|Medium|
 |LCR 095|[最长公共子序列](https://leetcode.cn/problems/qJnOS7/) | [C++](./src/Problem_LCR_095_longestCommonSubsequence.cc)|Medium|
 |LCR 094|[分割回文串 II](https://leetcode.cn/problems/omKAoA/) | [C++](./src/Problem_LCR_094_minCut.cc)|Hard|
 |LCR 093|[最长的斐波那契子序列的长度](https://leetcode.cn/problems/Q91FMA/) | [C++](./src/Problem_LCR_093_lenLongestFibSubseq.cc)|Medium|
