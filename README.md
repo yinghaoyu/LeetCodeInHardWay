@@ -630,6 +630,7 @@ LeetCode Solution In Hard Way
 |0300|[Longest Increasing Subsequence🚀](https://leetcode.cn/problems/longest-increasing-subsequence/) | [C++](./src/Problem_0300_lengthOfLIS.cc)|Medium|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [C++](./src/Problem_0297_Codec.cc)|Hard|
 |0295|[Find Median from Data Stream](https://leetcode.cn/problems/find-median-from-data-stream/) | [C++](./src/Problem_0295_MedianFinder.cc)|Hard|
+|0292|[Nim Game](https://leetcode.cn/problems/nim-game/) | [C++](./src/Problem_0292_canWinNim.cc)|Easy|
 |0289|[Game of Life🚀](https://leetcode.cn/problems/game-of-life/) | [C++](./src/Problem_0289_gameOfLife.cc)|Medium|
 |0287|[Find the Duplicate Number](https://leetcode.cn/problems/find-the-duplicate-number/) | [C++](./src/Problem_0287_findDuplicate.cc)|Medium|
 |0285|[Inorder Successor in BST](https://leetcode.cn/problems/inorder-successor-in-bst/) | [C++](./src/Problem_0285_inorderSuccessor.cc)|Medium|
