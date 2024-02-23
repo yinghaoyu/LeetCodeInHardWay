@@ -9,7 +9,7 @@ class Solution
 {
  public:
   // 记忆化搜索
-  int process(int c, int r, int x, int y, vector<vector<int>> &path)
+  int f(int c, int r, int x, int y, vector<vector<int>>& path)
   {
     if (c > x || r > y)
     {
@@ -23,8 +23,8 @@ class Solution
     {
       return path[c][r];
     }
-    int p1 = process(c + 1, r, x, y, path);
-    int p2 = process(c, r + 1, x, y, path);
+    int p1 = f(c + 1, r, x, y, path);
+    int p2 = f(c, r + 1, x, y, path);
     path[c][r] = p1 + p2;
     return p1 + p2;
   }
@@ -32,7 +32,7 @@ class Solution
   int uniquePaths(int m, int n)
   {
     vector<vector<int>> path(m, vector<int>(n));
-    return process(0, 0, m - 1, n - 1, path);
+    return f(0, 0, m - 1, n - 1, path);
   }
 
   // 递归改动态规划
