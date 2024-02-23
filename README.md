@@ -131,6 +131,7 @@ LeetCode Solution In Hard Way
 |LCP 74|[最强祝福力场](https://leetcode.cn/problems/xepqZ5/) | [C++](./src/Problem_LCP_74_fieldOfGreatestBlessing.cc)|Medium|
 |LCP 41|[黑白翻转棋](https://leetcode.cn/problems/fHi6rV/) | [C++](./src/Problem_LCP_41_flipChess.cc)|Medium|
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
+|LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
