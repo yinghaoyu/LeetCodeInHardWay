@@ -163,6 +163,7 @@ LeetCode Solution In Hard Way
 |2591|[Distribute Money to Maximum Children](https://leetcode.cn/problems/distribute-money-to-maximum-children/) | [C++](./src/Problem_2591_distMoney.cc)|Easy|
 |2594|[Minimum Time to Repair Cars](https://leetcode.cn/problems/minimum-time-to-repair-cars/) | [C++](./src/Problem_2594_repairCars.cc)|Medium|
 |2586|[Count the Number of Vowel Strings in Range](https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/) | [C++](./src/Problem_2586_vowelStrings.cc)|Easy|
+|2583|[Kth Largest Sum in a Binary Tree](https://leetcode.cn/problems/kth-largest-sum-in-a-binary-tree/) | [C++](./src/Problem_2583_kthLargestLevelSum.cc)|Medium|
 |2578|[Split With Minimum Sum](https://leetcode.cn/problems/split-with-minimum-sum/) | [C++](./src/Problem_2578_splitNum.cc)|Easy|
 |2569|[Handling Sum Queries After Update](https://leetcode.cn/problems/handling-sum-queries-after-update/) | [C++](./src/Problem_2569_handleQuery.cc)|Hard|
 |2562|[Find the Array Concatenation Value](https://leetcode.cn/problems/find-the-array-concatenation-value/) | [C++](./src/Problem_2562_findTheArrayConcVal.cc)|Easy|
