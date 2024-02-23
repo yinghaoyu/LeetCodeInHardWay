@@ -279,6 +279,7 @@ LeetCode Solution In Hard Way
 |1696|[Jump Game VI](https://leetcode.cn/problems/jump-game-vi/) | [C++](./src/Problem_1696_maxResult.cc)|Medium|
 |1694|[Reformat Phone Number](https://leetcode.cn/problems/reformat-phone-number/) | [C++](./src/Problem_1694_reformatNumber.cc)|Easy|
 |1690|[Stone Game VII](https://leetcode.cn/problems/stone-game-vii/) | [C++](./src/Problem_1690_stoneGameVII.cc)|Medium|
+|1686|[Stone Game VI](https://leetcode.cn/problems/stone-game-vi/) | [C++](./src/Problem_1686_stoneGameVI.cc)|Medium|
 |1684|[Count the Number of Consistent Strings](https://leetcode.cn/problems/count-the-number-of-consistent-strings/) | [C++](./src/Problem_1684_countConsistentStrings.cc)|Easy|
 |1678|[Goal Parser Interpretation](https://leetcode.cn/problems/goal-parser-interpretation/) | [C++](./src/Problem_1678_interpret.cc)|Easy|
 |1675|[Minimize Deviation in Array](https://leetcode.cn/problems/minimize-deviation-in-array/) | [C++](./src/Problem_1675_minimumDeviation.cc)|Easy|
