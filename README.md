@@ -429,6 +429,7 @@ LeetCode Solution In Hard Way
 |0953|[Verifying an Alien Dictionary](https://leetcode.cn/problems/verifying-an-alien-dictionary/) | [C++](./src/Problem_0953_isAlienSorted.cc)|Easy|
 |0947|[Most Stones Removed with Same Row or Column](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column/) | [C++](./src/Problem_0947_removeStones.cc)|Medium|
 |0940|[Distinct Subsequences II🚀](https://leetcode.cn/problems/distinct-subsequences-ii/) | [C++](./src/Problem_0940_distinctSubseqII.cc)|Hard|
+|0938|[Range Sum of BST](https://leetcode.cn/problems/range-sum-of-bst/) | [C++](./src/Problem_0938_rangeSumBST.cc)|Easy|
 |0936|[Stamping The Sequence](https://leetcode.cn/problems/stamping-the-sequence/) | [C++](./src/Problem_0936_movesToStamp.cc)|Hard|
 |0934|[Shortest Bridge🚀](https://leetcode.cn/problems/shortest-bridge/) | [C++](./src/Problem_0934_shortestBridge.cc)|Medium|
 |0933|[Number of Recent Calls](https://leetcode.cn/problems/number-of-recent-calls/) | [C++](./src/Problem_0933_RecentCounter.cc)|Easy|
