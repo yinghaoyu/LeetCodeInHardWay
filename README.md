@@ -595,6 +595,7 @@ LeetCode Solution In Hard Way
 |0429|[N-ary Tree Level Order Traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/) | [C++](./src/Problem_0429_levelOrder.cc)|Medium|
 |0421|[Maximum XOR of Two Numbers in an Array](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/) | [C++](./src/Problem_0421_findMaximumXOR.cc)|Medium|
 |0419|[Battleships in a Board](https://leetcode.cn/problems/battleships-in-a-board/) | [C++](./src/Problem_0419_countBattleships.cc)|Medium|
+|0416|[Partition Equal Subset Sum](https://leetcode.cn/problems/partition-equal-subset-sum/) | [C++](./src/Problem_0416_canPartition.cc)|Medium|
 |0415|[Add Strings](https://leetcode.cn/problems/add-strings/) | [C++](./src/Problem_0415_addStrings.cc)|Easy|
 |0412|[Fizz Buzz](https://leetcode.cn/problems/fizz-buzz/) | [C++](./src/Problem_0412_fizzBuzz.cc)|Easy|
 |0410|[Split Array Largest Sum](https://leetcode.cn/problems/split-array-largest-sum/) | [C++](./src/Problem_0410_splitArray.cc)|Hard|
