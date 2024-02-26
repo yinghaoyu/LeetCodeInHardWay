@@ -188,6 +188,7 @@ LeetCode Solution In Hard Way
 |2485|[Find the Pivot Integer](https://leetcode.cn/problems/find-the-pivot-integer/) | [C++](./src/Problem_2485_pivotInteger.cc)|Easy|
 |2481|[Minimum Cuts to Divide a Circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/) | [C++](./src/Problem_2481_numberOfCuts.cc)|Easy|
 |2477|[Minimum Fuel Cost to Report to the Capital](https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/) | [C++](./src/Problem_2477_minimumFuelCost.cc)|Medium|
+|2476|[Closest Nodes Queries in a Binary Search Tree](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree/) | [C++](./src/Problem_2476_closestNodes.cc)|Medium|
 |2475|[Number of Unequal Triplets in Array](https://leetcode.cn/problems/number-of-unequal-triplets-in-array/) | [C++](./src/Problem_2475_unequalTriplets.cc)|Easy|
 |2472|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.cn/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | [C++](./src/Problem_2472_maxPalindromes.cc)|Hard|
 |2465|[Number of Distinct Averages](https://leetcode.cn/problems/number-of-distinct-averages/) | [C++](./src/Problem_2465_distinctAverages.cc)|Easy|
