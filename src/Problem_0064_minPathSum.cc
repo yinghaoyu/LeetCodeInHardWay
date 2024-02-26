@@ -9,9 +9,12 @@ using namespace std;
 class Solution
 {
  public:
-  bool canWalk(vector<vector<int>> &grid, int i, int j) { return i >= 0 && i < grid.size() && j >= 0 && j < grid[0].size(); }
+  bool canWalk(vector<vector<int>>& grid, int i, int j)
+  {
+    return i >= 0 && i < grid.size() && j >= 0 && j < grid[0].size();
+  }
 
-  int process(vector<vector<int>> &grid, int i, int j)
+  int f(vector<vector<int>>& grid, int i, int j)
   {
     if (!canWalk(grid, i, j))
     {
@@ -24,19 +27,19 @@ class Solution
     int distance = INT32_MAX;
     if (canWalk(grid, i + 1, j))
     {
-      distance = std::min(distance, process(grid, i + 1, j));
+      distance = std::min(distance, f(grid, i + 1, j));
     }
     if (canWalk(grid, i, j + 1))
     {
-      distance = std::min(distance, process(grid, i, j + 1));
+      distance = std::min(distance, f(grid, i, j + 1));
     }
     return distance == INT32_MAX ? INT32_MAX : distance + grid[i][j];
   }
 
   // 递归，超时
-  int minPathSum1(vector<vector<int>> &grid) { return process(grid, 0, 0); }
+  int minPathSum1(vector<vector<int>>& grid) { return f(grid, 0, 0); }
 
-  int minPathSum2(vector<vector<int>> &grid)
+  int minPathSum2(vector<vector<int>>& grid)
   {
     int N = grid.size();
     int M = grid[0].size();
@@ -60,7 +63,7 @@ class Solution
   // 仔细观察可以发现，由于二维dp的填充方式是从右下角开始，从右到左，从下到上
   // 所以我们可以设置一个一维数组进行滚动刷新，而不需要浪费一个二维数组的额外空间
   // TODO: figure it out
-  int minPathSum3(vector<vector<int>> &grid)
+  int minPathSum3(vector<vector<int>>& grid)
   {
     int N = grid.size();
     int M = grid[0].size();
