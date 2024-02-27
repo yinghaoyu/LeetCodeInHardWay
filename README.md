@@ -154,6 +154,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|2867|[Count Valid Paths in a Tree](https://leetcode.cn/problems/count-valid-paths-in-a-tree/) | [C++](./src/Problem_2867_countPaths.cc)|Hard|
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/) | [C++](./src/Problem_2828_isAcronym.cc)|Easy|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
