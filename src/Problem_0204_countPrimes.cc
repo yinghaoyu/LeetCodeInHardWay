@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
  public:
-  //埃式筛法
+  // 埃式筛法
   int countPrimes(int n)
   {
     if (n < 3)
