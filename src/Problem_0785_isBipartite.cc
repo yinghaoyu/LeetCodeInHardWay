@@ -85,5 +85,52 @@ class Solution
     return true;
   }
 
-  // TODO: 并查集
+  bool isBipartite3(vector<vector<int>>& graph)
+  {
+    int n = graph.size();
+    UnionFind uf(n);
+    // 遍历每个顶点，将当前顶点的所有邻接点进行合并
+    for (int i = 0; i < n; i++)
+    {
+      vector<int> nexts = graph[i];
+      for (int w : graph[i])
+      {
+        if (uf.isConnected(i, w))
+        {
+          // 若某个邻接点与当前顶点已经在一个集合中了，说明不是二分图，返回 false
+          return false;
+        }
+        uf.unions(w, nexts[0]);
+      }
+    }
+    return true;
+  }
+
+  class UnionFind
+  {
+   public:
+    vector<int> father;
+
+    UnionFind(int n)
+    {
+      father.resize(n);
+      for (int i = 0; i < n; i++)
+      {
+        father[i] = i;
+      }
+    }
+
+    int find(int i)
+    {
+      if (father[i] != i)
+      {
+        father[i] = find(father[i]);
+      }
+      return father[i];
+    }
+
+    bool isConnected(int p, int q) { return find(p) == find(q); }
+
+    void unions(int p, int q) { father[find(p)] = find(q); }
+  };
 };
