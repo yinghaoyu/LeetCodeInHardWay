@@ -502,6 +502,7 @@ LeetCode Solution In Hard Way
 |0790|[Domino and Tromino Tiling](https://leetcode.cn/problems/domino-and-tromino-tiling/) | [C++](./src/Problem_0790_numTilings.cc)|Medium|
 |0788|[Rotated Digits](https://leetcode.cn/problems/rotated-digits/) | [C++](./src/Problem_0788_rotatedDigits.cc)|Medium|
 |0787|[Cheapest Flights Within K Stops](https://leetcode.cn/problems/cheapest-flights-within-k-stops/) | [C++](./src/Problem_0787_findCheapestPrice.cc)|Medium|
+|0785|[Is Graph Bipartite?](https://leetcode.cn/problems/is-graph-bipartite/) | [C++](./src/Problem_0785_isBipartite.cc)|Medium|
 |0784|[Letter Case Permutation](https://leetcode.cn/problems/letter-case-permutation/) | [C++](./src/Problem_0784_letterCasePermutation.cc)|Medium|
 |0781|[Rabbits in Forest](https://leetcode.cn/problems/rabbits-in-forest/) | [C++](./src/Problem_0781_numRabbits.cc)|Medium|
 |0779|[K-th Symbol in Grammar](https://leetcode.cn/problems/k-th-symbol-in-grammar/) | [C++](./src/Problem_0779_kthGrammar.cc)|Medium|
