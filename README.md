@@ -529,6 +529,7 @@ LeetCode Solution In Hard Way
 |0707|[Design Linked List](https://leetcode.cn/problems/design-linked-list/) | [C++](./src/Problem_0707_MyLinkedList.cc)|Medium|
 |0703|[Kth Largest Element in a Stream](https://leetcode.cn/problems/kth-largest-element-in-a-stream/) | [C++](./src/Problem_0703_KthLargest.cc)|Easy|
 |0698|[Partition to K Equal Sum Subsets](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
+|0695|[Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | [C++](./src/Problem_0695_maxAreaOfIsland.cc)|Medium|
 |0691|[Stickers to Spell Word](https://leetcode.cn/problems/stickers-to-spell-word/) | [C++](./src/Problem_0691_minStickers.cc)|Hard|
 |0689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [C++](./src/Problem_0689_maxSumOfThreeSubarrays.cc)|Hard|
 |0688|[Knight Probability in Chessboard](https://leetcode.cn/problems/knight-probability-in-chessboard/) | [C++](./src/Problem_0688_knightProbability.cc)|Medium|
