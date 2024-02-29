@@ -128,6 +128,7 @@ LeetCode Solution In Hard Way
 |剑指 Offer 03|[数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [C++](./src/Problem_STO_0003_findRepeatNumber.cc)|Easy|
 |bytedance-006|[夏季特惠](https://leetcode.cn/problems/tJau2o/) | [C++](./src/Problem_bytedance_0006_BuyGoodsHaveDiscount.cc)|Easy|
 |LCR 132|[砍竹子 II](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof/) | [C++](./src/Problem_LCR_132_cuttingBamboo.cc)|Medium|
+|LCR 104|[组合总和 Ⅳ](https://leetcode.cn/problems/D0F0SV/) | [C++](./src/Problem_LCR_104_combinationSum4.cc)|Medium|
 |LCR 103|[零钱兑换](https://leetcode.cn/problems/gaM7Ch/) | [C++](./src/Problem_LCR_103_coinChange.cc)|Medium|
 |LCR 102|[目标和](https://leetcode.cn/problems/YaVDxD/) | [C++](./src/Problem_LCR_102_findTargetSumWays.cc)|Medium|
 |LCR 101|[分割等和子集](https://leetcode.cn/problems/NUPfPr/) | [C++](./src/Problem_LCR_101_canPartition.cc)|Easy|
