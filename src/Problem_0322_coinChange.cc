@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  int process(vector<int> &coins, int index, int amount)
+  int f(vector<int>& coins, int index, int amount)
   {
     if (index == coins.size())
     {
@@ -18,7 +18,7 @@ class Solution
     int ways = INT32_MAX;
     for (int zhang = 0; zhang * coins[index] <= amount; zhang++)
     {
-      int next = process(coins, index + 1, amount - zhang * coins[index]);
+      int next = f(coins, index + 1, amount - zhang * coins[index]);
       if (next != INT32_MAX)
       {
         ways = std::min(ways, next + zhang);
@@ -28,17 +28,17 @@ class Solution
   }
 
   // 暴力尝试，超时
-  int coinChange1(vector<int> &coins, int amount)
+  int coinChange1(vector<int>& coins, int amount)
   {
     if (amount == 0)
     {
       return 0;
     }
-    int ans = process(coins, 0, amount);
+    int ans = f(coins, 0, amount);
     return ans == INT32_MAX ? -1 : ans;
   }
 
-  int dfs(vector<int> &coins, int index, vector<int> &seen, int amount)
+  int dfs(vector<int>& coins, int index, vector<int>& seen, int amount)
   {
     if (index == coins.size())
     {
@@ -57,12 +57,15 @@ class Solution
         ways = std::min(ways, next + zhang);
       }
     }
+    // 注意这里的 ways 也有可能是 INT32_MAX
+    // 假如seen数组的初始值为 -1，
+    // if(seen[amount] != -1) return seen[amount]; 会把 INT32_MAX 返回，导致没有计算某个步骤
     seen[amount] = ways;
     return ways;
   }
 
   // 记忆化搜索，超时
-  int coinChange2(vector<int> &coins, int amount)
+  int coinChange2(vector<int>& coins, int amount)
   {
     if (amount == 0)
     {
@@ -74,7 +77,7 @@ class Solution
   }
 
   // 递归改dp
-  int coinChange3(vector<int> &coins, int amount)
+  int coinChange3(vector<int>& coins, int amount)
   {
     if (coins.size() == 0 || amount < 0)
     {
@@ -114,7 +117,7 @@ class Solution
     return dp[0][amount];
   }
 
-  int coinChange4(vector<int> &coins, int aim)
+  int coinChange4(vector<int>& coins, int aim)
   {
     if (coins.size() == 0 || aim < 0)
     {
