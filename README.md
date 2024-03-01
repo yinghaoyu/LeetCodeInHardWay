@@ -573,6 +573,7 @@ LeetCode Solution In Hard Way
 |0552|[Student Attendance Record II](https://leetcode.cn/problems/student-attendance-record-ii/) | [C++](./src/Problem_0552_checkRecord.cc)|Hard|
 |0546|[Remove Boxes](https://leetcode.cn/problems/remove-boxes/) | [C++](./src/Problem_0546_removeBoxes.cc)|Hard|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
+|0542|[01 Matrix](https://leetcode.cn/problems/01-matrix/) | [C++](./src/Problem_0542_updateMatrix.cc)|Medium|
 |0540|[Single Element in a Sorted Array](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [C++](./src/Problem_0540_singleNonDuplicate.cc)|Medium|
 |0539|[Minimum Time Difference](https://leetcode.cn/problems/minimum-time-difference/) | [C++](./src/Problem_0539_findMinDifference.cc)|Medium|
 |0538|[Convert BST to Greater Tree](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [C++](./src/Problem_0538_convertBST.cc)|Medium|
