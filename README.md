@@ -518,6 +518,7 @@ LeetCode Solution In Hard Way
 |0764|[Largest Plus Sign](https://leetcode.cn/problems/largest-plus-sign/description/) | [C++](./src/Problem_0764_orderOfLargestPlusSign.cc)|Medium|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0754|[Reach a Number](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
+|0752|[Open the Lock](https://leetcode.cn/problems/open-the-lock/) | [C++](./src/Problem_0752_openLock.cc)|Medium|
 |0746|[Min Cost Climbing Stairs](https://leetcode.cn/problems/min-cost-climbing-stairs/) | [C++](./src/Problem_0746_minCostClimbingStairs.cc)|Easy|
 |0743|[Network Delay Time](https://leetcode.cn/problems/network-delay-time/) | [C++](./src/Problem_0743_networkDelayTime.cc)|Hard|
 |0741|[Cherry Pickup](https://leetcode.cn/problems/cherry-pickup/) | [C++](./src/Problem_0741_cherryPickup.cc)|Hard|
