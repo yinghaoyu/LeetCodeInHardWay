@@ -500,6 +500,7 @@ LeetCode Solution In Hard Way
 |0805|[Split Array With Same Average](https://leetcode.cn/problems/split-array-with-same-average/) | [C++](./src/Problem_0805_splitArraySameAverage.cc)|Hard|
 |0803|[Bricks Falling When Hit](https://leetcode.cn/problems/bricks-falling-when-hit/) | [C++](./src/Problem_0803_hitBricks.cc)|Hard|
 |0799|[Champagne Tower](https://leetcode.cn/problems/champagne-tower/) | [C++](./src/Problem_0799_champagneTower.cc)|Medium|
+|0797|[All Paths From Source to Target](https://leetcode.cn/problems/all-paths-from-source-to-target/) | [C++](./src/Problem_0797_allPathsSourceTarget.cc)|Medium|
 |0793|[Preimage Size of Factorial Zeroes Function](https://leetcode.cn/problems/preimage-size-of-factorial-zeroes-function/) | [C++](./src/Problem_0793_preimageSizeFZF.cc)|Hard|
 |0792|[Number of Matching Subsequences](https://leetcode.cn/problems/number-of-matching-subsequences/) | [C++](./src/Problem_0792_numMatchingSubseq.cc)|Medium|
 |0791|[Custom Sort String](https://leetcode.cn/problems/custom-sort-string/) | [C++](./src/Problem_0791_customSortString.cc)|Medium|
