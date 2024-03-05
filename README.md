@@ -546,6 +546,7 @@ LeetCode Solution In Hard Way
 |0689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [C++](./src/Problem_0689_maxSumOfThreeSubarrays.cc)|Hard|
 |0688|[Knight Probability in Chessboard](https://leetcode.cn/problems/knight-probability-in-chessboard/) | [C++](./src/Problem_0688_knightProbability.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
+|0686|[Repeated String Match](https://leetcode.cn/problems/repeated-string-match/) | [C++](./src/Problem_0686_repeatedStringMatch.cc)|Medium|
 |0680|[Valid Palindrome II](https://leetcode.cn/problems/valid-palindrome-ii/) | [C++](./src/Problem_0680_validPalindrome.cc)|Easy|
 |0677|[Map Sum Pairs](https://leetcode.cn/problems/map-sum-pairs/) | [C++](./src/Problem_0677_MapSum.cc)|Medium|
 |0676|[Implement Magic Dictionary](https://leetcode.cn/problems/implement-magic-dictionary/) | [C++](./src/Problem_0676_MagicDictionary.cc)|Medium|
@@ -819,7 +820,7 @@ LeetCode Solution In Hard Way
 |0033|[Search in Rotated Sorted Array](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [C++](./src/Problem_0033_search.cc)|Medium|
 |0032|[Longest Valid Parentheses](https://leetcode.cn/problems/longest-valid-parentheses/) | [C++](./src/Problem_0032_longestValidParentheses.cc)|Hard|
 |0029|[Divide Two Integers](https://leetcode.cn/problems/divide-two-integers/) | [C++](./src/Problem_0029_divide.cc)|Medium|
-|0028|[Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Medium|
+|0028|[Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [C++](./src/Problem_0028_strStr.cc)|Easy|
 |0026|[Remove Duplicates from Sorted Array](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [C++](./src/Problem_0026_removeDuplicates.cc)|Easy|
 |0025|[Reverse Nodes in k-Group](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | [C++](./src/Problem_0025_reverseKGroup.cc)|Hard|
 |0023|[Merge k Sorted Lists](https://leetcode.cn/problems/merge-k-sorted-lists/) | [C++](./src/Problem_0023_mergeKLists.cc)|Hard|
