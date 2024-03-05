@@ -240,6 +240,7 @@ LeetCode Solution In Hard Way
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/) | [C++](./src/Problem_2208_halveArray.cc)|Medium|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/) | [C++](./src/Problem_2178_maximumEvenSplit.cc)|Medium|
+|2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency/) | [C++](./src/Problem_2168_equalDigitFrequency.cc)|Medium|
 |2166|[Design Bitset](https://leetcode.cn/problems/design-bitset/) | [C++](./src/Problem_2166_Bitset.cc)|Medium|
 |2141|[Maximum Running Time of N Computers](https://leetcode.cn/problems/maximum-running-time-of-n-computers/) | [C++](./src/Problem_2141_maxRunTime.cc)|Hard|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/) | [C++](./src/Problem_2136_earliestFullBloom.cc)|Medium|
