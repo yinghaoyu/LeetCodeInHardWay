@@ -21,7 +21,7 @@ class Solution
     int M = p.length();
     unordered_map<char, int> map;
     // 先统计p字符串的字符
-    for (auto &c : p)
+    for (auto& c : p)
     {
       if (!map.count(c))
       {
