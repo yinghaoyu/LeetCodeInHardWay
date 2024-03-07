@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
  public:
-  int longestIncreasingPath(vector<vector<int>> &matrix)
+  int longestIncreasingPath(vector<vector<int>>& matrix)
   {
     if (matrix.size() == 0 || matrix[0].size() == 0)
     {
@@ -28,7 +28,7 @@ class Solution
     return ans;
   }
 
-  int lip(vector<vector<int>> &matrix, int i, int j, vector<vector<int>> &dp)
+  int lip(vector<vector<int>>& matrix, int i, int j, vector<vector<int>>& dp)
   {
     if (dp[i][j] != 0)
     {
@@ -55,9 +55,10 @@ class Solution
     return dp[i][j];
   }
 
-  bool canWalk(vector<vector<int>> &matrix, int i1, int j1, int i2, int j2)
+  bool canWalk(vector<vector<int>>& matrix, int i1, int j1, int i2, int j2)
   {
-    return i2 >= 0 && i2 < matrix.size() && j2 >= 0 && j2 < matrix[0].size() && matrix[i1][j1] < matrix[i2][j2];
+    return i2 >= 0 && i2 < matrix.size() && j2 >= 0 && j2 < matrix[0].size() &&
+           matrix[i1][j1] < matrix[i2][j2];
   }
 };
 
