@@ -615,6 +615,7 @@ LeetCode Solution In Hard Way
 |0448|[Find All Numbers Disappeared in an Array](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/Problem_0448_findDisappearedNumbers.cc)|Easy|
 |0447|[Number of Boomerangs](https://leetcode.cn/problems/number-of-boomerangs/) | [C++](./src/Problem_0447_numberOfBoomerangs.cc)|Medium|
 |0445|[Add Two Numbers II](https://leetcode.cn/problems/add-two-numbers-ii/) | [C++](./src/Problem_0445_addTwoNumbers.cc)|Medium|
+|0444|[Sequence Reconstruction](https://leetcode.cn/problems/add-two-numbers-ii/) | [C++](./src/Problem_0444_sequenceReconstruction.cc)|Medium|
 |0438|[Find All Anagrams in a String](https://leetcode.cn/problems/find-all-anagrams-in-a-string/) | [C++](./src/Problem_0438_findAnagrams.cc)|Medium|
 |0437|[Path Sum III](https://leetcode.cn/problems/path-sum-iii/) | [C++](./src/Problem_0437_pathSum.cc)|Medium|
 |0432|[All O`one Data Structure](https://leetcode.cn/problems/all-oone-data-structure/) | [C++](./src/Problem_0432_AllOne.cc)|Hard|
