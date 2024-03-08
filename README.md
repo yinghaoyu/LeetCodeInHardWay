@@ -587,6 +587,7 @@ LeetCode Solution In Hard Way
 |0567|[Permutation in String](https://leetcode.cn/problems/permutation-in-string/) | [C++](./src/Problem_0567_checkInclusion.cc)|Medium|
 |0560|[Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | [C++](./src/Problem_0560_subarraySum.cc)|Medium|
 |0552|[Student Attendance Record II](https://leetcode.cn/problems/student-attendance-record-ii/) | [C++](./src/Problem_0552_checkRecord.cc)|Hard|
+|0547|[Number of Provinces](https://leetcode.cn/problems/number-of-provinces/) | [C++](./src/Problem_0547_findCircleNum.cc)|Medium|
 |0546|[Remove Boxes](https://leetcode.cn/problems/remove-boxes/) | [C++](./src/Problem_0546_removeBoxes.cc)|Hard|
 |0543|[Diameter of Binary Tree](https://leetcode.cn/problems/diameter-of-binary-tree/) | [C++](./src/Problem_0543_diameterOfBinaryTree.cc)|Easy|
 |0542|[01 Matrix](https://leetcode.cn/problems/01-matrix/) | [C++](./src/Problem_0542_updateMatrix.cc)|Medium|
