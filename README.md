@@ -832,6 +832,7 @@ LeetCode Solution In Hard Way
 |0035|[Search Insert Position](https://leetcode.cn/problems/search-insert-position/) | [C++](./src/Problem_0035_searchInsert.cc)|Easy|
 |0034|[Find First and Last Position of Element in Sorted Array](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/Problem_0034_searchRange.cc)|Medium|
 |0033|[Search in Rotated Sorted Array](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [C++](./src/Problem_0033_search.cc)|Medium|
+|0031|[Next Permutation](https://leetcode.cn/problems/next-permutation/) | [C++](./src/Problem_0031_nextPermutation.cc)|Medium|
 |0030|[Substring with Concatenation of All Words](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/) | [C++](./src/Problem_0030_findSubstring.cc)|Hard|
 |0032|[Longest Valid Parentheses](https://leetcode.cn/problems/longest-valid-parentheses/) | [C++](./src/Problem_0032_longestValidParentheses.cc)|Hard|
 |0029|[Divide Two Integers](https://leetcode.cn/problems/divide-two-integers/) | [C++](./src/Problem_0029_divide.cc)|Medium|
