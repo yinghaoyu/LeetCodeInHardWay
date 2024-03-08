@@ -174,6 +174,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |2917|[Find the K-or of an Array](https://leetcode.cn/problems/find-the-k-or-of-an-array/) | [C++](./src/Problem_2917_findKOr.cc)|Easy|
 |2867|[Count Valid Paths in a Tree](https://leetcode.cn/problems/count-valid-paths-in-a-tree/) | [C++](./src/Problem_2867_countPaths.cc)|Hard|
+|2834|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.cn/problems/find-the-minimum-possible-sum-of-a-beautiful-array/) | [C++](./src/Problem_2834_minimumPossibleSum.cc)|Medium|
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/) | [C++](./src/Problem_2828_isAcronym.cc)|Easy|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
