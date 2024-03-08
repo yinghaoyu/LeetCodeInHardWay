@@ -555,6 +555,7 @@ LeetCode Solution In Hard Way
 |0688|[Knight Probability in Chessboard](https://leetcode.cn/problems/knight-probability-in-chessboard/) | [C++](./src/Problem_0688_knightProbability.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
 |0686|[Repeated String Match](https://leetcode.cn/problems/repeated-string-match/) | [C++](./src/Problem_0686_repeatedStringMatch.cc)|Medium|
+|0684|[Redundant Connection](https://leetcode.cn/problems/redundant-connection/) | [C++](./src/Problem_0684_findRedundantConnection.cc)|Medium|
 |0680|[Valid Palindrome II](https://leetcode.cn/problems/valid-palindrome-ii/) | [C++](./src/Problem_0680_validPalindrome.cc)|Easy|
 |0677|[Map Sum Pairs](https://leetcode.cn/problems/map-sum-pairs/) | [C++](./src/Problem_0677_MapSum.cc)|Medium|
 |0676|[Implement Magic Dictionary](https://leetcode.cn/problems/implement-magic-dictionary/) | [C++](./src/Problem_0676_MagicDictionary.cc)|Medium|
