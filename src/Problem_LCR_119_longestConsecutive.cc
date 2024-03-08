@@ -1,14 +1,13 @@
 #include <unordered_map>
 #include <vector>
 
-#include "UnitTest.h"
-
 using namespace std;
 
+// @sa https://leetcode.cn/problems/longest-consecutive-sequence/
+// @sa Problem_0128_longestConsecutive.cc
 class Solution
 {
  public:
-  // TODO: figure it out
   int longestConsecutive(vector<int>& nums)
   {
     // key表示num，value表示num所在连续区间的长度
@@ -35,19 +34,3 @@ class Solution
     return len;
   }
 };
-
-void testLongestConsecutive()
-{
-  Solution s;
-  vector<int> n1 = {100, 4, 200, 1, 3, 2};
-  vector<int> n2 = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
-  EXPECT_EQ_INT(4, s.longestConsecutive(n1));
-  EXPECT_EQ_INT(9, s.longestConsecutive(n2));
-  EXPECT_SUMMARY;
-}
-
-int main()
-{
-  testLongestConsecutive();
-  return 0;
-}
