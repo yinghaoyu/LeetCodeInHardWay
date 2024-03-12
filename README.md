@@ -682,6 +682,7 @@ LeetCode Solution In Hard Way
 |0303|[Range Sum Query - Immutable](https://leetcode.cn/problems/range-sum-query-immutable/) | [C++](./src/Problem_0303_NumArray.cc)|Easy|
 |0301|[Remove Invalid Parentheses](https://leetcode.cn/problems/remove-invalid-parentheses/) | [C++](./src/Problem_0301_removeInvalidParentheses.cc)|Hard|
 |0300|[Longest Increasing Subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/) | [C++](./src/Problem_0300_lengthOfLIS.cc)|Medium|
+|0299|[Bulls and Cows](https://leetcode.cn/problems/bulls-and-cows/) | [C++](./src/Problem_0299_getHint.cc)|Medium|
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [C++](./src/Problem_0297_Codec.cc)|Hard|
 |0295|[Find Median from Data Stream](https://leetcode.cn/problems/find-median-from-data-stream/) | [C++](./src/Problem_0295_MedianFinder.cc)|Hard|
 |0292|[Nim Game](https://leetcode.cn/problems/nim-game/) | [C++](./src/Problem_0292_canWinNim.cc)|Easy|
