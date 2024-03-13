@@ -46,11 +46,11 @@ class Solution
 
   vector<vector<int>> BSTSequences(TreeNode* root)
   {
-    vector<vector<int>> ans;
     if (root == NULL)
     {
-      return ans;
+      return {{}};
     }
+    vector<vector<int>> ans;
     vector<int> path;
     vector<TreeNode*> nodes;
     nodes.push_back(root);
