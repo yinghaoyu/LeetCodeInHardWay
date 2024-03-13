@@ -167,6 +167,7 @@ LeetCode Solution In Hard Way
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
 |08.14|[Boolean Evaluation LCCI](https://leetcode.cn/problems/boolean-evaluation-lcci/) | [C++](./src/Problem_08.14_countEval.cc)|Medium|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
+|04.08|[First Common Ancestor LCCI](https://leetcode.cn/problems/first-common-ancestor-lcci/) | [C++](./src/Problem_04.08_lowestCommonAncestor.cc)|Medium|
 |04.06|[Successor LCCI](https://leetcode.cn/problems/successor-lcci/) | [C++](./src/Problem_04.06_inorderSuccessor.cc)|Medium|
 |04.05|[Legal Binary Search Tree LCCI](https://leetcode.cn/problems/legal-binary-search-tree-lcci/) | [C++](./src/Problem_04.05_isValidBST.cc)|Medium|
 |02.02|[Kth Node From End of List LCCI](https://leetcode.cn/problems/kth-node-from-end-of-list-lcci/) | [C++](./src/Problem_02.02_kthToLast.cc)|Easy|
