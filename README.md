@@ -167,6 +167,7 @@ LeetCode Solution In Hard Way
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
 |08.14|[Boolean Evaluation LCCI](https://leetcode.cn/problems/boolean-evaluation-lcci/) | [C++](./src/Problem_08.14_countEval.cc)|Medium|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
+|05.01|[Insert Into Bits LCCI](https://leetcode.cn/problems/insert-into-bits-lcci/) | [C++](./src/Problem_05.01_insertBits.cc)|Easy|
 |04.12|[Paths with Sum LCCI](https://leetcode.cn/problems/paths-with-sum-lcci/) | [C++](./src/Problem_04.12_pathSum.cc)|Medium|
 |04.10|[Check SubTree LCCI](https://leetcode.cn/problems/check-subtree-lcci/) | [C++](./src/Problem_04.10_checkSubTree.cc)|Medium|
 |04.09|[BST Sequences LCCI](https://leetcode.cn/problems/bst-sequences-lcci/) | [C++](./src/Problem_04.09_BSTSequences.cc)|Hard|
