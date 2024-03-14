@@ -185,6 +185,7 @@ LeetCode Solution In Hard Way
 |2834|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.cn/problems/find-the-minimum-possible-sum-of-a-beautiful-array/) | [C++](./src/Problem_2834_minimumPossibleSum.cc)|Medium|
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/) | [C++](./src/Problem_2828_isAcronym.cc)|Easy|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
+|2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | [C++](./src/Problem_2698_punishmentNumber.cc)|Medium|
 |2681|[Power of Heroes](https://leetcode.cn/problems/power-of-heroes/) | [C++](./src/Problem_2681_sumOfPower.cc)|Hard|
