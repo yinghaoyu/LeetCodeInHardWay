@@ -166,6 +166,7 @@ LeetCode Solution In Hard Way
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
 |08.14|[Boolean Evaluation LCCI](https://leetcode.cn/problems/boolean-evaluation-lcci/) | [C++](./src/Problem_08.14_countEval.cc)|Medium|
+|08.02|[Robot in a Grid LCCI](https://leetcode.cn/problems/robot-in-a-grid-lcci/) | [C++](./src/Problem_08.02_pathWithObstacles.cc)|Medium|
 |08.01|[Three Steps Problem LCCI](https://leetcode.cn/problems/three-steps-problem-lcci/) | [C++](./src/Problem_08.01_waysToStep.cc)|Easy|
 |05.08|[Draw Line LCCI](https://leetcode.cn/problems/draw-line-lcci/) | [C++](./src/Problem_05.08_drawLine.cc)|Medium|
 |05.07|[Exchange LCCI](https://leetcode.cn/problems/exchange-lcci/) | [C++](./src/Problem_05.07_exchangeBits.cc)|Easy|
