@@ -10,10 +10,10 @@ class NumArray
  public:
   NumArray(vector<int>& nums)
   {
-    sum = vector<int>(nums.size() + 1);
-    for (int i = 1; i <= nums.size(); i++)
+    sum.resize(nums.size() + 1);
+    for (int i = 0; i < nums.size(); i++)
     {
-      sum[i] = sum[i - 1] + nums[i - 1];
+      sum[i + 1] = sum[i] + nums[i];
     }
   }
 
