@@ -693,6 +693,7 @@ LeetCode Solution In Hard Way
 |0316|[Remove Duplicate Letters](https://leetcode.cn/problems/remove-duplicate-letters/) | [C++](./src/Problem_0316_removeDuplicateLetters.cc)|Medium|
 |0315|[Count of Smaller Numbers After Self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | [C++](./src/Problem_0315_countSmaller.cc)|Hard|
 |0312|[Burst Balloons](https://leetcode.cn/problems/burst-balloons/) | [C++](./src/Problem_0312_maxCoins.cc)|Hard|
+|0310|[Minimum Height Trees](https://leetcode.cn/problems/minimum-height-trees/) | [C++](./src/Problem_0310_findMinHeightTrees.cc)|Medium|
 |0309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./src/Problem_0309_maxProfit.cc)|Medium|
 |0308|[Range Sum Query 2D - Mutable🔒](https://leetcode.cn/problems/range-sum-query-2d-mutable/) | [C++](./src/Problem_0308_NumMatrix.cc)|Hard|
 |0307|[Range Sum Query - Mutable](https://leetcode.cn/problems/range-sum-query-mutable/) | [C++](./src/Problem_0307_NumArray.cc)|Medium|
