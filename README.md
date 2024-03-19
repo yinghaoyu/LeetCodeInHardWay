@@ -166,6 +166,7 @@ LeetCode Solution In Hard Way
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
 |08.14|[Boolean Evaluation LCCI](https://leetcode.cn/problems/boolean-evaluation-lcci/) | [C++](./src/Problem_08.14_countEval.cc)|Medium|
+|08.12|[Eight Queens LCCI](https://leetcode.cn/problems/eight-queens-lcci/) | [C++](./src/Problem_08.12_solveNQueens.cc)|Hard|
 |08.11|[Coin LCCI](https://leetcode.cn/problems/coin-lcci/) | [C++](./src/Problem_08.11_waysToChange.cc)|Medium|
 |08.10|[Color Fill LCCI](https://leetcode.cn/problems/color-fill-lcci/) | [C++](./src/Problem_08.10_floodFill.cc)|Easy|
 |08.09|[Bracket LCCI](https://leetcode.cn/problems/bracket-lcci/) | [C++](./src/Problem_08.09_generateParenthesis.cc)|Medium|
