@@ -8,8 +8,8 @@ using namespace std;
 class Solution
 {
  public:
-   // 利用库函数
-  void rotate1(vector<int> &nums, int k)
+  // 利用库函数
+  void rotate1(vector<int>& nums, int k)
   {
     for (int i = 0; i < k; i++)
     {
@@ -18,7 +18,7 @@ class Solution
     }
   }
 
-  void rotate2(vector<int> &nums, int k)
+  void rotate2(vector<int>& nums, int k)
   {
     int n = nums.size();
     k = k % n;
@@ -30,7 +30,7 @@ class Solution
     reverse(nums, 0, n - 1);
   }
 
-  void reverse(vector<int> &nums, int L, int R)
+  void reverse(vector<int>& nums, int L, int R)
   {
     while (L < R)
     {
@@ -40,7 +40,7 @@ class Solution
     }
   }
 
-  void rotate3(vector<int> &nums, int k)
+  void rotate3(vector<int>& nums, int k)
   {
     // TODO: figure it out
     int n = nums.size();
@@ -74,7 +74,7 @@ class Solution
     }
   }
 
-  void exchange(vector<int> &nums, int start, int end, int size)
+  void exchange(vector<int>& nums, int start, int end, int size)
   {
     int i = end - size + 1;
     int tmp = 0;
@@ -93,8 +93,9 @@ class Solution
   {
     int n = nums.size();
     vector<int> ext(n);
-    for (int i = 0; i < n ; i++) {
-    ext[(i + k)% n] = nums[i];
+    for (int i = 0; i < n; i++)
+    {
+      ext[(i + k) % n] = nums[i];
     }
     nums.swap(ext);
   }
