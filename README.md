@@ -780,6 +780,7 @@ LeetCode Solution In Hard Way
 |0162|[Find Peak Element](https://leetcode.cn/problems/find-peak-element/) | [C++](./src/Problem_0162_findPeakElement.cc)|Medium|
 |0160|[Intersection of Two Linked Lists](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | [C++](./src/Problem_0160_getIntersectionNode.cc)|Easy|
 |0155|[Min Stack](https://leetcode.cn/problems/min-stack/) | [C++](./src/Problem_0155_MinStack.cc)|Medium|
+|0154|[Find Minimum in Rotated Sorted Array II](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | [C++](./src/Problem_0154_findMin.cc)|Hard|
 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/Problem_0153_findMin.cc)|Medium|
 |0152|[Maximum Product Subarray](https://leetcode.cn/problems/maximum-product-subarray/) | [C++](./src/Problem_0152_maxProduct.cc)|Medium|
 |0150|[Max Points on a Line](https://leetcode.cn/problems/evaluate-reverse-polish-notation/) | [C++](./src/Problem_0150_evalRPN.cc)|Medium|
