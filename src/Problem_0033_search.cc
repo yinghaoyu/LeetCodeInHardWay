@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// 旋转数组
 class Solution
 {
  public:
@@ -38,13 +39,19 @@ class Solution
       // 那么 nums[0] < nums[m] 不成立，在else的条件下，右指针会向左偏移一位，
       // 从而失去第二个数，导致无法被查询。
       // 比如数组 [2, 1]，target = 1，可以查到2，但是查不到1
-      if (nums[0] <= nums[m])
+
+      // 这里为什么可以把nums[l]改成nums[0]？
+      // 因为 [0, m)如果有序，那么 [l,m)也必然有序
+      if (nums[l] <= nums[m])  // if (nums[0] <= nums[m])
       {
         // 左半区有序
 
         // 仔细想一下这里为什么取 <= 和 < ?
         // 因为是想在区间 [0, m) 内找 target
-        if (nums[0] <= target && target < nums[m])
+
+        // 这里为什么可以把nums[l]改成nums[0]？
+        // 因为 [0, m)如果有序，那么 [l,m)也必然有序
+        if (nums[l] <= target && target < nums[m])  // if (nums[0] <= target && target < nums[m])
         {
           // 因为 target < nums[m]，所以nums[m] 不是答案
           // 因此取 r = m - 1
@@ -59,7 +66,10 @@ class Solution
       {
         // 右半区有序
         // 同理，这里是想在区间 (m, n-1] 内找 target
-        if (nums[m] < target && target <= nums[n - 1])
+
+        // 这里为什么可以把nums[r]改成nums[n-1]？
+        // 因为 (m, n-1]如果有序，那么 (m, r]也必然有序
+        if (nums[m] < target && target <= nums[r])  // if (nums[m] < target && target <= nums[n-1])
         {
           l = m + 1;
         }
