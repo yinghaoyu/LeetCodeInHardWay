@@ -165,6 +165,7 @@ LeetCode Solution In Hard Way
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
+|10.09|[Sorted Matrix Search LCCI](https://leetcode.cn/problems/sorted-matrix-search-lcci/) | [C++](./src/Problem_10.09_searchMatrix.cc)|Medium|
 |10.04|[Sparse Array Search LCCI](https://leetcode.cn/problems/sparse-array-search-lcci/) | [C++](./src/Problem_10.04_findString.cc)|Easy|
 |10.03|[Search Rotate Array LCCI](https://leetcode.cn/problems/search-rotate-array-lcci/) | [C++](./src/Problem_10.03_search.cc)|Medium|
 |10.02|[Group Anagrams LCCI](https://leetcode.cn/problems/group-anagrams-lcci/) | [C++](./src/Problem_10.02_groupAnagrams.cc)|Medium|
