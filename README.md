@@ -165,6 +165,7 @@ LeetCode Solution In Hard Way
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
+|16.02|[Words Frequency LCCI](https://leetcode.cn/problems/words-frequency-lcci/) | [C++](./src/Problem_16.02_WordsFrequency.cc)|Medium|
 |16.01|[Swap Numbers LCCI](https://leetcode.cn/problems/swap-numbers-lcci/) | [C++](./src/Problem_16.01_swapNumbers.cc)|Medium|
 |10.11|[Peaks and Valleys LCCI](https://leetcode.cn/problems/peaks-and-valleys-lcci/) | [C++](./src/Problem_10.11_wiggleSort.cc)|Medium|
 |10.10|[Rank from Stream LCCI](https://leetcode.cn/problems/rank-from-stream-lcci/) | [C++](./src/Problem_10.10_StreamRank.cc)|Medium|
