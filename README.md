@@ -165,6 +165,7 @@ LeetCode Solution In Hard Way
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |16.19|[Pond Sizes LCCI](https://leetcode.cn/problems/pond-sizes-lcci/) | [C++](./src/Problem_16.19_pondSizes.cc)|Medium|
+|16.11|[Diving Board LCCI](https://leetcode.cn/problems/diving-board-lcci/) | [C++](./src/Problem_16.11_divingBoard.cc)|Easy|
 |16.10|[Living People LCCI](https://leetcode.cn/problems/living-people-lcci/) | [C++](./src/Problem_16.10_maxAliveYear.cc)|Medium|
 |16.09|[Operations LCCI](https://leetcode.cn/problems/operations-lcci/) | [C++](./src/Problem_16.09_Operations.cc)|Medium|
 |16.08|[English Int LCCI](https://leetcode.cn/problems/english-int-lcci/) | [C++](./src/Problem_16.08_numberToWords.cc)|Hard|
