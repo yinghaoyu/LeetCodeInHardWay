@@ -20,7 +20,7 @@ class Solution
     int col;
 
    public:
-    UnionFind(vector<vector<int>> &land)
+    UnionFind(vector<vector<int>>& land)
     {
       col = land[0].size();
       number = 0;
@@ -45,6 +45,7 @@ class Solution
       }
     }
 
+    // 把二维索引转化成一维
     int index(int i, int j) { return i * col + j; }
 
     void unions(int x1, int y1, int x2, int y2)
@@ -97,7 +98,8 @@ class Solution
   };
 
  public:
-  vector<int> pondSizes(vector<vector<int>> &land)
+  // 并查集
+  vector<int> pondSizes(vector<vector<int>>& land)
   {
     int n = land.size();
     int m = land[0].size();
@@ -131,7 +133,8 @@ class Solution
     return uf.dump();
   }
 
-  vector<int> process(vector<vector<int>> &land)
+  // dfs
+  vector<int> f(vector<vector<int>>& land)
   {
     int m = land.size();
     int n = land[0].size();
@@ -178,7 +181,7 @@ void test()
   vector<vector<int>> n1 = {{0, 2, 1, 0}, {0, 1, 0, 1}, {1, 1, 0, 1}, {0, 1, 0, 1}};
   vector<int> o1 = {1, 2, 4};
   EXPECT_TRUE(o1 == s.pondSizes(n1));
-  EXPECT_TRUE(o1 == s.process(n1));
+  EXPECT_TRUE(o1 == s.f(n1));
   EXPECT_SUMMARY;
 }
 
