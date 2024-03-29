@@ -16,12 +16,14 @@ class Solution
 
     Position(int x, int y) : x(x), y(y) {}
 
+    // 注意这里必须加 const
     bool operator==(const Position& other) const { return x == other.x && y == other.y; }
   };
 
   struct PositionHash
   {
     // 改写哈希算法，使两个 Position 对象可以比较坐标而不是内存地址
+    // 注意这里必须加 const
     size_t operator()(const Position& pos) const { return hash<int>()(pos.x) ^ hash<int>()(pos.y); }
   };
 
