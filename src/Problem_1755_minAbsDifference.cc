@@ -4,13 +4,17 @@
 using namespace std;
 
 // TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV11w411y79P/ Code03
 class Solution
 {
  public:
+  // 双向广搜
   int minAbsDifference(vector<int>& nums, int goal)
   {
     int n = nums.size();
+    // 负数和
     long min = 0;
+    // 非负数和
     long max = 0;
     for (int i = 0; i < n; i++)
     {
@@ -23,6 +27,7 @@ class Solution
         min += nums[i];
       }
     }
+    // 剪枝
     if (max < goal)
     {
       return std::abs(max - goal);
@@ -31,7 +36,7 @@ class Solution
     {
       return std::abs(min - goal);
     }
-    // 原始数组排序，为了后面递归的时候，还能剪枝
+    // 原始数组排序，为了后面递归的时候剪枝
     // 常数优化
     std::sort(nums.begin(), nums.end());
     vector<int> lsum;
