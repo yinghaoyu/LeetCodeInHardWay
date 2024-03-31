@@ -5,6 +5,7 @@
 using namespace std;
 
 // TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV1VF411S7RH/ Code03
 class Solution
 {
  public:
@@ -12,6 +13,7 @@ class Solution
   {
     int n = grid.size();
     int m = grid[0].size();
+    // 所有的岛屿从 2 开始编号
     int id = 2;
     for (int i = 0; i < n; i++)
     {
@@ -23,6 +25,7 @@ class Solution
         }
       }
     }
+    // 统计每个岛屿有多少个元素
     vector<int> size(id);
     int ans = 0;
     for (int i = 0; i < n; i++)
