@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1VF411S7RH/ Code04
 class Solution
 {
  public:
@@ -18,16 +19,20 @@ class Solution
     }
     for (auto& hit : hits)
     {
+      // 炮弹所在位置减 1
       grid[hit[0]][hit[1]]--;
     }
+    // 把天花板感染成2
     for (int i = 0; i < m; i++)
     {
       dfs(grid, n, m, 0, i);
     }
+    // 时光倒流，从最后一个炮弹往前处理
     for (int i = hits.size() - 1, row, col; i >= 0; i--)
     {
       row = hits[i][0];
       col = hits[i][1];
+      // 恢复之间炮弹位置减去的 1
       grid[row][col]++;
       if (worth(grid, n, m, row, col))
       {
