@@ -12,7 +12,8 @@ using namespace std;
 class Solution
 {
  public:
-  vector<string> findLongestSubarray(vector<string> &array)
+  // 利用前缀和
+  vector<string> findLongestSubarray(vector<string>& array)
   {
     int N = array.size();
     vector<int> sum(N + 1);
@@ -22,6 +23,7 @@ class Solution
     }
     int begin = 0;
     int end = 0;
+    // 前缀和，下标
     unordered_map<int, int> map;
     for (int i = 0; i <= N; i++)
     {
@@ -44,7 +46,8 @@ class Solution
 void testFindLongestSubarray()
 {
   Solution s;
-  vector<string> n1 = {"A", "1", "B", "C", "D", "2", "3", "4", "E", "5", "F", "G", "6", "7", "H", "I", "J", "K", "L", "M"};
+  vector<string> n1 = {"A", "1", "B", "C", "D", "2", "3", "4", "E", "5",
+                       "F", "G", "6", "7", "H", "I", "J", "K", "L", "M"};
   vector<string> o1 = {"A", "1", "B", "C", "D", "2", "3", "4", "E", "5", "F", "G", "6", "7"};
   vector<string> n2 = {"A", "A"};
   vector<string> o2;
