@@ -9,14 +9,7 @@ using namespace std;
 class Solution
 {
  public:
-  void swap(vector<int> &nums, int i, int j)
-  {
-    int tmp = nums[i];
-    nums[i] = nums[j];
-    nums[j] = tmp;
-  }
-
-  int firstMissingPositive(vector<int> &nums)
+  int firstMissingPositive(vector<int>& nums)
   {
     // 通过置换，把数组变成，第i-1个位置的元素为i
     // [3, 4, -1, 1]变成[1, -1, 3, 4]

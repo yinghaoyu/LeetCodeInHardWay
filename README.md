@@ -164,6 +164,7 @@ LeetCode Solution In Hard Way
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
+|17.04|[Missing Number LCCI](https://leetcode.cn/problems/missing-number-lcci/) | [C++](./src/Problem_17.04_missingNumber.cc)|Easy|
 |17.01|[Add Without Plus LCCI](https://leetcode.cn/problems/add-without-plus-lcci/) | [C++](./src/Problem_17.01_add.cc)|Easy|
 |16.26|[Calculator LCCI](https://leetcode.cn/problems/calculator-lcci/) | [C++](./src/Problem_16.26_calculate.cc)|Medium|
 |16.25|[LRU Cache LCCI](https://leetcode.cn/problems/lru-cache-lcci/) | [C++](./src/Problem_16.25_LRUCache.cc)|Medium|
