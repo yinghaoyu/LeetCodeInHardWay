@@ -163,7 +163,8 @@ LeetCode Solution In Hard Way
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
-|17.06|[Number Of 2s In Range LCCI](numberOf2sInRange) | [C++](./src/Problem_17.06_numberOf2sInRange.cc)|Hard|
+|17.07|[Baby Names LCCI](https://leetcode.cn/problems/baby-names-lcci/) | [C++](./src/Problem_17.07_trulyMostPopular.cc)|Medium|
+|17.06|[Number Of 2s In Range LCCI](https://leetcode.cn/problems/number-of-2s-in-range-lcci/) | [C++](./src/Problem_17.06_numberOf2sInRange.cc)|Hard|
 |17.05|[Find Longest Subarray LCCI](https://leetcode.cn/problems/find-longest-subarray-lcci/) | [C++](./src/Problem_17.05_findLongestSubarray.cc)|Medium|
 |17.04|[Missing Number LCCI](https://leetcode.cn/problems/missing-number-lcci/) | [C++](./src/Problem_17.04_missingNumber.cc)|Easy|
 |17.01|[Add Without Plus LCCI](https://leetcode.cn/problems/add-without-plus-lcci/) | [C++](./src/Problem_17.01_add.cc)|Easy|
