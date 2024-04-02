@@ -162,6 +162,7 @@ LeetCode Solution In Hard Way
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
+|17.12|[BiNode](https://leetcode.cn/problems/binode-lcci/) | [C++](./src/Problem_17.12_convertBiNode.cc)|Easy|
 |17.11|[Find Closest LCCI](https://leetcode.cn/problems/find-closest-lcci/) | [C++](./src/Problem_17.11_findClosest.cc)|Medium|
 |17.10|[Find Majority Element LCCI](https://leetcode.cn/problems/find-majority-element-lcci/) | [C++](./src/Problem_17.10_majorityElement.cc)|Easy|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
