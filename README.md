@@ -162,6 +162,7 @@ LeetCode Solution In Hard Way
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
+|17.10|[Find Majority Element LCCI](https://leetcode.cn/problems/find-majority-element-lcci/) | [C++](./src/Problem_17.10_majorityElement.cc)|Easy|
 |17.09|[Get Kth Magic Number LCCI](https://leetcode.cn/problems/get-kth-magic-number-lcci/) | [C++](./src/Problem_17.09_getKthMagicNumber.cc)|Medium|
 |17.08|[Circus Tower LCCI](https://leetcode.cn/problems/circus-tower-lcci/) | [C++](./src/Problem_17.08_bestSeqAtIndex.cc)|Medium|
 |17.07|[Baby Names LCCI](https://leetcode.cn/problems/baby-names-lcci/) | [C++](./src/Problem_17.07_trulyMostPopular.cc)|Medium|
