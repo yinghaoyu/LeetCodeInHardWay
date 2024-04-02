@@ -162,6 +162,7 @@ LeetCode Solution In Hard Way
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
+|17.16|[The Masseuse LCCI](https://leetcode.cn/problems/the-masseuse-lcci/) | [C++](./src/Problem_17.16_massage.cc)|Easy|
 |17.15|[Longest Word LCCI](https://leetcode.cn/problems/longest-word-lcci/) | [C++](./src/Problem_17.15_longestWord.cc)|Medium|
 |17.14|[Smallest K LCCI](https://leetcode.cn/problems/smallest-k-lcci/) | [C++](./src/Problem_17.14_smallestK.cc)|Medium|
 |17.13|[Re-Space LCCI](https://leetcode.cn/problems/re-space-lcci/) | [C++](./src/Problem_17.13_respace.cc)|Medium|
