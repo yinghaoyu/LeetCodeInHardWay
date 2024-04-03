@@ -11,7 +11,7 @@ class Solution
  public:
   int lowBit(int x) { return x & -x; }
 
-  vector<int> missingTwo(vector<int> &nums)
+  vector<int> missingTwo(vector<int>& nums)
   {
     int xorSum = 0;
     int N = nums.size() + 2;
