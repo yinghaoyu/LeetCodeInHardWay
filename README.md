@@ -161,6 +161,7 @@ LeetCode Solution In Hard Way
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
+|17.22|[Word Transformer LCCI](https://leetcode.cn/problems/word-transformer-lcci/) | [C++](./src/Problem_17.22_findLadders.cc)|Medium|
 |17.21|[Volume of Histogram LCCI](https://leetcode.cn/problems/volume-of-histogram-lcci/) | [C++](./src/Problem_17.21_trap.cc)|Hard|
 |17.20|[Continuous Median LCCI](https://leetcode.cn/problems/continuous-median-lcci/) | [C++](./src/Problem_17.20_MedianFinder.cc)|Hard|
 |17.19|[Missing Two LCCI](https://leetcode.cn/problems/missing-two-lcci/) | [C++](./src/Problem_17.19_missingTwo.cc)|Hard|
