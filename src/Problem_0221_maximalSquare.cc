@@ -1,4 +1,4 @@
-#include <iostream>
+#include <algorithm>
 #include <vector>
 
 #include "UnitTest.h"
@@ -9,7 +9,7 @@ class Solution
 {
  public:
   // 二维单调栈，根据第85题改写
-  int maximalSquare1(vector<vector<char>> &matrix)
+  int maximalSquare1(vector<vector<char>>& matrix)
   {
     int N = matrix.size();
     int M = matrix[0].size();
@@ -26,7 +26,7 @@ class Solution
     return ans;
   }
 
-  int maxFromButton(vector<int> &height)
+  int maxFromButton(vector<int>& height)
   {
     int ans = 0;
     int N = height.size();
@@ -67,8 +67,11 @@ class Solution
   }
 
   // 动态规划
-  // TODO: figure it out
-  int maximalSquare2(vector<vector<char>> &matrix)
+  // 拓展题1 统计全为 1 的正方形子矩阵
+  // @sa https://leetcode.cn/problems/count-square-submatrices-with-all-ones/
+  // 拓展题2 最大黑方阵 Problem_17.23_findSquare.cc
+  // @sa https://leetcode.cn/problems/max-black-square-lcci/
+  int maximalSquare2(vector<vector<char>>& matrix)
   {
     if (matrix.size() == 0 || matrix[0].size() == 0)
     {
@@ -76,32 +79,25 @@ class Solution
     }
     int N = matrix.size();
     int M = matrix[0].size();
-    // dp[i][j] 是以 matrix[i - 1][j - 1] 为 右下角 的正方形的最大边长
-    vector<vector<int>> dp(N + 1, vector<int>(M + 1));
+    // dp[i][j] 是以 matrix[i][j] 为 右下角 的正方形的最大边长
+    vector<vector<int>> dp(N, vector<int>(M));
     int max = 0;
     for (int i = 0; i < N; i++)
     {
-      if (matrix[i][0] == '1')
+      for (int j = 0; j < M; j++)
       {
-        dp[i][0] = 1;
-        max = 1;
-      }
-    }
-    for (int j = 1; j < M; j++)
-    {
-      if (matrix[0][j] == '1')
-      {
-        dp[0][j] = 1;
-        max = 1;
-      }
-    }
-    for (int i = 1; i < N; i++)
-    {
-      for (int j = 1; j < M; j++)
-      {
+        // matrix[i][j] == 0，则dp[i][j] = 0，因为当前位置不可能在由1组成的正方形中
         if (matrix[i][j] == '1')
         {
-          dp[i][j] = std::min(std::min(dp[i - 1][j], dp[i][j - 1]), dp[i - 1][j - 1]) + 1;
+          if (i == 0 || j == 0)
+          {
+            //  如果 i 和 j 中至少有一个为 0，则以位置 (i,j) 为右下角的最大正方形的边长只能是 1
+            dp[i][j] = 1;
+          }
+          else
+          {
+            dp[i][j] = std::min({dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]}) + 1;
+          }
           max = std::max(max, dp[i][j]);
         }
       }
@@ -113,7 +109,10 @@ class Solution
 void testMaximalSquare()
 {
   Solution s;
-  vector<vector<char>> m1 = {{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}};
+  vector<vector<char>> m1 = {{'1', '0', '1', '0', '0'},
+                             {'1', '0', '1', '1', '1'},
+                             {'1', '1', '1', '1', '1'},
+                             {'1', '0', '0', '1', '0'}};
   vector<vector<char>> m2 = {{'0', '1'}, {'1', '0'}};
   vector<vector<char>> m3 = {{'0'}};
   EXPECT_EQ_INT(4, s.maximalSquare1(m1));
