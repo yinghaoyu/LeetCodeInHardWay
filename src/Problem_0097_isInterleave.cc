@@ -6,6 +6,8 @@ using namespace std;
 // 交错字符串
 // 给定三个字符串 s1、s2、s3
 // 请帮忙验证s3是否由s1和s2交错组成
+
+// @sa https://www.bilibili.com/video/BV1cg4y1o719/
 class Solution
 {
  public:
@@ -53,7 +55,6 @@ class Solution
     return dp[n][m];
   }
 
-  // TODO: figure it out.
   // 空间压缩
   bool isInterleave2(string s1, string s2, string s3)
   {
