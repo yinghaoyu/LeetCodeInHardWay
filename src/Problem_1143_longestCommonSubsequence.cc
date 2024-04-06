@@ -53,6 +53,8 @@ class Solution
     }
     else
     {
+      // 优化项: 为什么这里不考虑 f2(s1, s2, len1 - 1, len2 - 1) ?
+      // 因为 s1 和 s2 长度都变小了，最后一定都小于 s1 或者 s2 只有一个字符串变小的情况
       ans = std::max(f2(s1, s2, len1 - 1, len2), f2(s1, s2, len1, len2 - 1));
     }
     return ans;
@@ -114,9 +116,11 @@ class Solution
     return dp[n][m];
   }
 
+  // @sa https://www.bilibili.com/video/BV1WQ4y1W7d1/
   // 严格位置依赖的动态规划 + 空间压缩
   int longestCommonSubsequence5(string s1, string s2)
   {
+    // 准备一维数组时，看谁更短
     if (s1.length() > s2.length())
     {
       std::swap(s1, s2);
