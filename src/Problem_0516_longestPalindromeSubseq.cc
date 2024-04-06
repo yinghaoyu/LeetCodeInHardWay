@@ -3,10 +3,12 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1WQ4y1W7d1/
 class Solution
 {
  public:
   // 最长回文子序列问题可以转化成最长公共子序列问题
+  // 原始串和逆序串的最长公共子序列就是该串的最长回文子序列
   // 不过这里讲述区间动态规划的思路
   int longestPalindromeSubseq(string s)
   {
