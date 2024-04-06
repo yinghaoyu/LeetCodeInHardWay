@@ -62,7 +62,6 @@ class Solution
   // dp空间压缩
   // 仔细观察可以发现，由于二维dp的填充方式是从右下角开始，从右到左，从下到上
   // 所以我们可以设置一个一维数组进行滚动刷新，而不需要浪费一个二维数组的额外空间
-  // TODO: figure it out
   int minPathSum3(vector<vector<int>>& grid)
   {
     int N = grid.size();
