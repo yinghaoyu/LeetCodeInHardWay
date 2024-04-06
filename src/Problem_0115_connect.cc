@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1cg4y1o719/
 class Solution
 {
  public:
@@ -19,6 +20,7 @@ class Solution
     vector<vector<unsigned long long>> dp(n + 1, vector<unsigned long long>(m + 1));
     for (int i = 0; i <= n; i++)
     {
+      // 只有空字符串满足条件
       dp[i][0] = 1;
     }
     for (int i = 1; i <= n; i++)
@@ -36,7 +38,6 @@ class Solution
     return dp[n][m];
   }
 
-  // TODO: figure it out.
   // 空间压缩
   int numDistinct2(string s, string t)
   {
