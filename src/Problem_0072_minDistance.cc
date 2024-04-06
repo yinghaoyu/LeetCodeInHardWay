@@ -6,10 +6,11 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1cg4y1o719/
 class Solution
 {
  public:
-  int minDistance1(string word1, string word2) { return process(word1, word2, 1, 1, 1); }
+  int minDistance1(string word1, string word2) { return f(word1, word2, 1, 1, 1); }
 
   int minDistance2(string word1, string word2) { return dp(word1, word2, 1, 1, 1); }
 
@@ -51,8 +52,7 @@ class Solution
   }
 
   // 动态规划空间优化
-  // TODO: figure it out
-  int process(string& str1, string str2, int ic, int dc, int rc)
+  int f(string& str1, string str2, int ic, int dc, int rc)
   {
     if (str1.length() == 0 || str2.length() == 0)
     {
