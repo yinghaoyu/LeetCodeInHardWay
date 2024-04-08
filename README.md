@@ -344,6 +344,7 @@ LeetCode Solution In Hard Way
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/) | [C++](./src/Problem_2042_areNumbersAscending.cc)|Easy|
 |2034|[Stock Price Fluctuation](https://leetcode.cn/problems/stock-price-fluctuation/) | [C++](./src/Problem_2034_StockPrice.cc)|Medium|
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | [C++](./src/Problem_2011_finalValueAfterOperations.cc)|Easy|
+|2009|[Minimum Number of Operations to Make Array Continuous](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/) | [C++](./src/Problem_2009_minOperations.cc)|Hard|
 |2008|[Maximum Earnings From Taxi](https://leetcode.cn/problems/maximum-earnings-from-taxi/) | [C++](./src/Problem_2008_maxTaxiEarnings.cc)|Medium|
 |1994|[The Number of Good Subsets](https://leetcode.cn/problems/the-number-of-good-subsets/) | [C++](./src/Problem_1994_numberOfGoodSubsets.cc)|Hard|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
