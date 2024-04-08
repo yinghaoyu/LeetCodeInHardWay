@@ -752,6 +752,7 @@ LeetCode Solution In Hard Way
 |0326|[Power of Three](https://leetcode.cn/problems/power-of-three/) | [C++](./src/Problem_0326_isPowerOfThree.cc)|Easy|
 |0324|[Wiggle Sort II](https://leetcode.cn/problems/wiggle-sort-ii/) | [C++](./src/Problem_0324_wiggleSort.cc)|Medium|
 |0322|[Coin Change](https://leetcode.cn/problems/coin-change/) | [C++](./src/Problem_0322_coinChange.cc)|Medium|
+|0321|[Create Maximum Number](https://leetcode.cn/problems/create-maximum-number/) | [C++](./src/Problem_0321_maxNumber.cc)|Hard|
 |0318|[Maximum Product of Word Lengths](https://leetcode.cn/problems/maximum-product-of-word-lengths/) | [C++](./src/Problem_0318_maxProduct.cc)|Medium|
 |0316|[Remove Duplicate Letters](https://leetcode.cn/problems/remove-duplicate-letters/) | [C++](./src/Problem_0316_removeDuplicateLetters.cc)|Medium|
 |0315|[Count of Smaller Numbers After Self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self/) | [C++](./src/Problem_0315_countSmaller.cc)|Hard|
