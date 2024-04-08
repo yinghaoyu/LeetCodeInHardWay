@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV1gM41197rM/
 class Solution
 {
  public:
@@ -31,6 +31,7 @@ class Solution
     // 不交错去讨论扰乱关系
     for (int i = l1, j = l2; i < r1; i++, j++)
     {
+      // 左侧跟左侧、右侧跟右侧
       if (f1(s1, l1, i, s2, l2, j) && f1(s1, i + 1, r1, s2, j + 1, r2))
       {
         return true;
@@ -41,6 +42,7 @@ class Solution
     // s2[l2...j-1][j..........r2]
     for (int i = l1, j = r2; i < r1; i++, j--)
     {
+      // 左侧跟右侧、右侧跟左侧
       if (f1(s1, l1, i, s2, j, r2) && f1(s1, i + 1, r1, s2, l2, j - 1))
       {
         return true;
@@ -142,6 +144,7 @@ class Solution
     for (int len = 2; len <= n; len++)
     {
       // 注意如下的边界条件 : l1 <= n - len l2 <= n - len
+      // 保证 l1 和 l2 后面有至少 len 长度的字符
       for (int l1 = 0; l1 <= n - len; l1++)
       {
         for (int l2 = 0; l2 <= n - len; l2++)
