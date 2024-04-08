@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1gM41197rM/
+// 多维背包问题，0 1 背包问题(0表示不要，1表示要)
 class Solution
 {
  private:
@@ -72,6 +74,7 @@ class Solution
     int p2 = 0;
     if (g[i] <= r)
     {
+      // 注意这里取利润为0，后面也会累加方法数，目的是让dp[i][r][s]在合法空间
       p2 = f2(g, p, i + 1, r - g[i], std::max(0, s - p[i]), dp);
     }
     int ans = (p1 + p2) % mod;
@@ -79,6 +82,7 @@ class Solution
     return ans;
   }
 
+  // 动态规划 + 空间优化
   int profitableSchemes3(int n, int minProfit, vector<int>& group, vector<int>& profit)
   {
     // i = 没有工作的时候，i == g.length
