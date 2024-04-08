@@ -799,6 +799,7 @@ LeetCode Solution In Hard Way
 |0222|[Count Complete Tree Nodes](https://leetcode.cn/problems/count-complete-tree-nodes/) | [C++](./src/Problem_0222_countNodes.cc)|Easy|
 |0221|[Maximal Square](https://leetcode.cn/problems/maximal-square/) | [C++](./src/Problem_0221_maximalSquare.cc)|Medium|
 |0220|[Contains Duplicate III](https://leetcode.cn/problems/contains-duplicate-iii/) | [C++](./src/Problem_0220_containsNearbyAlmostDuplicate.cc)|Hard|
+|0219|[Contains Duplicate II](https://leetcode.cn/problems/contains-duplicate-ii/) | [C++](./src/Problem_0219_containsNearbyDuplicate.cc)|Easy|
 |0218|[The Skyline Problem](https://leetcode.cn/problems/the-skyline-problem/) | [C++](./src/Problem_0218_getSkyline.cc)|Hard|
 |0217|[Contains Duplicate](https://leetcode.cn/problems/contains-duplicate/) | [C++](./src/Problem_0217_containsDuplicate.cc)|Easy|
 |0215|[Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [C++](./src/Problem_0215_findKthLargest.cc)|Medium|
