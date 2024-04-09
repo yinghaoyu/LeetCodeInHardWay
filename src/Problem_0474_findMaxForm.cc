@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1gM41197rM/
 class Solution
 {
  private:
@@ -28,6 +29,8 @@ class Solution
  public:
   int findMaxForm1(vector<string>& strs, int m, int n) { return f1(strs, 0, m, n); }
 
+  // strs[i....]自由选择，希望零的数量不超过z、一的数量不超过o
+  // 最多能选多少个字符串
   int f1(vector<string>& strs, int i, int z, int o)
   {
     if (i == strs.size())
@@ -42,6 +45,7 @@ class Solution
     auto [zeros, ones] = zerosAndOnes(strs[i]);
     if (zeros <= z && ones <= o)
     {
+      // 使用当前字符串，集合元素+1
       p2 = 1 + f1(strs, i + 1, z - zeros, o - ones);
     }
     return std::max(p1, p2);
