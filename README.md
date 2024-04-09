@@ -282,6 +282,7 @@ LeetCode Solution In Hard Way
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
 |2530|[Maximal Score After Applying K Operations](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/) | [C++](./src/Problem_2530_maxKelements.cc)|Medium|
+|2529|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/) | [C++](./src/Problem_2529_maximumCount.cc)|Easy|
 |2520|[Count the Digits That Divide a Number](https://leetcode.cn/problems/count-the-digits-that-divide-a-number/) | [C++](./src/Problem_2520_countDigits.cc)|Easy|
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
 |2512|[Reward Top K Students](https://leetcode.cn/problems/reward-top-k-students/) | [C++](./src/Problem_2512_topStudents.cc)|Medium|
