@@ -691,6 +691,7 @@ LeetCode Solution In Hard Way
 |0502|[IPO](https://leetcode.cn/problems/ipo/) | [C++](./src/Problem_0502_findMaximizedCapital.cc)|Hard|
 |0486|[Predict the Winner](https://leetcode.cn/problems/predict-the-winner/) | [C++](./src/Problem_0486_predictTheWinner.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0480|[Sliding Window Median](https://leetcode.cn/problems/sliding-window-median/) | [C++](./src/Problem_0480_medianSlidingWindow.cc)|Hard|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
 |0475|[Heaters](https://leetcode.cn/problems/heaters/) | [C++](./src/Problem_0475_findRadius.cc)|Medium|
 |0474|[Ones and Zeroes](https://leetcode.cn/problems/ones-and-zeroes/) | [C++](./src/Problem_0474_findMaxForm.cc)|Medium|
