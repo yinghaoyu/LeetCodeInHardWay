@@ -2,7 +2,8 @@
 
 using namespace std;
 
-// TODO: figure it out.
+//@sa https://www.bilibili.com/video/BV1qu4y187Xn/
+// 子数组最大累加和 扩展题
 class Solution
 {
  public:
