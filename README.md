@@ -907,6 +907,7 @@ LeetCode Solution In Hard Way
 |0064|[Minimum Path Sum](https://leetcode.cn/problems/minimum-path-sum/) | [C++](./src/Problem_0064_minPathSum.cc)|Medium|
 |0062|[Unique Paths](https://leetcode.cn/problems/unique-paths/) | [C++](./src/Problem_0062_uniquePaths.cc)|Medium|
 |0061|[Rotate List](https://leetcode.cn/problems/rotate-list/) | [C++](./src/Problem_0061_rotateRight.cc)|Medium|
+|0060|[Permutation Sequence](https://leetcode.cn/problems/permutation-sequence/) | [C++](./src/Problem_0060_getPermutation.cc)|Hard|
 |0057|[Insert Interval](https://leetcode.cn/problems/insert-interval/description/) | [C++](./src/Problem_0057_insert.cc)|Medium|
 |0056|[Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | [C++](./src/Problem_0056_merge.cc)|Medium|
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
