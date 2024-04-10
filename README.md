@@ -282,6 +282,7 @@ LeetCode Solution In Hard Way
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
 |2530|[Maximal Score After Applying K Operations](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/) | [C++](./src/Problem_2530_maxKelements.cc)|Medium|
+|2529|[Maximum Count of Positive Integer and Negative Integer](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/) | [C++](./src/Problem_2529_maximumCount.cc)|Easy|
 |2520|[Count the Digits That Divide a Number](https://leetcode.cn/problems/count-the-digits-that-divide-a-number/) | [C++](./src/Problem_2520_countDigits.cc)|Easy|
 |2517|[Maximum Tastiness of Candy Basket](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | [C++](./src/Problem_2517_maximumTastiness.cc)|Medium|
 |2512|[Reward Top K Students](https://leetcode.cn/problems/reward-top-k-students/) | [C++](./src/Problem_2512_topStudents.cc)|Medium|
@@ -628,6 +629,7 @@ LeetCode Solution In Hard Way
 |0724|[Find Pivot Index](https://leetcode.cn/problems/find-pivot-index/) | [C++](./src/Problem_0724_pivotIndex.cc)|Easy|
 |0722|[Remove Comments](https://leetcode.cn/problems/remove-comments/) | [C++](./src/Problem_0722_removeComments.cc)|Medium|
 |0719|[Find K-th Smallest Pair Distance](https://leetcode.cn/problems/find-k-th-smallest-pair-distance/) | [C++](./src/Problem_0719_smallestDistancePair.cc)|Hard|
+|0718|[Maximum Length of Repeated Subarray](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/) | [C++](./src/Problem_0718_findLength.cc)|Medium|
 |0714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [C++](./src/Problem_0714_maxProfit.cc)|Medium|
 |0711|[Jewels and Stones](https://leetcode.cn/problems/jewels-and-stones/) | [C++](./src/Problem_0711_numJewelsInStones.cc)|Easy|
 |0708|[Insert into a Sorted Circular Linked List](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list/) | [C++](./src/Problem_0708_insert.cc)|Medium|
@@ -691,6 +693,7 @@ LeetCode Solution In Hard Way
 |0502|[IPO](https://leetcode.cn/problems/ipo/) | [C++](./src/Problem_0502_findMaximizedCapital.cc)|Hard|
 |0486|[Predict the Winner](https://leetcode.cn/problems/predict-the-winner/) | [C++](./src/Problem_0486_predictTheWinner.cc)|Medium|
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
+|0480|[Sliding Window Median](https://leetcode.cn/problems/sliding-window-median/) | [C++](./src/Problem_0480_medianSlidingWindow.cc)|Hard|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
 |0475|[Heaters](https://leetcode.cn/problems/heaters/) | [C++](./src/Problem_0475_findRadius.cc)|Medium|
 |0474|[Ones and Zeroes](https://leetcode.cn/problems/ones-and-zeroes/) | [C++](./src/Problem_0474_findMaxForm.cc)|Medium|
@@ -725,6 +728,7 @@ LeetCode Solution In Hard Way
 |0395|[Longest Substring with At Least K Repeating Characters](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/) | [C++](./src/Problem_0395_longestSubstring.cc)|Medium|
 |0394|[Decode String](https://leetcode.cn/problems/decode-string/) | [C++](./src/Problem_0394_decodeString.cc)|Medium|
 |0387|[First Unique Character in a String](https://leetcode.cn/problems/first-unique-character-in-a-string/) | [C++](./src/Problem_0387_firstUniqChar.cc)|Easy|
+|0386|[Lexicographical Numbers](https://leetcode.cn/problems/lexicographical-numbers/) | [C++](./src/Problem_0386_lexicalOrder.cc)|Medium|
 |0384|[Shuffle an Array](https://leetcode.cn/problems/shuffle-an-array/) | [C++](./src/Problem_0384_Solution.cc)|Medium|
 |0381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [C++](./src/Problem_0381_RandomizedCollection.cc)|Hard|
 |0380|[Insert Delete GetRandom O(1)](https://leetcode.cn/problems/insert-delete-getrandom-o1/) | [C++](./src/Problem_0380_RandomizedSet.cc)|Medium|
@@ -849,6 +853,7 @@ LeetCode Solution In Hard Way
 |0138|[Copy List with Random Pointer](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [C++](./src/Problem_0138_copyRandomList.cc)|Medium|
 |0136|[Single Number](https://leetcode.cn/problems/single-number/) | [C++](./src/Problem_0136_singleNumber.cc)|Easy|
 |0134|[Gas Station](https://leetcode.cn/problems/gas-station/) | [C++](./src/Problem_0134_canCompleteCircuit.cc)|Medium|
+|0133|[Clone Graph](https://leetcode.cn/problems/clone-graph/) | [C++](./src/Problem_0133_cloneGraph.cc)|Medium|
 |0132|[Palindrome Partitioning II](https://leetcode.cn/problems/palindrome-partitioning-ii/) | [C++](./src/Problem_0132_minCut.cc)|Hard|
 |0131|[Palindrome Partitioning](https://leetcode.cn/problems/palindrome-partitioning/) | [C++](./src/Problem_0131_partition.cc)|Medium|
 |0130|[Surrounded Regions](https://leetcode.cn/problems/surrounded-regions/) | [C++](./src/Problem_0130_solve.cc)|Medium|
@@ -901,6 +906,8 @@ LeetCode Solution In Hard Way
 |0066|[Plus One](https://leetcode.cn/problems/plus-one/) | [C++](./src/Problem_0066_plusOne.cc)|Easy|
 |0064|[Minimum Path Sum](https://leetcode.cn/problems/minimum-path-sum/) | [C++](./src/Problem_0064_minPathSum.cc)|Medium|
 |0062|[Unique Paths](https://leetcode.cn/problems/unique-paths/) | [C++](./src/Problem_0062_uniquePaths.cc)|Medium|
+|0061|[Rotate List](https://leetcode.cn/problems/rotate-list/) | [C++](./src/Problem_0061_rotateRight.cc)|Medium|
+|0060|[Permutation Sequence](https://leetcode.cn/problems/permutation-sequence/) | [C++](./src/Problem_0060_getPermutation.cc)|Hard|
 |0057|[Insert Interval](https://leetcode.cn/problems/insert-interval/description/) | [C++](./src/Problem_0057_insert.cc)|Medium|
 |0056|[Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | [C++](./src/Problem_0056_merge.cc)|Medium|
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
