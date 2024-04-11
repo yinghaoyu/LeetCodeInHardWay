@@ -391,6 +391,7 @@ LeetCode Solution In Hard Way
 |1710|[Maximum Units on a Truck](https://leetcode.cn/problems/maximum-units-on-a-truck/) | [C++](./src/Problem_1710_maximumUnits.cc)|Easy|
 |1704|[Determine if String Halves Are Alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike/) | [C++](./src/Problem_1704_halvesAreAlike.cc)|Easy|
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) | [C++](./src/Problem_1703_minMoves.cc)|Hard|
+|1702|[Maximum Binary String After Change](https://leetcode.cn/problems/maximum-binary-string-after-change/) | [C++](./src/Problem_1702_maximumBinaryString.cc)|Medium|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/) | [C++](./src/Problem_1700_countStudents.cc)|Easy|
 |1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/) | [C++](./src/Problem_1697_distanceLimitedPathsExist.cc)|Hard|
 |1696|[Jump Game VI](https://leetcode.cn/problems/jump-game-vi/) | [C++](./src/Problem_1696_maxResult.cc)|Medium|
