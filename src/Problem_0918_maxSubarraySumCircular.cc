@@ -1,11 +1,11 @@
 #include <deque>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1pw411M7Du/
 class Solution
 {
  public:
@@ -37,6 +37,10 @@ class Solution
     return ans;
   }
 
+  // 可以考虑成两种情况，
+  // 情况一：是连续的数组吗，那么直接求最大值
+  // 情况二：非连续的，那么一定是开头一段 + 结尾一段的最大值
+  //        我们反向考虑，求开头一段 + 结尾一段的最大值 = 数组所有元素和 - 中间一段的最小值
   int maxSubarraySumCircular2(vector<int>& nums)
   {
     int n = nums.size();
@@ -56,9 +60,13 @@ class Solution
       sum += nums[i];
     }
 
-    // 如果 max < 0，数组中不包含大于等于 0 的元素，
-    // min 将包括数组中的所有元素，导致我们实际取到的子数组为空
-    return max > 0 ? std::max(max, sum - min) : max;
+    // [-5, -3, -1]
+    // sum = -9
+    // max = -1
+    // min = -9
+    // 中间段的数组最小值是 -9 那么会导致左右两端没有元素
+    // 明显不符合题设条件
+    return sum == min ? max : std::max(max, sum - min);
   }
 
   int maxSubarraySumCircular3(vector<int>& nums)

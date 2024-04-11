@@ -1,16 +1,15 @@
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
-
+// @sa https://www.bilibili.com/video/BV1qu4y187Xn/
 // https://leetcode.cn/problems/maximum-product-subarray/solution/dong-tai-gui-hua-li-jie-wu-hou-xiao-xing-by-liweiw/
 class Solution
 {
  public:
   // 动态规划
-  int maxProduct1(vector<int> &nums)
+  int maxProduct1(vector<int>& nums)
   {
     int n = nums.size();
     // dp[i][0] 表示必须以nums[i]结尾的子数组的最小值
@@ -39,7 +38,7 @@ class Solution
     return ans;
   }
 
-  int maxProduct2(vector<int> &nums)
+  int maxProduct2(vector<int>& nums)
   {
     int ans = nums[0];
     int preMin = nums[0];

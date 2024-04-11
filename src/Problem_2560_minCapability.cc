@@ -1,11 +1,11 @@
 #include <algorithm>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1pw411M7Du/
 class Solution
 {
  public:
@@ -20,6 +20,9 @@ class Solution
       // visited 用于限制相邻的不能同时偷
       bool visited = false;
       int count = 0;
+      // 早抢就抢的策略? 不用动态规划，这里对吗？
+      // 对，因为这里求的不是累加和，而是房间数，每次都只加1
+      // 早抢就抢，能给后面预留的空间更大，房间数的可能也更大
       for (int x : nums)
       {
         if (x <= mid && !visited)
