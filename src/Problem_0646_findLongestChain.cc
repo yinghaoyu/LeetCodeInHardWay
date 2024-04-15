@@ -1,11 +1,11 @@
 #include <algorithm>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// @sa 最长递增子序列进阶 https://www.bilibili.com/video/BV1ne411D7CQ/
 class Solution
 {
  public:
@@ -47,6 +47,7 @@ class Solution
       int x = p[0], y = p[1];
       if (arr.size() == 0 || x > arr.back())
       {
+        // 分离的查询方式，即存进去的是y，下面搜索的是x
         arr.emplace_back(y);
       }
       else

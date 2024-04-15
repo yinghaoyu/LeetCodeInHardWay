@@ -22,6 +22,7 @@ class Solution
       int maxh = 0;
       for (int j = 0; j < i; j++)
       {
+        // 还可以再优化，参考 Problem_0354_maxEnvelopes.cc
         if (box[j][0] < box[i][0] && box[j][1] < box[i][1] && box[j][2] < box[i][2])
         {
           maxh = std::max(maxh, dp[j]);

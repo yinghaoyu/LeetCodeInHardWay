@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// TODO: figure it out.
+// @sa 最长递增子序列 https://www.bilibili.com/video/BV1ne411D7CQ/
 class Solution
 {
  private:
@@ -17,6 +17,9 @@ class Solution
     ends.resize(MAX, 0);
     int n = arr.size();
     int ans = 0;
+    // 把每一组的数拿出来，求最长不下降子序列，不在这个子序列的数即为需要修改的数
+    // 比如 [4 2 2 4 2 6 6] 最长不下降子序列为 [2 2 2 6 6]
+    // 只要把 2 个 4 改为 2 即可让 [2 2 2 2 2 6 6] 整个组为不下降组
     for (int i = 0, size; i < k; i++)
     {
       size = 0;
