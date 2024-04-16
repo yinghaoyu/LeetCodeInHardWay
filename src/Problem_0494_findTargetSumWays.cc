@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//@sa https://www.bilibili.com/video/BV1NN41137jF/
 class Solution
 {
  public:
@@ -28,6 +29,7 @@ class Solution
   // 递归 + 记忆化搜索
   int findTargetSumWays1(vector<int>& nums, int target)
   {
+    // 有可能是负数，所以不用数组，用 hash map
     unordered_map<int, unordered_map<int, int>> map;
     return f(nums, 0, target, map);
   }
@@ -111,6 +113,7 @@ class Solution
   // 那么就一定对应一种target的方式
   // 也就是说，比如非负数组arr，target = 7, 而所有数累加和是11
   // 求有多少方法组成7，其实就是求有多少种达到累加和(7+11)/2=9的方法
+  // 优化点四最重要，把题意转化成 01背包问题
   // 优化点五 :
   // 二维动态规划的空间压缩技巧
   int findTargetSumWays3(vector<int>& arr, int s)
@@ -123,6 +126,9 @@ class Solution
     return sum < s || ((s & 1) ^ (sum & 1)) != 0 ? 0 : subset(arr, (s + sum) >> 1);
   }
 
+  // 求非负数组nums有多少个子序列累加和是s
+  // 01背包问题(子集累加和严格是t) + 空间压缩
+  // dp[i][j] = dp[i-1][j] + dp[i-1][j-nums[i]]
   int subset(vector<int>& nums, int s)
   {
     // dp[i]的含义为：任取数组内的元素，和为i的子集数
