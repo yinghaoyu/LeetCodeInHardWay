@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// 分组背包
+// @sa https://www.bilibili.com/video/BV1UM411f7YL/
 class Solution
 {
  public:

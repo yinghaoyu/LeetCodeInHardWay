@@ -1,5 +1,3 @@
-#include <bitset>
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -7,6 +5,8 @@
 
 using namespace std;
 
+// 完全背包问题
+// @sa https://www.bilibili.com/video/BV1UM411f7YL/
 class Solution
 {
  public:
