@@ -700,6 +700,7 @@ LeetCode Solution In Hard Way
 |0481|[Magical String](https://leetcode.cn/problems/magical-string/) | [C++](./src/Problem_0481_magicalString.cc)|Medium|
 |0480|[Sliding Window Median](https://leetcode.cn/problems/sliding-window-median/) | [C++](./src/Problem_0480_medianSlidingWindow.cc)|Hard|
 |0494|[Target Sum](https://leetcode.cn/problems/target-sum/) | [C++](./src/Problem_0494_findTargetSumWays.cc)|Medium|
+|0493|[Reverse Pairs](https://leetcode.cn/problems/reverse-pairs/) | [C++](./src/Problem_0493_reversePairs.cc)|Hard|
 |0475|[Heaters](https://leetcode.cn/problems/heaters/) | [C++](./src/Problem_0475_findRadius.cc)|Medium|
 |0474|[Ones and Zeroes](https://leetcode.cn/problems/ones-and-zeroes/) | [C++](./src/Problem_0474_findMaxForm.cc)|Medium|
 |0473|[Matchsticks to Square](https://leetcode.cn/problems/matchsticks-to-square/) | [C++](./src/Problem_0473_makesquare.cc)|Medium|
