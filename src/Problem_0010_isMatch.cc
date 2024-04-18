@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -6,6 +5,8 @@
 
 using namespace std;
 
+// 完全背包问题
+// @sa https://www.bilibili.com/video/BV1UM411f7YL/
 class Solution
 {
  public:
@@ -109,6 +110,8 @@ class Solution
     {
       return pi + 1 < p.length() && p[pi + 1] == '*' && f1(s, p, si, pi + 2);
     }
+    // s 有后缀
+    // p 有后缀
     if (pi + 1 >= p.length() || p[pi + 1] != '*')
     {
       return (s[si] == p[pi] || p[pi] == '.') && f1(s, p, si + 1, pi + 1);
@@ -118,8 +121,9 @@ class Solution
     bool ans = f1(s, p, si, pi + 2);
     // b) 当前s[si]，能被p[pi + (pi+1)]搞定，才有后续
     // 比如 a 与 a* 或者 a 与 .*
-    if (s[si] == p[pi] || p[pi == '.'])
+    if (s[si] == p[pi] || p[pi] == '.')
     {
+      // 思考为什么 pi 还是原来的？
       ans |= f1(s, p, si + 1, pi);
     }
     return ans;
@@ -166,7 +170,6 @@ class Solution
   }
 
   // 动态规划
-  // TODO: figure it out.
   bool isMatch4(string s, string p)
   {
     int n = s.length();
