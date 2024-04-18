@@ -748,6 +748,7 @@ LeetCode Solution In Hard Way
 |0357|[Count Numbers with Unique Digits](https://leetcode.cn/problems/count-numbers-with-unique-digits/) | [C++](./src/Problem_0357_countNumbersWithUniqueDigits.cc)|Medium|
 |0354|[Russian Doll Envelopes](https://leetcode.cn/problems/russian-doll-envelopes/) | [C++](./src/Problem_0354_maxEnvelopes.cc)|Hard|
 |0350|[Intersection of Two Arrays II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/) | [C++](./src/Problem_0350_intersect.cc)|Easy|
+|0349|[Intersection of Two Arrays](https://leetcode.cn/problems/intersection-of-two-arrays/) | [C++](./src/Problem_0349_intersection.cc)|Easy|
 |0348|[Design Tic-Tac-Toe](https://leetcode.cn/problems/design-tic-tac-toe/) | [C++](./src/Problem_0348_TicTacToe.cc)|Medium|
 |0347|[Top K Frequent Elements](https://leetcode.cn/problems/top-k-frequent-elements/) | [C++](./src/Problem_0347_topKFrequent.cc)|Medium|
 |0346|[Moving Average from Data Stream](https://leetcode.cn/problems/moving-average-from-data-stream/) | [C++](./src/Problem_0346_MovingAverage.cc)|Easy|
