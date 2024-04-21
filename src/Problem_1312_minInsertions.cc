@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// 区间dp
+// @sa https://www.bilibili.com/video/BV1NQ4y1b7Uo/
 class Solution
 {
  public:

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// 区间dp
+// @sa https://www.bilibili.com/video/BV1NQ4y1b7Uo/
 class Solution
 {
  public:
@@ -41,8 +43,8 @@ class Solution
     {
       // l   ....r
       // l +1 +2 .. r
-      ans = std::max(arr[l - 1] * arr[l] * arr[r + 1] + f(arr, l + 1, r, dp),
-                     arr[l - 1] * arr[r] * arr[r + 1] + f(arr, l, r - 1, dp));
+      ans = std::max(arr[l - 1] * arr[l] * arr[r + 1] + f(arr, l + 1, r, dp),   // l 最后打爆
+                     arr[l - 1] * arr[r] * arr[r + 1] + f(arr, l, r - 1, dp));  // r 最后打爆
       for (int k = l + 1; k < r; k++)
       {
         // k位置的气球最后打爆

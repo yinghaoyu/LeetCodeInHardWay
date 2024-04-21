@@ -1,11 +1,12 @@
 #include <cstdint>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// 区间dp
+// @sa https://www.bilibili.com/video/BV1du4y1L7gy/
 class Solution
 {
  public:
@@ -122,6 +123,43 @@ class Solution
       }
     }
     return dp[0][n - 1][1];
+  }
+
+  // 动态规划，最优解
+  int last(vector<int>& stones, int k)
+  {
+    int n = stones.size();
+    if ((n - 1) % (k - 1) != 0)
+    {
+      return -1;
+    }
+    vector<int> presum(n + 1);
+    // 多补了一个0位置，l...r累加和 : presum[r+1] - presum[l]
+    for (int i = 0, j = 1, sum = 0; i < n; i++, j++)
+    {
+      sum += stones[i];
+      presum[j] = sum;
+    }
+    // dp[l][r] : l...r范围上的石头，合并到不能再合并（份数是确定的），最小代价是多少
+    vector<vector<int>> dp(n, vector<int>(n));
+    for (int l = n - 2, ans; l >= 0; l--)
+    {
+      for (int r = l + 1; r < n; r++)
+      {
+        ans = INT32_MAX;
+        for (int m = l; m < r; m += k - 1)
+        {
+          ans = std::min(ans, dp[l][m] + dp[m + 1][r]);
+        }
+        if ((r - l) % (k - 1) == 0)
+        {
+          // 最终一定能划分成一份，那么就再加合并代价
+          ans += presum[r + 1] - presum[l];
+        }
+        dp[l][r] = ans;
+      }
+    }
+    return dp[0][n - 1];
   }
 };
 

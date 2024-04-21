@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// 区间dp
+// @sa https://www.bilibili.com/video/BV1du4y1L7gy/
 class Solution
 {
  public:

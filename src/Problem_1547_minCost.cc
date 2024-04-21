@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// 区间dp
+// https://www.bilibili.com/video/BV1NQ4y1b7Uo/
 class Solution
 {
  public:
@@ -12,6 +14,7 @@ class Solution
   {
     int m = cuts.size();
     std::sort(cuts.begin(), cuts.end());
+    // 补两个点便于计算
     vector<int> arr(m + 2);
     arr[0] = 0;
     for (int i = 1; i <= m; i++)
