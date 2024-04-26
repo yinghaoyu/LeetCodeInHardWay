@@ -490,6 +490,7 @@ LeetCode Solution In Hard Way
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/) | [C++](./src/Problem_1155_numRollsToTarget.cc)|Medium|
 |1153|[String Transforms Into Another String🔒](https://leetcode.cn/problems/string-transforms-into-another-string/) | [C++](./src/Problem_1153_canConvert.cc)|Medium|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/) | [C++](./src/Problem_1147_longestDecomposition.cc)|Hard|
+|1146|[Snapshot Array](https://leetcode.cn/problems/snapshot-array/) | [C++](./src/Problem_1146_SnapshotArray.cc)|Medium|
 |1145|[Binary Tree Coloring Game](https://leetcode.cn/problems/binary-tree-coloring-game/) | [C++](./src/Problem_1145_btreeGameWinningMove.cc)|Medium|
 |1143|[Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | [C++](./src/Problem_1143_longestCommonSubsequence.cc)|Medium|
 |1141|[Decrease Elements To Make Array Zigzag](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag/) | [C++](./src/Problem_1141_movesToMakeZigzag.cc)|Medium|
