@@ -1,7 +1,3 @@
-#include <functional>
-#include <iostream>
-#include <vector>
-
 #include "UnitTest.h"
 
 using namespace std;
@@ -16,24 +12,42 @@ struct TreeNode
   TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+// 树型dp
 class Solution
 {
  public:
-  // https://leetcode.cn/problems/distribute-coins-in-binary-tree/solution/tu-jie-mei-you-si-lu-jin-lai-miao-dong-p-vrni/
-  int distributeCoins(TreeNode* root)
+  class Info
   {
-    int ans = 0;
-    std::function<int(TreeNode*)> dfs = [&](TreeNode* cur)
+   public:
+    // 节点总和
+    int cnt;
+    // 节点值总和
+    int sum;
+    // 需要走多少步
+    int move;
+
+    Info(int a, int b, int c)
     {
-      if (cur == nullptr)
-      {
-        return 0;
-      }
-      int x = dfs(cur->left) + dfs(cur->right) + cur->val - 1;
-      ans += std::abs(x);
-      return x;
-    };
-    dfs(root);
-    return ans;
+      cnt = a;
+      sum = b;
+      move = c;
+    }
+  };
+
+  int distributeCoins(TreeNode* root) { return f(root).move; }
+
+  Info f(TreeNode* cur)
+  {
+    if (cur == nullptr)
+    {
+      return Info(0, 0, 0);
+    }
+    Info left = f(cur->left);
+    Info right = f(cur->right);
+    int cnts = left.cnt + right.cnt + 1;
+    int sums = left.sum + right.sum + cur->val;
+    int moves =
+        left.move + right.move + std::abs(left.cnt - left.sum) + std::abs(right.cnt - right.sum);
+    return Info(cnts, sums, moves);
   }
 };

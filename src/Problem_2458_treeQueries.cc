@@ -1,5 +1,3 @@
-#include <functional>
-#include <unordered_map>
 #include <vector>
 
 using namespace std;
@@ -14,7 +12,12 @@ struct TreeNode
   TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
-// TODO: figure it out.
+// 树型dp
+// 什么叫dfn序，dfs依次遍历节点并给它分配一个编号
+// 比如节点的dfn序为4，有4个节点
+// 那么它及子树的dfn序是 4 ~ 7 总共 4 个节点
+// 可以确定 dfn 序为 5 的在这个子树内
+// @sa https://www.bilibili.com/video/BV1ae411f7AC/
 class Solution
 {
  public:
@@ -39,6 +42,7 @@ class Solution
   {
     dfnCnt = 0;
     f(root, 0);
+    // 预处理最大值
     for (int i = 1; i <= dfnCnt; i++)
     {
       maxl[i] = std::max(maxl[i - 1], deep[i]);
@@ -62,6 +66,7 @@ class Solution
   // 来到x节点，从头节点到x节点经过了k条边
   void f(TreeNode* x, int k)
   {
+    // 分配 dfn 序号
     int i = ++dfnCnt;
     dfn[x->val] = i;
     deep[i] = k;
@@ -69,11 +74,13 @@ class Solution
     if (x->left != nullptr)
     {
       f(x->left, k + 1);
+      // 加上左孩子的节点数
       size[i] += size[dfn[x->left->val]];
     }
     if (x->right != nullptr)
     {
       f(x->right, k + 1);
+      // 加上右孩子的节点数
       size[i] += size[dfn[x->right->val]];
     }
   }

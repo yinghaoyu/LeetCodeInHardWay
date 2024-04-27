@@ -1,6 +1,4 @@
-#include <iostream>
 #include <unordered_map>
-#include <vector>
 
 #include "UnitTest.h"
 
@@ -16,6 +14,7 @@ struct TreeNode
   TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+// 树型dp
 class Solution
 {
  public:
@@ -28,11 +27,11 @@ class Solution
     // 对任何节点而言，本身就是解最多只能有一个，所以一开始empale(0, 1)。
     // 相当于给所有节点一个可单独形成合法路径的机会。
     map.emplace(0L, 1);
-    return process(root, targetSum, 0, map);
+    return f(root, targetSum, 0, map);
   }
 
   // 前缀和
-  int process(TreeNode* x, int targetSum, long long pre, unordered_map<long long, int>& map)
+  int f(TreeNode* x, int targetSum, long long pre, unordered_map<long long, int>& map)
   {
     if (x == nullptr)
     {
@@ -53,8 +52,8 @@ class Solution
     {
       map[all]++;
     }
-    ans += process(x->left, targetSum, all, map);
-    ans += process(x->right, targetSum, all, map);
+    ans += f(x->left, targetSum, all, map);
+    ans += f(x->right, targetSum, all, map);
     // 回溯，保证map里的值一定是连续的节点生成的
     if (map.at(all) == 1)
     {

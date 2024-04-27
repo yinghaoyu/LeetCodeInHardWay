@@ -1,6 +1,3 @@
-#include <iostream>
-#include <vector>
-
 #include "UnitTest.h"
 
 using namespace std;
@@ -15,6 +12,7 @@ struct TreeNode
   TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+// 树型dp
 class Solution
 {
  private:
@@ -32,16 +30,16 @@ class Solution
   };
 
  public:
-  int diameterOfBinaryTree(TreeNode* root) { return process(root).maxDistance; }
+  int diameterOfBinaryTree(TreeNode* root) { return f(root).maxDistance; }
 
-  Info process(TreeNode* x)
+  Info f(TreeNode* x)
   {
     if (x == nullptr)
     {
       return Info(0, 0);
     }
-    Info left = process(x->left);
-    Info right = process(x->right);
+    Info left = f(x->left);
+    Info right = f(x->right);
     int maxDistance =
         std::max(std::max(left.maxDistance, right.maxDistance), left.height + right.height);
     int height = std::max(left.height, right.height) + 1;

@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// 状压dp
 class Solution
 {
  private:

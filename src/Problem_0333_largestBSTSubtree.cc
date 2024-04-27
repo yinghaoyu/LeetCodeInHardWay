@@ -1,6 +1,4 @@
 #include <algorithm>
-#include <cstdint>
-#include <vector>
 
 using namespace std;
 
@@ -12,6 +10,7 @@ struct TreeNode
   TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
+// 树型dp
 class Solution
 {
  private:

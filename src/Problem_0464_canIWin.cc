@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// 状压dp
 class Solution
 {
  private:
@@ -17,6 +18,7 @@ class Solution
   // 数字范围1~n，当前的先手，面对status给定的数字状态
   // 在累加和还剩rest的情况下
   // 返回当前的先手能不能赢，能赢返回true，不能赢返回false
+  // 为什么这只需要一维表？因为reset的值依赖于stauts，status能唯一确定reset的值
   bool f(int n, int status, int rest, vector<int>& dp)
   {
     if (rest <= 0)

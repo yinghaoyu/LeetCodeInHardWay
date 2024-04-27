@@ -1,10 +1,11 @@
 #include <algorithm>
-#include <cstdint>
 #include <vector>
 
 using namespace std;
 
-// TODO: figure it out.
+// dfn序号
+// @sa Problem_2458_treeQueries.cc
+// @sa https://www.bilibili.com/video/BV1ae411f7AC/
 class Solution
 {
  private:
@@ -30,6 +31,7 @@ class Solution
     size[i] = 1;
     for (int v : graph[u])
     {
+      // dfn[v] == 0 说明没分配过
       if (dfn[v] == 0)
       {
         f(nums, graph, v);
@@ -54,6 +56,7 @@ class Solution
     f(nums, graph, 0);
     int m = edges.size();
     int ans = INT32_MAX;
+    // 枚举所有边
     for (int i = 0, a, b, pre, pos, sum1, sum2, sum3; i < m; i++)
     {
       a = std::max(dfn[edges[i][0]], dfn[edges[i][1]]);
@@ -76,11 +79,13 @@ class Solution
         // f函数调用的时候，也是从0节点开始的
         if (pos < pre + size[pre])
         {
+          // pos 是 pre 的子树节点
           sum2 = XOR[pre] ^ XOR[pos];
           sum3 = XOR[1] ^ XOR[pre];
         }
         else
         {
+          // pos 不是 pre 的子树节点
           sum2 = XOR[pre];
           sum3 = XOR[1] ^ sum1 ^ sum2;
         }

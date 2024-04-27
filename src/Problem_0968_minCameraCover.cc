@@ -8,6 +8,8 @@ struct TreeNode
   TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
 };
 
+// 树型dp
+// @sa https://www.bilibili.com/video/BV1194y1J7ud/
 class Solution
 {
  private:
@@ -34,6 +36,9 @@ class Solution
     }
     if (left == 1 && right == 1)
     {
+      // 贪心：
+      // 既然下面的节点都已覆盖，那么把当前是否覆盖交给父节点，
+      // 由父节点决策可能覆盖更多的节点
       return 0;
     }
     return 1;
@@ -48,6 +53,7 @@ class Solution
     ans = 0;
     if (f(root) == 0)
     {
+      // 最后检查一下根节点
       ans++;
     }
     return ans;
