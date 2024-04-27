@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// 状压dp
+// @sa https://www.bilibili.com/video/BV1Tu4y1g7GU/
 class Solution
 {
  private:

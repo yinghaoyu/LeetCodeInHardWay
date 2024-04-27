@@ -2,7 +2,9 @@
 
 using namespace std;
 
+// 状压dp
 // TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV1Tu4y1g7GU/
 class Solution
 {
  private:
@@ -64,6 +66,7 @@ class Solution
     }
     else
     {
+      // 累加和不是 0
       for (int i = 0; i < n; i++)
       {
         if ((set & (1 << i)) != 0)
