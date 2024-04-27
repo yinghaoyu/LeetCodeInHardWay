@@ -264,6 +264,7 @@ LeetCode Solution In Hard Way
 |2651|[Calculate Delayed Arrival Time](https://leetcode.cn/problems/calculate-delayed-arrival-time/description/?envType=daily-question&envId=2023-09-08) | [C++](./src/Problem_2651_findDelayedArrivalTime.cc)|Easy|
 |2646|[Minimize the Total Price of the Trips](https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/) | [C++](./src/Problem_2646_minimumTotalPrice.cc)|Hard|
 |2641|[Cousins in Binary Tree II](https://leetcode.cn/problems/cousins-in-binary-tree-ii/) | [C++](./src/Problem_2641_replaceValueInTree.cc)|Medium|
+|2639|[Find the Width of Columns of a Grid](https://leetcode.cn/problems/find-the-width-of-columns-of-a-grid/) | [C++](./src/Problem_2639_findColumnWidth.cc)|Easy|
 |2611|[Mice and Cheese](https://leetcode.cn/problems/mice-and-cheese/) | [C++](./src/Problem_2611_miceAndCheese.cc)|Medium|
 |2609|[Find the Longest Balanced Substring of a Binary String](https://leetcode.cn/problems/find-the-longest-balanced-substring-of-a-binary-string/) | [C++](./src/Problem_2609_findTheLongestBalancedSubstring.cc)|Easy|
 |2605|[Form Smallest Number From Two Digit Arrays](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/) | [C++](./src/Problem_2605_minNumber.cc)|Easy|
