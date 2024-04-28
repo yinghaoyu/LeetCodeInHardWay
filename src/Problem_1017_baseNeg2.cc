@@ -1,7 +1,5 @@
 #include <algorithm>
-#include <iostream>
 #include <string>
-#include <vector>
 
 #include "UnitTest.h"
 
@@ -18,6 +16,10 @@ class Solution
   // 负二进制的余数可能有0，1，-1，而表示上不能有负数，所以在余数为-1时，要转化为1，同时商+1
   string baseNeg2(int n)
   {
+    if(n == 0)
+    {
+      return "0";
+    }
     int a = 0;
     int b = 0;
     string ans;
