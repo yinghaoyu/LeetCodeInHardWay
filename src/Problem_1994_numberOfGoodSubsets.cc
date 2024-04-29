@@ -23,7 +23,7 @@ class Solution
   // 从高位到低位依次表示：...13 11 7 5 3 2
   // 所以用0b0000001001表示14拥有质数因子的状态
   // 质数: 29 23 19 17 13 11 7 5 3 2
-  // 位置: 9 8 7 6 5 4 3 2 1 0
+  // 位置:  9  8  7  6  5  4 3 2 1 0
   static constexpr int own[] = {
       0b0000000000,  // 0
       0b0000000000,  // 1
@@ -65,10 +65,12 @@ class Solution
     vector<int> cnt(MAXV + 1);
     for (int num : nums)
     {
+      // 统计每个数出现的次数
       cnt[num]++;
     }
     vector<vector<int>> dp(MAXV + 1, vector<int>(LIMIT, -1));
     int ans = 0;
+    // 统计不同质因子的状态，有多少个好子集
     for (int s = 1; s < LIMIT; s++)
     {
       ans = (ans + f1(MAXV, s, cnt, dp)) % MOD;
@@ -81,7 +83,7 @@ class Solution
   // 请问子集的数量是多少
   // s每一位代表的质因子如下
   // 质数: 29 23 19 17 13 11 7 5 3 2
-  // 位置: 9 8 7 6 5 4 3 2 1 0
+  // 位置:  9  8  7  6  5  4 3 2 1 0
   int f1(int i, int s, vector<int>& cnt, vector<vector<int>>& dp)
   {
     if (dp[i][s] != -1)
@@ -91,8 +93,10 @@ class Solution
     int ans = 0;
     if (i == 1)
     {
+      //  当 s==0 表示前面的都搞定了，现在讨论数字 1
       if (s == 0)
       {
+        // cnt[1]个数字1，可以有 2^cnt[1] 种组合，取1个1，2个1 ...
         ans = 1;
         for (int j = 0; j < cnt[1]; j++)
         {
@@ -102,7 +106,9 @@ class Solution
     }
     else
     {
+      // 不要 i
       ans = f1(i - 1, s, cnt, dp);
+      // i 要
       int cur = own[i];
       int times = cnt[i];
       if (cur != 0 && times != 0 && (s & cur) == cur)

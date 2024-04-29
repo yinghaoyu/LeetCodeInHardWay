@@ -3,7 +3,9 @@
 
 using namespace std;
 
-// TODO: figure it out.
+// 状压dp
+// @sa https://www.bilibili.com/video/BV1Tu4y1g7GU/
+// NOTE: 枚举状态的所有子集 for(int i = status; i > 0; i = (i - 1)&status)
 class Solution
 {
  private:
@@ -39,6 +41,7 @@ class Solution
     }
     if (!ans)
     {
+      // 不使用当前数
       ans = f(cnt, sum, status, index + 1, dp);
     }
     dp[status][index] = ans ? 1 : -1;
