@@ -460,6 +460,7 @@ LeetCode Solution In Hard Way
 |1367|[Linked List in Binary Tree](https://leetcode.cn/problems/linked-list-in-binary-tree/) | [C++](./src/Problem_1367_isSubPath.cc)|Medium|
 |1353|[Maximum Number of Events That Can Be Attended](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended/) | [C++](./src/Problem_1353_maxEvents.cc)|Medium|
 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.cn/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | [C++](./src/Problem_1333_filterRestaurants.cc)|Medium|
+|1329|[Sort the Matrix Diagonally](https://leetcode.cn/problems/sort-the-matrix-diagonally/) | [C++](./src/Problem_1329_diagonalSort.cc)|Medium|
 |1326|[Minimum Number of Taps to Open to Water a Garden](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | [C++](./src/Problem_1326_minTaps.cc)|Hard|
 |1312|[Minimum Insertion Steps to Make a String Palindrome](https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [C++](./src/Problem_1312_minInsertions.cc)|Hard|
 |1302|[Deepest Leaves Sum](https://leetcode.cn/problems/deepest-leaves-sum/) | [C++](./src/Problem_1302_DeepestLeavesSum.cc)|Medium|
