@@ -1,10 +1,10 @@
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1PN411j7aG/
 class Solution
 {
  public:
@@ -27,7 +27,6 @@ class Solution
     return dp[n - 1][k][0];
   }
 
-  // TODO: figure it out
   int maxProfit2(int k, vector<int>& prices)
   {
     if (prices.size() == 0)
@@ -35,6 +34,8 @@ class Solution
       return 0;
     }
     int n = prices.size();
+    // 一个数组最大的上坡数是 n / 2
+    // 比如 {1,2,1,2,1,2}，所以只要交易次数满足 >= 可能最大上坡数，就等于抓取所有上坡
     if (k >= n / 2)
     {
       // 根据 122 题的结论：

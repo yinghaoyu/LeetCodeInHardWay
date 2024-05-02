@@ -1,6 +1,4 @@
 #include <algorithm>
-#include <clocale>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
@@ -10,8 +8,35 @@ using namespace std;
 class Solution
 {
  public:
-  // 动态规划
+  // 完全不优化枚举的方法
+  // 通过不了，会超时
   int maxProfit1(vector<int>& prices)
+  {
+    int n = prices.size();
+    // dp1[i] : 0...i范围上发生一次交易，不要求在i的时刻卖出，最大利润是多少
+    vector<int> dp1(n);
+    for (int i = 1, min = prices[0]; i < n; i++)
+    {
+      min = std::min(min, prices[i]);
+      dp1[i] = std::max(dp1[i - 1], prices[i] - min);
+    }
+    // dp2[i] : 0...i范围上发生两次交易，并且第二次交易在i时刻卖出，最大利润是多少
+    vector<int> dp2(n);
+    int ans = 0;
+    for (int i = 1; i < n; i++)
+    {
+      // 第二次交易一定要在i时刻卖出
+      for (int j = 0; j <= i; j++)
+      {
+        // 枚举第二次交易的买入时机j <= i
+        dp2[i] = std::max(dp2[i], dp1[j] + prices[i] - prices[j]);
+      }
+      ans = std::max(ans, dp2[i]);
+    }
+    return ans;
+  }
+  // 动态规划
+  int maxProfit2(vector<int>& prices)
   {
     int n = prices.size();
     // dp[i][j][k] 含义是：
@@ -36,7 +61,7 @@ class Solution
   }
 
   // 贪心
-  int maxProfit2(vector<int>& prices)
+  int maxProfit3(vector<int>& prices)
   {
     if (prices.size() == 0)
     {

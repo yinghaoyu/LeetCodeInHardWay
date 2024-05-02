@@ -22,6 +22,7 @@ class Solution
     {
       // 每次遍历找到股价的最小值
       min = std::min(min, prices[i]);
+      // 尝试以当前的股价卖出
       ans = std::max(ans, prices[i] - min);
     }
     return ans;
