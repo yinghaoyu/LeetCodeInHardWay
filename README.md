@@ -351,6 +351,7 @@ LeetCode Solution In Hard Way
 |2008|[Maximum Earnings From Taxi](https://leetcode.cn/problems/maximum-earnings-from-taxi/) | [C++](./src/Problem_2008_maxTaxiEarnings.cc)|Medium|
 |2007|[Find Original Array From Doubled Array](https://leetcode.cn/problems/find-original-array-from-doubled-array/) | [C++](./src/Problem_2007_findOriginalArray.cc)|Medium|
 |1994|[The Number of Good Subsets](https://leetcode.cn/problems/the-number-of-good-subsets/) | [C++](./src/Problem_1994_numberOfGoodSubsets.cc)|Hard|
+|1979|[Find Greatest Common Divisor of Array](https://leetcode.cn/problems/find-greatest-common-divisor-of-array/) | [C++](./src/Problem_1979_findGCD.cc)|Easy|
 |1971|[Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | [C++](./src/Problem_1971_validPath.cc)|Easy|
 |1945|[Sum of Digits of String After Convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/) | [C++](./src/Problem_1945_getLucky.cc)|Easy|
 |1921|[Eliminate Maximum Number of Monsters](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/) | [C++](./src/Problem_1921_eliminateMaximum.cc)|Medium|
