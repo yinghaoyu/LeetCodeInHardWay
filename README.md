@@ -899,6 +899,7 @@ LeetCode Solution In Hard Way
 |0096|[Unique Binary Search Trees](https://leetcode.cn/problems/unique-binary-search-trees/) | [C++](./src/Problem_0096_numTrees.cc)|Medium|
 |0094|[Binary Tree Inorder Traversal](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [C++](./src/Problem_0094_inorderTraversal.cc)|Easy|
 |0093|[Restore IP Addresses](https://leetcode.cn/problems/restore-ip-addresses/description/) | [C++](./src/Problem_0093_restoreIpAddresses.cc)|Medium|
+|0092|[Reverse Linked List II](https://leetcode.cn/problems/reverse-linked-list-ii/) | [C++](./src/Problem_0092_reverseBetween.cc)|Medium|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
 |0090|[Subsets II](https://leetcode.cn/problems/subsets-ii/) | [C++](./src/Problem_0090_subsetsWithDup.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
