@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV1pN41157uX/
 class Solution
 {
  public:
@@ -21,6 +21,13 @@ class Solution
       {
         if (i > j)
         {
+          // 设 i = e
+          // 假设 a b c d e 共 5 个数，依次从小到大，要形成 3 个逆序对
+          // 考虑排列组合
+          // 当 e 在最后位置，那么方法数有 dp[4][3]，e 这个数最大，前面都是小于 e 的数
+          // 当 e 在 c 和 d 之间，那么方法数有 dp[4][2]，因为 e 和 d 已经是一对逆序对
+          // ...
+          // 当 e 在 a 和 b 之间，那么方法数有 dp[4][0]
           for (int p = 0; p <= j; p++)
           {
             dp[i][j] = (dp[i][j] + dp[i - 1][p]) % mod;
@@ -29,6 +36,7 @@ class Solution
         else
         {
           // i <= j
+          // 同理
           for (int p = j - i + 1; p <= j; p++)
           {
             dp[i][j] = (dp[i][j] + dp[i - 1][p]) % mod;

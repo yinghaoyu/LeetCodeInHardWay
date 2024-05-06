@@ -1,7 +1,6 @@
 #include <algorithm>
-#include <iostream>
-#include <tuple>
 #include <vector>
+
 #include "UnitTest.h"
 
 using namespace std;
@@ -42,15 +41,15 @@ class Solution
       jobs[i] = {startTime[i], endTime[i], profit[i]};
     }
     // 将job按照结束时间排序
-    sort(jobs.begin(), jobs.end(),
-         [](const vector<int>& job1, const vector<int>& job2) -> bool
+    sort(jobs.begin(), jobs.end(), [](const vector<int>& job1, const vector<int>& job2) -> bool
          { return job1[1] < job2[1]; });
     vector<int> dp(n + 1);
     // dp[i]表示前i份工作可以获得的最大报酬
     for (int i = 1; i <= n; i++)
     {
+      // 区间越大，获得报酬更大，符合单调性
       int k = nearLeftIndex(jobs, 0, i - 1);
-      dp[i] = max(dp[i - 1], dp[k] + jobs[i - 1][2]);
+      dp[i] = std::max(dp[i - 1], dp[k] + jobs[i - 1][2]);
     }
     return dp[n];
   }
