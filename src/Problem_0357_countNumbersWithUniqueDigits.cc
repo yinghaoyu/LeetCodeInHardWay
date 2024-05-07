@@ -1,6 +1,8 @@
+// @sa https://www.bilibili.com/video/BV1cC4y1Q7r3/
 class Solution
 {
  public:
+  // 数位 dp
   // 观察法
   int countNumbersWithUniqueDigits(int n)
   {
@@ -21,6 +23,4 @@ class Solution
     }
     return ans;
   }
-
-  // TODD: 数位dp
 };

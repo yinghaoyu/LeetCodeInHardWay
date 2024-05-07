@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -6,83 +5,137 @@
 
 using namespace std;
 
-// dp[i][0]=m+dp[i−1][0]×m+dp[i−1][1]×C[i]
-
-// 其实重点要理解这个公式的推导过程 就像题解一中对dp的定义
-
-// dp[i][0]表示由digits构成且小于n的前i位的数字的个数
-// dp[i][1]表示由digits构成且等于n的前i位数字的个数
-
-//那么对于公式中的各个部分
-
-// m 就是 dp[i][0] 中单个字符所组成的数量
-
-// dp[i-1][0] × m ：dp[i-1][0]小于n的前i-1位的数字个数，第i位就可以是m个字符其中之一，所以乘以m
-
-// dp[i−1][1]×C[i] :
-// C[i] 表示数组digits中小于n的第i位数字的元素个数
-// dp[i-1][1]等于n的前i-1位的数字个数
-// 因为前边都相等了，所以这个后边的这一位必须小于n[i],那么所组成的字符串个数就是乘以C[i]
-
+// 数位dp
+// @sa https://www.bilibili.com/video/BV1cC4y1Q7r3/
 class Solution
 {
  public:
-  // 1 3 5 7
-  // 误区：这题是排列问题，不是组合问题，取硬币问题，取1面值、3面值谁先谁后不影响结果
-  // 取硬币从左到右，如果没取 1 那么后面结果只可能是 35 37 57
-  // 但是这里根据结果，31 也符合
-
-  // 数位dp
-  int atMostNGivenDigitSet(vector<string> &digits, int n)
+  // 尝试
+  int atMostNGivenDigitSet1(vector<string>& digits, int n)
   {
-    string s = to_string(n);
-    int m = digits.size(), k = s.size();
-    // 前 i 位按由高到低顺序
-    // dp[i][1] 的取值只能为 0 或 1(存在不相等或连续相等）
-
-    vector<vector<int>> dp(k + 1, vector<int>(2));
-    dp[0][1] = 1;  // base case 前 0 位都相等
-    // 从高到低遍历n的位数
-    for (int i = 1; i <= k; i++)
+    int tmp = n / 10;
+    int len = 1;
+    int offset = 1;
+    while (tmp > 0)
     {
-      // 从左往右遍历digits
-      for (int j = 0; j < m; j++)
+      tmp /= 10;
+      len++;
+      offset *= 10;
+    }
+    return f1(digits, n, offset, len, 0, 0);
+  }
+
+  // offset是辅助变量，完全由len决定，只是为了方便提取num中某一位数字，不是关键变量
+  // 还剩下len位没有决定
+  // 如果之前的位已经确定比num小，那么free == 1，表示接下的数字可以自由选择
+  // 如果之前的位和num一样，那么free == 0，表示接下的数字不能大于num当前位的数字
+  // 如果之前的位没有使用过数字，fix == 0
+  // 如果之前的位已经使用过数字，fix == 1
+  // 返回最终<=num的可能性有多少种
+  int f1(vector<string>& digits, int n, int offset, int len, int free, int fix)
+  {
+    if (len == 0)
+    {
+      return fix == 1 ? 1 : 0;
+    }
+    int ans = 0;
+    // n在当前位的数字
+    int cur = (n / offset) % 10;
+    if (fix == 0)
+    {
+      // 之前从来没有选择过数字
+      // 当前依然可以不要任何数字，累加后续的可能性
+      ans += f1(digits, n, offset / 10, len - 1, 1, 0);
+    }
+    if (free == 0)
+    {
+      // 不能自由选择的情况
+      for (string& str : digits)
       {
-        if (digits[j][0] == s[i - 1])  // s的第 i 个字符下标为 i - 1
+        int i = stoi(str);
+        if (i < cur)
         {
-          // 当前值digit字符恰好等于s当前字符
-          // 如果要满足连续相等，dp[i][1]明显依赖于dp[i-1][1]
-          dp[i][1] = dp[i - 1][1];
+          ans += f1(digits, n, offset / 10, len - 1, 1, 1);
         }
-        else if (digits[j][0] < s[i - 1])
+        else if (i == cur)
         {
-          // dp[i-1]的数据分成了两部分，dp[i-1][1]并不包含在dp[i-1][0]中
-          // 前 i-1 位相等，当前 i 位可以取digits[j][0] < s[i - 1]
-          // dp[i][0] 分两种情况统计：
-          // 情况一：
-          // 当前值digit字符 < s当前字符 且 前 i - 1 个字符相等，此时算 1 次
-          // 当前值digit字符 < s当前字符 且 前 i - 1 个字符不相等，此时算 0 次
-          dp[i][0] += dp[i - 1][1];
+          ans += f1(digits, n, offset / 10, len - 1, 0, 1);
         }
         else
         {
-          // digits[j][0] > s[i - 1]
-          // 不符合条件
+          // i > cur
           break;
         }
       }
-      // 当i == 1 时
-      // 前 0 个字符不填、前 0 个字符相等、前 0 个字符不相等，计算会重复!
-      if (i > 1)
+    }
+    else
+    {
+      // 可以自由选择的情况
+      ans += digits.size() * f1(digits, n, offset / 10, len - 1, 1, 1);
+    }
+    return ans;
+  }
+
+  // 优化版，把前面 i < cur 的情况打表
+  int atMostNGivenDigitSet2(vector<string>& digits, int n)
+  {
+    int len = 1;
+    int offset = 1;
+    int tmp = n / 10;
+    while (tmp > 0)
+    {
+      tmp /= 10;
+      len++;
+      offset *= 10;
+    }
+    // cnt[i] : 已知前缀比num小，剩下i位没有确定，请问前缀确定的情况下，一共有多少种数字排列
+    // cnt[0] = 1，表示后续已经没有了，前缀的状况都已确定，那么就是1种
+    // cnt[1] = m
+    // cnt[2] = m * m
+    // cnt[3] = m * m * m
+    // ...
+    vector<int> cnt(len);
+    cnt[0] = 1;
+    int ans = 0;
+    int m = digits.size();
+    for (int i = m, k = 1; k < len; k++, i *= m)
+    {
+      cnt[k] = i;
+      ans += i;
+    }
+    return ans + f2(digits, cnt, n, offset, len);
+  }
+
+  // offset是辅助变量，由len确定，方便提取num中某一位数字
+  // 还剩下len位没有决定，之前的位和num一样
+  // 返回最终<=num的可能性有多少种
+  int f2(vector<string>& digits, vector<int>& cnt, int num, int offset, int len)
+  {
+    if (len == 0)
+    {
+      // num自己
+      return 1;
+    }
+    // cur是num当前位的数字
+    int cur = (num / offset) % 10;
+    int ans = 0;
+    for (string& str : digits)
+    {
+      int i = stoi(str);
+      if (i < cur)
       {
-        // 前置条件：前 i - 1 位构成的数字 <= n
-        // 情况二：
-        // 前 i - 1 个字符不相等，那么第 i 位取digits的任意字符都可行(dp[i - 1][0] * m)
-        // 前 i - 1 个字符不填，那么第 i 位取digits的任意字符都可行(m)
-        dp[i][0] += m + dp[i - 1][0] * m;
+        ans += cnt[len - 1];
+      }
+      else if (i == cur)
+      {
+        ans += f2(digits, cnt, num, offset / 10, len - 1);
+      }
+      else
+      {
+        break;
       }
     }
-    return dp[k][0] + dp[k][1];
+    return ans;
   }
 };
 
@@ -93,9 +146,9 @@ void testAtMostNGivenDigitSet()
   vector<string> digits2 = {"1", "4", "9"};
   vector<string> digits3 = {"7"};
 
-  EXPECT_EQ_INT(20, s.atMostNGivenDigitSet(digits1, 100));
-  EXPECT_EQ_INT(29523, s.atMostNGivenDigitSet(digits2, 1000000000));
-  EXPECT_EQ_INT(1, s.atMostNGivenDigitSet(digits3, 8));
+  EXPECT_EQ_INT(20, s.atMostNGivenDigitSet2(digits1, 100));
+  EXPECT_EQ_INT(29523, s.atMostNGivenDigitSet2(digits2, 1000000000));
+  EXPECT_EQ_INT(1, s.atMostNGivenDigitSet2(digits3, 8));
 
   EXPECT_SUMMARY;
 }
