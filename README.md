@@ -313,6 +313,7 @@ LeetCode Solution In Hard Way
 |2384|[Largest Palindromic Number](https://leetcode.cn/problems/largest-palindromic-number/) | [C++](./src/Problem_2384_largestPalindromic.cc)|Medium|
 |2373|[Largest Local Values in a Matrix](https://leetcode.cn/problems/largest-local-values-in-a-matrix/) | [C++](./src/Problem_2373_largestLocal.cc)|Easy|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.cn/problems/check-if-there-is-a-valid-partition-for-the-array/) | [C++](./src/Problem_2369_validPartition.cc)|Medium|
+|2367|[Count Special Integers](https://leetcode.cn/problems/count-special-integers/) | [C++](./src/Problem_2367_countSpecialNumbers.cc)|Hard|
 |2363|[Merge Similar Items](https://leetcode.cn/problems/merge-similar-items/) | [C++](./src/Problem_2363_mergeSimilarItems.cc)|Easy|
 |2352|[Equal Row and Column Pairs](https://leetcode.cn/problems/equal-row-and-column-pairs/) | [C++](./src/Problem_2352_equalPairs.cc)|Medium|
 |2341|[Maximum Number of Pairs in Array](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/) | [C++](./src/Problem_2341_numberOfPairs.cc)|Easy|
