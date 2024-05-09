@@ -1,61 +1,70 @@
-#include <iostream>
-#include <string>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// 数位dp
+// @sa Problem_2367_countSpecialNumbers.cc
 class Solution
 {
  public:
-  int process(string &sn, int index, int mask, int same, vector<vector<int>> &dp)
+  int numDupDigitsAtMostN(int n) { return n - countSpecialNumbers(n); }
+
+  int countSpecialNumbers(int n)
   {
-    if (index == sn.length())
+    int len = 1;
+    int offset = 1;
+    int tmp = n / 10;
+    while (tmp > 0)
     {
-      return 1;
+      len++;
+      offset *= 10;
+      tmp /= 10;
     }
-    if (!same && dp[index][mask] >= 0)
+    vector<int> cnt(len);
+    cnt[0] = 1;
+    for (int i = 1, k = 10 - len + 1; i < len; i++, k++)
     {
-      // 注意！！！
-      // 假设当前需要填入第 index 位，且前面填入的数字与 n 对应位置的数字不相同
-      // 那么需要求得的不重复数字的正整数个数只与 mask 相关，这时才可以记忆化
-      return dp[index][mask];
+      cnt[i] = cnt[i - 1] * k;
     }
     int ans = 0;
-    // 如果前缀的数字与sn严格相同，那么下一个数只能填 <= s[index]的，否则可以填[0,9]
-    // 比如 sn = "321"，这时前面填了3，对于 3?? ，第一个问号只能填 <=2的，以保证最后所得的数 <= sn
-    int t = same ? (sn[index] - '0') : 9;
-    for (int i = 0; i <= t; i++)
+    if (len >= 2)
     {
-      if (mask & (1 << i))
+      ans = 9;
+      for (int i = 2, a = 9, b = 9; i < len; i++, b--)
       {
-        // 有重复数字
-        continue;
+        a *= b;
+        ans += a;
       }
-      // 如果前缀为0，且当前填入的数字也是0，那么nmask = 0
-      // 如果前缀非0，那么nmask = (mask | ( 1 << i ))
-      int nmask = (mask == 0 && i == 0) ? mask : (mask | (1 << i));
-      // 当same && i == t时，说明前面填的数与sn一致
-      ans += process(sn, index + 1, nmask, same && i == t, dp);
     }
-    if (!same)
-    {
-      dp[index][mask] = ans;
-    }
+    int first = n / offset;
+    ans += (first - 1) * cnt[len - 1];
+    ans += f(cnt, n, len - 1, offset / 10, 1 << first);
     return ans;
   }
 
-  int numDupDigitsAtMostN(int n)
+  int f(vector<int>& cnt, int num, int len, int offset, int status)
   {
-    string sn = std::to_string(n);
-    int M = sn.size();
-    vector<vector<int>> dp(M, vector<int>(1 << 10, -1));
-    // [0, n]有 n+1 个数，减去 所有数字都不相同的数 的个数
-    return n + 1 - process(sn, 0, 0, true, dp);
+    if (len == 0)
+    {
+      return 1;
+    }
+    int ans = 0;
+    int first = (num / offset) % 10;
+    for (int cur = 0; cur < first; cur++)
+    {
+      if ((status & (1 << cur)) == 0)
+      {
+        ans += cnt[len - 1];
+      }
+    }
+    if ((status & (1 << first)) == 0)
+    {
+      ans += f(cnt, num, len - 1, offset / 10, status | (1 << first));
+    }
+    return ans;
   }
-
-  // TODO: 数位DP
 };
 
 void testNumDupDigitsAtMostN()
