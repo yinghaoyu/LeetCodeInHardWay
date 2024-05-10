@@ -333,6 +333,7 @@ LeetCode Solution In Hard Way
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/) | [C++](./src/Problem_2218_maxValueOfCoins.cc)|Hard|
 |2209|[Minimum Obstacle Removal to Reach Corner](https://leetcode.cn/problems/minimum-obstacle-removal-to-reach-corner/) | [C++](./src/Problem_2209_minimumObstacles.cc)|Hard|
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/) | [C++](./src/Problem_2208_halveArray.cc)|Medium|
+|2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.cn/problems/minimum-number-of-moves-to-make-palindrome/) | [C++](./src/Problem_2193_minMovesToMakePalindrome.cc)|Hard|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/) | [C++](./src/Problem_2178_maximumEvenSplit.cc)|Medium|
 |2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency/) | [C++](./src/Problem_2168_equalDigitFrequency.cc)|Medium|

@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <iostream>
 #include <vector>
 
 #include "UnitTest.h"
@@ -10,7 +9,7 @@ class Solution
 {
  public:
   // 时间复杂度O(N^2)
-  int findNumberOfLIS(vector<int> &nums)
+  int findNumberOfLIS(vector<int>& nums)
   {
     int N = nums.size();
     // dp[i]表示必须以nums[i]为结尾的最长递增子序列
