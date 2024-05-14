@@ -329,6 +329,7 @@ LeetCode Solution In Hard Way
 |2258|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/escape-the-spreading-fire/) | [C++](./src/Problem_2258_maximumMinutes.cc)|Hard|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/) | [C++](./src/Problem_2251_fullBloomFlowers.cc)|Hard|
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/) | [C++](./src/Problem_2246_longestPath.cc)|Hard|
+|2244|[Minimum Rounds to Complete All Tasks](https://leetcode.cn/problems/minimum-rounds-to-complete-all-tasks/) | [C++](./src/Problem_2244_minimumRounds.cc)|Medium|
 |2240|[Number of Ways to Buy Pens and Pencils](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/description/?envType=daily-question&envId=2023-09-01) | [C++](./src/Problem_2240_waysToBuyPensPencils.cc)|Medium|
 |2218|[Maximum Value of K Coins From Piles](https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/) | [C++](./src/Problem_2218_maxValueOfCoins.cc)|Hard|
 |2209|[Minimum Obstacle Removal to Reach Corner](https://leetcode.cn/problems/minimum-obstacle-removal-to-reach-corner/) | [C++](./src/Problem_2209_minimumObstacles.cc)|Hard|
