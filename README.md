@@ -521,6 +521,7 @@ LeetCode Solution In Hard Way
 |1090|[Largest Values From Labels](https://leetcode.cn/problems/largest-values-from-labels/) | [C++](./src/Problem_1090_largestValsFromLabels.cc)|Medium|
 |1080|[Insufficient Nodes in Root to Leaf Paths](https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths/) | [C++](./src/Problem_1080_sufficientSubset.cc)|Medium|
 |1072|[Flip Columns For Maximum Number of Equal Rows](https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows/) | [C++](./src/Problem_1072_maxEqualRowsAfterFlips.cc)|Medium|
+|1067|[Digit Count In Range](https://leetcode.cn/problems/digit-count-in-range/) | [C++](./src/Problem_1067_digitsCount.cc)|Hard|
 |1053|[Previous Permutation With One Swap](https://leetcode.cn/problems/previous-permutation-with-one-swap/) | [C++](./src/Problem_1053_prevPermOpt1.cc)|Medium|
 |1049|[Last Stone Weight II](https://leetcode.cn/problems/last-stone-weight-ii/) | [C++](./src/Problem_1049_lastStoneWeightII.cc)|Medium|
 |1048|[Longest String Chain](https://leetcode.cn/problems/longest-string-chain/) | [C++](./src/Problem_1048_longestStrChain.cc)|Medium|
