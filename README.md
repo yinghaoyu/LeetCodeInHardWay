@@ -255,6 +255,7 @@ LeetCode Solution In Hard Way
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
 |2810|[Faulty Keyboard](https://leetcode.cn/problems/faulty-keyboard/) | [C++](./src/Problem_2810_finalString.cc)|Easy|
 |2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
+|2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
 |2719|[Count of Integers](https://leetcode.cn/problems/count-of-integers/) | [C++](./src/Problem_2719_count.cc)|Hard|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | [C++](./src/Problem_2698_punishmentNumber.cc)|Medium|
