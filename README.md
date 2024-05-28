@@ -246,6 +246,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.cn/problems/count-tested-devices-after-test-operations/) | [C++](./src/Problem_2960_countTestedDevices.cc)|Easy|
+|2951|[Find the Peaks](https://leetcode.cn/problems/find-the-peaks/) | [C++](./src/Problem_2951_findPeaks.cc)|Easy|
 |2923|[Find Champion I](https://leetcode.cn/problems/find-champion-i/) | [C++](./src/Problem_2923_findChampion.cc)|Easy|
 |2917|[Find the K-or of an Array](https://leetcode.cn/problems/find-the-k-or-of-an-array/) | [C++](./src/Problem_2917_findKOr.cc)|Easy|
 |2867|[Count Valid Paths in a Tree](https://leetcode.cn/problems/count-valid-paths-in-a-tree/) | [C++](./src/Problem_2867_countPaths.cc)|Hard|
