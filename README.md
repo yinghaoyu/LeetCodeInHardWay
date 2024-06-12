@@ -828,6 +828,7 @@ LeetCode Solution In Hard Way
 |0233|[Number of Digit One](https://leetcode.cn/problems/number-of-digit-one/) | [C++](./src/Problem_0233_countDigitOne.cc)|Hard|
 |0232|[Implement Queue using Stacks](https://leetcode.cn/problems/implement-queue-using-stacks/) | [C++](./src/Problem_0232_MyQueue.cc)|Easy|
 |0230|[Kth Smallest Element in a BST](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | [C++](./src/Problem_0230_kthSmallest.cc)|Medium|
+|0229|[Majority Element II](https://leetcode.cn/problems/majority-element-ii/) | [C++](./src/Problem_0229_majorityElement.cc)|Medium|
 |0227|[Basic Calculator II](https://leetcode.cn/problems/basic-calculator-ii/) | [C++](./src/Problem_0227_calculate.cc)|Medium|
 |0226|[Invert Binary Tree](https://leetcode.cn/problems/invert-binary-tree/) | [C++](./src/Problem_0226_invertTree.cc)|Easy|
 |0222|[Count Complete Tree Nodes](https://leetcode.cn/problems/count-complete-tree-nodes/) | [C++](./src/Problem_0222_countNodes.cc)|Easy|
