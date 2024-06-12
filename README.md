@@ -255,6 +255,7 @@ LeetCode Solution In Hard Way
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/) | [C++](./src/Problem_2828_isAcronym.cc)|Easy|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
 |2810|[Faulty Keyboard](https://leetcode.cn/problems/faulty-keyboard/) | [C++](./src/Problem_2810_finalString.cc)|Easy|
+|2806|[Account Balance After Rounded Purchase](https://leetcode.cn/problems/account-balance-after-rounded-purchase/) | [C++](./src/Problem_2806_accountBalanceAfterPurchase.cc)|Easy|
 |2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
 |2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
