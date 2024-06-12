@@ -445,6 +445,7 @@ LeetCode Solution In Hard Way
 |1504|[Count Submatrices With All Ones](https://leetcode.cn/problems/count-submatrices-with-all-ones/) | [C++](./src/Problem_1504_numSubmat.cc)|Medium|
 |1499|[Max Value of Equation](https://leetcode.cn/problems/max-value-of-equation/) | [C++](./src/Problem_1499_findMaxValueOfEquation.cc)|Hard|
 |1494|[Parallel Courses II](https://leetcode.cn/problems/parallel-courses-ii/) | [C++](./src/Problem_1494_minNumberOfSemesters.cc)|Hard|
+|1483|[Kth Ancestor of a Tree Node](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/) | [C++](./src/Problem_1483_TreeAncestor.cc)|Hard|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | [C++](./src/Problem_1475_finalPrices.cc)|Easy|
 |1470|[Shuffle the Array](https://leetcode.cn/problems/shuffle-the-array/) | [C++](./src/Problem_1470_shuffle.cc)|Easy|
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | [C++](./src/Problem_1466_minReorder.cc)|Medium|
