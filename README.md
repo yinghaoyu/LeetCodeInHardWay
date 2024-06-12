@@ -513,6 +513,7 @@ LeetCode Solution In Hard Way
 |1139|[Largest 1-Bordered Square](https://leetcode.cn/problems/largest-1-bordered-square/) | [C++](./src/Problem_1139_largest1BorderedSquare.cc)|Medium|
 |1137|[N-th Tribonacci Number](https://leetcode.cn/problems/n-th-tribonacci-number/) | [C++](./src/Problem_1137_tribonacci.cc)|Easy|
 |1129|[Shortest Path with Alternating Colors](https://leetcode.cn/problems/shortest-path-with-alternating-colors/) | [C++](./src/Problem_1129_shortestAlternatingPaths.cc)|Medium|
+|1125|[Smallest Sufficient Team](https://leetcode.cn/problems/smallest-sufficient-team/) | [C++](./src/Problem_1125_smallestSufficientTeam.cc)|Hard|
 |1124|[Longest Well-Performing Interval](https://leetcode.cn/problems/longest-well-performing-interval/) | [C++](./src/Problem_1124_longestWPI.cc)|Medium|
 |1123|[Remove Sub-Folders from the Filesystem](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/) | [C++](./src/Problem_1123_removeSubfolders.cc)|Medium|
 |1122|[Relative Sort Array](https://leetcode.cn/problems/relative-sort-array/description/) | [C++](./src/Problem_1122_relativeSortArray.cc)|Easy|
