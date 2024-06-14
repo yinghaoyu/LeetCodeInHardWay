@@ -255,6 +255,7 @@ LeetCode Solution In Hard Way
 |2834|[Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.cn/problems/find-the-minimum-possible-sum-of-a-beautiful-array/) | [C++](./src/Problem_2834_minimumPossibleSum.cc)|Medium|
 |2828|[Check if a String Is an Acronym of Words](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/) | [C++](./src/Problem_2828_isAcronym.cc)|Easy|
 |2824|[Count Pairs Whose Sum is Less than Target](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | [C++](./src/Problem_2824_countPairs.cc)|Easy|
+|2813|[Maximum Elegance of a K-Length Subsequence](https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence/) | [C++](./src/Problem_2813_findMaximumElegance.cc)|Hard|
 |2810|[Faulty Keyboard](https://leetcode.cn/problems/faulty-keyboard/) | [C++](./src/Problem_2810_finalString.cc)|Easy|
 |2806|[Account Balance After Rounded Purchase](https://leetcode.cn/problems/account-balance-after-rounded-purchase/) | [C++](./src/Problem_2806_accountBalanceAfterPurchase.cc)|Easy|
 |2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
