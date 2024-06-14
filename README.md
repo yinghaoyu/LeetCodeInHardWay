@@ -259,6 +259,7 @@ LeetCode Solution In Hard Way
 |2810|[Faulty Keyboard](https://leetcode.cn/problems/faulty-keyboard/) | [C++](./src/Problem_2810_finalString.cc)|Easy|
 |2806|[Account Balance After Rounded Purchase](https://leetcode.cn/problems/account-balance-after-rounded-purchase/) | [C++](./src/Problem_2806_accountBalanceAfterPurchase.cc)|Easy|
 |2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
+|2786|[Visit Array Positions to Maximize Score](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2786_maxScore.cc)|Medium|
 |2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
 |2719|[Count of Integers](https://leetcode.cn/problems/count-of-integers/) | [C++](./src/Problem_2719_count.cc)|Hard|
