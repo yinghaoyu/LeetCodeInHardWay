@@ -715,6 +715,7 @@ LeetCode Solution In Hard Way
 |0529|[Minesweeper](https://leetcode.cn/problems/minesweeper/) | [C++](./src/Problem_0529_updateBoard.cc)|Medium|
 |0528|[Random Pick with Weight](https://leetcode.cn/problems/random-pick-with-weight/description/) | [C++](./src/Problem_0528_pickIndex.cc)|Medium|
 |0525|[Contiguous Array](https://leetcode.cn/problems/contiguous-array/) | [C++](./src/Problem_0525_findMaxLength.cc)|Medium|
+|0522|[Longest Uncommon Subsequence II](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/) | [C++](./src/Problem_0522_findLUSlength.cc)|Medium|
 |0518|[Coin Change II](https://leetcode.cn/problems/coin-change-ii/) | [C++](./src/Problem_0518_change.cc)|Medium|
 |0517|[Super Washing Machines](https://leetcode.cn/problems/super-washing-machines/) | [C++](./src/Problem_0517_findMinMoves.cc)|Hard|
 |0516|[Longest Palindromic Subsequence](https://leetcode.cn/problems/longest-palindromic-subsequence/) | [C++](./src/Problem_0516_longestPalindromeSubseq.cc)|Medium|
