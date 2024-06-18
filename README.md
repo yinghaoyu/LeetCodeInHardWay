@@ -333,6 +333,7 @@ LeetCode Solution In Hard Way
 |2312|[Selling Pieces of Wood](https://leetcode.cn/problems/selling-pieces-of-wood/) | [C++](./src/Problem_2312_sellingWood.cc)|Hard|
 |2304|[Minimum Path Cost in a Grid](https://leetcode.cn/problems/minimum-path-cost-in-a-grid/) | [C++](./src/Problem_2304_minPathCost.cc)|Medium|
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2300_successfulPairs.cc)|Medium|
+|2288|[Apply Discount to Prices](https://leetcode.cn/problems/apply-discount-to-prices/) | [C++](./src/Problem_2288_discountPrices.cc)|Medium|
 |2258|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/escape-the-spreading-fire/) | [C++](./src/Problem_2258_maximumMinutes.cc)|Hard|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/) | [C++](./src/Problem_2251_fullBloomFlowers.cc)|Hard|
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/) | [C++](./src/Problem_2246_longestPath.cc)|Hard|
