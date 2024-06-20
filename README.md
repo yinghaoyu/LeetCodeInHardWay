@@ -263,6 +263,7 @@ LeetCode Solution In Hard Way
 |2786|[Visit Array Positions to Maximize Score](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2786_maxScore.cc)|Medium|
 |2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
+|2748|[Number of Beautiful Pairs](https://leetcode.cn/problems/number-of-beautiful-pairs/) | [C++](./src/Problem_2748_countBeautifulPairs.cc)|Easy|
 |2719|[Count of Integers](https://leetcode.cn/problems/count-of-integers/) | [C++](./src/Problem_2719_count.cc)|Hard|
 |2713|[Maximum Strictly Increasing Cells in a Matrix](https://leetcode.cn/problems/maximum-strictly-increasing-cells-in-a-matrix/) | [C++](./src/Problem_2713_maxIncreasingCells.cc)|Hard|
 |2698|[Find the Punishment Number of an Integer](https://leetcode.cn/problems/find-the-punishment-number-of-an-integer/) | [C++](./src/Problem_2698_punishmentNumber.cc)|Medium|
