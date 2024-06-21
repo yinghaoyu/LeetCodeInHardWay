@@ -156,6 +156,7 @@ LeetCode Solution In Hard Way
 |LCR 094|[分割回文串 II](https://leetcode.cn/problems/omKAoA/) | [C++](./src/Problem_LCR_094_minCut.cc)|Hard|
 |LCR 093|[最长的斐波那契子序列的长度](https://leetcode.cn/problems/Q91FMA/) | [C++](./src/Problem_LCR_093_lenLongestFibSubseq.cc)|Medium|
 |LCP 74|[最强祝福力场](https://leetcode.cn/problems/xepqZ5/) | [C++](./src/Problem_LCP_74_fieldOfGreatestBlessing.cc)|Medium|
+|LCP 61|[气温变化趋势](https://leetcode.cn/problems/6CE719/) | [C++](./src/Problem_LCP_61_temperatureTrend.cc)|Easy|
 |LCP 41|[黑白翻转棋](https://leetcode.cn/problems/fHi6rV/) | [C++](./src/Problem_LCP_41_flipChess.cc)|Medium|
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
