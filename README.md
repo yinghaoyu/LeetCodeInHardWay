@@ -917,6 +917,7 @@ LeetCode Solution In Hard Way
 |0115|[Distinct Subsequences](https://leetcode.cn/problems/distinct-subsequences/) | [C++](./src/Problem_0115_connect.cc)|Hard|
 |0114|[Flatten Binary Tree to Linked List](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) | [C++](./src/Problem_0114_flatten.cc)|Medium|
 |0113|[Path Sum II](https://leetcode.cn/problems/path-sum-ii/) | [C++](./src/Problem_0113_pathSum.cc)|Medium|
+|0111|[Minimum Depth of Binary Tree](https://leetcode.cn/problems/minimum-depth-of-binary-tree/) | [C++](./src/Problem_0111_minDepth.cc)|Easy|
 |0110|[Balanced Binary Tree](https://leetcode.cn/problems/balanced-binary-tree/) | [C++](./src/Problem_0110_isBalanced.cc)|Easy|
 |0108|[Convert Sorted Array to Binary Search Tree](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/) | [C++](./src/Problem_0108_sortedArrayToBST.cc)|Easy|
 |0106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [C++](./src/Problem_0106_buildTree.cc)|Medium|
