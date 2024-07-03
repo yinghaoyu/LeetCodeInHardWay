@@ -247,6 +247,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
+|3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.cn/problems/count-tested-devices-after-test-operations/) | [C++](./src/Problem_2960_countTestedDevices.cc)|Easy|
 |2951|[Find the Peaks](https://leetcode.cn/problems/find-the-peaks/) | [C++](./src/Problem_2951_findPeaks.cc)|Easy|
 |2923|[Find Champion I](https://leetcode.cn/problems/find-champion-i/) | [C++](./src/Problem_2923_findChampion.cc)|Easy|
