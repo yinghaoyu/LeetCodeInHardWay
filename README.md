@@ -248,6 +248,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
 |3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
+|2974|[Minimum Number Game](https://leetcode.cn/problems/minimum-number-game/) | [C++](./src/Problem_2974_numberGame.cc)|Easy|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/) | [C++](./src/Problem_2970_incremovableSubarrayCount.cc)|Easy|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.cn/problems/count-tested-devices-after-test-operations/) | [C++](./src/Problem_2960_countTestedDevices.cc)|Easy|
 |2951|[Find the Peaks](https://leetcode.cn/problems/find-the-peaks/) | [C++](./src/Problem_2951_findPeaks.cc)|Easy|
