@@ -247,6 +247,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
+|3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/) | [C++](./src/Problem_3112_minimumTime.cc)|Medium|
 |3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
 |2974|[Minimum Number Game](https://leetcode.cn/problems/minimum-number-game/) | [C++](./src/Problem_2974_numberGame.cc)|Easy|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/) | [C++](./src/Problem_2970_incremovableSubarrayCount.cc)|Easy|
