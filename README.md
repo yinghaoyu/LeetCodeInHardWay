@@ -249,6 +249,7 @@ LeetCode Solution In Hard Way
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/) | [C++](./src/Problem_3112_minimumTime.cc)|Medium|
 |3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
+|3098|[Find the Sum of Subsequence Powers](https://leetcode.cn/problems/find-the-sum-of-subsequence-powers/) | [C++](./src/Problem_3098_sumOfPowers.cc)|Hard|
 |2974|[Minimum Number Game](https://leetcode.cn/problems/minimum-number-game/) | [C++](./src/Problem_2974_numberGame.cc)|Easy|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/) | [C++](./src/Problem_2970_incremovableSubarrayCount.cc)|Easy|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.cn/problems/count-tested-devices-after-test-operations/) | [C++](./src/Problem_2960_countTestedDevices.cc)|Easy|
