@@ -270,6 +270,7 @@ LeetCode Solution In Hard Way
 |2789|[Largest Element in an Array after Merge](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2789_maxArrayValue.cc)|Hard|
 |2786|[Visit Array Positions to Maximize Score](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations/) | [C++](./src/Problem_2786_maxScore.cc)|Medium|
 |2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
+|2766|[Relocate Marbles](https://leetcode.cn/problems/relocate-marbles/) | [C++](./src/Problem_2766_relocateMarbles.cc)|Medium|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
 |2748|[Number of Beautiful Pairs](https://leetcode.cn/problems/number-of-beautiful-pairs/) | [C++](./src/Problem_2748_countBeautifulPairs.cc)|Easy|
 |2742|[Painting the Walls](https://leetcode.cn/problems/painting-the-walls/) | [C++](./src/Problem_2742_paintWalls.cc)|Hard|
