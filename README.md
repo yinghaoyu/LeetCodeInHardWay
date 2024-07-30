@@ -252,6 +252,7 @@ LeetCode Solution In Hard Way
 |3098|[Find the Sum of Subsequence Powers](https://leetcode.cn/problems/find-the-sum-of-subsequence-powers/) | [C++](./src/Problem_3098_sumOfPowers.cc)|Hard|
 |2974|[Minimum Number Game](https://leetcode.cn/problems/minimum-number-game/) | [C++](./src/Problem_2974_numberGame.cc)|Easy|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/) | [C++](./src/Problem_2970_incremovableSubarrayCount.cc)|Easy|
+|2961|[Double Modular Exponentiation](https://leetcode.cn/problems/double-modular-exponentiation/) | [C++](./src/Problem_2961_getGoodIndices.cc)|Medium|
 |2960|[Count Tested Devices After Test Operations](https://leetcode.cn/problems/count-tested-devices-after-test-operations/) | [C++](./src/Problem_2960_countTestedDevices.cc)|Easy|
 |2959|[Number of Possible Sets of Closing Branches](https://leetcode.cn/problems/number-of-possible-sets-of-closing-branches/) | [C++](./src/Problem_2959_numberOfSets.cc)|Hard|
 |2951|[Find the Peaks](https://leetcode.cn/problems/find-the-peaks/) | [C++](./src/Problem_2951_findPeaks.cc)|Easy|
