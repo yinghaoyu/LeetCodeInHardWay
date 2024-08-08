@@ -439,6 +439,7 @@ LeetCode Solution In Hard Way
 |1669|[Merge In Between Linked Lists](https://leetcode.cn/problems/merge-in-between-linked-lists/) | [C++](./src/Problem_1669_mergeInBetween.cc)|Medium|
 |1668|[Maximum Repeating Substring](https://leetcode.cn/problems/maximum-repeating-substring/) | [C++](./src/Problem_1668_maxRepeating.cc)|Easy|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/) | [C++](./src/Problem_1662_arrayStringsAreEqual.cc)|Easy|
+|1659|[Maximize Grid Happiness](https://leetcode.cn/problems/maximize-grid-happiness/) | [C++](./src/Problem_1659_getMaxGridHappiness.cc)|Hard|
 |1657|[Determine if Two Strings Are Close](https://leetcode.cn/problems/determine-if-two-strings-are-close/) | [C++](./src/Problem_1657_closeStrings.cc)|Medium|
 |1656|[Design an Ordered Stream](https://leetcode.cn/problems/design-an-ordered-stream/) | [C++](./src/Problem_1656_OrderedStream.cc)|Easy|
 |1655|[Distribute Repeating Integers](https://leetcode.cn/problems/distribute-repeating-integers/) | [C++](./src/Problem_1655_canDistribute.cc)|Hard|
