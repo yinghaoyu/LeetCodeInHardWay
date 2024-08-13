@@ -306,6 +306,7 @@ LeetCode Solution In Hard Way
 |2562|[Find the Array Concatenation Value](https://leetcode.cn/problems/find-the-array-concatenation-value/) | [C++](./src/Problem_2562_findTheArrayConcVal.cc)|Easy|
 |2560|[House Robber IV](https://leetcode.cn/problems/house-robber-iv/) | [C++](./src/Problem_2560_minCapability.cc)|Medium|
 |2559|[Count Vowel Strings in Ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges/) | [C++](./src/Problem_2559_vowelStrings.cc)|Medium|
+|2551|[Put Marbles in Bags](https://leetcode.cn/problems/put-marbles-in-bags/) | [C++](./src/Problem_2551_putMarbles.cc)|Hard|
 |2544|[Alternating Digit Sum](https://leetcode.cn/problems/alternating-digit-sum/) | [C++](./src/Problem_2544_alternateDigitSum.cc)|Easy|
 |2532|[Time to Cross a Bridge](https://leetcode.cn/problems/time-to-cross-a-bridge/) | [C++](./src/Problem_2532_findCrossingTime.cc)|Hard|
 |2530|[Maximal Score After Applying K Operations](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/) | [C++](./src/Problem_2530_maxKelements.cc)|Medium|
