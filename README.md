@@ -423,6 +423,7 @@ LeetCode Solution In Hard Way
 |1755|[Closest Subsequence Sum](https://leetcode.cn/problems/closest-subsequence-sum/) | [C++](./src/Problem_1755_minAbsDifference.cc)|Hard|
 |1753|[Maximum Score From Removing Stones](https://leetcode.cn/problems/maximum-score-from-removing-stones/) | [C++](./src/Problem_1753_maximumScore.cc)|Medium|
 |1752|[Check if Array Is Sorted and Rotated](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/) | [C++](./src/Problem_1752_check.cc)|Easy|
+|1751|[Maximum Number of Events That Can Be Attended II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/) | [C++](./src/Problem_1751_maxValue.cc)|Hard|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/) | [C++](./src/Problem_1749_maxAbsoluteSum.cc)|Medium|
 |1742|[Maximum Number of Balls in a Box](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/) | [C++](./src/Problem_1742_countBalls.cc)|Easy|
 |1732|[Find the Highest Altitude](https://leetcode.cn/problems/find-the-highest-altitude/) | [C++](./src/Problem_1732_largestAltitude.cc)|Easy|
