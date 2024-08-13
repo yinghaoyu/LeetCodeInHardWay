@@ -1,5 +1,4 @@
-#include <functional>
-#include <iostream>
+#include <string>
 #include <unordered_map>
 #include <vector>
 
@@ -13,7 +12,7 @@ class MagicDictionary
    public:
     int pass;
     int end;
-    unordered_map<int, Node *> nexts;
+    unordered_map<int, Node*> nexts;
     Node()
     {
       pass = 0;
@@ -21,17 +20,17 @@ class MagicDictionary
     }
   };
 
-  Node *root;
+  Node* root;
 
  public:
   MagicDictionary() { root = new Node(); }
 
   void buildDict(vector<string> dictionary)
   {
-    for (auto &word : dictionary)
+    for (auto& word : dictionary)
     {
-      Node *cur = root;
-      for (auto &c : word)
+      Node* cur = root;
+      for (auto& c : word)
       {
         if (!cur->nexts.count(c))
         {
@@ -44,14 +43,16 @@ class MagicDictionary
     }
   }
 
-  bool dfs(string &searchWord, Node *cur, int index, bool isModified)
+  bool dfs(string& searchWord, Node* cur, int index, bool isModified)
   {
     if (index == searchWord.length())
     {
+      // 如果有这个字符结尾的单词，并且至少修改了1次，说明能找到
       return cur->end > 0 && isModified;
     }
     if (cur->nexts.count(searchWord[index]))
     {
+      // 包含这个字符，则一直往下找
       if (dfs(searchWord, cur->nexts[searchWord[index]], index + 1, isModified))
       {
         return true;
@@ -59,7 +60,8 @@ class MagicDictionary
     }
     if (!isModified)
     {
-      for (auto &[c, node] : cur->nexts)
+      // 必须没有修改过，才需要尝试
+      for (auto& [c, node] : cur->nexts)
       {
         if (c != searchWord[index] && dfs(searchWord, node, index + 1, true))
         {
