@@ -340,6 +340,7 @@ LeetCode Solution In Hard Way
 |2404|[Most Frequent Even Element](https://leetcode.cn/problems/most-frequent-even-element/) | [C++](./src/Problem_2404_mostFrequentEven.cc)|Easy|
 |2384|[Largest Palindromic Number](https://leetcode.cn/problems/largest-palindromic-number/) | [C++](./src/Problem_2384_largestPalindromic.cc)|Medium|
 |2373|[Largest Local Values in a Matrix](https://leetcode.cn/problems/largest-local-values-in-a-matrix/) | [C++](./src/Problem_2373_largestLocal.cc)|Easy|
+|2370|[Longest Ideal Subsequence](https://leetcode.cn/problems/longest-ideal-subsequence/) | [C++](./src/Problem_2370_longestIdealString.cc)|Medium|
 |2369|[Check if There is a Valid Partition For The Array](https://leetcode.cn/problems/check-if-there-is-a-valid-partition-for-the-array/) | [C++](./src/Problem_2369_validPartition.cc)|Medium|
 |2367|[Count Special Integers](https://leetcode.cn/problems/count-special-integers/) | [C++](./src/Problem_2367_countSpecialNumbers.cc)|Hard|
 |2363|[Merge Similar Items](https://leetcode.cn/problems/merge-similar-items/) | [C++](./src/Problem_2363_mergeSimilarItems.cc)|Easy|
