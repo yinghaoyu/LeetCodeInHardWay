@@ -324,6 +324,7 @@ LeetCode Solution In Hard Way
 |2475|[Number of Unequal Triplets in Array](https://leetcode.cn/problems/number-of-unequal-triplets-in-array/) | [C++](./src/Problem_2475_unequalTriplets.cc)|Easy|
 |2472|[Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.cn/problems/maximum-number-of-non-overlapping-palindrome-substrings/) | [C++](./src/Problem_2472_maxPalindromes.cc)|Hard|
 |2465|[Number of Distinct Averages](https://leetcode.cn/problems/number-of-distinct-averages/) | [C++](./src/Problem_2465_distinctAverages.cc)|Easy|
+|2463|[Minimum Total Distance Traveled](https://leetcode.cn/problems/minimum-total-distance-traveled/) | [C++](./src/Problem_2463_minimumTotalDistance.cc)|Hard|
 |2460|[Apply Operations to an Array](https://leetcode.cn/problems/apply-operations-to-an-array/) | [C++](./src/Problem_2460_applyOperations.cc)|Easy|
 |2458|[Height of Binary Tree After Subtree Removal Queries](https://leetcode.cn/problems/height-of-binary-tree-after-subtree-removal-queries/) | [C++](./src/Problem_2458_treeQueries.cc)|Hard|
 |2455|[Average Value of Even Numbers That Are Divisible by Three](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | [C++](./src/Problem_2455_averageValue.cc)|Easy|
