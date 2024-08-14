@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <vector>
 
 #include "UnitTest.h"
@@ -6,76 +7,102 @@ using namespace std;
 
 // https://github.com/yinghaoyu/algorithms/blob/master/sort/CountOfRangeSum.cc
 
+// TODO: figure it out
 class Solution
 {
  public:
-  int merge(vector<int> &nums, int L, int M, int R, int lower, int upper)
+  // 树状数组 + 离散化的解法，理解难度较低
+  int countRangeSum(vector<int>& nums, int lower, int upper)
   {
+    build(nums);
+    long sum = 0;
     int ans = 0;
-    int windowL = L;
-    int windowR = L;
-    for (int i = M + 1; i <= R; i++)
-    {
-      int max = nums[i] - lower;
-      int min = nums[i] - upper;
-      while (windowR <= M && nums[windowR] <= max)
-      {
-        windowR++;
-      }
-      while (windowL <= M && nums[windowL] < min)
-      {
-        windowL++;
-      }
-      ans += windowR - windowL;
-    }
-    int n = R - L + 1;
-    int p1 = L;
-    int p2 = M + 1;
-    int i = 0;
-    vector<int> help(n);
-    while (p1 <= M && p2 <= R)
-    {
-      help[i++] = nums[p1] <= nums[p2] ? nums[p1++] : nums[p2++];
-    }
-    while (p1 <= M)
-    {
-      help[i++] = nums[p1++];
-    }
-    while (p2 <= R)
-    {
-      help[i++] = nums[p2++];
-    }
     for (int i = 0; i < n; i++)
     {
-      nums[i + L] = help[i];
+      sum += nums[i];
+      ans += sums(rank(sum - lower)) - sums(rank(sum - upper - 1));
+      if (lower <= sum && sum <= upper)
+      {
+        ans++;
+      }
+      add(rank(sum), 1);
     }
     return ans;
   }
 
-  int process(vector<int> &nums, int L, int R, int lower, int upper)
+  static constexpr int MAXN = 100002;
+
+  int n, m;
+
+  vector<long> sort = vector<long>(MAXN);
+
+  vector<int> tree = vector<int>(MAXN);
+
+  void build(vector<int>& nums)
   {
-    if (L == R)
+    // 生成前缀和数组
+    n = nums.size();
+    for (int i = 1, j = 0; i <= n; i++, j++)
     {
-      return nums[L] >= lower && nums[L] <= upper ? 1 : 0;
+      sort[i] = sort[i - 1] + nums[j];
     }
-    int M = L + (R - L) / 2;
-    return process(nums, L, M, lower, upper) + process(nums, M + 1, R, lower, upper) + merge(nums, L, M, R, lower, upper);
+    // 前缀和数组排序和去重，最终有m个不同的前缀和
+    std::sort(sort.begin() + 1, sort.begin() + n + 1);
+    m = 1;
+    for (int i = 2; i <= n; i++)
+    {
+      if (sort[m] != sort[i])
+      {
+        sort[++m] = sort[i];
+      }
+    }
+    // 初始化树状数组，下标1~m
+    std::fill(tree.begin() + 1, tree.begin() + m + 1, 0);
   }
 
-  int countRangeSum(vector<int> &nums, int lower, int upper)
+  // 返回 <=v 并且尽量大的前缀和是第几号前缀和
+  int rank(long v)
   {
-    int n = nums.size();
-    if (n == 0)
+    int left = 1, right = m, mid;
+    int ans = 0;
+    while (left <= right)
     {
-      return 0;
+      mid = (left + right) / 2;
+      if (sort[mid] <= v)
+      {
+        ans = mid;
+        left = mid + 1;
+      }
+      else
+      {
+        right = mid - 1;
+      }
     }
-    vector<int> sum(n);
-    sum[0] = nums[0];
-    for (int i = 1; i < n; i++)
+    return ans;
+  }
+
+  // 树状数组模版代码，没有任何修改
+  // i号前缀和，个数增加c个
+  void add(int i, int c)
+  {
+    while (i <= m)
     {
-      sum[i] = sum[i - 1] + nums[i];
+      tree[i] += c;
+      i += i & -i;
     }
-    return process(sum, 0, sum.size() - 1, lower, upper);
+  }
+
+  // 树状数组模版代码，没有任何修改
+  // 查询1~i号前缀和一共有几个
+  int sums(int i)
+  {
+    int ans = 0;
+    while (i > 0)
+    {
+      ans += tree[i];
+      i -= i & -i;
+    }
+    return ans;
   }
 };
 
