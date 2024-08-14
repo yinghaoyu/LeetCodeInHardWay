@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// TODO: fix it, have some bugs
+// TODO: figure it out
 class Solution
 {
  public:
@@ -26,7 +26,7 @@ class Solution
       pre = find(events, i - 1, events[i][0]);
       for (int j = 1; j <= k; j++)
       {
-        dp[i][j] = std::max(dp[i - 1][j], (pre == -1) ? 0 : dp[pre][j - 1] + events[i][2]);
+        dp[i][j] = std::max(dp[i - 1][j], (pre == -1 ? 0 : dp[pre][j - 1]) + events[i][2]);
       }
     }
     return dp[n - 1][k];
