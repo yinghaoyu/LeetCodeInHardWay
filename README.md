@@ -248,6 +248,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3152|[Special Array II](https://leetcode.cn/problems/special-array-ii/) | [C++](./src/Problem_3152_isArraySpecial.cc)|Medium|
 |3151|[Special Array I](https://leetcode.cn/problems/special-array-i/) | [C++](./src/Problem_3151_isArraySpecial.cc)|Easy|
+|3148|[Maximum Difference Score in a Grid](https://leetcode.cn/problems/maximum-difference-score-in-a-grid/) | [C++](./src/Problem_3148_maxScore.cc)|Medium|
 |3131|[Find the Integer Added to Array I](https://leetcode.cn/problems/find-the-integer-added-to-array-i/) | [C++](./src/Problem_3131_addedInteger.cc)|Easy|
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/) | [C++](./src/Problem_3112_minimumTime.cc)|Medium|
