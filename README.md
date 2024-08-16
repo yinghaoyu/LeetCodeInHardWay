@@ -994,6 +994,7 @@ LeetCode Solution In Hard Way
 |0046|[Permutations](https://leetcode.cn/problems/permutations/) | [C++](./src/Problem_0046_permute.cc)|Medium|
 |0045|[Jump Game II](https://leetcode.cn/problems/jump-game-ii/) | [C++](./src/Problem_0045_jump.cc)|Medium|
 |0044|[Wildcard Matching](https://leetcode.cn/problems/wildcard-matching/) | [C++](./src/Problem_0044_isMatch.cc)|Hard|
+|0043|[Multiply Strings](https://leetcode.cn/problems/multiply-strings/) | [C++](./src/Problem_0043_multiply.cc)|Medium|
 |0042|[Trapping Rain Water](https://leetcode.cn/problems/trapping-rain-water/) | [C++](./src/Problem_0042_trap.cc)|Hard|
 |0041|[First Missing Positive](https://leetcode.cn/problems/first-missing-positive/) | [C++](./src/Problem_0041_firstMissingPositive.cc)|Hard|
 |0040|[Combination Sum II](https://leetcode.cn/problems/combination-sum-ii/description/) | [C++](./src/Problem_0040_combinationSum2.cc)|Medium|
