@@ -250,6 +250,7 @@ LeetCode Solution In Hard Way
 |3151|[Special Array I](https://leetcode.cn/problems/special-array-i/) | [C++](./src/Problem_3151_isArraySpecial.cc)|Easy|
 |3148|[Maximum Difference Score in a Grid](https://leetcode.cn/problems/maximum-difference-score-in-a-grid/) | [C++](./src/Problem_3148_maxScore.cc)|Medium|
 |3131|[Find the Integer Added to Array I](https://leetcode.cn/problems/find-the-integer-added-to-array-i/) | [C++](./src/Problem_3131_addedInteger.cc)|Easy|
+|3117|[Minimum Sum of Values by Dividing Array](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/) | [C++](./src/Problem_3117_minimumValueSum.cc)|Hard|
 |3115|[Maximum Prime Difference](https://leetcode.cn/problems/maximum-prime-difference/) | [C++](./src/Problem_3115_maximumPrimeDifference.cc)|Medium|
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/) | [C++](./src/Problem_3112_minimumTime.cc)|Medium|
 |3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
