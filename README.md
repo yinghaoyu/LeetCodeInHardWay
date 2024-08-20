@@ -231,7 +231,7 @@ LeetCode Solution In Hard Way
 |05.08|[Draw Line LCCI](https://leetcode.cn/problems/draw-line-lcci/) | [C++](./src/Problem_05.08_drawLine.cc)|Medium|
 |05.07|[Exchange LCCI](https://leetcode.cn/problems/exchange-lcci/) | [C++](./src/Problem_05.07_exchangeBits.cc)|Easy|
 |05.06|[Convert Integer LCCI](https://leetcode.cn/problems/convert-integer-lcci/) | [C++](./src/Problem_05.06_convertInteger.cc)|Easy|
-|05.04|[Closed Number LCCI](https://leetcode.cn/problems/closed-number-lcci/) | [C++](./src/Problem_05.04_findClosedNumbers.cc)|Easy|
+|05.04|[Closed Number LCCI](https://leetcode.cn/problems/closed-number-lcci/) | [C++](./src/Problem_05.04_findClosedNumbers.cc)|Medium|
 |05.03|[Reverse Bits LCCI](https://leetcode.cn/problems/reverse-bits-lcci/) | [C++](./src/Problem_05.03_reverseBits.cc)|Easy|
 |05.02|[Binary Number to String LCCI](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | [C++](./src/Problem_05.02_printBin.cc)|Medium|
 |05.01|[Insert Into Bits LCCI](https://leetcode.cn/problems/insert-into-bits-lcci/) | [C++](./src/Problem_05.01_insertBits.cc)|Easy|
