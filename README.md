@@ -963,6 +963,7 @@ LeetCode Solution In Hard Way
 |0092|[Reverse Linked List II](https://leetcode.cn/problems/reverse-linked-list-ii/) | [C++](./src/Problem_0092_reverseBetween.cc)|Medium|
 |0091|[Decode Ways](https://leetcode.cn/problems/decode-ways/) | [C++](./src/Problem_0091_numDecodings.cc)|Medium|
 |0090|[Subsets II](https://leetcode.cn/problems/subsets-ii/) | [C++](./src/Problem_0090_subsetsWithDup.cc)|Medium|
+|0089|[Gray Code](https://leetcode.cn/problems/gray-code/) | [C++](./src/Problem_0089_grayCode.cc)|Medium|
 |0088|[Merge Sorted Array](https://leetcode.cn/problems/merge-sorted-array/) | [C++](./src/Problem_0088_merge.cc)|Easy|
 |0087|[Scramble String](https://leetcode.cn/problems/scramble-string/) | [C++](./src/Problem_0087_isScramble.cc)|Hard|
 |0085|[Maximal Rectangle](https://leetcode.cn/problems/maximal-rectangle/) | [C++](./src/Problem_0085_maximalRectangle.cc)|Hard|
