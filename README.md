@@ -161,6 +161,7 @@ LeetCode Solution In Hard Way
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
+|LCP 01|[Guess Numbers](https://leetcode.cn/problems/guess-numbers/) | [C++](./src/Problem_LCP_01_game.cc)|Easy|
 |17.25|[Word Rectangle LCCI](https://leetcode.cn/problems/word-rectangle-lcci/) | [C++](./src/Problem_17.25_maxRectangle.cc)|Hard|
 |17.24|[Max Submatrix LCCI](https://leetcode.cn/problems/max-submatrix-lcci/) | [C++](./src/Problem_17.24_getMaxMatrix.cc)|Hard|
 |17.23|[Max Black Square LCCI](https://leetcode.cn/problems/max-black-square-lcci/) | [C++](./src/Problem_17.23_findSquare.cc)|Medium|
