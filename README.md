@@ -705,6 +705,7 @@ LeetCode Solution In Hard Way
 |0698|[Partition to K Equal Sum Subsets](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/) | [C++](./src/Problem_0698_canPartitionKSubsets.cc)|Medium|
 |0695|[Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | [C++](./src/Problem_0695_maxAreaOfIsland.cc)|Medium|
 |0691|[Stickers to Spell Word](https://leetcode.cn/problems/stickers-to-spell-word/) | [C++](./src/Problem_0691_minStickers.cc)|Hard|
+|0690|[Employee Importance](https://leetcode.cn/problems/employee-importance/) | [C++](./src/Problem_0690_getImportance.cc)|Medium|
 |0689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/) | [C++](./src/Problem_0689_maxSumOfThreeSubarrays.cc)|Hard|
 |0688|[Knight Probability in Chessboard](https://leetcode.cn/problems/knight-probability-in-chessboard/) | [C++](./src/Problem_0688_knightProbability.cc)|Medium|
 |0687|[Longest Univalue Path](https://leetcode.cn/problems/longest-univalue-path/) | [C++](./src/Problem_0687_longestUnivaluePath.cc)|Medium|
