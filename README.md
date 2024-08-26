@@ -161,6 +161,7 @@ LeetCode Solution In Hard Way
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
+|LCP 04|[Broken Board Dominoes](https://leetcode.cn/problems/broken-board-dominoes/) | [C++](./src/Problem_LCP_04_domino.cc)|Hard|
 |LCP 03|[Programmable Robot](https://leetcode.cn/problems/programmable-robot/) | [C++](./src/Problem_LCP_03_robot.cc)|Medium|
 |LCP 02|[Deep Dark Fraction](https://leetcode.cn/problems/deep-dark-fraction/) | [C++](./src/Problem_LCP_02_fraction.cc)|Easy|
 |LCP 01|[Guess Numbers](https://leetcode.cn/problems/guess-numbers/) | [C++](./src/Problem_LCP_01_game.cc)|Easy|
