@@ -160,6 +160,7 @@ LeetCode Solution In Hard Way
 |LCP 41|[黑白翻转棋](https://leetcode.cn/problems/fHi6rV/) | [C++](./src/Problem_LCP_41_flipChess.cc)|Medium|
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
+|LCP 07|[传递信息](https://leetcode.cn/problems/chuan-di-xin-xi/) | [C++](./src/Problem_LCP_07_numWays.cc)|Easy|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
 |LCP 04|[Broken Board Dominoes](https://leetcode.cn/problems/broken-board-dominoes/) | [C++](./src/Problem_LCP_04_domino.cc)|Hard|
 |LCP 03|[Programmable Robot](https://leetcode.cn/problems/programmable-robot/) | [C++](./src/Problem_LCP_03_robot.cc)|Medium|
