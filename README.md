@@ -160,6 +160,7 @@ LeetCode Solution In Hard Way
 |LCP 41|[黑白翻转棋](https://leetcode.cn/problems/fHi6rV/) | [C++](./src/Problem_LCP_41_flipChess.cc)|Medium|
 |LCP 35|[电动车游城市](https://leetcode.cn/problems/DFPeFJ/) | [C++](./src/Problem_LCP_35_electricCarPlan.cc)|Hard|
 |LCP 30|[魔塔游戏](https://leetcode.cn/problems/p0NxJO/) | [C++](./src/Problem_LCP_30_magicTower.cc)|Medium|
+|LCP 09|[最小跳跃次数](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu/) | [C++](./src/Problem_LCP_09_minJump.cc)|Hard|
 |LCP 08|[剧情触发时间](https://leetcode.cn/problems/ju-qing-hong-fa-shi-jian/) | [C++](./src/Problem_LCP_08_getTriggerTime.cc)|Medium|
 |LCP 07|[传递信息](https://leetcode.cn/problems/chuan-di-xin-xi/) | [C++](./src/Problem_LCP_07_numWays.cc)|Easy|
 |LCP 06|[拿硬币](https://leetcode.cn/problems/na-ying-bi/) | [C++](./src/Problem_LCP_06_minCount.cc)|Easy|
