@@ -259,6 +259,7 @@ LeetCode Solution In Hard Way
 |3151|[Special Array I](https://leetcode.cn/problems/special-array-i/) | [C++](./src/Problem_3151_isArraySpecial.cc)|Easy|
 |3148|[Maximum Difference Score in a Grid](https://leetcode.cn/problems/maximum-difference-score-in-a-grid/) | [C++](./src/Problem_3148_maxScore.cc)|Medium|
 |3145|[Maximum Difference Score in a Grid](https://leetcode.cn/problems/find-products-of-elements-of-big-array/) | [C++](./src/Problem_3145_findProductsOfElements.cc)|Hard|
+|3144|[Minimum Substring Partition of Equal Character Frequency](https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency/) | [C++](./src/Problem_3144_minimumSubstringsInPartition.cc)|Medium|
 |3134|[Find the Median of the Uniqueness Array](https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array/) | [C++](./src/Problem_3134_medianOfUniquenessArray.cc)|Hard|
 |3131|[Find the Integer Added to Array I](https://leetcode.cn/problems/find-the-integer-added-to-array-i/) | [C++](./src/Problem_3131_addedInteger.cc)|Easy|
 |3117|[Minimum Sum of Values by Dividing Array](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/) | [C++](./src/Problem_3117_minimumValueSum.cc)|Hard|
