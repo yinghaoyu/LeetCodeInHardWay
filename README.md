@@ -494,6 +494,7 @@ LeetCode Solution In Hard Way
 |1553|[Minimum Number of Days to Eat N Oranges](https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges/) | [C++](./src/Problem_1553_minDays.cc)|Hard|
 |1552|[Magnetic Force Between Two Balls](https://leetcode.cn/problems/magnetic-force-between-two-balls/) | [C++](./src/Problem_1552_maxDistance.cc)|Medium|
 |1547|[Minimum Cost to Cut a Stick](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/) | [C++](./src/Problem_1547_minCost.cc)|Hard|
+|1521|[Find a Value of a Mysterious Function Closest to Target](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/) | [C++](./src/Problem_1521_closestToTarget.cc)|Hard|
 |1504|[Count Submatrices With All Ones](https://leetcode.cn/problems/count-submatrices-with-all-ones/) | [C++](./src/Problem_1504_numSubmat.cc)|Medium|
 |1499|[Max Value of Equation](https://leetcode.cn/problems/max-value-of-equation/) | [C++](./src/Problem_1499_findMaxValueOfEquation.cc)|Hard|
 |1494|[Parallel Courses II](https://leetcode.cn/problems/parallel-courses-ii/) | [C++](./src/Problem_1494_minNumberOfSemesters.cc)|Hard|
