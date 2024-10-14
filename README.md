@@ -254,6 +254,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|3172|[Find Subarray With Bitwise OR Closest to K](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/) | [C++](./src/Problem_3172_minimumDifference.cc)|Hard|
 |3164|[Find the Number of Good Pairs II](https://leetcode.cn/problems/find-the-number-of-good-pairs-ii/) | [C++](./src/Problem_3164_numberOfPairs.cc)|Medium|
 |3162|[Find the Number of Good Pairs I](https://leetcode.cn/problems/find-the-number-of-good-pairs-i/) | [C++](./src/Problem_3162_numberOfPairs.cc)|Easy|
 |3154|[Find Number of Ways to Reach the K-th Stair](https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair/) | [C++](./src/Problem_3154_waysToReachStair.cc)|Medium|
