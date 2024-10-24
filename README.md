@@ -257,6 +257,7 @@ LeetCode Solution In Hard Way
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/) | [C++](./src/Problem_3185_countCompleteDayPairs.cc)|Medium|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i/) | [C++](./src/Problem_3184_countCompleteDayPairs.cc)|Easy|
+|3175|[Find The First Player to win K Games in a Row](https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/) | [C++](./src/Problem_3175_findWinningPlayer.cc)|Medium|
 |3172|[Find Subarray With Bitwise OR Closest to K](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/) | [C++](./src/Problem_3172_minimumDifference.cc)|Hard|
 |3164|[Find the Number of Good Pairs II](https://leetcode.cn/problems/find-the-number-of-good-pairs-ii/) | [C++](./src/Problem_3164_numberOfPairs.cc)|Medium|
 |3162|[Find the Number of Good Pairs I](https://leetcode.cn/problems/find-the-number-of-good-pairs-i/) | [C++](./src/Problem_3162_numberOfPairs.cc)|Easy|
