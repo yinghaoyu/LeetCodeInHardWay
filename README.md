@@ -254,6 +254,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/) | [C++](./src/Problem_3226_minChanges.cc)|Easy|
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/) | [C++](./src/Problem_3185_countCompleteDayPairs.cc)|Medium|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i/) | [C++](./src/Problem_3184_countCompleteDayPairs.cc)|Easy|
