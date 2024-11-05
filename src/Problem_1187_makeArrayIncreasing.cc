@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <cstdint>
 #include <functional>
-#include <iostream>
 #include <unordered_map>
 #include <vector>
 
@@ -13,24 +12,26 @@ class Solution
 {
  public:
   // 递归 + 记忆化搜索
-  int makeArrayIncreasing(vector<int> &arr1, vector<int> &arr2)
+  int makeArrayIncreasing(vector<int>& arr1, vector<int>& arr2)
   {
+    // 先让arr2有序
     std::sort(arr2.begin(), arr2.end());
     int n = arr1.size();
     unordered_map<int, int> map[n];
-    std::function<int(int, int)> dfs = [&](int i, int pre) -> int {
+    std::function<int(int, int)> dfs = [&](int i, int pre) -> int
+    {
       if (i < 0)
       {
         return 0;
       }
-      auto it = map[i].find(pre);
-      if (it != map[i].end())
+      if (map[i].count(pre))
       {
         // 记忆化搜索
-        return it->second;
+        map[i][pre];
       }
       // 不替换 arr1[i]
       int min = arr1[i] < pre ? dfs(i - 1, arr1[i]) : INT32_MAX;
+      // 从 arr2 中找到第一个 < pre 的数
       int k = binSearch(arr2, pre);
       if (k != -1)
       {
@@ -44,11 +45,13 @@ class Solution
       map[i][pre] = min;
       return min;
     };
+    // 从后往前递归
     int ans = dfs(n - 1, INT32_MAX);
     return ans < INT32_MAX ? ans : -1;
   }
 
-  int binSearch(vector<int> &arr, int value)
+  // 二分搜索，找到第一个 < value 值的位置
+  int binSearch(vector<int>& arr, int value)
   {
     int index = -1;
     int l = 0;
@@ -68,7 +71,6 @@ class Solution
     }
     return index;
   }
-  // TODO: dp
 };
 
 void testMakeArrayIncreasing()
