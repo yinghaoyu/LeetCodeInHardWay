@@ -71,7 +71,6 @@ class Solution
   // 齐次方程解，时间复杂度O(lgN)
   int climbStairs4(int n)
   {
-    // TODO: figure it out
     if (n < 1)
     {
       return 0;
