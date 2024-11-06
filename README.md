@@ -551,6 +551,7 @@ LeetCode Solution In Hard Way
 |1224|[Maximum Equal Frequency](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to/) | [C++](./src/Problem_1224_maxEqualFreq.cc)|Hard|
 |1224|[Dice Roll Simulation](https://leetcode.cn/problems/dice-roll-simulation/) | [C++](./src/Problem_1223_dieSimulator.cc)|Hard|
 |1222|[Queens That Can Attack the King](https://leetcode.cn/problems/queens-that-can-attack-the-king/?envType=daily-question&envId=2023-09-14) | [C++](./src/Problem_1222_queensAttacktheKing.cc)|Medium|
+|1220|[Count Vowels Permutation](https://leetcode.cn/problems/count-vowels-permutation/) | [C++](./src/Problem_1220_countVowelPermutation.cc)|Hard|
 |1210|[Minimum Moves to Reach Target with Rotations](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/) | [C++](./src/Problem_1210_minimumMoves.cc)|Hard|
 |1204|[Tiling a Rectangle with the Fewest Squares](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/) | [C++](./src/Problem_1204_tilingRectangle.cc)|Hard|
 |1187|[Make Array Strictly Increasing](https://leetcode.cn/problems/make-array-strictly-increasing/) | [C++](./src/Problem_1187_makeArrayIncreasing.cc)|Hard|
