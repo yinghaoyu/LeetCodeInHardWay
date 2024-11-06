@@ -52,7 +52,7 @@ class Solution
     return ans;
   }
 
-  // TODO: figure it out
+  // https://www.bilibili.com/video/BV13k4y1D7Dn/
   int checkRecord2(int n)
   {
     // 1天的情况下，各种状态的合法数量
