@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -6,6 +5,7 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV19Q4y1c7ko/
 class Solution
 {
  public:
@@ -26,21 +26,38 @@ class Solution
     {
       if (s[x] == m[y])
       {
+        // 字符匹配成功
         x++;
         y++;
       }
       else if (next[y] == -1)
       {
+        // 进这个case的隐含条件，y==0
         x++;
       }
       else
       {
+        // 利用next数组快速跳跃
         y = next[y];
       }
     }
+    // 匹配成功 y == m长度
     return y == m.length() ? x - y : -1;
   }
 
+  // next[i] 数组的含义为str[0...i-1]子串前后缀最大相同的长度（不包括整个字符串）
+  // 比如 aabaabc
+  //            ↑
+  //            i=6
+  //            此时next[6]=3，因为前缀串(aab)和后缀串(aab)相等的最大长度为3
+  // 并且 next[0]=-1，坐标0前没字符，没有意义，定义为-1
+  //      next[1]=0，当只有一个字符时，由于我们排除整个字符串，因此定义为0
+
+  // 特殊例子 aaaaa
+  //              ↑
+  //              i=4
+  //              此时next[4]=3，因为前缀串(aaa)和后缀串(aaa)相等的最大长度为3，
+  //              而不是aaaa，因为我们排除整个字符串
   vector<int> getNextArray(string ms)
   {
     if (ms.length() == 1)
