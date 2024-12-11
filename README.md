@@ -382,6 +382,7 @@ LeetCode Solution In Hard Way
 |2300|[Successful Pairs of Spells and Potions](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/) | [C++](./src/Problem_2300_successfulPairs.cc)|Medium|
 |2288|[Apply Discount to Prices](https://leetcode.cn/problems/apply-discount-to-prices/) | [C++](./src/Problem_2288_discountPrices.cc)|Medium|
 |2281|[Sum of Total Strength of Wizards](https://leetcode.cn/problems/sum-of-total-strength-of-wizards/) | [C++](./src/Problem_2281_totalStrength.cc)|Hard|
+|2276|[Count Integers in Intervals](https://leetcode.cn/problems/count-integers-in-intervals/) | [C++](./src/Problem_2276_CountIntervals.cc)|Hard|
 |2258|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/escape-the-spreading-fire/) | [C++](./src/Problem_2258_maximumMinutes.cc)|Hard|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/) | [C++](./src/Problem_2251_fullBloomFlowers.cc)|Hard|
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/) | [C++](./src/Problem_2246_longestPath.cc)|Hard|
