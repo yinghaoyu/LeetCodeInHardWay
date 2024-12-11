@@ -1,111 +1,120 @@
 #include <algorithm>
-#include <iostream>
-#include <map>
+#include <queue>
 #include <vector>
 
 #include "UnitTest.h"
 
 using namespace std;
 
+// 天际线问题
+// 与扫描线问题相似 @sa Problem_1851_minInterval.cc
+// 离散化 + 扫描线 + 堆 + 延迟删除
+// @sa https://www.bilibili.com/video/BV16x4y1a7Ro/
 class Solution
 {
  private:
-  class Node
-  {
-   public:
-    int x;       // 横坐标
-    bool isAdd;  // true 表示左端点
-    int h;       // 高度
+  static const int MAXN = 100001;
 
-    Node(int x, int isAdd, int h)
-    {
-      this->x = x;
-      this->isAdd = isAdd;
-      this->h = h;
-    }
-  };
+  vector<int> xsort = vector<int>(MAXN);
 
-  class cmp
+  vector<int> height = vector<int>(MAXN);
+
+  // 准备工作如下
+  // 1) 收集大楼左边界、右边界-1、右边界的值
+  // 2) 收集的所有值排序、去重
+  // 3) 大楼的左边界和右边界，修改成排名值
+  // 4) 大楼根据左边界排序
+  // 5) 清空height数组
+  // 6) 返回离散值的个数
+  int prepare(vector<vector<int>>& arr, int n)
   {
-   public:
-    bool operator()(Node *o1, Node *o2)
+    int size = 0;
+    // 大楼的左边界、右边界-1、右边界，三个值都去离散化
+    for (int i = 0; i < n; i++)
     {
-      // 横坐标从小到大排序
-      // 横坐标相同右端点在前，左端点在后
-      if (o1->x != o2->x)
-      {
-        // 注意这里必须不相同才需要调整，否则按插入的顺序排序，减少移动次数
-        return o1->x < o2->x;
-      }
-      if (o1->isAdd != o2->isAdd)
-      {
-        // 注意这里必须不相同才需要调整，否则按插入的顺序排序，减少移动次数
-        return !o1->isAdd;
-      }
-      return false;
+      xsort[++size] = arr[i][0];
+      xsort[++size] = arr[i][1] - 1;
+      xsort[++size] = arr[i][1];
     }
-  };
+    std::sort(xsort.begin() + 1, xsort.begin() + size + 1);
+    // 排序之后去重，去重后的数值有m个
+    int m = 1;
+    for (int i = 1; i <= size; i++)
+    {
+      if (xsort[m] != xsort[i])
+      {
+        xsort[++m] = xsort[i];
+      }
+    }
+    // 修改大楼影响到的左右边界，都变成排名值
+    for (int i = 0; i < n; i++)
+    {
+      arr[i][0] = rank(m, arr[i][0]);
+      // 大楼影响到的右边界，减少1！
+      // 课上重点说明的内容
+      arr[i][1] = rank(m, arr[i][1] - 1);
+    }
+    // 所有大楼根据左边界排序
+    std::sort(arr.begin(), arr.begin() + n, [](auto& a, auto& b) { return a[0] < b[0]; });
+    // 高度数组清空
+    std::fill(height.begin() + 1, height.begin() + m + 1, 0);
+    // 返回有多少个不同的离散值
+    return m;
+  }
+
+  // 查询数值v的排名(离散值)
+  int rank(int n, int v)
+  {
+    int ans = 0;
+    int l = 1, r = n, mid;
+    while (l <= r)
+    {
+      mid = (l + r) >> 1;
+      if (xsort[mid] >= v)
+      {
+        ans = mid;
+        r = mid - 1;
+      }
+      else
+      {
+        l = mid + 1;
+      }
+    }
+    return ans;
+  }
 
  public:
-  vector<vector<int>> getSkyline(vector<vector<int>> &buildings)
+  vector<vector<int>> getSkyline(vector<vector<int>>& buildings)
   {
-    vector<Node *> nodes(2 * buildings.size());
-    for (int i = 0; i < buildings.size(); i++)
+    int n = buildings.size();
+    int m = prepare(buildings, n);
+    // 0 : 高度
+    // 1 : 影响到的位置
+    priority_queue<vector<int>> heap;
+    for (int i = 1, j = 0; i <= m; i++)
     {
-      nodes[i * 2] = new Node(buildings[i][0], true, buildings[i][2]);
-      nodes[i * 2 + 1] = new Node(buildings[i][1], false, buildings[i][2]);
-    }
-    std::sort(nodes.begin(), nodes.end(), cmp());
-    // 有序表，key 代表某个高度，value 代表这个高度出现的次数
-    map<int, int> mapHeightTimes;
-    // 有序表，key 代表x的值，value 代表处在x位置时的高度
-    map<int, int> xMaxHeight;
-    for (int i = 0; i < nodes.size(); i++)
-    {
-      if (nodes[i]->isAdd)
+      for (; j < n && buildings[j][0] <= i; j++)
       {
-        // 左端点
-        if (!mapHeightTimes.count(nodes[i]->h))
-        {
-          mapHeightTimes.emplace(nodes[i]->h, 1);
-        }
-        else
-        {
-          mapHeightTimes.at(nodes[i]->h)++;
-        }
+        heap.push({buildings[j][2], buildings[j][1]});
       }
-      else
+      while (!heap.empty() && heap.top()[1] < i)
       {
-        // 右端点
-        if (mapHeightTimes.at(nodes[i]->h) == 1)
-        {
-          mapHeightTimes.erase(nodes[i]->h);
-        }
-        else
-        {
-          mapHeightTimes.at(nodes[i]->h)--;
-        }
+        // 可能有脏数据不在堆顶也没关系，延迟删除
+        heap.pop();
       }
-      if (mapHeightTimes.empty())
+      if (!heap.empty())
       {
-        // 注意这里不能用emplace，不然过不了例b3
-        // 起点和终点特殊考虑
-        xMaxHeight[nodes[i]->x] = 0;
-      }
-      else
-      {
-        // 注意这里不能用emplace，不然过不了例b2
-        // 两个矩形可能共用一条边
-        xMaxHeight[nodes[i]->x] = mapHeightTimes.rbegin()->first;
+        height[i] = heap.top()[0];
       }
     }
     vector<vector<int>> ans;
-    for (auto &[x, height] : xMaxHeight)
+    for (int i = 1, pre = 0; i <= m; i++)
     {
-      if (ans.empty() || ans.back()[1] != height)
+      if (pre != height[i])
       {
-        ans.push_back({x, height});
+        ans.push_back({xsort[i], height[i]});
       }
+      pre = height[i];
     }
     return ans;
   }
