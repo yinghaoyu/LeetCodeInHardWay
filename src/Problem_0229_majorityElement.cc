@@ -47,6 +47,7 @@ using namespace std;
 
 // 摩尔投票
 
+// @sa https://www.bilibili.com/video/BV1Br421G7hB/
 class Solution
 {
  public:
@@ -55,6 +56,8 @@ class Solution
   vector<int> majority(vector<int>& nums, int k)
   {
     // 注意这里的 --k
+    // 候选数的词频要大于 n / k，那么最多 k - 1 个候选
+    // 如果有k个候选，每个候选词频大于 n / k ，那么总数大于 k * n / k，明显大于 n，矛盾
     vector<vector<int>> cands(--k, vector<int>(2));
     for (int num : nums)
     {
@@ -102,6 +105,7 @@ class Solution
   {
     for (int i = 0, cur, real; i < k; i++)
     {
+      // 检查 k - 1 个候选人出现次数是否都大于 n / k
       if (cands[i][1] > 0)
       {
         cur = cands[i][0];
