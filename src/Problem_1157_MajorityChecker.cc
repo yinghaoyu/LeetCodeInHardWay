@@ -4,7 +4,9 @@
 using namespace std;
 
 // 摩尔投票 + 线段树
-// TODO: figure it out. fix it.
+// 海王数
+
+// @sa https://www.bilibili.com/video/BV1Br421G7hB/
 class MajorityChecker
 {
  public:
@@ -41,10 +43,12 @@ class MajorityChecker
       nums[i][0] = arr[i];
       nums[i][1] = i;
     }
+    // 从小到大排序，如果大小一样，则按下标从小到大排序
     std::sort(nums.begin(), nums.end(), [](vector<int>& a, vector<int>& b)
               { return a[0] != b[0] ? a[0] > b[0] : a[1] > b[1]; });
   }
 
+  // 找到[l,r]区间内值为v的个数有几个
   int cnt(int l, int r, int v) { return bs(v, r) - bs(v, l - 1); }
 
   // arr[0 ~ i]范围上
