@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// 摩尔投票
 class Solution
 {
  public:
@@ -13,6 +14,7 @@ class Solution
     int candidate = 0;
     for (auto& num : nums)
     {
+      // 一次删掉两个不同的数
       if (hp == 0)
       {
         candidate = num;
@@ -23,13 +25,15 @@ class Solution
         hp += num == candidate ? 1 : -1;
       }
     }
-    // 下面这代码不能忽略
+    // 剩下的数不一定是多数元素，需要检查
     // {2, 3, 2, 3} 这种是不存在出现次数大于 n/2 的元素的
     if (hp == 0)
     {
+      // 没数剩下来
       return -1;
     }
     // {1, 2, 3, 1, 2, 3, 1} 这种情况 hp > 0，但是 1 的出现次数显然没有大于 7/2 = 3 个
+    // 验证出现的次数
     hp = 0;
     for (auto& num : nums)
     {
