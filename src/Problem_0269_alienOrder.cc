@@ -1,4 +1,3 @@
-#include <iostream>
 #include <queue>
 #include <string>
 #include <unordered_map>
@@ -9,6 +8,7 @@
 
 using namespace std;
 
+// 拓扑排序
 class Solution
 {
  public:
@@ -28,11 +28,13 @@ class Solution
         indegree[c] = 0;
       }
     }
+    // 这里用unordered_set是为了去重
     unordered_map<char, unordered_set<char>> graph;
     for (int i = 0; i < N - 1; i++)
     {
       string cur = words[i];
       string next = words[i + 1];
+      // 只关心两个单词长短相同的部分
       int len = std::min(cur.length(), next.length());
       int j = 0;
       // 构建有向图
