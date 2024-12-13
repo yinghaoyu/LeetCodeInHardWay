@@ -1,78 +1,46 @@
-#include <iostream>
 #include <queue>
-#include <unordered_map>
 #include <vector>
-
-#include "UnitTest.h"
 
 using namespace std;
 
 class Solution
 {
  public:
-  class Node
-  {
-   public:
-    int name;  // 课程编号
-    int in;    // 课程入度
-    vector<Node *> nexts;
-    Node(int n)
-    {
-      name = n;
-      in = 0;
-    }
-  };
-
   // 拓扑排序
-  vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
+  vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites)
   {
-    unordered_map<int, Node *> map;
-    for (auto &arr : prerequisites)
+    vector<vector<int>> g(numCourses);
+    vector<int> indegree(numCourses);
+    for (auto& e : prerequisites)
     {
-      int to = arr[0];
-      int from = arr[1];
-      if (!map.count(to))
-      {
-        map.emplace(to, new Node(to));
-      }
-      if (!map.count(from))
-      {
-        map.emplace(from, new Node(from));
-      }
-      Node *t = map.at(to);
-      Node *f = map.at(from);
-      f->nexts.push_back(t);
-      t->in++;
+      g[e[1]].push_back(e[0]);
+      indegree[e[0]]++;
     }
-    int n = map.size();
-    queue<Node *> que;
-    vector<int> ans;
+    queue<int> q;
     for (int i = 0; i < numCourses; i++)
     {
-      if (!map.count(i))
+      if (indegree[i] == 0)
       {
-        ans.push_back(i);
-      }
-      else if (map.at(i)->in == 0)
-      {
-        que.push(map.at(i));
+        q.push(i);
       }
     }
-    int count = 0;
-    while (!que.empty())
+
+    vector<int> ans;
+
+    while (!q.empty())
     {
-      Node *cur = que.front();
-      que.pop();
-      count++;
-      ans.push_back(cur->name);
-      for (Node *next : cur->nexts)
+      int cur = q.front();
+      q.pop();
+      ans.push_back(cur);
+      for (int next : g[cur])
       {
-        if (--next->in == 0)
+        if (--indegree[next] == 0)
         {
-          que.push(next);
+          q.push(next);
         }
       }
     }
-    return count == n ? ans : vector<int>{};
+    // 注意这里要检查是否所有课程都在拓扑排序中
+    return ans.size() == numCourses ? ans : vector<int>{};
   }
 };
