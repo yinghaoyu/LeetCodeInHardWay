@@ -3,11 +3,14 @@
 
 using namespace std;
 
+// 拓扑排序 + 推消息
+// @sa https://www.bilibili.com/video/BV12y4y1F79q/
 class Solution
 {
  public:
   int maximumInvitations(vector<int>& favorite)
   {
+    // 图 : favorite[a] = b : a -> b
     int n = favorite.size();
     vector<int> indegree(n);
     for (int i = 0; i < n; i++)
@@ -47,6 +50,7 @@ class Solution
       {
         int ringSize = 1;
         indegree[i] = 0;
+        // 检查环的元素个数
         for (int j = favorite[i]; j != i; j = favorite[j])
         {
           ringSize++;
@@ -54,10 +58,12 @@ class Solution
         }
         if (ringSize == 2)
         {
+          // 小环
           sumOfSmallRings += 2 + deep[i] + deep[favorite[i]];
         }
         else
         {
+          // 大环
           bigRings = std::max(bigRings, ringSize);
         }
       }
