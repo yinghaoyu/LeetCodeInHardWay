@@ -1,6 +1,5 @@
 #include <functional>
 #include <queue>
-#include <iostream>
 #include <unordered_map>
 #include <vector>
 
@@ -8,15 +7,16 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV12y4y1F79q/
 class Solution
 {
  public:
   // 记忆化搜索
-  int minimumTime1(int n, vector<vector<int>> &relations, vector<int> &time)
+  int minimumTime1(int n, vector<vector<int>>& relations, vector<int>& time)
   {
     int max = 0;
     unordered_map<int, vector<int>> g;
-    for (auto &e : relations)
+    for (auto& e : relations)
     {
       int from = e[0];
       int to = e[1];
@@ -45,20 +45,20 @@ class Solution
   }
 
   // 拓扑排序
-  int minimumTime2(int n, vector<vector<int>> &relations, vector<int> &time)
+  int minimumTime2(int n, vector<vector<int>>& relations, vector<int>& time)
   {
     vector<vector<int>> g(n);
     // 每个节点的入度
     vector<int> in(n);
-    for (auto &e : relations)
+    for (auto& e : relations)
     {
       int a = e[0] - 1, b = e[1] - 1;
       g[a].push_back(b);
       ++in[b];
     }
     queue<int> q;
-    // f[i]表示课程最早的完成时间
-    vector<int> f(n);
+    // cost[i]表示课程最早的完成时间
+    vector<int> cost(n);
     int ans = 0;
     for (int i = 0; i < n; ++i)
     {
@@ -67,7 +67,7 @@ class Solution
       {
         // 入度为 0 的点，先入队
         q.push(i);
-        f[i] = t;
+        cost[i] = t;
         ans = max(ans, t);
       }
     }
@@ -82,8 +82,8 @@ class Solution
           q.push(j);
         }
         // 每门课程的最早完成时间 = max(依赖课程的最早完成时间 + 当前课程花费的时间)
-        f[j] = max(f[j], f[i] + time[j]);
-        ans = max(ans, f[j]);
+        cost[j] = max(cost[j], cost[i] + time[j]);
+        ans = max(ans, cost[j]);
       }
     }
     return ans;
