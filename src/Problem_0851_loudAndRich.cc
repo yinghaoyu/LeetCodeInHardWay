@@ -3,7 +3,8 @@
 
 using namespace std;
 
-// TODO: figure it out.
+// 拓扑排序
+// @sa https://www.bilibili.com/video/BV12y4y1F79q/
 class Solution
 {
  public:
@@ -28,6 +29,7 @@ class Solution
     vector<int> ans(n);
     for (int i = 0; i < n; i++)
     {
+      // 拥有前不少于自己，安静值最小的人，默认是自己
       ans[i] = i;
     }
     while (!que.empty())
@@ -38,6 +40,8 @@ class Solution
       {
         if (quiet[ans[cur]] < quiet[ans[next]])
         {
+          // cur 比 next 有钱，且 cur 收集到的答案比 next 小
+          // 那么就依照拓扑排序的顺序传递更新
           ans[next] = ans[cur];
         }
         if (--indegree[next] == 0)
