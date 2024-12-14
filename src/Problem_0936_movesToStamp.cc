@@ -1,10 +1,12 @@
+#include <algorithm>
 #include <queue>
 #include <string>
 #include <vector>
 
 using namespace std;
 
-// TODO: figure it out.
+// @sa https://www.bilibili.com/video/BV1rj411k7tS/
+// 抽象的拓扑排序题
 class Solution
 {
  public:
@@ -12,6 +14,10 @@ class Solution
   {
     int m = stamp.length();
     int n = target.length();
+    // 为什么这里只需要 n - m + 1 ?
+    // 因为贴邮票时，邮票开头只能在 [0, n - m] 区间内开贴，后面的m长度需要保留，不能截断邮票
+    // 开始时，有m个字符，假设都是错误的，那么入度为m
+    // 如果都是对的字符，那么入度为0，入度为0一定是最后贴上去的
     vector<int> indegree(n - m + 1, m);
     vector<vector<int>> graph(n);
     queue<int> que;
@@ -46,6 +52,7 @@ class Solution
       int cur = que.front();
       que.pop();
       path[size++] = cur;
+      // cur 是贴邮票的开始位置，那么需要检查m长度整张邮票的位置
       for (int i = 0; i < m; i++)
       {
         // cur : 开头位置
@@ -65,13 +72,10 @@ class Solution
     }
     if (size != n - m + 1)
     {
+      // TODO: 这里为什么要判断 size ？
       return vector<int>();
     }
-    // path 逆序调整
-    for (int i = 0, j = size - 1; i < j; i++, j--)
-    {
-      std::swap(path[i], path[j]);
-    }
+    std::reverse(path.begin(), path.end());
     return path;
   }
 };
