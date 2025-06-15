@@ -522,6 +522,7 @@ LeetCode Solution In Hard Way
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [C++](./src/Problem_1438_longestSubarray.cc)|Medium|
 |1436|[Destination City](https://leetcode.cn/problems/destination-city/) | [C++](./src/Problem_1436_destCity.cc)|Easy|
 |1434|[Number of Ways to Wear Different Hats to Each Other](https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/) | [C++](./src/Problem_1434_numberWays.cc)|Hard|
+|1432|[Max Difference You Can Get From Changing an Integer](https://leetcode.cn/problems/max-difference-you-can-get-from-changing-an-integer/) | [C++](./src/Problem_1432_maxDiff.cc)|medium|
 |1422|[Maximum Score After Splitting a String](https://leetcode.cn/problems/maximum-score-after-splitting-a-string/) | [C++](./src/Problem_1422_MaxScore.cc)|Easy|
 |1417|[Reformat The String](https://leetcode.cn/problems/reformat-the-string/) | [C++](./src/Problem_1417_Reformat.cc)|Easy|
 |1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/Problem_1413_MinStartValue.cc)|Easy|
