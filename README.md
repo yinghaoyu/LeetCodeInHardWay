@@ -925,6 +925,7 @@ LeetCode Solution In Hard Way
 |0208|[Implement Trie (Prefix Tree)](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [C++](./src/Problem_0208_Trie.cc)|Medium|
 |0207|[Course Schedule](https://leetcode.cn/problems/course-schedule/) | [C++](./src/Problem_0207_canFinish.cc)|Medium|
 |0206|[Reverse Linked List](https://leetcode.cn/problems/reverse-linked-list/) | [C++](./src/Problem_0206_reverseList.cc)|Easy|
+|0205|[Isomorphic Strings](https://leetcode.cn/problems/isomorphic-strings/) | [C++](./src/Problem_0205_isIsomorphic.cc)|Easy|
 |0204|[Count Primes](https://leetcode.cn/problems/count-primes/) | [C++](./src/Problem_0204_countPrimes.cc)|Medium|
 |0202|[Happy Number](https://leetcode.cn/problems/happy-number/) | [C++](./src/Problem_0202_isHappy.cc)|Easy|
 |0201|[Bitwise AND of Numbers Range](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [C++](./src/Problem_0201_rangeBitwiseAnd.cc)|Medium|
