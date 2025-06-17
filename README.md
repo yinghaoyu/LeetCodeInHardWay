@@ -1006,6 +1006,7 @@ LeetCode Solution In Hard Way
 |0085|[Maximal Rectangle](https://leetcode.cn/problems/maximal-rectangle/) | [C++](./src/Problem_0085_maximalRectangle.cc)|Hard|
 |0084|[Largest Rectangle in Histogram](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | [C++](./src/Problem_0084_largestRectangleArea.cc)|Hard|
 |0081|[Search in Rotated Sorted Array II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/) | [C++](./src/Problem_0081_search.cc)|Medium|
+|0080|[Remove Duplicates from Sorted Array II](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/) | [C++](./src/Problem_0080_removeDuplicates.cc)|Medium|
 |0079|[Word Search](https://leetcode.cn/problems/word-search/) | [C++](./src/Problem_0079_exist.cc)|Medium|
 |0078|[Subsets](https://leetcode.cn/problems/subsets/) | [C++](./src/Problem_0078_subsets.cc)|Medium|
 |0077|[Combinations](https://leetcode.cn/problems/combinations) | [C++](./src/Problem_0077_combine.cc)|Medium|
