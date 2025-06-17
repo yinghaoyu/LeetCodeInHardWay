@@ -1024,6 +1024,7 @@ LeetCode Solution In Hard Way
 |0061|[Rotate List](https://leetcode.cn/problems/rotate-list/) | [C++](./src/Problem_0061_rotateRight.cc)|Medium|
 |0060|[Permutation Sequence](https://leetcode.cn/problems/permutation-sequence/) | [C++](./src/Problem_0060_getPermutation.cc)|Hard|
 |0059|[Spiral Matrix II](https://leetcode.cn/problems/spiral-matrix-ii/) | [C++](./src/Problem_0059_generateMatrix.cc)|Medium|
+|0058|[Length of Last Word](https://leetcode.cn/problems/length-of-last-word/) | [C++](./src/Problem_0058_lengthOfLastWord.cc)|Easy|
 |0057|[Insert Interval](https://leetcode.cn/problems/insert-interval/description/) | [C++](./src/Problem_0057_insert.cc)|Medium|
 |0056|[Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | [C++](./src/Problem_0056_merge.cc)|Medium|
 |0055|[Jump Game](https://leetcode.cn/problems/jump-game/) | [C++](./src/Problem_0055_canJump.cc)|Medium|
