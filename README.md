@@ -710,6 +710,7 @@ LeetCode Solution In Hard Way
 |0772|[Basic Calculator III🔒](https://leetcode.cn/problems/basic-calculator-iii/) | [C++](./src/Problem_0772_calculate.cc)|Hard|
 |0765|[Couples Holding Hands](https://leetcode.cn/problems/couples-holding-hands/) | [C++](./src/Problem_0765_minSwapsCouples.cc)|Hard|
 |0764|[Largest Plus Sign](https://leetcode.cn/problems/largest-plus-sign/description/) | [C++](./src/Problem_0764_orderOfLargestPlusSign.cc)|Medium|
+|0763|[Partition Labels](https://leetcode.cn/problems/partition-labels/) | [C++](./src/Problem_0763_partitionLabels.cc)|Medium|
 |0761|[Special Binary String](https://leetcode.cn/problems/special-binary-string/) | [C++](./src/Problem_0761_MakeLargestSpecial.cc)|Hard|
 |0754|[Reach a Number](https://leetcode.cn/problems/reach-a-number/) | [C++](./src/Problem_0754_reachNumber.cc)|Medium|
 |0752|[Open the Lock](https://leetcode.cn/problems/open-the-lock/) | [C++](./src/Problem_0752_openLock.cc)|Medium|
