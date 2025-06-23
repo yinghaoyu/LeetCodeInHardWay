@@ -407,6 +407,7 @@ LeetCode Solution In Hard Way
 |2106|[Maximum Fruits Harvested After at Most K Steps](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/) | [C++](./src/Problem_2106_maxTotalFruits.cc)|Hard|
 |2105|[Watering Plants II](https://leetcode.cn/problems/watering-plants-ii/) | [C++](./src/Problem_2105_minimumRefill.cc)|Medium|
 |2092|[Find All People With Secret](https://leetcode.cn/problems/find-all-people-with-secret/) | [C++](./src/Problem_2092_findAllPeople.cc)|Hard|
+|2081|[Sum of k-Mirror Numbers](https://leetcode.cn/problems/sum-of-k-mirror-numbers/) | [C++](./src/Problem_2081_kMirror.cc)|Hard|
 |2079|[Watering Plants](https://leetcode.cn/problems/watering-plants/) | [C++](./src/Problem_2079_wateringPlants.cc)|Medium|
 |2071|[Maximum Number of Tasks You Can Assign](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/) | [C++](./src/Problem_2071_maxTaskAssign.cc)|Hard|
 |2065|[Maximum Path Quality of a Graph](https://leetcode.cn/problems/maximum-path-quality-of-a-graph/) | [C++](./src/Problem_2065_maximalPathQuality.cc)|Hard|
