@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// @sa https://www.bilibili.com/video/BV1B4421D77S/
 class Solution
 {
  public:
@@ -47,17 +48,7 @@ class Solution
   {
     build(houses, costs, hsize, csize, tsize);
     t++;
-    vector<vector<vector<int>>> dp(n + 1, vector<vector<int>>(t + 1, vector<int>(c + 1)));
-    for (int i = 0; i <= n; i++)
-    {
-      for (int j = 0; j <= t; j++)
-      {
-        for (int v = 0; v <= c; v++)
-        {
-          dp[i][j][v] = -1;
-        }
-      }
-    }
+    vector<vector<vector<int>>> dp(n + 1, vector<vector<int>>(t + 1, vector<int>(c + 1, -1)));
     int ans = f1(n, t, 0, dp);
     return ans == NA ? -1 : ans;
   }
