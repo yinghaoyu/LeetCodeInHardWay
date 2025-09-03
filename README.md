@@ -256,6 +256,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/) | [C++](./src/Problem_3259_maxEnergyBoost.cc)|Medium|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/) | [C++](./src/Problem_3226_minChanges.cc)|Easy|
+|3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./src/Problem_3195_minimumArea.cc)|Medium|
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/) | [C++](./src/Problem_3185_countCompleteDayPairs.cc)|Medium|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i/) | [C++](./src/Problem_3184_countCompleteDayPairs.cc)|Easy|
@@ -278,6 +279,7 @@ LeetCode Solution In Hard Way
 |3112|[Minimum Time to Visit Disappearing Nodes](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/) | [C++](./src/Problem_3112_minimumTime.cc)|Medium|
 |3099|[Harshad Number](https://leetcode.cn/problems/harshad-number/) | [C++](./src/Problem_3099_sumOfTheDigitsOfHarshadNumber.cc)|Easy|
 |3098|[Find the Sum of Subsequence Powers](https://leetcode.cn/problems/find-the-sum-of-subsequence-powers/) | [C++](./src/Problem_3098_sumOfPowers.cc)|Hard|
+|3027|[Find the Number of Ways to Place People II](https://leetcode.cn/problems/find-the-number-of-ways-to-place-people-ii/) | [C++](./src/Problem_3027_numberOfPairs.cc)|Hard|
 |3007|[Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) | [C++](./src/Problem_3007_findMaximumNumber.cc)|Medium|
 |2974|[Minimum Number Game](https://leetcode.cn/problems/minimum-number-game/) | [C++](./src/Problem_2974_numberGame.cc)|Easy|
 |2970|[Count the Number of Incremovable Subarrays I](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/) | [C++](./src/Problem_2970_incremovableSubarrayCount.cc)|Easy|
