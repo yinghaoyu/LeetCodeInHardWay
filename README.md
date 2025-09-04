@@ -254,6 +254,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|3516|[Find Closest Person](https://leetcode.cn/problems/find-closest-person/) | [C++](./src/Problem_3516_findClosest.cc)|Easy|
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/) | [C++](./src/Problem_3259_maxEnergyBoost.cc)|Medium|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/) | [C++](./src/Problem_3226_minChanges.cc)|Easy|
 |3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./src/Problem_3195_minimumArea.cc)|Medium|
