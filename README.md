@@ -306,6 +306,7 @@ LeetCode Solution In Hard Way
 |2769|[Find the Maximum Achievable Number](https://leetcode.cn/problems/find-the-maximum-achievable-number/) | [C++](./src/Problem_2769_theMaximumAchievableX.cc)|Easy|
 |2766|[Relocate Marbles](https://leetcode.cn/problems/relocate-marbles/) | [C++](./src/Problem_2766_relocateMarbles.cc)|Medium|
 |2765|[Longest Alternating Subarray](https://leetcode.cn/problems/longest-alternating-subarray/) | [C++](./src/Problem_2765_alternatingSubarray.cc)|Easy|
+|2749|[Minimum Operations to Make the Integer Zero](https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero/) | [C++](./src/Problem_2749_makeTheIntegerZero.cc)|Medium|
 |2748|[Number of Beautiful Pairs](https://leetcode.cn/problems/number-of-beautiful-pairs/) | [C++](./src/Problem_2748_countBeautifulPairs.cc)|Easy|
 |2742|[Painting the Walls](https://leetcode.cn/problems/painting-the-walls/) | [C++](./src/Problem_2742_paintWalls.cc)|Hard|
 |2734|[Lexicographically Smallest String After Substring Operation](https://leetcode.cn/problems/lexicographically-smallest-string-after-substring-operation/) | [C++](./src/Problem_2734_smallestString.cc)|Medium|
