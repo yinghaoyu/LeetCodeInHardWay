@@ -1,7 +1,5 @@
-#include <iostream>
 #include <string>
 #include <unordered_map>
-#include <vector>
 
 #include "UnitTest.h"
 
@@ -22,8 +20,9 @@ class Solution
     {
       ans.append("-");
     }
-    long long num = std::abs(numerator);
-    long long den = std::abs(denominator);
+    // * 1ll avoid -2147483648
+    long long num = std::abs(numerator * 1ll);
+    long long den = std::abs(denominator * 1ll);
     // integer part
     ans.append(std::to_string(num / den));
     num %= den;
