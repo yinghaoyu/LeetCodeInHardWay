@@ -8,7 +8,8 @@ using namespace std;
 class Solution
 {
  public:
-  // TODO: figure it out
+  // 新元素+1或-1碰到的元素一定是一个已记载序列的已知左边界或者已知右边界
+  // 所以只需要保证已知左边界元素和已知右边界元素的左右边界记录正确即可
   int longestConsecutive(vector<int>& nums)
   {
     // key表示num，value表示num所在连续区间的长度
@@ -41,8 +42,10 @@ void testLongestConsecutive()
   Solution s;
   vector<int> n1 = {100, 4, 200, 1, 3, 2};
   vector<int> n2 = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
+  vector<int> n3 = {1, 0, 1, 2};
   EXPECT_EQ_INT(4, s.longestConsecutive(n1));
   EXPECT_EQ_INT(9, s.longestConsecutive(n2));
+  EXPECT_EQ_INT(3, s.longestConsecutive(n3));
   EXPECT_SUMMARY;
 }
 
