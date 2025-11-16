@@ -256,6 +256,7 @@ LeetCode Solution In Hard Way
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3516|[Find Closest Person](https://leetcode.cn/problems/find-closest-person/) | [C++](./src/Problem_3516_findClosest.cc)|Easy|
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/) | [C++](./src/Problem_3259_maxEnergyBoost.cc)|Medium|
+|3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/) | [C++](./src/Problem_3234_numberOfSubstrings.cc)|Medium|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/) | [C++](./src/Problem_3226_minChanges.cc)|Easy|
 |3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./src/Problem_3195_minimumArea.cc)|Medium|
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
