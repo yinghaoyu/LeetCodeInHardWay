@@ -320,6 +320,7 @@ LeetCode Solution In Hard Way
 |2674|[Frequency Tracker](https://leetcode.cn/problems/frequency-tracker/) | [C++](./src/Problem_2671_FrequencyTracker.cc)|Medium|
 |2673|[Make Costs of Paths Equal in a Binary Tree](https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/) | [C++](./src/Problem_2673_minIncrements.cc)|Medium|
 |2661|[First Completely Painted Row or Column](https://leetcode.cn/problems/first-completely-painted-row-or-column/) | [C++](./src/Problem_2661_firstCompleteIndex.cc)|Medium|
+|2654|[Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.cn/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | [C++](./src/Problem_2654_minOperations.cc)|Medium|
 |2651|[Calculate Delayed Arrival Time](https://leetcode.cn/problems/calculate-delayed-arrival-time/description/?envType=daily-question&envId=2023-09-08) | [C++](./src/Problem_2651_findDelayedArrivalTime.cc)|Easy|
 |2646|[Minimize the Total Price of the Trips](https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/) | [C++](./src/Problem_2646_minimumTotalPrice.cc)|Hard|
 |2641|[Cousins in Binary Tree II](https://leetcode.cn/problems/cousins-in-binary-tree-ii/) | [C++](./src/Problem_2641_replaceValueInTree.cc)|Medium|
