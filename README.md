@@ -404,6 +404,7 @@ LeetCode Solution In Hard Way
 |2193|[Minimum Number of Moves to Make Palindrome](https://leetcode.cn/problems/minimum-number-of-moves-to-make-palindrome/) | [C++](./src/Problem_2193_minMovesToMakePalindrome.cc)|Hard|
 |2180|[Count Integers With Even Digit Sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | [C++](./src/Problem_2180_countEven.cc)|Easy|
 |2178|[Maximum Split of Positive Even Integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/) | [C++](./src/Problem_2178_maximumEvenSplit.cc)|Medium|
+|2169|[Count Operations to Obtain Zero](https://leetcode.cn/problems/count-operations-to-obtain-zero/) | [C++](./src/Problem_2169_countOperations.cc)|Easy|
 |2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency/) | [C++](./src/Problem_2168_equalDigitFrequency.cc)|Medium|
 |2166|[Design Bitset](https://leetcode.cn/problems/design-bitset/) | [C++](./src/Problem_2166_Bitset.cc)|Medium|
 |2141|[Maximum Running Time of N Computers](https://leetcode.cn/problems/maximum-running-time-of-n-computers/) | [C++](./src/Problem_2141_maxRunTime.cc)|Hard|
