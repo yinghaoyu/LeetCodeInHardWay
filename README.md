@@ -255,6 +255,7 @@ LeetCode Solution In Hard Way
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
 |3516|[Find Closest Person](https://leetcode.cn/problems/find-closest-person/) | [C++](./src/Problem_3516_findClosest.cc)|Easy|
+|3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-i/) | [C++](./src/Problem_3318_findXSum.cc)|Easy|
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/) | [C++](./src/Problem_3259_maxEnergyBoost.cc)|Medium|
 |3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/) | [C++](./src/Problem_3234_numberOfSubstrings.cc)|Medium|
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.cn/problems/maximum-number-of-operations-to-move-ones-to-the-end/) | [C++](./src/Problem_3228_maxOperations.cc)|Medium|
