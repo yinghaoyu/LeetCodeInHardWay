@@ -397,6 +397,7 @@ LeetCode Solution In Hard Way
 |2280|[Minimum Index of a Valid Split](https://leetcode.cn/problems/minimum-index-of-a-valid-split/) | [C++](./src/Problem_2280_minimumIndex.cc)|Medium|
 |2276|[Count Integers in Intervals](https://leetcode.cn/problems/count-integers-in-intervals/) | [C++](./src/Problem_2276_CountIntervals.cc)|Hard|
 |2258|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/escape-the-spreading-fire/) | [C++](./src/Problem_2258_maximumMinutes.cc)|Hard|
+|2257|[Count Unguarded Cells in the Grid](https://leetcode.cn/problems/count-unguarded-cells-in-the-grid/) | [C++](./src/Problem_2257_countUnguarded.cc)|Medium|
 |2251|[Number of Flowers in Full Bloom](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/) | [C++](./src/Problem_2251_fullBloomFlowers.cc)|Hard|
 |2246|[Longest Path With Different Adjacent Characters](https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/) | [C++](./src/Problem_2246_longestPath.cc)|Hard|
 |2244|[Minimum Rounds to Complete All Tasks](https://leetcode.cn/problems/minimum-rounds-to-complete-all-tasks/) | [C++](./src/Problem_2244_minimumRounds.cc)|Medium|
