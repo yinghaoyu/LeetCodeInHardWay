@@ -410,6 +410,7 @@ LeetCode Solution In Hard Way
 |2169|[Count Operations to Obtain Zero](https://leetcode.cn/problems/count-operations-to-obtain-zero/) | [C++](./src/Problem_2169_countOperations.cc)|Easy|
 |2168|[Unique Substrings With Equal Digit Frequency](https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency/) | [C++](./src/Problem_2168_equalDigitFrequency.cc)|Medium|
 |2166|[Design Bitset](https://leetcode.cn/problems/design-bitset/) | [C++](./src/Problem_2166_Bitset.cc)|Medium|
+|2154|[Keep Multiplying Found Values by Two](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/) | [C++](./src/Problem_2154_findFinalValue.cc)|Easy|
 |2141|[Maximum Running Time of N Computers](https://leetcode.cn/problems/maximum-running-time-of-n-computers/) | [C++](./src/Problem_2141_maxRunTime.cc)|Hard|
 |2138|[Divide a String Into Groups of Size k](https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k/) | [C++](./src/Problem_2138_divideString.cc)|Easy|
 |2136|[Earliest Possible Day of Full Bloom](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/) | [C++](./src/Problem_2136_earliestFullBloom.cc)|Medium|
