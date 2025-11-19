@@ -262,6 +262,7 @@ LeetCode Solution In Hard Way
 |3234|[Count the Number of Substrings With Dominant Ones](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/) | [C++](./src/Problem_3234_numberOfSubstrings.cc)|Medium|
 |3228|[Maximum Number of Operations to Move Ones to the End](https://leetcode.cn/problems/maximum-number-of-operations-to-move-ones-to-the-end/) | [C++](./src/Problem_3228_maxOperations.cc)|Medium|
 |3226|[Number of Bit Changes to Make Two Integers Equal](https://leetcode.cn/problems/number-of-bit-changes-to-make-two-integers-equal/) | [C++](./src/Problem_3226_minChanges.cc)|Easy|
+|3217|[Delete Nodes From Linked List Present in Array](https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/) | [C++](./src/Problem_3217_modifiedList.cc)|Medium|
 |3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./src/Problem_3195_minimumArea.cc)|Medium|
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/) | [C++](./src/Problem_3185_countCompleteDayPairs.cc)|Medium|
