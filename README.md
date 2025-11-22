@@ -254,6 +254,7 @@ LeetCode Solution In Hard Way
 |01.09|[String Rotation LCCI](https://leetcode.cn/problems/string-rotation-lcci/) | [C++](./src/Problem_01.09_isFlipedString.cc)|Easy|
 |01.08|[Zero Matrix LCCI](https://leetcode.cn/problems/zero-matrix-lcci/) | [C++](./src/Problem_01.08_setZeroes.cc)|Medium|
 |01.02|[Check Permutation LCCI](https://leetcode.cn/problems/check-permutation-lcci/) | [C++](./src/Problem_01.02_CheckPermutation.cc)|Easy|
+|3607|[Power Grid Maintenance](https://leetcode.cn/problems/power-grid-maintenance/) | [C++](./src/Problem_3607_processQueries.cc)|Medium|
 |3542|[Minimum Operations to Convert All Elements to Zero](https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./src/Problem_3542_minOperations.cc)|Medium|
 |3516|[Find Closest Person](https://leetcode.cn/problems/find-closest-person/) | [C++](./src/Problem_3516_findClosest.cc)|Easy|
 |3321|[Find X-Sum of All K-Long Subarrays II](https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-ii/) | [C++](./src/Problem_3321_findXSum.cc)|Hard|
