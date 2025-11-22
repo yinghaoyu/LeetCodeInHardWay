@@ -266,6 +266,7 @@ LeetCode Solution In Hard Way
 |3217|[Delete Nodes From Linked List Present in Array](https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/) | [C++](./src/Problem_3217_modifiedList.cc)|Medium|
 |3195|[Find the Minimum Area to Cover All Ones I](https://leetcode.cn/problems/find-the-minimum-area-to-cover-all-ones-i/) | [C++](./src/Problem_3195_minimumArea.cc)|Medium|
 |3191|[Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | [C++](./src/Problem_3191_minOperations.cc)|Medium|
+|3190|[Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.cn/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | [C++](./src/Problem_3190_minimumOperations.cc)|Easy|
 |3185|[Count Pairs That Form a Complete Day II](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-ii/) | [C++](./src/Problem_3185_countCompleteDayPairs.cc)|Medium|
 |3184|[Count Pairs That Form a Complete Day I](https://leetcode.cn/problems/count-pairs-that-form-a-complete-day-i/) | [C++](./src/Problem_3184_countCompleteDayPairs.cc)|Easy|
 |3175|[Find The First Player to win K Games in a Row](https://leetcode.cn/problems/find-the-first-player-to-win-k-games-in-a-row/) | [C++](./src/Problem_3175_findWinningPlayer.cc)|Medium|
