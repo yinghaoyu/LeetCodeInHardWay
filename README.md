@@ -632,6 +632,7 @@ LeetCode Solution In Hard Way
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/) | [C++](./src/Problem_1026_maxAncestorDiff.cc)|Medium|
 |1023|[Camelcase Matching](https://leetcode.cn/problems/camelcase-matching/) | [C++](./src/Problem_1023_camelMatch.cc)|Medium|
 |1019|[Next Greater Node In Linked List](https://leetcode.cn/problems/next-greater-node-in-linked-list/) | [C++](./src/Problem_1019_nextLargerNodes.cc)|Medium|
+|1018|[Binary Prefix Divisible By 5](https://leetcode.cn/problems/binary-prefix-divisible-by-5/) | [C++](./src/Problem_1018_prefixesDivBy5.cc)|Easy|
 |1017|[Convert to Base -2](https://leetcode.cn/problems/convert-to-base-2/) | [C++](./src/Problem_1017_baseNeg2.cc)|Medium|
 |1016|[Binary String With Substrings Representing 1 To N](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/) | [C++](./src/Problem_1016_queryString.cc)|Medium|
 |1015|[Smallest Integer Divisible by K](https://leetcode.cn/problems/smallest-integer-divisible-by-k/) | [C++](./src/Problem_1015_smallestRepunitDivByK.cc)|Medium|
