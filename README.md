@@ -257,6 +257,7 @@ LeetCode Solution In Hard Way
 |3607|[Power Grid Maintenance](https://leetcode.cn/problems/power-grid-maintenance/) | [C++](./src/Problem_3607_processQueries.cc)|Medium|
 |3542|[Minimum Operations to Convert All Elements to Zero](https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/) | [C++](./src/Problem_3542_minOperations.cc)|Medium|
 |3516|[Find Closest Person](https://leetcode.cn/problems/find-closest-person/) | [C++](./src/Problem_3516_findClosest.cc)|Easy|
+|3512|[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.cn/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | [C++](./src/Problem_3512_minOperations.cc)|Easy|
 |3321|[Find X-Sum of All K-Long Subarrays II](https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-ii/) | [C++](./src/Problem_3321_findXSum.cc)|Hard|
 |3318|[Find X-Sum of All K-Long Subarrays I](https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-i/) | [C++](./src/Problem_3318_findXSum.cc)|Easy|
 |3259|[Maximum Energy Boost From Two Drinks](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/) | [C++](./src/Problem_3259_maxEnergyBoost.cc)|Medium|
